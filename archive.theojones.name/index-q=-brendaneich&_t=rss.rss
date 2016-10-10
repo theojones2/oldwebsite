@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Theo Jones</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/?q=%23brendaneich</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/?q=%23brendaneich&amp;_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>When does censorship occur?</title>
+      <link>http://www.theojones.name/2015/when-does-censorship-occur</link>
+      <guid>http://www.theojones.name/2015/when-does-censorship-occur</guid>
+      <pubDate>Wed, 10 Jun 2015 15:39:34 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>A lot of people try to pretend that censorship is something that can only exist when done by governments, that private actors cannot affect free speech in any meaningful way. This is absurd in my point of view. A right does not meaningfully exist if it cannot be effectively exercised. And private actors can easily put restraints on speakers that can make it very difficult to effectively participate<a href="http://www.theojones.name/wp-content/uploads/2015/06/3992988737_bebac07fb4_b.jpg"><img class="alignright size-medium wp-image-2451" src="http://www.theojones.name/wp-content/uploads/2015/06/3992988737_bebac07fb4_b-300x189.jpg" alt="3992988737_bebac07fb4_b" width="300" height="189"></a> in politics or partake in free speech. The "freedom of speech isn't freedom of consequences" rejoinder that is commonly heard on internet debates isn't much better either. All censorship works by imposing consequences. The question on free speech is simply, what consequences are acceptable. On the other extreme, there are a lot of people who seem to act like that all criticism of a work they like is an attempt at censorship. This is at the very least a self-contradictory (although there is the easy to over-apply aside that an overly toxic social attitude towards a set of idea can make it very difficult to express them). A much better boundary for free speech versus censorship would be external versus internal consequences. An external consequence on speech is one that occurs through a factor other than the direct market for a work. An internal one comes from the market for the work, and the response from consumers to it. External consequences are often censorship, while internal ones are very rarely censorship. Examples of external consequences would include classic government censorship, threats to unrelated employment, harassment (i.e. SWATing, doxxing, etc.), deprivation of a resource that is generally available to all comers, attempts to pressure a publisher to drop a work by targeting unrelated ones, and so on. The problem with such external consequences comes from my belief that it is fundamentally problematic to use power gained in unrelated markets to muscle one's way into an advantageous position in the marketplace of ideas. Idea and art should rise and fall on their own terms, not the terms of who has the most power in society. It's a similar issue to anti-trust efforts. It is unjust for a company to use its power in one sector of the economy to blast out otherwise viable competitors in other sectors. A focus on external consequences as the demarcating like explains clearly why a lot of things are extremely problematic. Campaigns to target the employment of those with disfavored views (like what occurred in the Brendan Eich controversy) are unethical. <a href="http://www.theojones.name/tag/gamergate" class="p-category" rel="tag">#gamergate</a> style harassment campaigns against people speaking disfavored views are unethical. Campaigns to get stores to drop disfavored works by boycotting unrelated products are problematic (like the one that recently hit Target over the Grand Theft Auto video game). Attempts to pressure providers of generally available services like Facebook and Twitter to drop unpopular speakers are cases of censorship, Internal consequences would include the loss of market for a work due to consumer distaste, and regular editorial discretion by publishers. They are unavoidable and not necessarily unethical.</p>
+
+<p><strong>Image Credit: Flickr User Carolyn Tiry <a href="https://flic.kr/p/75R7rp">https:/<wbr></wbr>/<wbr></wbr>flic.kr/<wbr></wbr>p/<wbr></wbr>75R7rp</a> </strong></p>
+<p><a href="http://www.theojones.name/tag/brendaneich" class="p-category" rel="tag">#brendaneich</a> <a href="http://www.theojones.name/tag/gamergate" class="p-category" rel="tag">#gamergate</a> <a href="http://www.theojones.name/tag/politics" class="p-category" rel="tag">#politics</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#gamergate</category>
+      <category>#brendaneich</category>
+      <category>#gamergate</category>
+      <category>#politics</category>
+      <category>#uncategorized</category>
+    </item>
+    <item>
+      <title>Mozilla Appoints New CEO</title>
+      <link>http://www.theojones.name/2014/mozilla-appoints-new-ceo</link>
+      <guid>http://www.theojones.name/2014/mozilla-appoints-new-ceo</guid>
+      <pubDate>Tue, 29 Jul 2014 13:17:52 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        <p>This happened: <br /><a href="http://arstechnica.com/business/2014/07/mozilla-confirms-interim-ceo-as-new-top-hire/"></a><a href="http://arstechnica.com/business/2014/07/mozilla-confirms-interim-ceo-as-new-top-hire/">http:/<wbr></wbr>/<wbr></wbr>arstechnica.com/<wbr></wbr>business/<wbr></wbr>2014/<wbr></wbr>07/<wbr></wbr>mozilla-confirms-interim-ceo-as-new-top-hire/<wbr></wbr></a> <br /></p><blockquote>
+<p>On Monday, the Mozilla Corporation announced that its last-minute April hire for interim CEO, Chris Beard, has been permanently appointed to the position. Mozilla Executive Chairwoman Mitchell Baker confirmed the news in a blog post, stating that "the board has reviewed many internal and external candidates—and no one we met was a better fit."</p>
+
+<p>Beard's Mozilla tenure began in 2004 and saw him eventually rise to chief innovation and chief marketing officer. He left the company in 2013 to become an "executive in residence" at Greylock Partners, an investment firm with a heavy focus on tech companies. His return to Mozilla in April came on the heels of Brendan Eich's controversial hire to the CEO position, which ended with Eich's resignation that month.</p>
+</blockquote><p>Its idiotic to make decisions about the management of a company based on the basis of political stuff that has little to do with the running of the company. Based pretty much on the opinion of people writing flamage on Tumblr, Mozilla replaced one of the founders of the company, a person with wide experience in the firm's core competency -- creating web browsers -- with a marketing type based solely on a donation to a political campaign in 2008. This is utter insanity. I believe that this decision will be a future business school case  study on why it is a good idea to keep personal politics out of the running of a company. The new CEO's current tenure has already shown that he is an inferior candidate. As interim CEO Beard has doubled down on multiple bad decisions by expanding the company's phone project and attempting to enter the computer market by creating a laptop. Beard is attempting to run the company like a regular software company. But the world of open source is different. The open source world already suffers from a high degree of market fragmentation and the actions of the new management of Mozilla will only make matters worse. Beard's decision to add Digital Rights Management systems to the Firefox browser has widely alienated the Linux community. The decision to manafucture a phone puts them in open warfare with many companies with deeper pockets -- particularly Microsoft and Google. It also takes Mozilla far from areas where it has a history of product development. Considering the fact that the Firefox Phone has no user or developer base it has no chance on the market. It is in the same price range as Microsoft's low end phones, and it is also in direct competition with the various Chinese landfill Androids that are on the market. They have simply no serious hope of winning this battle. Their decision to make a Chromebook competitor is similarly boneheaded.  They will be competing with dozens of established computer manufacturers when they have no experience in this area. </p><p><a href="http://www.theojones.name/tag/brendaneich" class="p-category" rel="tag">#brendaneich</a> <a href="http://www.theojones.name/tag/ceo" class="p-category" rel="tag">#ceo</a> <a href="http://www.theojones.name/tag/digitalrightsmanagement" class="p-category" rel="tag">#digitalrightsmanagement</a> <a href="http://www.theojones.name/tag/firefoxphone" class="p-category" rel="tag">#firefoxphone</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#brendaneich</category>
+      <category>#ceo</category>
+      <category>#digitalrightsmanagement</category>
+      <category>#firefoxphone</category>
+      <category>#old</category>
+      <category>#old</category>
+      <category>#uncategorized</category>
+    </item>
+  </channel>
+</rss>

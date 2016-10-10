@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Theo Jones</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/tag/archlinuxmanjaro</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/tag/archlinuxmanjaro?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>Compiling Newlisp on Linux Mint</title>
+      <link>http://www.theojones.name/2014/compiling-newlisp-on-linux-mint</link>
+      <guid>http://www.theojones.name/2014/compiling-newlisp-on-linux-mint</guid>
+      <pubDate>Mon, 10 Feb 2014 23:41:31 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        <p>I installed Linux Mint on my laptop, but the Newlisp interpreter is not as easy to install on that distro as Arch Linux/ Manjaro. The Ubuntu package created by the Newlisp project does not work on x64 Mint, so it has to be manually compiled. There are two dependencies for Newlisp, ffi and readline. They can be installed as follows</p><p>sudo apt-get install libffi-devel <br />
+sudo apt-get install libreadline-dev</p><p>Libffi is needed for the Newlisp foreign function interface commands, and readline is needed for the Newlisp REPL.</p><p>Then compile and install Newlisp</p><p>make <br />
+sudo make install</p><p> </p><p><a href="http://www.theojones.name/tag/archlinuxmanjaro" class="p-category" rel="tag">#archlinuxmanjaro</a> <a href="http://www.theojones.name/tag/linuxmint" class="p-category" rel="tag">#linuxmint</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#archlinuxmanjaro</category>
+      <category>#linuxmint</category>
+      <category>#old</category>
+      <category>#old</category>
+      <category>#uncategorized</category>
+    </item>
+  </channel>
+</rss>

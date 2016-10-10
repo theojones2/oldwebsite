@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title/>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/2015/what-the-other-storage-space-is-in-mac-os-x</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/2015/what-the-other-storage-space-is-in-mac-os-x?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title/>
+      <link>http://osxdaily.com/2015/01/15/other-storage-space-mac-os-x/</link>
+      <guid>http://www.theojones.name/2015/what-the-other-storage-space-is-in-mac-os-x</guid>
+      <pubDate>Tue, 29 Sep 2015 03:22:03 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div class="known-bookmark">
+    <blockquote><p><span style="color: #303030; font-family: 'Helvetica Neue', Verdana, Helvetica, Tahoma, Arial, sans-serif; font-size: 15px; line-height: 26px;">Many Mac users check the About This Mac Storage tab to get a quick overview of their disk space usage, and many will see a rather large “Other” storage space taking up disk capacity on their drives. If this sounds familiar, it’s probably because iOS often has a rather large Other storage space, but that’s largely where the similarities end, and in OS X it’s much easier to track down exactly what “Other” is. This is basically because the Mac has a user accessible file system and system directories, where as those corresponding elements in iOS are largely hidden from the user.</span></p></blockquote></div>
+]]></description>
+      <category>#303030</category>
+    </item>
+  </channel>
+</rss>

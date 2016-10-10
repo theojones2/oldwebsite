@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Theo Jones</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/tag/westernuniversity</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/tag/westernuniversity?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>HIV/AIDS Vaccine Passes Phase I Clinical Trial</title>
+      <link>http://www.theojones.name/2013/hivaids-vaccine-passes-phase-i-clinical-trial</link>
+      <guid>http://www.theojones.name/2013/hivaids-vaccine-passes-phase-i-clinical-trial</guid>
+      <pubDate>Fri, 06 Sep 2013 11:39:02 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>An HIV vaccine developed in Canada <a href="http://web.archive.org/web/20130905155703/&lt;a%20href=" http:>http:/<wbr></wbr>/<wbr></wbr>communications.uwo.ca:80/<wbr></wbr>media/<wbr></wbr>releases/<wbr></wbr>2013/<wbr></wbr>September/<wbr></wbr>no_adverse_effects_in_volunteers_following_phase_i_clinical_trial_of_sumagen_aids_vaccine.html</a>"&gt;has passed a phase 1 clinical trial according to a press release by Western University, which conducted the research in collaboration with Sumagen. This clinical trial shows that the vaccine is safe to administer to humans and according to the press release "No serious adverse event was observed in any volunteer throughout the observation periods". A phase 1 trial</p>
+
+<p>[caption id="attachment_386" align="alignright" width="420"]<a href="http://phil.cdc.gov/phil/details.asp?pid=10000"><img class=" wp-image-386 " alt="Scanning electron micrograph of HIV-1 virions budding from a cultured lymphocyte. Image via Centers for Disease Control and Prevention." src="http://web.archive.org/web/20130908154233/&lt;a%20href=" https:>https:/<wbr></wbr>/<wbr></wbr>theojones.name/<wbr></wbr>wp-content/<wbr></wbr>uploads/<wbr></wbr>2013/<wbr></wbr>09/<wbr></wbr>10000_lores.jpg</a>" width="420" height="279" /&gt; Scanning electron micrograph of HIV-1 virions budding from a cultured lymphocyte. Image via Centers for Disease Control and Prevention.[/caption]</p>
+
+<p>provides little information on the effectiveness of the vaccine and is only designed to detect severe side effects or safety issues. <!--more-->The vaccine is a genetically modified killed whole virus vaccine, which means that it relies on a modified version of the HIV virus which is more capable of triggering an immune response that results in immunity than an unmodified virus. The researchers report finding increased antibody production, providing some evidence that the vaccine is indeed effective. As stated in the press release</p>
+<blockquote>
+<p>The antibody against p24 capsid antigen increased as much as 64-fold in some vaccinees and antibody against gp120 surface antigen increased up to eight-fold after vaccination.</p>
+
+<p>....</p>
+
+<p>In particular, the antibody against gp120 surface antigen is considered to be very important, since some of these antibodies may represent the broadly neutralizing antibodies, which seem to be the most important parameter of an effective HIV vaccine for prevention of HIV-infection.</p>
+</blockquote>
+<p>The researchers plan future trials to confirm that the vaccine is effective.</p>
+
+<p>An effective vaccine would give public health officials a way to control the spread of AIDS.</p>
+<p><a href="http://www.theojones.name/tag/aids" class="p-category" rel="tag">#aids</a> <a href="http://www.theojones.name/tag/canada" class="p-category" rel="tag">#canada</a> <a href="http://www.theojones.name/tag/hiv" class="p-category" rel="tag">#hiv</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a> <a href="http://www.theojones.name/tag/westernuniversity" class="p-category" rel="tag">#westernuniversity</a></p></div>]]></description>
+      <category>#aids</category>
+      <category>#canada</category>
+      <category>#hiv</category>
+      <category>#old</category>
+      <category>#old</category>
+      <category>#uncategorized</category>
+      <category>#westernuniversity</category>
+    </item>
+  </channel>
+</rss>

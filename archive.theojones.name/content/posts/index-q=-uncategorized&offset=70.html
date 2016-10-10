@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Theo Jones</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="initial-scale=1.0" media="(device-height: 568px)"/>
+    <meta name="description" content="Thoughts and Ideas">
+    <meta name="generator" content="Known https://withknown.com">
+    <meta http-equiv="Content-Language" content="en">
+
+    <!--Le fav and touch icons-->
+<link rel="apple-touch-icon" sizes="57x57" href="../../gfx/logos/apple-icon-57x57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="../../gfx/logos/apple-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="../../gfx/logos/apple-icon-114x114.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="../../gfx/logos/apple-icon-144x144.png" />    <link rel="shortcut icon" type="image/png" href="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e">
+<!-- Make this an "app" when saved to an ios device's home screen -->
+<link rel="apple-touch-icon-precomposed" href="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e">
+<!-- Make this an "app" when saved to an ios device's home screen -->
+<link rel="apple-touch-icon" href="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e">
+<!-- <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black"> -->
+    <meta property="og:type" content="website" />
+<meta property="og:title" content="Theo Jones" />
+<meta property="og:site_name" content="Theo Jones" />
+<meta property="og:image" content="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e" />
+
+
+    <!-- Dublin Core -->
+    <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+    <meta name="DC.title" content="Theo Jones">
+    <meta name="DC.description" content="Thoughts and Ideas">    <!-- AMP versions -->
+    <link rel="amphtml" href="index-q=-uncategorized&amp;offset=70&amp;_t=amp.html">
+
+    <!-- We need jQuery at the top of the page -->
+    <script src="../../external/jquery/jquery.min.js"></script>
+
+    <!-- Le styles -->
+    <link
+        href="../../external/bootstrap/assets/css/bootstrap.min.css"
+        rel="stylesheet"/>
+    <link
+        href="../../external/bootstrap/assets/css/bootstrap-theme.min.css"/>
+    <script
+        src="../../external/bootstrap/assets/js/bootstrap.min.js"></script>
+
+    <!-- Accessibility -->
+    <link rel="stylesheet"
+          href="../../external/paypal-bootstrap-accessibility-plugin/plugins/css/bootstrap-accessibility_1.0.3.css">
+    <script
+        src="../../external/paypal-bootstrap-accessibility-plugin/plugins/js/bootstrap-accessibility_1.0.3.min.js"></script>
+
+    <!-- Fonts -->
+    <link rel="stylesheet"
+          href="../../external/font-awesome/css/font-awesome.css">
+    <!--<link rel="stylesheet"
+          href="https://www.theojones.name/external/font-awesome/css/font-awesome.min.css">-->
+    <style>body {
+            padding-top: 100px; /* 60px to make the container go all the way to the bottom of the topbar */
+        }
+    </style>
+
+    <link href="../../css/default-20150907.css" rel="stylesheet">
+<link href="../../css/defaultb3-20150123.css" rel="stylesheet">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script
+        src="https://www.theojones.name/external/bootstrap/assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Default Known JavaScript -->
+    <script src="../../js/default-20150406.js"></script>
+
+    <!-- To silo is human, to syndicate divine -->
+    <link rel="alternate" type="application/rss+xml" title="Theo Jones"
+          href="index-q=-uncategorized&amp;offset=70&amp;_t=rss.rss"/>
+    <link rel="feed" type="application/rss+xml" title="Theo Jones"
+          href="index-q=-uncategorized&amp;offset=70&amp;_t=rss.rss"/>
+    <link rel="alternate feed" type="application/rss+xml"
+          title="Theo Jones: all content"
+          href="../all-_t=rss.rss"/>
+    <link rel="feed" type="text/html" title="Theo Jones"
+          href="../all.html"/>
+
+    <!-- Webmention endpoint -->
+    <link href="../../webmention/index.html" rel="http://webmention.org/"/>
+    <link href="../../webmention/index.html" rel="webmention"/>
+
+                <!-- Pubsubhubbub -->
+        <link href="http://withknown.superfeedr.com/" rel="hub"/>
+    
+    
+    <script src="../../external/fragmention/fragmention.js"></script>
+
+    <!-- Syndication -->
+    <link
+        href="../../external/bootstrap-toggle/css/bootstrap-toggle.min.css"
+        rel="stylesheet"/>
+    <script
+        src="../../external/bootstrap-toggle/js/bootstrap-toggle.js"></script>
+
+    <style>.withknown-plugin {
+        padding-top: 0.25em;
+        padding-bottom: 0.25em;
+        background-color: #fff;
+        margin-bottom: 0.5em;
+    }
+
+    .withknown-plugin p,
+    .withknown-plugin h4,
+    .withknown-plugin form
+    {
+        margin: 0; padding: 0;
+    }
+
+    .withknown-plugin .plugin-content h4
+    {
+        padding-top: 0.25em;
+    }
+
+    .withknown-plugin .plugin-content p
+    {
+        padding-top: 0.3em;
+    }
+
+    .withknown-plugin .plugin-content {
+        color: #777;
+    }
+
+    .withknown-plugin input[type=submit]
+    {
+        width: 100px;
+    }
+    
+    .withknown-plugin .btn-enabled {
+    background-color: #70997a;
+    background-image: none;
+    background-repeat: repeat-x;
+    border-color: #70997a;
+    color: #ffffff;
+    text-shadow: none;
+	}
+	
+	.withknown-plugin .btn-enabled:hover, 
+	.withknown-plugin .btn-enabled:focus, 
+	.withknown-plugin .btn-enabled:active, 
+	.withknown-plugin .btn-enabled.active, 
+	.withknown-plugin .btn-enabled.disabled, 
+	.withknown-plugin .btn-enabled[disabled] {
+    background-color: #678c70;
+    border-color: #678c70;
+    color: #ffffff;
+	}
+	
+	.withknown-plugin .btn-default {
+	color: #666666;
+	}
+	
+	.withknown-plugin .span2 {
+		margin-left: 0px;
+	}
+	
+    .withknown-plugin h4 {
+		color: #222;
+	}
+
+    .withknown-pro-block {
+        text-align: center;
+        border: 0;
+        border-top: 2px #ccc solid;
+        border-bottom: 2px #ccc solid;
+        margin-bottom: 2em;
+        margin-top: 20px;
+    }
+</style><link rel="stylesheet" href="../../IdnoPlugins/Checkin/external/leaflet/leaflet.css"/>
+<!--[if lte IE 8]>
+<link rel="stylesheet" href="https://www.theojones.name/IdnoPlugins/Checkin/external/leaflet/leaflet.ie.css"/>
+<![endif]-->
+<script type="text/javascript" src="../../IdnoPlugins/Checkin/external/leaflet/leaflet.js"></script>
+<script type="text/javascript" src="../../IdnoPlugins/Checkin/external/stamen-maps/tile.stamen.js"></script>
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script><link rel="openid.delegate" href="../../index.html" />
+<link rel="openid.server" href="https://indieauth.com/openid" />
+<link rel="authorization_endpoint" href="../../session/login-fwd=https-%7C%7Cwww.theojones.name%7Cindieauth%7Cauth.html">
+<link rel="token_endpoint" href="../../indieauth/token.html">
+<link rel="micropub" href="../../session/login-fwd=%7Cmicropub%7Cendpoint.html"><link href="../../Themes/Solo/css/default.css" rel="stylesheet">    
+</head>
+
+<body class="idno_pages_homepage page-content page-content-posts logged-out">
+<div id="pjax-container" class="page-container">
+    <a href="index-q=-uncategorized&amp;offset=70.html#maincontent" style="display:none">Skip to main content</a>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" tabindex="1" href="../../index.html">Theo Jones</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+
+            <form class="navbar-form navbar-left" action="https://www.theojones.name/content/posts" method="get" role="search">
+    <div class="form-group">
+        <input type="search" class="search-query form-control" name="q" placeholder="Search" tabindex="2" value="#uncategorized">
+    </div>
+</form><ul class="nav navbar-nav">
+        
+            <li class="dropdown" tabindex="3">
+                <a href="index-q=-uncategorized&amp;offset=70.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                    Posts                    <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="../../index-q=-uncategorized.html"><span class="dropdown-menu-icon">&nbsp;</span>
+                            Default content</a></li>
+                    <li><a href="../all/index-q=-uncategorized.html"><span class="dropdown-menu-icon">&nbsp;</span>
+                            All content</a></li>
+                                                    <li><a
+                                    href="../statusupdates/index-q=-uncategorized.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-comment-o"></i></span> Status updates                                </a></li>                                <li><a
+                                    href="index-q=-uncategorized.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-align-left"></i>
+</span> Posts                                </a></li>                                <li><a
+                                    href="../photos/index-q=-uncategorized.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-picture-o"></i>
+</span> Photos                                </a></li>                                <li><a
+                                    href="../locations/index-q=-uncategorized.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-map-marker"></i>
+</span> Locations                                </a></li>                                <li><a
+                                    href="../bookmarkedpages/index-q=-uncategorized.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-bookmark"></i>
+</span> Bookmarked pages                                </a></li>                                <li><a
+                                    href="../audio/index-q=-uncategorized.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-microphone"></i>
+</span> Audio                                </a></li>                                <li><a
+                                    href="../events/index-q=-uncategorized.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-calendar"></i>
+</span> Events                                </a></li>                                <li><a
+                                    href="../rsvp/index-q=-uncategorized.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-calendar-o"></i>
+</span> RSVP                                </a></li>
+
+                </ul>
+            </li>
+
+    </ul>
+            <ul class="nav navbar-nav navbar-right">
+                
+
+    <li><a href="../../session/login.html">Sign in</a></li>            </ul>
+
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+    <div class="container page-body">
+        <a name="pagecontent"></a>
+                                    <div class="row idno-entry idno-entry-entry">
+
+                <div
+                    class="col-md-8 col-md-offset-2 h-entry idno-posts idno-object idno-content">
+                    <div style="display: none"> <!-- This is useful for webmentions -->
+                        <p class="p-author author h-card vcard">
+                            <a href="../../profile/tjones2.html" class="icon-container"><img
+                                    class="u-logo logo u-photo photo" src="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e"/></a>
+                            <a class="p-name fn u-url url" href="../../profile/tjones2.html">Theo Jones</a>
+                            <a class="u-url" href="../../profile/tjones2.html">
+                                <!-- This is here to force the hand of your MF2 parser --></a>
+                        </p>
+                    </div>
+                                        <div class="e-content entry-content">
+                        <div>
+                <h2 class="p-name"><a
+                    href="../../2015/the-limitations-of-worker-owned-companies.html">The Limitations of Worker Owned Companies</a>
+            </h2>
+                    <p class="reading">
+                <span class="vague">3 min read </span>
+            </p>
+            
+<p>The idea of companies that are ran by their employees has been getting some attention in the liberal blogosphere. Often this discussion comes with extreme hype about their promise. Take <a href="https://www.reddit.com/r/EnoughLibertarianSpam/comments/37cbxv/hey_you_earnest_socialists_has_this_ancap_got_a/">a recent thread on Reddit</a> where the topic came up. There are plenty of people who think that a shift to such a form of organization over the current corporate form will result in a vast improvement in regards to all sorts of political and economic issues. The claimed benefits are wide ranging. Some on that Reddit thread say that eliminate the types of conflicts of interest between business and the public that make regulation necessary, others say there'll be vast environmental benefits, while others happen to believe that a switch to worker owned cooperatives will be the end of unfair treatment by employers and will be a general boon to workplace safety. However, despite the enthusiasm for this idea, it is way oversold. The issue with much of current business occurs when there is no external constraint on the working of business that forces the actions of businesses to follow the interests of the population as a whole. Will cooperatives change this? Probably not. The switch to cooperatives would change the beneficiaries of a company's actions, and the people get to choose the actions of the company, from the shareholders to the employees. However, nothing in economics provides any guarantee that the interests of the average employee of a company will be any more in line with the public purpose then the interests of the average shareholder. Although switch to employee cooperatives would change some issues, namely those that result from insufficient negotiating power on the side of employees, it would introduce new issues and leave many currently existing issues unresolved. The first big category of issues that worker cooperatives have little improvement on over traditional firms is externalities-a coal power plant ran as a cooperative will still have the same economic interests in polluting as a conventionally owned coal plant. The second major issue that cooperatives will be unable to resolve is a situation of economic rents-situations where due to monopoly or scarce resources a firm is able to get revenue that is far in excess of the actual cost of bringing a good into production. A worker owned firm will still want to collect the benefits of these economic rents, and disperse the profit to its members. There is also one major category where such cooperatives would be expected to perform worse than traditional firms, situations where increasing the average per employee revenue of a company is in conflict with increasing its overall productivity. A cooperative will not want to expand into potentially beneficial operations that produce less per worker the current business because there is a risk that such a thing will tend to force the share of the profits given to the incumbent members downward. A better alternative to worker owned cooperatives might be much more egalitarian ownership of conventional firms.</p>
+<p><a href="../../tag/business.html" class="p-category" rel="tag">#business</a> <a href="../../tag/coops.html" class="p-category" rel="tag">#coops</a> <a href="../../tag/externalities.html" class="p-category" rel="tag">#externalities</a> <a href="../../tag/uncategorized.html" class="p-category" rel="tag">#uncategorized</a></p></div>                    </div>
+                    <div class="footer">
+                        
+        <div class="permalink">
+            <p>
+                <a href="../../profile/tjones2.html">Theo Jones</a>published this
+                <a class="u-url url" href="../../2015/the-limitations-of-worker-owned-companies.html" rel="permalink"><time class="dt-published"
+                          datetime="2015-06-01T04:05:44+0000">01 Jun 2015</time></a>
+                                                                            </p>
+        </div>
+        <div class="interactions">
+	        <span class="annotate-icon">
+                        <a class="stars" href="../../2015/the-limitations-of-worker-owned-companies.html#comments"><i class="fa fa-star-o"></i> 0 stars</a></span>
+                   <span class="annotate-icon"> <a class="comments" href="../../2015/the-limitations-of-worker-owned-companies.html#comments"><i class="fa fa-comments"></i> 0 comments</a></span>
+            <a class="shares" href="../../2015/the-limitations-of-worker-owned-companies.html#comments"></a>
+            <a class="shares" href="../../2015/the-limitations-of-worker-owned-companies.html#comments"></a>
+        </div>
+        <br clear="all"/>
+                            </div>
+                </div>
+
+            </div>
+
+                    <div class="row idno-entry idno-entry-entry">
+
+                <div
+                    class="col-md-8 col-md-offset-2 h-entry idno-posts idno-object idno-content">
+                    <div style="display: none"> <!-- This is useful for webmentions -->
+                        <p class="p-author author h-card vcard">
+                            <a href="../../profile/tjones2.html" class="icon-container"><img
+                                    class="u-logo logo u-photo photo" src="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e"/></a>
+                            <a class="p-name fn u-url url" href="../../profile/tjones2.html">Theo Jones</a>
+                            <a class="u-url" href="../../profile/tjones2.html">
+                                <!-- This is here to force the hand of your MF2 parser --></a>
+                        </p>
+                    </div>
+                                        <div class="e-content entry-content">
+                        <div>
+                <h2 class="p-name"><a
+                    href="../../2015/one-of-the-better-reads-on-environmental-policy.html">One of the better reads on environmental policy...</a>
+            </h2>
+                    <p class="reading">
+                <span class="vague">1 min read </span>
+            </p>
+            
+<p>One of the better reads on environmental policy in a while<br /><a href="http://www.ecomodernism.org/">http:/<wbr></wbr>/<wbr></wbr>www.ecomodernism.org/<wbr></wbr></a></p>
+<p><a href="../../tag/environment.html" class="p-category" rel="tag">#environment</a> <a href="../../tag/link.html" class="p-category" rel="tag">#link</a> <a href="../../tag/uncategorized.html" class="p-category" rel="tag">#uncategorized</a></p></div>                    </div>
+                    <div class="footer">
+                        
+        <div class="permalink">
+            <p>
+                <a href="../../profile/tjones2.html">Theo Jones</a>published this
+                <a class="u-url url" href="../../2015/one-of-the-better-reads-on-environmental-policy.html" rel="permalink"><time class="dt-published"
+                          datetime="2015-06-01T02:56:33+0000">01 Jun 2015</time></a>
+                                                                            </p>
+        </div>
+        <div class="interactions">
+	        <span class="annotate-icon">
+                        <a class="stars" href="../../2015/one-of-the-better-reads-on-environmental-policy.html#comments"><i class="fa fa-star-o"></i> 0 stars</a></span>
+                   <span class="annotate-icon"> <a class="comments" href="../../2015/one-of-the-better-reads-on-environmental-policy.html#comments"><i class="fa fa-comments"></i> 0 comments</a></span>
+            <a class="shares" href="../../2015/one-of-the-better-reads-on-environmental-policy.html#comments"></a>
+            <a class="shares" href="../../2015/one-of-the-better-reads-on-environmental-policy.html#comments"></a>
+        </div>
+        <br clear="all"/>
+                            </div>
+                </div>
+
+            </div>
+
+                    <div class="row idno-entry idno-entry-entry">
+
+                <div
+                    class="col-md-8 col-md-offset-2 h-entry idno-posts idno-object idno-content">
+                    <div style="display: none"> <!-- This is useful for webmentions -->
+                        <p class="p-author author h-card vcard">
+                            <a href="../../profile/tjones2.html" class="icon-container"><img
+                                    class="u-logo logo u-photo photo" src="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e"/></a>
+                            <a class="p-name fn u-url url" href="../../profile/tjones2.html">Theo Jones</a>
+                            <a class="u-url" href="../../profile/tjones2.html">
+                                <!-- This is here to force the hand of your MF2 parser --></a>
+                        </p>
+                    </div>
+                                        <div class="e-content entry-content">
+                        <div>
+                <h2 class="p-name"><a
+                    href="../../2015/more-on-the-discounting-issue-the-actual-financial.html">More on the discounting issue The actual financial...</a>
+            </h2>
+                    <p class="reading">
+                <span class="vague">1 min read </span>
+            </p>
+            
+<p>More on the discounting issue. The actual financial behavior of people follows hyperbolic discounting, not linear discounting.  Marketers are well able to take advantage of this fact<br /><a href="https://blog.kissmetrics.com/hyperbolic-discounting/">https:/<wbr></wbr>/<wbr></wbr>blog.kissmetrics.com/<wbr></wbr>hyperbolic-discounting/<wbr></wbr></a></p>
+<p><a href="../../tag/link.html" class="p-category" rel="tag">#link</a> <a href="../../tag/uncategorized.html" class="p-category" rel="tag">#uncategorized</a></p></div>                    </div>
+                    <div class="footer">
+                        
+        <div class="permalink">
+            <p>
+                <a href="../../profile/tjones2.html">Theo Jones</a>published this
+                <a class="u-url url" href="../../2015/more-on-the-discounting-issue-the-actual-financial.html" rel="permalink"><time class="dt-published"
+                          datetime="2015-06-01T02:36:31+0000">01 Jun 2015</time></a>
+                                                                            </p>
+        </div>
+        <div class="interactions">
+	        <span class="annotate-icon">
+                        <a class="stars" href="../../2015/more-on-the-discounting-issue-the-actual-financial.html#comments"><i class="fa fa-star-o"></i> 0 stars</a></span>
+                   <span class="annotate-icon"> <a class="comments" href="../../2015/more-on-the-discounting-issue-the-actual-financial.html#comments"><i class="fa fa-comments"></i> 0 comments</a></span>
+            <a class="shares" href="../../2015/more-on-the-discounting-issue-the-actual-financial.html#comments"></a>
+            <a class="shares" href="../../2015/more-on-the-discounting-issue-the-actual-financial.html#comments"></a>
+        </div>
+        <br clear="all"/>
+                            </div>
+                </div>
+
+            </div>
+
+                    <div class="row idno-entry idno-entry-entry">
+
+                <div
+                    class="col-md-8 col-md-offset-2 h-entry idno-posts idno-object idno-content">
+                    <div style="display: none"> <!-- This is useful for webmentions -->
+                        <p class="p-author author h-card vcard">
+                            <a href="../../profile/tjones2.html" class="icon-container"><img
+                                    class="u-logo logo u-photo photo" src="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e"/></a>
+                            <a class="p-name fn u-url url" href="../../profile/tjones2.html">Theo Jones</a>
+                            <a class="u-url" href="../../profile/tjones2.html">
+                                <!-- This is here to force the hand of your MF2 parser --></a>
+                        </p>
+                    </div>
+                                        <div class="e-content entry-content">
+                        <div>
+                <h2 class="p-name"><a
+                    href="../../2015/i-hear-a-lot-on-the-climate-change.html">I hear a lot on the climate change...</a>
+            </h2>
+                    <p class="reading">
+                <span class="vague">1 min read </span>
+            </p>
+            
+<p>I hear a lot on the climate change issue about how technology will make adaptation much easier (usually from people who don't think drastic action should be taken on the issue). In the distant future (say, 100 years from now), to an large extent this is true. But its the close future (the next ~50 years or so) that we have to worry about. Sure, late in the 21st century or early in the 22nd century, a lot of innovations will serve to improve adaptation to climate change. Tech will decouple the economy from ecosystem services, space colonization will happen, and new, highly abundant energy sources will be developed (advanced fission reactors, fusion reactors, space-based solar). But that will take a long time to unfold, and in the meantime climate change will happen.</p>
+<p><a href="../../tag/climatechange.html" class="p-category" rel="tag">#climatechange</a> <a href="../../tag/status.html" class="p-category" rel="tag">#status</a> <a href="../../tag/uncategorized.html" class="p-category" rel="tag">#uncategorized</a></p></div>                    </div>
+                    <div class="footer">
+                        
+        <div class="permalink">
+            <p>
+                <a href="../../profile/tjones2.html">Theo Jones</a>published this
+                <a class="u-url url" href="../../2015/i-hear-a-lot-on-the-climate-change.html" rel="permalink"><time class="dt-published"
+                          datetime="2015-05-31T21:49:52+0000">31 May 2015</time></a>
+                                                                            </p>
+        </div>
+        <div class="interactions">
+	        <span class="annotate-icon">
+                        <a class="stars" href="../../2015/i-hear-a-lot-on-the-climate-change.html#comments"><i class="fa fa-star-o"></i> 0 stars</a></span>
+                   <span class="annotate-icon"> <a class="comments" href="../../2015/i-hear-a-lot-on-the-climate-change.html#comments"><i class="fa fa-comments"></i> 0 comments</a></span>
+            <a class="shares" href="../../2015/i-hear-a-lot-on-the-climate-change.html#comments"></a>
+            <a class="shares" href="../../2015/i-hear-a-lot-on-the-climate-change.html#comments"></a>
+        </div>
+        <br clear="all"/>
+                            </div>
+                </div>
+
+            </div>
+
+                    <div class="row idno-entry idno-entry-entry">
+
+                <div
+                    class="col-md-8 col-md-offset-2 h-entry idno-posts idno-object idno-content">
+                    <div style="display: none"> <!-- This is useful for webmentions -->
+                        <p class="p-author author h-card vcard">
+                            <a href="../../profile/tjones2.html" class="icon-container"><img
+                                    class="u-logo logo u-photo photo" src="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e"/></a>
+                            <a class="p-name fn u-url url" href="../../profile/tjones2.html">Theo Jones</a>
+                            <a class="u-url" href="../../profile/tjones2.html">
+                                <!-- This is here to force the hand of your MF2 parser --></a>
+                        </p>
+                    </div>
+                                        <div class="e-content entry-content">
+                        <div>
+                <h2 class="p-name"><a
+                    href="../../2015/natural-food-luddites-spread-disease-http-www.html"> Natural food luddites spread disease http www...</a>
+            </h2>
+                    <p class="reading">
+                <span class="vague">1 min read </span>
+            </p>
+            
+<p>"Natural food" luddites spread disease.<br /><a href="http://www.foodsafetynews.com/2015/05/campylobacter-cases-linked-to-raw-milk-reported-in-young-indiana-children/#.VWtx6E_BzRY">http:/<wbr></wbr>/<wbr></wbr>www.foodsafetynews.com/<wbr></wbr>2015/<wbr></wbr>05/<wbr></wbr>campylobacter-cases-linked-to-raw-milk-reported-in-young-indiana-children/<wbr></wbr>#.VWtx6E_BzRY</a><br />"Several Campylobacter Cases Linked to Raw Milk Reported in Indiana"<br />I think it would be a good idea to just ban the commercial sale of raw milk all together and mandate that all milk (and other pasteurizeable foodstuffs) should be pasteurized.</p>
+<p><a href="../../tag/foodsafety.html" class="p-category" rel="tag">#foodsafety</a> <a href="../../tag/link.html" class="p-category" rel="tag">#link</a> <a href="../../tag/uncategorized.html" class="p-category" rel="tag">#uncategorized</a></p></div>                    </div>
+                    <div class="footer">
+                        
+        <div class="permalink">
+            <p>
+                <a href="../../profile/tjones2.html">Theo Jones</a>published this
+                <a class="u-url url" href="../../2015/natural-food-luddites-spread-disease-http-www.html" rel="permalink"><time class="dt-published"
+                          datetime="2015-05-31T21:07:55+0000">31 May 2015</time></a>
+                                                                            </p>
+        </div>
+        <div class="interactions">
+	        <span class="annotate-icon">
+                        <a class="stars" href="../../2015/natural-food-luddites-spread-disease-http-www.html#comments"><i class="fa fa-star-o"></i> 0 stars</a></span>
+                   <span class="annotate-icon"> <a class="comments" href="../../2015/natural-food-luddites-spread-disease-http-www.html#comments"><i class="fa fa-comments"></i> 0 comments</a></span>
+            <a class="shares" href="../../2015/natural-food-luddites-spread-disease-http-www.html#comments"></a>
+            <a class="shares" href="../../2015/natural-food-luddites-spread-disease-http-www.html#comments"></a>
+        </div>
+        <br clear="all"/>
+                            </div>
+                </div>
+
+            </div>
+
+                    <div class="row idno-entry idno-entry-entry">
+
+                <div
+                    class="col-md-8 col-md-offset-2 h-entry idno-posts idno-object idno-content">
+                    <div style="display: none"> <!-- This is useful for webmentions -->
+                        <p class="p-author author h-card vcard">
+                            <a href="../../profile/tjones2.html" class="icon-container"><img
+                                    class="u-logo logo u-photo photo" src="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e"/></a>
+                            <a class="p-name fn u-url url" href="../../profile/tjones2.html">Theo Jones</a>
+                            <a class="u-url" href="../../profile/tjones2.html">
+                                <!-- This is here to force the hand of your MF2 parser --></a>
+                        </p>
+                    </div>
+                                        <div class="e-content entry-content">
+                        <div>
+                <h2 class="p-name"><a
+                    href="../../2015/gamergaters-and-protectionists.html">Gamergaters and Protectionists</a>
+            </h2>
+                    <p class="reading">
+                <span class="vague">2 min read </span>
+            </p>
+            
+<p>The closest thing to a Gamergater/MRA/Redpiller that I know of is a protectionist/nationalist. Protectionists think immigrants/foreigners will kill their jobs if given the chance to compete in "their" market and that immigrants will wreck their culture. Therefore, they want to close off markets and keep the foreigners out. In effect they believe that there is a constant amount of income available in the economy and any new competitors will automatically mean less for them. Gaters/MRAs imported (ha) these protectionist arguments and aimed them at women. They believe that allowing women in to the tech market will destroy their share of that pie that it will make them unemployed, and that creating new markets for products that women like will destroy the availability of the products that men want. Its why <a href="../../tag/gamergate.html" class="p-category" rel="tag">#gamergate</a> started as an attack on Zoe Quinn – the author of a video game on depression. The gaters took this as a pretty direct threat against the continued existence of the games they like. Its why they are in general opposed to any game that isn't the latest "<em>Call of Murder XIIV: Personal Revenge".</em>  Its why gaters are paranoid about SJWs. They are convinced that the two communities cannot coexist in any way.   To counteract this threat they act like a corrupt union official who harasses migrant workers, in-order to protect his workers. It also means that the arguments against protectionism will work almost unmodified against MRAs. Apply your good old friend comparative advantage, and you can show and allowing women to compete in the market under equal conditions will make both men and women better off. The Gamergater/MRA fallacy that its a zero sum game is just wrong. But it's a werid newish type of sexism.</p>
+<p><a href="../../tag/gamergate.html" class="p-category" rel="tag">#gamergate</a> <a href="../../tag/uncategorized.html" class="p-category" rel="tag">#uncategorized</a> <a href="../../tag/zoequinn.html" class="p-category" rel="tag">#zoequinn</a></p></div>                    </div>
+                    <div class="footer">
+                        
+        <div class="permalink">
+            <p>
+                <a href="../../profile/tjones2.html">Theo Jones</a>published this
+                <a class="u-url url" href="../../2015/gamergaters-and-protectionists.html" rel="permalink"><time class="dt-published"
+                          datetime="2015-05-31T09:08:39+0000">31 May 2015</time></a>
+                                                                            </p>
+        </div>
+        <div class="interactions">
+	        <span class="annotate-icon">
+                        <a class="stars" href="../../2015/gamergaters-and-protectionists.html#comments"><i class="fa fa-star-o"></i> 0 stars</a></span>
+                   <span class="annotate-icon"> <a class="comments" href="../../2015/gamergaters-and-protectionists.html#comments"><i class="fa fa-comments"></i> 0 comments</a></span>
+            <a class="shares" href="../../2015/gamergaters-and-protectionists.html#comments"></a>
+            <a class="shares" href="../../2015/gamergaters-and-protectionists.html#comments"></a>
+        </div>
+        <br clear="all"/>
+                            </div>
+                </div>
+
+            </div>
+
+                    <div class="row idno-entry idno-entry-entry">
+
+                <div
+                    class="col-md-8 col-md-offset-2 h-entry idno-posts idno-object idno-content">
+                    <div style="display: none"> <!-- This is useful for webmentions -->
+                        <p class="p-author author h-card vcard">
+                            <a href="../../profile/tjones2.html" class="icon-container"><img
+                                    class="u-logo logo u-photo photo" src="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e"/></a>
+                            <a class="p-name fn u-url url" href="../../profile/tjones2.html">Theo Jones</a>
+                            <a class="u-url" href="../../profile/tjones2.html">
+                                <!-- This is here to force the hand of your MF2 parser --></a>
+                        </p>
+                    </div>
+                                        <div class="e-content entry-content">
+                        <div>
+                <h2 class="p-name"><a
+                    href="../../2015/how-should-the-economic-impacts-of-climate-change-on-the.html">How Should the Economic Impacts of Climate Change on the Future Be Accounted For?</a>
+            </h2>
+                    <p class="reading">
+                <span class="vague">4 min read </span>
+            </p>
+            
+<p>There is a substantial debate within the climate change policy world about how to do accounting for the future damage caused by the impacts of climate change. A common method used in accounting and finance for a lot of investments is discounting. In short, people have a time preference for money – ie. a dollar today is better than a dollar two years from now. For people to want to put money away towards an investment, the investment would need to pay off in excess of its nominal return. The amount required will increase over time, with this time preference setting the "natural" interest rate. <a href="http://www.ipcc.ch/publications_and_data/ar4/wg3/en/ch3s3-5-3-3.html">The IPCC discusses a number of estimates at the economic cost of climate change</a> and changes in the use of discounting (or the lack thereof), and the discount rate can change estimates of the social cost of climate change by an order of magnitude. I'm not convinced that traditional discounting is the right way to approach something like climate change. There are paradoxes on both extremes of the discounting issue.  Sure, if you don't discount you get weird paradoxes like a dollar 100 years from now being worth a dollar today. But if you do discount you get the inverse issue, harms to future generations being valued as almost meaningless. My suggested alternative to discounting would have three rules. The first would be to minimize relative proportional generational sacrifice. Ie. a loss of 1% of GDP this year would be worth it to avoid a 1.1% reduction in 2050 GDP, or to avoid concurrent 0.6% losses for two years in a row. But it wouldn't be worth it to avoid a 0.9% reduction in 2050 GDP, even if 0.9% of 2050 GDP is 1 trillion dollars and 1% of GDP this year is 100 billion. To avoid issues that occur when you apply flat rules to the far future, I would limit this to overlapping generations. An event 500 years from today wouldn't count for policy today, because it is extremely unlikely that there will be a person alive today who will have a lifespan that overlaps with someone who will be alive 500 years now. My third rule would be to adjust for marginal utility – the fact that money in the pockets of lower income people and countries is meeting more urgent needs than money in the pockets of the wealthy. Therefore, both climate change impacts and mitigation efforts that disproportionately hurt the poor should be disfavored.</p>
+
+<p>To see how a discount rate can result in future risks/benefits being valued as almost nothing, take this thought experiment. Let's say, you are given 100 (inflation adjusted) dollars every year for the next 50 years. How much are these future dollars worth in present value under a 2% discount (a fairly small one), and a 15% discount (a common rate used in development economics).</p>
+
+<p><img src="../../wp-content/uploads/2015/05/053115_0759_HowShouldth1.png.html" alt=""></p>
+
+<p>It seems to me that it is extremely ethically problematic to assume that a cost 50 years in the future is about 1/3 as important as one today. Such an assumption clearly reduces the rationale to take action on climate change.  While time preference may have a strong role to play for individual decision making, it has problems for government policy making. Governments should follow the interests of all subject to the impacts of their authority. Future generations are as much subject to the authority of a government as currently living people. Governments should weight everyone's interests equally. This means that discounting on the scale of government policy has extreme issues and that a small discount, if any should be used. That is the solution to the problem of a dollar today being worth a dollar 100 years from now. It is, on the scale of government policy.</p>
+<p><a href="../../tag/climatechange.html" class="p-category" rel="tag">#climatechange</a> <a href="../../tag/gdp.html" class="p-category" rel="tag">#gdp</a> <a href="../../tag/uncategorized.html" class="p-category" rel="tag">#uncategorized</a></p></div>                    </div>
+                    <div class="footer">
+                        
+        <div class="permalink">
+            <p>
+                <a href="../../profile/tjones2.html">Theo Jones</a>published this
+                <a class="u-url url" href="../../2015/how-should-the-economic-impacts-of-climate-change-on-the.html" rel="permalink"><time class="dt-published"
+                          datetime="2015-05-31T07:59:56+0000">31 May 2015</time></a>
+                                                                            </p>
+        </div>
+        <div class="interactions">
+	        <span class="annotate-icon">
+                        <a class="stars" href="../../2015/how-should-the-economic-impacts-of-climate-change-on-the.html#comments"><i class="fa fa-star-o"></i> 0 stars</a></span>
+                   <span class="annotate-icon"> <a class="comments" href="../../2015/how-should-the-economic-impacts-of-climate-change-on-the.html#comments"><i class="fa fa-comments"></i> 0 comments</a></span>
+            <a class="shares" href="../../2015/how-should-the-economic-impacts-of-climate-change-on-the.html#comments"></a>
+            <a class="shares" href="../../2015/how-should-the-economic-impacts-of-climate-change-on-the.html#comments"></a>
+        </div>
+        <br clear="all"/>
+                            </div>
+                </div>
+
+            </div>
+
+                    <div class="row idno-entry idno-entry-entry">
+
+                <div
+                    class="col-md-8 col-md-offset-2 h-entry idno-posts idno-object idno-content">
+                    <div style="display: none"> <!-- This is useful for webmentions -->
+                        <p class="p-author author h-card vcard">
+                            <a href="../../profile/tjones2.html" class="icon-container"><img
+                                    class="u-logo logo u-photo photo" src="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e"/></a>
+                            <a class="p-name fn u-url url" href="../../profile/tjones2.html">Theo Jones</a>
+                            <a class="u-url" href="../../profile/tjones2.html">
+                                <!-- This is here to force the hand of your MF2 parser --></a>
+                        </p>
+                    </div>
+                                        <div class="e-content entry-content">
+                        <div>
+                <h2 class="p-name"><a
+                    href="../../2015/on-reducing-blogging-engine-bloat.html">On reducing blogging engine bloat.</a>
+            </h2>
+                    <p class="reading">
+                <span class="vague">2 min read </span>
+            </p>
+            
+<p>I've switched between blogging engines a few times for this site (there are still some broken links and images from the transition). WordPress, what I'm on now, has a good bit of bloat. Simpler blogging engines, like Ghost, go too far in the other direction, and lack critical features.  I haven't been able to find a blogging engine that hits a good in-between. Personally, I feel that the way to hit that in-between in modularity.  The old UNIX Philosophy of "do one thing and do it well". Plugins are how modularity should be reached. Create a simple core blogging engine (the functionality level of Ghost would be a good target) and add the rest as optional plugins. Now, you might note that WordPress plugins often add a lot of bugs, have a lot of security holes, and are often written by people who don't know what they are doing. And you would be right. However, there is no reason why such plugins can't be maintained in the same source tree as the core software with the help of actual developers. Just put any frequently used plugin in the tree as an officially supported feature set. A user can also easily swap out the official implementation of a feature with an alternative.   This would provide the perfect mix of flexibility and simplicity.  It would allow more officially supported features but users who don't want a feature don't have to put up with the BS that comes with it.  This is a rough analogue of the development method of the classical UNIXes and the BSDs.</p>
+<p><a href="../../tag/blogging.html" class="p-category" rel="tag">#blogging</a> <a href="../../tag/ghost.html" class="p-category" rel="tag">#ghost</a> <a href="../../tag/uncategorized.html" class="p-category" rel="tag">#uncategorized</a> <a href="../../tag/unix.html" class="p-category" rel="tag">#unix</a> <a href="../../tag/unixphilosophy.html" class="p-category" rel="tag">#unixphilosophy</a> <a href="../../tag/wordpress.html" class="p-category" rel="tag">#wordpress</a></p></div>                    </div>
+                    <div class="footer">
+                        
+        <div class="permalink">
+            <p>
+                <a href="../../profile/tjones2.html">Theo Jones</a>published this
+                <a class="u-url url" href="../../2015/on-reducing-blogging-engine-bloat.html" rel="permalink"><time class="dt-published"
+                          datetime="2015-05-30T07:05:50+0000">30 May 2015</time></a>
+                                                                            </p>
+        </div>
+        <div class="interactions">
+	        <span class="annotate-icon">
+                        <a class="stars" href="../../2015/on-reducing-blogging-engine-bloat.html#comments"><i class="fa fa-star-o"></i> 0 stars</a></span>
+                   <span class="annotate-icon"> <a class="comments" href="../../2015/on-reducing-blogging-engine-bloat.html#comments"><i class="fa fa-comments"></i> 0 comments</a></span>
+            <a class="shares" href="../../2015/on-reducing-blogging-engine-bloat.html#comments"></a>
+            <a class="shares" href="../../2015/on-reducing-blogging-engine-bloat.html#comments"></a>
+        </div>
+        <br clear="all"/>
+                            </div>
+                </div>
+
+            </div>
+
+                    <div class="row idno-entry idno-entry-entry">
+
+                <div
+                    class="col-md-8 col-md-offset-2 h-entry idno-posts idno-object idno-content">
+                    <div style="display: none"> <!-- This is useful for webmentions -->
+                        <p class="p-author author h-card vcard">
+                            <a href="../../profile/tjones2.html" class="icon-container"><img
+                                    class="u-logo logo u-photo photo" src="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e"/></a>
+                            <a class="p-name fn u-url url" href="../../profile/tjones2.html">Theo Jones</a>
+                            <a class="u-url" href="../../profile/tjones2.html">
+                                <!-- This is here to force the hand of your MF2 parser --></a>
+                        </p>
+                    </div>
+                                        <div class="e-content entry-content">
+                        <div>
+                <h2 class="p-name"><a
+                    href="../../2015/law-enforcement-needs-to-take-internet-harassment-as.html">Law enforcement needs to take internet harassment as...</a>
+            </h2>
+                    <p class="reading">
+                <span class="vague">1 min read </span>
+            </p>
+            
+<p>Law enforcement needs to take internet harassment as a serious crime, instead of a minor annoyance. They should actually put resources into busting the people who send death threats, and who phone in SWATings. I would rather see 10 of them get one year than one of them get 10. Because I have a feeling that the threat of getting busted will have little impact until it happens to them. And I would also bet that its an impressively small number of people responsible for most net harassment. When you read a story about a SWATer getting arrested, he did it a lot of times.</p>
+<p><a href="../../tag/internetharassment.html" class="p-category" rel="tag">#internetharassment</a> <a href="../../tag/status.html" class="p-category" rel="tag">#status</a> <a href="../../tag/uncategorized.html" class="p-category" rel="tag">#uncategorized</a></p></div>                    </div>
+                    <div class="footer">
+                        
+        <div class="permalink">
+            <p>
+                <a href="../../profile/tjones2.html">Theo Jones</a>published this
+                <a class="u-url url" href="../../2015/law-enforcement-needs-to-take-internet-harassment-as.html" rel="permalink"><time class="dt-published"
+                          datetime="2015-05-29T14:44:22+0000">29 May 2015</time></a>
+                                                                            </p>
+        </div>
+        <div class="interactions">
+	        <span class="annotate-icon">
+                        <a class="stars" href="../../2015/law-enforcement-needs-to-take-internet-harassment-as.html#comments"><i class="fa fa-star-o"></i> 0 stars</a></span>
+                   <span class="annotate-icon"> <a class="comments" href="../../2015/law-enforcement-needs-to-take-internet-harassment-as.html#comments"><i class="fa fa-comments"></i> 0 comments</a></span>
+            <a class="shares" href="../../2015/law-enforcement-needs-to-take-internet-harassment-as.html#comments"></a>
+            <a class="shares" href="../../2015/law-enforcement-needs-to-take-internet-harassment-as.html#comments"></a>
+        </div>
+        <br clear="all"/>
+                            </div>
+                </div>
+
+            </div>
+
+                    <div class="row idno-entry idno-entry-entry">
+
+                <div
+                    class="col-md-8 col-md-offset-2 h-entry idno-posts idno-object idno-content">
+                    <div style="display: none"> <!-- This is useful for webmentions -->
+                        <p class="p-author author h-card vcard">
+                            <a href="../../profile/tjones2.html" class="icon-container"><img
+                                    class="u-logo logo u-photo photo" src="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e"/></a>
+                            <a class="p-name fn u-url url" href="../../profile/tjones2.html">Theo Jones</a>
+                            <a class="u-url" href="../../profile/tjones2.html">
+                                <!-- This is here to force the hand of your MF2 parser --></a>
+                        </p>
+                    </div>
+                                        <div class="e-content entry-content">
+                        <div>
+                <h2 class="p-name"><a
+                    href="../../2015/here-is-a-list-of-all-the-projects.html">Here is a list of all the projects...</a>
+            </h2>
+                    <p class="reading">
+                <span class="vague">1 min read </span>
+            </p>
+            
+<p>Here is a list of all the projects Sourceforge took over. <br /><a href="http://sourceforge.net/u/sf-editor1/profile/">http:/<wbr></wbr>/<wbr></wbr>sourceforge.net/<wbr></wbr>u/<wbr></wbr>sf-editor1/<wbr></wbr>profile/<wbr></wbr></a><br />Look at all the "abandoned" software that they owned. Like WordPress, Audacity, Open Office, Apache HTTP Server and Eclipse.</p>
+<p><a href="../../tag/openoffice.html" class="p-category" rel="tag">#openoffice</a> <a href="../../tag/link.html" class="p-category" rel="tag">#link</a> <a href="../../tag/sourceforge.html" class="p-category" rel="tag">#sourceforge</a> <a href="../../tag/uncategorized.html" class="p-category" rel="tag">#uncategorized</a></p></div>                    </div>
+                    <div class="footer">
+                        
+        <div class="permalink">
+            <p>
+                <a href="../../profile/tjones2.html">Theo Jones</a>published this
+                <a class="u-url url" href="../../2015/here-is-a-list-of-all-the-projects.html" rel="permalink"><time class="dt-published"
+                          datetime="2015-05-29T14:34:56+0000">29 May 2015</time></a>
+                                                                            </p>
+        </div>
+        <div class="interactions">
+	        <span class="annotate-icon">
+                        <a class="stars" href="../../2015/here-is-a-list-of-all-the-projects.html#comments"><i class="fa fa-star-o"></i> 0 stars</a></span>
+                   <span class="annotate-icon"> <a class="comments" href="../../2015/here-is-a-list-of-all-the-projects.html#comments"><i class="fa fa-comments"></i> 0 comments</a></span>
+            <a class="shares" href="../../2015/here-is-a-list-of-all-the-projects.html#comments"></a>
+            <a class="shares" href="../../2015/here-is-a-list-of-all-the-projects.html#comments"></a>
+        </div>
+        <br clear="all"/>
+                            </div>
+                </div>
+
+            </div>
+
+        
+        <div class="pager">
+            <ul>
+                <li><a href="index-q=-uncategorized&amp;offset=60.html" title="Newer" rel="next">&laquo; Newer</a></li>                <li><a href="index-q=-uncategorized&amp;offset=80.html" title="Older" rel="prev">Older &raquo;</a></li>            </ul>
+        </div>
+
+        <div class="blank-footer">
+    <div>
+        <p class="footer"><a href="https://withknown.com/?utm_source=footer&amp;utm_medium=installation" class="u-platform"><img src="../../gfx/logos/logo_k.png" style="height: 1.5em"></a></p>
+    </div>
+</div>
+    </div>
+    <!-- /container -->
+
+        
+</div>
+<!-- Everything below this should be includes, not content -->
+
+<!-- Le javascript -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script
+    src="../../external/jquery-timeago/jquery.timeago.js"></script>
+<script
+    src="../../external/jquery-pjax/jquery.pjax.js"></script>
+<script src="../../external/underscore/underscore-min.js"
+        type="text/javascript"></script>
+<!--<script src="https://www.theojones.name/external/mention/bootstrap-typeahead.js"
+        type="text/javascript"></script>
+<script src="https://www.theojones.name/external/mention/mention.js"
+        type="text/javascript"></script> -->
+
+
+<!-- Flexible media player -->
+<script
+    src="../../external/mediaelement/build/mediaelement-and-player.min.js"></script>
+<link rel="stylesheet"
+      href="../../external/mediaelement/build/mediaelementplayer.css"/>
+<!-- Video shim -->
+<script src="../../external/fitvids/jquery.fitvids.min.js"></script>
+<!-- Mention styles -->
+<link rel="stylesheet" type="text/css"
+      href="../../external/mention/recommended-styles.css">
+
+
+<!-- HTML5 form element support for legacy browsers -->
+<script src="../../external/h5f/h5f.min.js"></script>
+
+<script>
+
+    function annotateContent() {
+        $(".h-entry").fitVids();
+        $("time.dt-published").timeago();
+    }
+
+    // Shim so that JS functions can get the current site URL
+    function wwwroot() {
+        return 'https://www.theojones.name/';
+    }
+
+    $(document).ready(function () {
+        $.timeago.settings.cutoff = 30 * 24 * 60 * 60 * 1000; // 1 month
+        annotateContent();
+    });
+
+    /**
+     * Handle Twitter tweet embedding
+     */
+    $(document).ready(function () {
+        $('div.twitter-embed').each(function (index) {
+            var url = $(this).attr('data-url');
+            var div = $(this);
+
+            $.ajax({
+                url: "https://api.twitter.com/1/statuses/oembed.json?url=" + url,
+                dataType: "jsonp",
+                success: function (data) {
+                    div.html(data['html']);
+                }
+            });
+        });
+
+        $('body').on('click', function (event, el) {
+            var clickTarget = event.target;
+
+            if (clickTarget.href && clickTarget.href.indexOf(window.location.origin) === -1) {
+                clickTarget.target = "_blank";
+            }
+        });
+    });
+
+    /**
+     * Handle Soundcloud oEmbed code
+     */
+    $(document).ready(function () {
+        $('div.soundcloud-embed').each(function (index) {
+            var url = $(this).attr('data-url');
+            var div = $(this);
+
+            $.getJSON('https://soundcloud.com/oembed?callback=?',
+                {
+                    format: 'js',
+                    url: url,
+                    iframe: true
+                },
+                function (data) {
+                    div.html(data['html']);
+                }
+            );
+        });
+    });
+
+    /**
+     * Better handle links in iOS web applications.
+     * This code (from the discussion here: https://gist.github.com/kylebarrow/1042026)
+     * will prevent internal links being opened up in safari when known is installed
+     * on an ios home screen.
+     */
+    (function (document, navigator, standalone) {
+        if ((standalone in navigator) && navigator[standalone]) {
+            var curnode, location = document.location, stop = /^(a|html)$/i;
+            document.addEventListener('click', function (e) {
+                curnode = e.target;
+                while (!(stop).test(curnode.nodeName)) {
+                    curnode = curnode.parentNode;
+                }
+                if ('href' in curnode && ( curnode.href.indexOf('http') || ~curnode.href.indexOf(location.host) ) && (!curnode.classList.contains('contentTypeButton'))) {
+                    e.preventDefault();
+                    location.href = curnode.href;
+                }
+            }, false);
+        }
+    })(document, window.navigator, 'standalone');
+
+</script>
+
+<script>
+    $('video').mediaelementplayer({
+        features: ['playpause','progress','current','tracks','volume','fullscreen'],
+        alwaysShowControls: false,
+        pauseOtherPlayers: true,
+        enableAutosize: false,
+        mediaWidth: -1,
+        mediaHeight: -1
+    });
+    $('audio').mediaelementplayer({
+        features: ['playpause','progress','current','tracks','volume','fullscreen'],
+        alwaysShowControls: false,
+        pauseOtherPlayers: true,
+        enableAutosize: false,
+        mediaWidth: -1,
+        mediaHeight: -1
+    });
+</script>
+<style>.known-media-element {
+        width: 100%;
+        height: 100%;
+    }
+</style><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+</body>
+
+
+</html>

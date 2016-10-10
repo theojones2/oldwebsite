@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>The problems with the Recently Released Study on Gun Control In Connecticut</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/2015/the-problems-with-the-recently-released-study-on-gun-control</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/2015/the-problems-with-the-recently-released-study-on-gun-control?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>The problems with the Recently Released Study on Gun Control In Connecticut</title>
+      <link>http://www.theojones.name/2015/the-problems-with-the-recently-released-study-on-gun-control</link>
+      <guid>http://www.theojones.name/2015/the-problems-with-the-recently-released-study-on-gun-control</guid>
+      <pubDate>Sat, 13 Jun 2015 23:19:18 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p><a href="http://www.theojones.name/wp-content/uploads/2015/06/nogun.jpg"><img src="http://www.theojones.name/wp-content/uploads/2015/06/nogun.jpg" alt="nogun" width="1000" height="539" class="aligncenter size-full wp-image-2442"></a>A study titled "Association Between Connecticut’s Permit-to-Purchase Handgun Law and Homicides" has been published in the American Journal of Public Health. Its abstract can be found here <a href="http://ajph.aphapublications.org/doi/10.2105/AJPH.2015.302703" rel="in-reply-to" class="u-in-reply-to">http:/<wbr></wbr>/<wbr></wbr>ajph.aphapublications.org/<wbr></wbr>doi/<wbr></wbr>10.2105/<wbr></wbr>AJPH.2015.302703</a>    The thesis of the authors is that the handgun permit-to-purchase law passed in Connecticut in October of 1995 produced a large reduction in the rate of homicides caused by firearms.  They write "We estimated that the law was associated with a 40% reduction in Connecticut’s firearm homicide rates during the first 10 years that the law was in place. By contrast, there was no evidence for a reduction in nonfirearm homicides". The method they use produces an indeterminate result in regards to whether non-firearm homicides increased, or decreased. So, their results are entirely consistent with a situation where the law transferred the weapon used in homicides with little impact on their over all rate., even though a lot of the commentary on the paper (and even the authors themselves to some degree) portray these results as a major facet in the case for gun control</p>
+
+<p>At first glance, there seem to be some major methodological issues with this study. There is, a zone of weaseldom in-between perfectly done and rigorous studies, and outright forgery. And due to some of the previously mentioned issues with this paper, that is what I see this one as.  The first is the paper's total reliance on arbitrary cutoffs. In particular, they (with little explanation) choose 2005 as the end of the date range that they were studying (despite that later data was available from the data set they were using).  It seems that their results are pretty much dependent on that 2005 cutoff. Expanding it to the full dataset, or reducing it to earlier dates, or even moving it forward one year to 2006 totally causes the correlation to break down. They no longer get a p-value less than 0.05.  This is a huge red flag and really reflects negatively on the quality of the whole study. This type of result dependence on a cutoff like that needs a lot of justification ,but all I see is handwaveing. Fortunately, they do adjust for the nationwide trend in reduction in violence, but the fact that there has been a nation wide reduction in gun violence of a similar magnitude brings up issues with causation. There is little direct evidence for causation, and the 30% number seems quite high (particularly when compared to the relatively weak correlation between homicide rates and gun ownership between nations).</p>
+
+<p><strong>Image credit</strong>: <a href="https://flic.kr/p/b578sH" rel="in-reply-to" class="u-in-reply-to">https:/<wbr></wbr>/<wbr></wbr>flic.kr/<wbr></wbr>p/<wbr></wbr>b578sH</a> Flickr user Steve Snodgrass</p>
+<p><a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#uncategorized</category>
+    </item>
+  </channel>
+</rss>

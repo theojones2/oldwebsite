@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Why 100+ Mile Range TV Antennas Do Not Exist</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/2015/why-100-mile-range-tv-antennas-do-not-exist</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/2015/why-100-mile-range-tv-antennas-do-not-exist?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>Why 100+ Mile Range TV Antennas Do Not Exist</title>
+      <link>http://www.theojones.name/2015/why-100-mile-range-tv-antennas-do-not-exist</link>
+      <guid>http://www.theojones.name/2015/why-100-mile-range-tv-antennas-do-not-exist</guid>
+      <pubDate>Sun, 11 Jan 2015 11:34:15 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>I'm in the market for an over-the-air TV antenna to go with a TV tuner, and while searching I've noticed more than a few sellers advertising antennas that can get ranges as high as 150 miles.   [caption id="attachment_1440" align="alignright" width="300"]<a href="http://www.theojones.name/wp-content/uploads/2015/01/1802424443_21761d4caa_o.jpg"><img src="http://www.theojones.name/wp-content/uploads/2015/01/1802424443_21761d4caa_o-300x213.jpg" alt="Image via Flickr user  anomalous4 &lt;a href=" https: rel="in-reply-to" class="u-in-reply-to">https:/<wbr></wbr>/<wbr></wbr>flic.kr/<wbr></wbr>p/<wbr></wbr>3KgTZv</a>" width="300" height="213" class="size-medium wp-image-1440" /&gt; Image via Flickr user  anomalous4<br /><a href="https://flic.kr/p/3KgTZv%5B/caption%5DSuch" rel="in-reply-to" class="u-in-reply-to">https:/<wbr></wbr>/<wbr></wbr>flic.kr/<wbr></wbr>p/<wbr></wbr>3KgTZv[/<wbr></wbr>caption]Such</a> a thing would be neat as it would allow me reach signals from other cities. But it is too good to be true. Such a device would violate the laws of physics considering the methods used to broadcast TV signals. You will be unlikely to find an antenna that gets more than 60 miles of range, and getting more than 50 miles will come at a high price premium. However, there are lots of people who seem to have fallen for this scam and brought these devices. There are two clear issues that prevent the creation of such a device, at least at a reasonable price. The first is the inverse-square law  of light. Even assuming a flat Earth, a radio signal declines in proportion to square of the distance. Because TV broadcasts are information rich, the antenna needs to catch a lot of information from the broadcast. But the strength of the signal rapidly declines as the broadcast gets farther away. And as there are three dimensions of space that the signal is spreading out in, this change isn't merely linear -- its quadratic.  When the distance doubles the signal (and the cost of picking it up) quadruples. When the distance doubles, the signal reduces nine-fold, when the distance quadruples the signal reduces 16 fold.   There is a second, even more restrictive limit on the creation of a long range antenna -- the fact that the earth is curved. This curvature enforces a line of sight on radio transmissions and therefore sets a maximum range for radio transmissions. Were the broadcasting station merely suspended in space the signal would go out evenly in all directions. However, in the real world, the Earth provides an obstruction. Therefore, the signal is directional, and as the recipient of the signal moves farther away the curvature of the Earth means that he is facing in a direction that is blocked by the Earth. Therefore the recipient is unable to receive the signal past the line of sight.</p>
+<p><a href="http://www.theojones.name/tag/scienceandtech" class="p-category" rel="tag">#scienceandtech</a> <a href="http://www.theojones.name/tag/tv" class="p-category" rel="tag">#tv</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#scienceandtech</category>
+      <category>#tv</category>
+      <category>#uncategorized</category>
+    </item>
+  </channel>
+</rss>

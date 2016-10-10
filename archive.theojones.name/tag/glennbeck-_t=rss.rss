@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Theo Jones</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/tag/glennbeck</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/tag/glennbeck?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>Pro-Assad Groups "circulating Glenn Beck videos"</title>
+      <link>http://www.theojones.name/2013/pro-assad-groups-circulating-glenn-beck-videos</link>
+      <guid>http://www.theojones.name/2013/pro-assad-groups-circulating-glenn-beck-videos</guid>
+      <pubDate>Mon, 02 Sep 2013 00:58:05 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        <p>Michael Dweiss, a columnist for Atlantic and Foreign Policy magazines reports that pro-Assad groups are "circulating Glenn Beck videos".  </p><blockquote class="twitter-tweet">
+<p>Seeing pro-Assad groups circulating Glenn Beck videos. This is the world as it should be.</p>
+
+<p>— michaeldweiss (@michaeldweiss) <a href="https://twitter.com/michaeldweiss/statuses/374276874585006080">September 1, 2013</a></p>
+</blockquote><p> </p><p> </p><div class="zemanta-pixie" style="margin-top: 10px; height: 15px;"></div><p><a href="http://www.theojones.name/tag/glennbeck" class="p-category" rel="tag">#glennbeck</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#glennbeck</category>
+      <category>#old</category>
+      <category>#old</category>
+      <category>#uncategorized</category>
+    </item>
+  </channel>
+</rss>

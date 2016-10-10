@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Theo Jones</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/?q=%23PlannedParenthood</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/?q=%23PlannedParenthood&amp;_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>The Unusually Toxic Nature of Social Issues </title>
+      <link>http://www.theojones.name/2015/the-unusually-toxic-nature-of-social-issues</link>
+      <guid>http://www.theojones.name/2015/the-unusually-toxic-nature-of-social-issues</guid>
+      <pubDate>Sun, 27 Sep 2015 22:06:39 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        <p>Speaker of the House John Boehner resigned earlier this week, <a href="http://www.forbes.com/sites/dandiamond/2015/09/25/planned-parenthood-fight-costs-john-boehner-his-job/">in part due to the fight over funding for Planned Parenthood</a>.  Incidents like this show something that is fairly obvious to most people, that social issues are among the most persistently toxic issues. But why should abortion, gay marriage, and such be so at the core of U.S politics. Why should they be major litmus tests for both parties? By any reasonable measure these issues are pretty low impact for the level of attention they receive. By impact, they certanily aren’t as important as immigration, climate change, poverty, or other issues that have a very large effect on over all social well being. But there is a dearth of individuals writing flameage about urban planning on social media, nor are there government shutdowns about that topic, despite the fact that urban planning policy probably has a <a href="http://faculty.chicagobooth.edu/chang-tai.hsieh/research/growth.pdf">much larger impact on the over-all wellbeing of the typical person </a></p><p>So, why do social issues produce the toxicity that they do? I have a few ideas</p><ul><li>The zero sum nature of them. A loss for one side is a gain for the other. Allowing gay marriage is a victory for those who want gay marriage but a loss those who don’t want it. Defunding Planned Parenthood means a rather direct loss for people who want to keep abortion services available, but it is a rather direct win for those opposed to abortion (ignoring indirect effects of contraceptive avaiability on the number of abortions).</li>
+<li>The incommensurability of moral systems. The ethical assumptions that underlie one side <em>make no sense</em> from the other side. From the perspective of a supporter of abortion availability, the arguments of the other side seem like at best mindless superstition, and at worst outright sexism. From the perspective on an abortion opponent the other side seems like a villan from a James Bond movie. Likewise with gay marriage, the “family values” that conservatives are interested in promoting have close to no value to liberals.  This probably by its self produces a lot of the inability for the different sides to deal with each other -- they begin to perceive each other as downright evil. </li>
+<li>The role of religion. The U.S is one of the few countries where religion is important enough to have a major political role, but not so powerful to totally dominate politics. This creates the clashes over social issues, as the U.S is really in a transitional point between religion and secularism. The importance of this is obvious from the conservative side, but I think there is a more subtle role here in the politics of the left. A lot of the social justice activism that plays out on social media, and on college campuses, seems to me like a secular substitute for religion — a replacement for its role in society. This would also explain a lot of the uniquely American aspects of these issues.  </li>
+<li>The clearly disengenious nature of many of the arguements fronted on these issues. </li>
+</ul><p><a href="http://www.theojones.name/tag/SocialIssues" class="p-category" rel="tag">#SocialIssues</a> <a href="http://www.theojones.name/tag/PlannedParenthood" class="p-category" rel="tag">#PlannedParenthood</a> <a href="http://www.theojones.name/tag/Abortion" class="p-category" rel="tag">#Abortion</a> <a href="http://www.theojones.name/tag/GayMarrage" class="p-category" rel="tag">#GayMarrage</a> <a href="http://www.theojones.name/tag/JohnBoehner" class="p-category" rel="tag">#JohnBoehner</a> <a href="http://www.theojones.name/tag/Politics" class="p-category" rel="tag">#Politics</a></p></div>]]></description>
+      <category>#SocialIssues</category>
+      <category>#PlannedParenthood</category>
+      <category>#Abortion</category>
+      <category>#GayMarrage</category>
+      <category>#JohnBoehner</category>
+      <category>#Politics</category>
+    </item>
+  </channel>
+</rss>

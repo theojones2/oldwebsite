@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Set up the javascript for MathJAX and testing it.&#xD;
+\(ax^2 + bx + c = 0\) &#xD;
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/2015/set-up-the-javascript-for-mathjax-and-testing-itwhen-a</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/2015/set-up-the-javascript-for-mathjax-and-testing-itwhen-a?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>Set up the javascript for MathJAX and testing it.&#xD;
+\(ax^2 + bx + c = 0\) &#xD;
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$</title>
+      <link>http://www.theojones.name/2015/set-up-the-javascript-for-mathjax-and-testing-itwhen-a</link>
+      <guid>http://www.theojones.name/2015/set-up-the-javascript-for-mathjax-and-testing-itwhen-a</guid>
+      <pubDate>Sat, 26 Sep 2015 03:27:43 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div class="">
+    <p class="p-name">Set up the javascript for MathJAX and testing it.<br />
+\(ax^2 + bx + c = 0\) <br />
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$</p>
+</div>
+]]></description>
+    </item>
+  </channel>
+</rss>

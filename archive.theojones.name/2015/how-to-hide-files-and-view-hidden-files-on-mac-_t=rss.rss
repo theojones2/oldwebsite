@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>How to Hide Files and View Hidden Files on Mac OS X</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/2015/how-to-hide-files-and-view-hidden-files-on-mac</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/2015/how-to-hide-files-and-view-hidden-files-on-mac?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>How to Hide Files and View Hidden Files on Mac OS X</title>
+      <link>http://www.howtogeek.com/211496/how-to-hide-files-and-view-hidden-files-on-mac-os-x/</link>
+      <guid>http://www.theojones.name/2015/how-to-hide-files-and-view-hidden-files-on-mac</guid>
+      <pubDate>Tue, 29 Sep 2015 01:59:57 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div class="known-bookmark">
+    <blockquote><p style="margin: 20px 0px; padding: 0px; color: #222222; line-height: 21px; font-family: '-apple-system', 'Open Sans', sans-serif; font-size: 15px;">Macs offer a way to hide files and folders, just like other operating systems. But Mac OS X hides these options and doesn’t make it <a style="color: #114491;" href="http://www.howtogeek.com/194671/how-to-hide-files-and-folders-on-every-operating-system/">as easy as it is on Windows and Linux</a>.</p><p style="margin: 20px 0px; padding: 0px; color: #222222; line-height: 21px; font-family: '-apple-system', 'Open Sans', sans-serif; font-size: 15px;">To hide a file or folder, you’ll need to set the “hidden” attribute for it. The Finder and other Mac apps will then ignore and not display this file or folder by default.</p></blockquote><p> </p></div>
+]]></description>
+      <category>#222222</category>
+      <category>#114491</category>
+      <category>#222222</category>
+    </item>
+  </channel>
+</rss>

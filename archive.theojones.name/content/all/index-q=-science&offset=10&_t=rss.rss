@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Theo Jones</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link/>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/content/all/?q=%23science&amp;offset=10&amp;_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>Web Ads Are Where Apple Has Failed, and Where it Will Continue to Fail</title>
+      <link>http://www.theojones.name/2014/web-ads-are-where-apple-has-failed-and-where-it</link>
+      <guid>http://www.theojones.name/2014/web-ads-are-where-apple-has-failed-and-where-it</guid>
+      <pubDate>Wed, 31 Dec 2014 04:35:07 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>An <a href="http://seekingalpha.com/article/2785215-apple-iad-is-the-weakest-link?uide=32627285&uprof=10&dr=1">article posted on the investment website Seeking Alpha</a> discusses Apple's forays into the advertising market. Needless to say, Apple has not been successful with iAd (really, thats the name of their advertising division). Their market share is less than 0.2 percent of the global online advertising market. The SA article thinks that Apple has a credible chance of expanding their market reach by imitating</p>
+
+<p>[caption id="attachment_1310" align="alignright" width="300"]<a href="http://www.theojones.name/wp-content/uploads/2014/12/2507452995_7c884acac0_o.jpg"><img class="size-medium wp-image-1310" src="http://www.theojones.name/wp-content/uploads/2014/12/2507452995_7c884acac0_o-300x202.jpg" alt="Image via Flickr (by user Mr Fix It) &lt;a href=" https:>https:/<wbr></wbr>/<wbr></wbr>flic.kr/<wbr></wbr>p/<wbr></wbr>4Pzmqc</a>  under the Creative commons attribution licence " width="300" height="202" /&gt; Image via Flickr (by user Mr Fix It) <a href="https://flic.kr/p/4Pzmqc">https:/<wbr></wbr>/<wbr></wbr>flic.kr/<wbr></wbr>p/<wbr></wbr>4Pzmqc</a> under the Creative commons attribution licence[/caption]</p>
+
+<p>the likes of Facebook, and Google. However, I think that this is highly unlikely. First of all, Apple has given advertising a very low priority at the company. And unlike the other companies that Apple is competing with, advertising is a side business for Apple. For the likes of Facebook and Google, Advertising <em>IS</em> the core business. Advertising is the product that brings in the revenue, and the namesake products of FB and Google are just carriers for the advertising payload. Apple on the other hand is a hardware/software firm that has branched into advertising. A company will always be more effective in its core markets, and less effective in secondary markets. I also disagree with the suggestion that China is a location where iAd can get the success it has failed to get in the United States. Advertising is a product that needs attention to the details of the culture being marketed to, and because of this local companies will always have the upper hand.</p>
+<p><a href="http://www.theojones.name/tag/china" class="p-category" rel="tag">#china</a> <a href="http://www.theojones.name/tag/fb" class="p-category" rel="tag">#fb</a> <a href="http://www.theojones.name/tag/mrfixit" class="p-category" rel="tag">#mrfixit</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/scienceandtech" class="p-category" rel="tag">#scienceandtech</a> <a href="http://www.theojones.name/tag/seekingalpha" class="p-category" rel="tag">#seekingalpha</a></p></div>]]></description>
+      <category>#china</category>
+      <category>#fb</category>
+      <category>#mrfixit</category>
+      <category>#old</category>
+      <category>#scienceandtech</category>
+      <category>#seekingalpha</category>
+    </item>
+  </channel>
+</rss>

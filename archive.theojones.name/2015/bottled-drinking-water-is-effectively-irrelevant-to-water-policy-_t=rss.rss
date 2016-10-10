@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Bottled Drinking Water Is Effectively Irrelevant to Water Policy</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/2015/bottled-drinking-water-is-effectively-irrelevant-to-water-policy</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/2015/bottled-drinking-water-is-effectively-irrelevant-to-water-policy?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>Bottled Drinking Water Is Effectively Irrelevant to Water Policy</title>
+      <link>http://www.theojones.name/2015/bottled-drinking-water-is-effectively-irrelevant-to-water-policy</link>
+      <guid>http://www.theojones.name/2015/bottled-drinking-water-is-effectively-irrelevant-to-water-policy</guid>
+      <pubDate>Sun, 28 Jun 2015 23:21:51 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>On Daily Kos and similar websites there is <a href="http://www.dailykos.com/story/2015/03/28/1373887/-Activists-Shut-Down-Nestl-Water-Bottling-Plant-in-Sacramento">an outrage </a>about how Nestle is bottling water from California. The fact is that water for human consumption is straight up trivial compared to over all water use. Anyone with the slightest bit of knowledge about water use and water policy should realize so. Despite this, I've seen people who should know better post this story.  But lets do the math here. Lets make the extreme assumption that everyone in the United States gets all their drinking water from Nestle (buy their shares and buy them now).  Now I will calculate how much of California's water that would take (hint: its going to be quite small). And while I go through these calculations, remember that the assumption is designed to over estimate.</p>
+<ul><li>How much water goes through the California water system? 4.934×10^13 liters per year, or <a href="https://en.wikipedia.org/wiki/Water_in_California">40,000,000 acre feet per year</a>.</li>
+    <li>How much water does a typical person consume? <a href="http://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/water/art-20044256"> Three liters for men.</a> 2.2 liters for women. This is about the size of a large soda bottle.  I'll take the three liter number for my calculation. That is probably an overestimate considering that that is based on medical recommendations, not actual consumption.</li>
+    <li>How many people are in the United States. About 300 million.</li>
+    <li>What percent of California's water would their consumption amount to? <em><strong>0.67 percent</strong></em>.</li>
+    <li>What are your calculations? <a href="https://www.wolframalpha.com/input/?i=%283*365*300*10%5E6+litres++in+acre+feet%2F+40%2C000%2C000+acre+feet%29++in+percent"></a><a href="https://www.wolframalpha.com/input/?i=%283*365*300*10%5E6+litres++in+acre+feet%2F+40%2C000%2C000+acre+feet%29++in+percent" rel="in-reply-to" class="u-in-reply-to">https:/<wbr></wbr>/<wbr></wbr>www.wolframalpha.com/<wbr></wbr>input/<wbr></wbr>?i=%283*365*300*10%5E6+litres++in+acre+feet%2F+40%2C000%2C000+acre+feet%29++in+percent</a> </li>
+    <li>What is the actual, real world usage of water by Nestle?  50 million gallons, or <em><strong>0.00038 percent </strong></em>of California water usage.</li>
+    <li>Show your work. <a href="https://www.wolframalpha.com/input/?i=%2850*10%5E6+gallons+in+acre+feet%2F+40%2C000%2C000+acre+feet%29++in+percent" rel="in-reply-to" class="u-in-reply-to">https:/<wbr></wbr>/<wbr></wbr>www.wolframalpha.com/<wbr></wbr>input/<wbr></wbr>?i=%2850*10%5E6+gallons+in+acre+feet%2F+40%2C000%2C000+acre+feet%29++in+percent</a></li>
+</ul>
+<p>Considering the assumptions made 0.67% is totally puny. And the real world number is much lower. The lesson is that drinking water does not matter for water policy. The rage should be focused on people who grow water intensive crops in poorly suited climate, as agriculture is the main user of water.</p>
+
+<p>How does this outrage fool suckers? The usual way poor quality arguments get through to people.</p>
+
+<p>You can see the Dkos articles here <a href="http://www.dailykos.com/news/Nestle" rel="in-reply-to" class="u-in-reply-to">http:/<wbr></wbr>/<wbr></wbr>www.dailykos.com/<wbr></wbr>news/<wbr></wbr>Nestle</a> The first trick that the Daily Kos articles use is to present a large numbers without context. They will gladly tell you about the 50,000 gallon usage in many of their articles. But they won't put in in relative proportion. The simple fact that people don't realize how small 50,000 is compared to 4.934×10^13  is the clickbaiter's friend. And when they do drop context its irrelevant context.</p>
+<blockquote>
+<p><em>The Coalition released a "White Paper" detailing Mayor Kevin Johnson's "sweetheart" deal that allows  Nestlé's virtually unlimited use of water – up to 80 million gallons a year drained from local aquifers – while Sacramentans have been ordered to restrict lawn watering, showering and other water uses.</em></p>
+</blockquote>
+<p>That's not enough. Time for some well poisoning and bile. Lets <a href="http://slatestarcodex.com/2014/05/24/nydwracus-fnords/">fnord </a>this article <a href="http://www.dailykos.com/story/2015/05/08/1379502/-Where-is-the-Outrage"></a><a href="http://www.dailykos.com/story/2014/10/15/1336886/-Nestl-Bottling-Plant-in-Sacramento-Targeted-for-Shut-Down-Early-Thursday" rel="in-reply-to" class="u-in-reply-to">http:/<wbr></wbr>/<wbr></wbr>www.dailykos.com/<wbr></wbr>story/<wbr></wbr>2014/<wbr></wbr>10/<wbr></wbr>15/<wbr></wbr>1336886/<wbr></wbr>-Nestl-Bottling-Plant-in-Sacramento-Targeted-for-Shut-Down-Early-Thursday</a></p>
+<blockquote>
+<p> worst drought on record stealing our precious water calling for a boycott  taking undisclosed amounts of water all over our state  expired theft  expired permit has done absolutely nothing to put a stop to it corporation right thing to do  stop no other option  caught with your hand in the cookie jar  look your accuser dead in the eye daring them to stop you outrage larcenous behavior stopped buying Nestle products  stop buying Nestle signed petitions demanding the government take action please stop hit them where it hurts stop buying their products  a lot of them</p>
+</blockquote>
+<p>Note the lack of facts after the filler is taken out.</p>
+
+<p> </p>
+<p><a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#uncategorized</category>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>The Limitations of Worker Owned Companies</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/2015/the-limitations-of-worker-owned-companies</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/2015/the-limitations-of-worker-owned-companies?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>The Limitations of Worker Owned Companies</title>
+      <link>http://www.theojones.name/2015/the-limitations-of-worker-owned-companies</link>
+      <guid>http://www.theojones.name/2015/the-limitations-of-worker-owned-companies</guid>
+      <pubDate>Mon, 01 Jun 2015 04:05:44 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>The idea of companies that are ran by their employees has been getting some attention in the liberal blogosphere. Often this discussion comes with extreme hype about their promise. Take <a href="https://www.reddit.com/r/EnoughLibertarianSpam/comments/37cbxv/hey_you_earnest_socialists_has_this_ancap_got_a/">a recent thread on Reddit</a> where the topic came up. There are plenty of people who think that a shift to such a form of organization over the current corporate form will result in a vast improvement in regards to all sorts of political and economic issues. The claimed benefits are wide ranging. Some on that Reddit thread say that eliminate the types of conflicts of interest between business and the public that make regulation necessary, others say there'll be vast environmental benefits, while others happen to believe that a switch to worker owned cooperatives will be the end of unfair treatment by employers and will be a general boon to workplace safety. However, despite the enthusiasm for this idea, it is way oversold. The issue with much of current business occurs when there is no external constraint on the working of business that forces the actions of businesses to follow the interests of the population as a whole. Will cooperatives change this? Probably not. The switch to cooperatives would change the beneficiaries of a company's actions, and the people get to choose the actions of the company, from the shareholders to the employees. However, nothing in economics provides any guarantee that the interests of the average employee of a company will be any more in line with the public purpose then the interests of the average shareholder. Although switch to employee cooperatives would change some issues, namely those that result from insufficient negotiating power on the side of employees, it would introduce new issues and leave many currently existing issues unresolved. The first big category of issues that worker cooperatives have little improvement on over traditional firms is externalities-a coal power plant ran as a cooperative will still have the same economic interests in polluting as a conventionally owned coal plant. The second major issue that cooperatives will be unable to resolve is a situation of economic rents-situations where due to monopoly or scarce resources a firm is able to get revenue that is far in excess of the actual cost of bringing a good into production. A worker owned firm will still want to collect the benefits of these economic rents, and disperse the profit to its members. There is also one major category where such cooperatives would be expected to perform worse than traditional firms, situations where increasing the average per employee revenue of a company is in conflict with increasing its overall productivity. A cooperative will not want to expand into potentially beneficial operations that produce less per worker the current business because there is a risk that such a thing will tend to force the share of the profits given to the incumbent members downward. A better alternative to worker owned cooperatives might be much more egalitarian ownership of conventional firms.</p>
+<p><a href="http://www.theojones.name/tag/business" class="p-category" rel="tag">#business</a> <a href="http://www.theojones.name/tag/coops" class="p-category" rel="tag">#coops</a> <a href="http://www.theojones.name/tag/externalities" class="p-category" rel="tag">#externalities</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#business</category>
+      <category>#coops</category>
+      <category>#externalities</category>
+      <category>#uncategorized</category>
+    </item>
+  </channel>
+</rss>

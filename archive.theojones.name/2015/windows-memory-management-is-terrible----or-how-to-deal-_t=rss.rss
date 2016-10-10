@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Windows' Memory Management is Terrible -- or How to Deal With System Lockups Associated With Extreme Disk Activity Usage</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/2015/windows-memory-management-is-terrible----or-how-to-deal</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/2015/windows-memory-management-is-terrible----or-how-to-deal?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>Windows' Memory Management is Terrible -- or How to Deal With System Lockups Associated With Extreme Disk Activity Usage</title>
+      <link>http://www.theojones.name/2015/windows-memory-management-is-terrible----or-how-to-deal</link>
+      <guid>http://www.theojones.name/2015/windows-memory-management-is-terrible----or-how-to-deal</guid>
+      <pubDate>Wed, 18 Mar 2015 17:48:14 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>I've been having an issue with a<a href="http://www.theojones.name/wp-content/uploads/2015/03/Capture.png"><img class="alignright size-medium wp-image-1818" src="http://www.theojones.name/wp-content/uploads/2015/03/Capture-300x261.png" alt="Capture" width="300" height="261"></a> temporary freeze of my Windows 8.1 computer followed shortly by very high disk read-write activity. I took a while, but I pinned the issue down to swapping. In short, the memory management on Windows is terrible compared to that of Linux. And a Windows computer (or at least mine) will start swapping if you look at it the wrong way -- even if there are gigabytes of RAM left. The only way to fix this is to eliminate the swap file. This should be only done if there is a lot of ram on the system in question -- because if RAM runs out while swapping is off programs are going to crash.</p>
+
+<p>To turn off swapping do the following: <br /> 1. Go to the Control Panel.  Find All control panel items &gt; System<br /> 2. Click on "Advanced system settings"<br /> 3. Under performance, click on "settings"<br /> 4. Go to the "Advanced" tab<br /> 5. Under Virtual memory, click on Change<br /> 6. Disable the "Automatically manage paging file size for all drives" check box<br /> 7. Zero it out.</p>
+<p><a href="http://www.theojones.name/tag/controlpanel" class="p-category" rel="tag">#controlpanel</a> <a href="http://www.theojones.name/tag/ram" class="p-category" rel="tag">#ram</a> <a href="http://www.theojones.name/tag/scienceandtech" class="p-category" rel="tag">#scienceandtech</a></p></div>]]></description>
+      <category>#controlpanel</category>
+      <category>#ram</category>
+      <category>#scienceandtech</category>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Regular Expression To Convert Wordpress Style Urls to Ghost Urls</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/2014/regular-expression-to-convert-wordpress-style-urls-to-ghost-urls</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/2014/regular-expression-to-convert-wordpress-style-urls-to-ghost-urls?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>Regular Expression To Convert Wordpress Style Urls to Ghost Urls</title>
+      <link>http://www.theojones.name/2014/regular-expression-to-convert-wordpress-style-urls-to-ghost-urls</link>
+      <guid>http://www.theojones.name/2014/regular-expression-to-convert-wordpress-style-urls-to-ghost-urls</guid>
+      <pubDate>Thu, 14 Aug 2014 23:19:37 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        <p>It took me a while to come up with a regular expression to convert wordpress urls (index.php/year/month/day/title) to the ghost urls  This is the corrosponding redirect line in my Nginx config. </p><p>rewrite "/index.php/([0-9]{4})/([0-9]{2})/([0-9]{2})/(.*)" /$4 permanent;</p><p><a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#old</category>
+      <category>#old</category>
+      <category>#uncategorized</category>
+    </item>
+  </channel>
+</rss>

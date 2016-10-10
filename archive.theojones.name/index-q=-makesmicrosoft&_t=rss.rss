@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Theo Jones</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/?q=%23makesmicrosoft</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/?q=%23makesmicrosoft&amp;_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>Top Ten Things Consumers Will Gain from Comcast/Time Warner Merger</title>
+      <link>http://www.theojones.name/2014/top-ten-things-consumers-will-gain-from-comcasttime-warner-merger</link>
+      <guid>http://www.theojones.name/2014/top-ten-things-consumers-will-gain-from-comcasttime-warner-merger</guid>
+      <pubDate>Fri, 14 Feb 2014 09:27:32 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        <p><strong>Top Ten Things Consumers Will Gain from Comcast/Time Warner Merger</strong></p><ol><li><p>Makes Microsoft seem less evil</p></li>
+<li><p>High prices will keep the riff-raff out of the internet</p></li>
+<li><p>Bandwith caps will make Netflix users select their movie choices more carefully</p></li>
+<li><p>Reduction of stress in one's life by slowing down</p></li>
+<li><p>Higher video streaming prices will teach users how to better budget their money.</p></li>
+<li><p>Users will be prompted to switch to other ISPs, saving them time in the long run</p></li>
+<li><p>We will finally know what crashed in Roswell --- a Comcast modem</p></li>
+<li><p>Internet outages will give users more time to spend with their family</p></li>
+<li><p>Customers of EA Games will know that service can be worse.</p></li>
+</ol><p>1.Slow internet will teach children the virtue of patience</p><p><a href="http://www.theojones.name/tag/makesmicrosoft" class="p-category" rel="tag">#makesmicrosoft</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#makesmicrosoft</category>
+      <category>#old</category>
+      <category>#old</category>
+      <category>#uncategorized</category>
+    </item>
+  </channel>
+</rss>

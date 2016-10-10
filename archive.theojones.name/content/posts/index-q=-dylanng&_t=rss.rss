@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Theo Jones</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/content/posts/?q=%23dylanng</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/content/posts/?q=%23dylanng&amp;_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>Economics and the Use of Math</title>
+      <link>http://www.theojones.name/2014/economics-and-the-use-of-math</link>
+      <guid>http://www.theojones.name/2014/economics-and-the-use-of-math</guid>
+      <pubDate>Sun, 10 Aug 2014 17:09:52 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>In this post I will contend that quite a bit of the use of mathematics by economists is just a form of jargon. The vast majority of math used in economics papers is at best just fluff that says things that could be easily enough said in plain English. At worst, it is an effective way to hide vastly incorrect assumptions. The most similar thing in academia is the use of complex jargon in fields such as diversity studies. However, in the case of economics this usage is much less noticed. People can easily see jargon over use for what it is -- often a</p>
+
+<p>[caption id="attachment_1345" align="alignright" width="300"]<a href="http://www.theojones.name/wp-content/uploads/2014/08/6267107228_661d5bca4b_o.jpg"><img class="size-medium wp-image-1345" src="http://www.theojones.name/wp-content/uploads/2014/08/6267107228_661d5bca4b_o-300x300.jpg" alt="Image via Flickr (user Dylan Ng) &lt;a href=" https:>https:/<wbr></wbr>/<wbr></wbr>flic.kr/<wbr></wbr>p/<wbr></wbr>axNyCU</a> " width="300" height="300" /&gt; Image via Flickr (user Dylan Ng) <a href="https://flic.kr/p/axNyCU%5B/caption%5D">https:/<wbr></wbr>/<wbr></wbr>flic.kr/<wbr></wbr>p/<wbr></wbr>axNyCU[/<wbr></wbr>caption]</a></p>
+
+<p>good way of misleading. However, people take the use of <strong><em>math</em></strong> as authoritative without realizing that mathematical notation is a language that, while better at expressing some concepts, can also be abused in the same way as natural language. I would say that the math heaviness of economics is the main reason why the field is taken with a much higher credibility by the public than any other social science -- even though there is no merit for such a distinction.</p>
+
+<p>Other than appearance, the over use of math is connected to some real problems in the economics field. The first is the hiding of assumptions, and the second is an anti-science tendency in some of the economics field.</p>
+
+<p>The mathematical models used in economics can hide many assumptions in their formalism. These include some of the following</p>
+<ul><li>Individuals possessing perfect information about all relevant factors to a transaction.</li>
+    <li> <a href="http://www.interfluidity.com/v2/5117.html">Assuming an optimal distribution of money arranged so that money spent actually reflects the net benefits to consumers. </a></li>
+    <li>Assuming an ideal market, with a large number of producers and consumers</li>
+</ul>
+<p>I will discuss the relation between economics research and the scientific method in a future post.</p>
+<p><a href="http://www.theojones.name/tag/dylanng" class="p-category" rel="tag">#dylanng</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#dylanng</category>
+      <category>#old</category>
+      <category>#old</category>
+      <category>#uncategorized</category>
+    </item>
+  </channel>
+</rss>

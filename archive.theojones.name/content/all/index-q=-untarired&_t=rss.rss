@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Theo Jones</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/content/all/?q=%23untarired</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/content/all/?q=%23untarired&amp;_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>Some Old Notes: Configuring a Email Server with Iredmail and Ubuntu 12.04</title>
+      <link>http://www.theojones.name/2013/some-old-notes-configuring-a-email-server-with-iredmail-and</link>
+      <guid>http://www.theojones.name/2013/some-old-notes-configuring-a-email-server-with-iredmail-and</guid>
+      <pubDate>Wed, 04 Sep 2013 07:21:46 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>Install Iredmail</p>
+
+<p>See the Iredmail documentation <a href="http://web.archive.org/web/20141115122245/&lt;a%20href=" http:>http:/<wbr></wbr>/<wbr></wbr>www.iredmail.org:80/<wbr></wbr>install_iredmail_on_ubuntu.html</a>"&gt;<a href="http://www.iredmail.org/install">http:/<wbr></wbr>/<wbr></wbr>www.iredmail.org/<wbr></wbr>install</a><em>iredmail</em>on_ubuntu.html for more details</p>
+
+<p>First install bzip2</p>
+
+<p><em>apt-get install bzip2</em></p>
+
+<p>Edit first line of /etc/hosts</p>
+
+<p><em>nano /etc/hosts</em></p>
+
+<p>To read like the following</p>
+<blockquote>
+<p>127.0.0.1       mail.theojones.name localhost mail</p>
+
+<p> </p>
+</blockquote>
+<p>Download Ired Mail</p>
+
+<p>wget <a href="https://bitbucket.org/zhb/iredmail/downloads/iRedMail-0.8.5.tar.bz2"></a><a href="https://bitbucket.org/zhb/iredmail/downloads/iRedMail-0.8.5.tar.bz2">https:/<wbr></wbr>/<wbr></wbr>bitbucket.org/<wbr></wbr>zhb/<wbr></wbr>iredmail/<wbr></wbr>downloads/<wbr></wbr>iRedMail-0.8.5.tar.bz2</a></p>
+
+<p>Untar Ired mail.</p>
+
+<p>tar xjf iRedMail-0.8.5.tar.bz2</p>
+
+<p><strong>Add forwarding</strong></p>
+
+<p>Go to <a href="https://mail.theojones.name/phpldapadmin/htdocs/cmd.php"></a><a href="https://mail.theojones.name/phpldapadmin/htdocs/cmd.php">https:/<wbr></wbr>/<wbr></wbr>mail.theojones.name/<wbr></wbr>phpldapadmin/<wbr></wbr>htdocs/<wbr></wbr>cmd.php</a></p>
+<p><a href="http://www.theojones.name/tag/downloadiredmail" class="p-category" rel="tag">#downloadiredmail</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a> <a href="http://www.theojones.name/tag/untarired" class="p-category" rel="tag">#untarired</a></p></div>]]></description>
+      <category>#downloadiredmail</category>
+      <category>#old</category>
+      <category>#old</category>
+      <category>#uncategorized</category>
+      <category>#untarired</category>
+    </item>
+  </channel>
+</rss>

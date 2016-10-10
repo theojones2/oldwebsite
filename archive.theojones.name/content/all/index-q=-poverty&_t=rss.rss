@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Theo Jones</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/content/all/?q=%23poverty</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/content/all/?q=%23poverty&amp;_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>As an anti poverty measure the minimum wage...</title>
+      <link>http://www.theojones.name/2015/as-an-anti-poverty-measure-the-minimum-wage</link>
+      <guid>http://www.theojones.name/2015/as-an-anti-poverty-measure-the-minimum-wage</guid>
+      <pubDate>Fri, 29 May 2015 14:09:59 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>As an anti-poverty measure the minimum wage is a pretty inefficient instrument. It has a lot of economic side effects, and at high rates serves to reduce bargaining power on non-wage elements of employment due. That last fact might explain why unions are U-turning on the issue --- at least as regards to their workers.<br /><a href="http://www.slate.com/blogs/moneybox/2015/05/27/los_angeles_15_minimum_wage_labor_unions_want_to_be_exempt_from_it.html?utm_campaign=trueAnthem:+Trending+Content&utm_content=5566813204d3014d00000001&utm_medium=trueAnthem&utm_source=twitter">http:/<wbr></wbr>/<wbr></wbr>www.slate.com/<wbr></wbr>blogs/<wbr></wbr>moneybox/<wbr></wbr>2015/<wbr></wbr>05/<wbr></wbr>27/<wbr></wbr>los_angeles_15_minimum_wage_labor_unions_want_to_be_exempt_from_it.html?utm_campaign=trueAnthem:+Trending+Content&utm_content=5566813204d3014d00000001&utm_medium=trueAnthem&utm_source=twitter</a><br />And Warren Buffet was right to suggest an increase in the earned income tax credit as an alternative  --- although I would favor a straight basic income (the ENTC is effectively a partial basic income with a work requirement)<br /><a href="http://www.wsj.com/articles/better-than-raising-the-minimum-wage-1432249927?mod=trending_now_1">http:/<wbr></wbr>/<wbr></wbr>www.wsj.com/<wbr></wbr>articles/<wbr></wbr>better-than-raising-the-minimum-wage-1432249927?mod=trending_now_1</a></p>
+<p><a href="http://www.theojones.name/tag/link" class="p-category" rel="tag">#link</a> <a href="http://www.theojones.name/tag/poverty" class="p-category" rel="tag">#poverty</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#link</category>
+      <category>#poverty</category>
+      <category>#uncategorized</category>
+    </item>
+  </channel>
+</rss>

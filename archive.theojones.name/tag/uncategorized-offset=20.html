@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Theo Jones</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="initial-scale=1.0" media="(device-height: 568px)"/>
+    <meta name="description" content="Thoughts and Ideas">
+    <meta name="generator" content="Known https://withknown.com">
+    <meta http-equiv="Content-Language" content="en">
+
+    <!--Le fav and touch icons-->
+<link rel="apple-touch-icon" sizes="57x57" href="../gfx/logos/apple-icon-57x57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="../gfx/logos/apple-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="../gfx/logos/apple-icon-114x114.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="../gfx/logos/apple-icon-144x144.png" />    <link rel="shortcut icon" type="image/png" href="../gfx/logos/logo_k.png">
+<!-- Make this an "app" when saved to an ios device's home screen -->
+<link rel="apple-touch-icon-precomposed" href="../gfx/logos/logo_k.png">
+<!-- Make this an "app" when saved to an ios device's home screen -->
+<link rel="apple-touch-icon" href="../gfx/logos/logo_k.png">
+<!-- <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black"> -->
+    <meta property="og:type" content="website" />
+<meta property="og:title" content="Theo Jones" />
+<meta property="og:site_name" content="Theo Jones" />
+<meta property="og:image" content="https://www.theojones.name/gfx/logos/logo_k.png" />
+
+
+    <!-- Dublin Core -->
+    <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+    <meta name="DC.title" content="Theo Jones">
+    <meta name="DC.description" content="Thoughts and Ideas">    <!-- AMP versions -->
+    <link rel="amphtml" href="uncategorized-offset=20&amp;_t=amp.html">
+
+    <!-- We need jQuery at the top of the page -->
+    <script src="../external/jquery/jquery.min.js"></script>
+
+    <!-- Le styles -->
+    <link
+        href="../external/bootstrap/assets/css/bootstrap.min.css"
+        rel="stylesheet"/>
+    <link
+        href="../external/bootstrap/assets/css/bootstrap-theme.min.css"/>
+    <script
+        src="../external/bootstrap/assets/js/bootstrap.min.js"></script>
+
+    <!-- Accessibility -->
+    <link rel="stylesheet"
+          href="../external/paypal-bootstrap-accessibility-plugin/plugins/css/bootstrap-accessibility_1.0.3.css">
+    <script
+        src="../external/paypal-bootstrap-accessibility-plugin/plugins/js/bootstrap-accessibility_1.0.3.min.js"></script>
+
+    <!-- Fonts -->
+    <link rel="stylesheet"
+          href="../external/font-awesome/css/font-awesome.css">
+    <!--<link rel="stylesheet"
+          href="https://www.theojones.name/external/font-awesome/css/font-awesome.min.css">-->
+    <style>body {
+            padding-top: 100px; /* 60px to make the container go all the way to the bottom of the topbar */
+        }
+    </style>
+
+    <link href="../css/default-20150907.css" rel="stylesheet">
+<link href="../css/defaultb3-20150123.css" rel="stylesheet">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script
+        src="https://www.theojones.name/external/bootstrap/assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Default Known JavaScript -->
+    <script src="../js/default-20150406.js"></script>
+
+    <!-- To silo is human, to syndicate divine -->
+    <link rel="alternate" type="application/rss+xml" title="Theo Jones"
+          href="uncategorized-offset=20&amp;_t=rss.rss"/>
+    <link rel="feed" type="application/rss+xml" title="Theo Jones"
+          href="uncategorized-offset=20&amp;_t=rss.rss"/>
+    <link rel="alternate feed" type="application/rss+xml"
+          title="Theo Jones: all content"
+          href="../content/all-_t=rss.rss"/>
+    <link rel="feed" type="text/html" title="Theo Jones"
+          href="../content/all.html"/>
+
+    <!-- Webmention endpoint -->
+    <link href="../webmention/index.html" rel="http://webmention.org/"/>
+    <link href="../webmention/index.html" rel="webmention"/>
+
+                <!-- Pubsubhubbub -->
+        <link href="http://withknown.superfeedr.com/" rel="hub"/>
+    
+    
+    <script src="../external/fragmention/fragmention.js"></script>
+
+    <!-- Syndication -->
+    <link
+        href="../external/bootstrap-toggle/css/bootstrap-toggle.min.css"
+        rel="stylesheet"/>
+    <script
+        src="../external/bootstrap-toggle/js/bootstrap-toggle.js"></script>
+
+    <style>.withknown-plugin {
+        padding-top: 0.25em;
+        padding-bottom: 0.25em;
+        background-color: #fff;
+        margin-bottom: 0.5em;
+    }
+
+    .withknown-plugin p,
+    .withknown-plugin h4,
+    .withknown-plugin form
+    {
+        margin: 0; padding: 0;
+    }
+
+    .withknown-plugin .plugin-content h4
+    {
+        padding-top: 0.25em;
+    }
+
+    .withknown-plugin .plugin-content p
+    {
+        padding-top: 0.3em;
+    }
+
+    .withknown-plugin .plugin-content {
+        color: #777;
+    }
+
+    .withknown-plugin input[type=submit]
+    {
+        width: 100px;
+    }
+    
+    .withknown-plugin .btn-enabled {
+    background-color: #70997a;
+    background-image: none;
+    background-repeat: repeat-x;
+    border-color: #70997a;
+    color: #ffffff;
+    text-shadow: none;
+	}
+	
+	.withknown-plugin .btn-enabled:hover, 
+	.withknown-plugin .btn-enabled:focus, 
+	.withknown-plugin .btn-enabled:active, 
+	.withknown-plugin .btn-enabled.active, 
+	.withknown-plugin .btn-enabled.disabled, 
+	.withknown-plugin .btn-enabled[disabled] {
+    background-color: #678c70;
+    border-color: #678c70;
+    color: #ffffff;
+	}
+	
+	.withknown-plugin .btn-default {
+	color: #666666;
+	}
+	
+	.withknown-plugin .span2 {
+		margin-left: 0px;
+	}
+	
+    .withknown-plugin h4 {
+		color: #222;
+	}
+
+    .withknown-pro-block {
+        text-align: center;
+        border: 0;
+        border-top: 2px #ccc solid;
+        border-bottom: 2px #ccc solid;
+        margin-bottom: 2em;
+        margin-top: 20px;
+    }
+</style><link rel="stylesheet" href="../IdnoPlugins/Checkin/external/leaflet/leaflet.css"/>
+<!--[if lte IE 8]>
+<link rel="stylesheet" href="https://www.theojones.name/IdnoPlugins/Checkin/external/leaflet/leaflet.ie.css"/>
+<![endif]-->
+<script type="text/javascript" src="../IdnoPlugins/Checkin/external/leaflet/leaflet.js"></script>
+<script type="text/javascript" src="../IdnoPlugins/Checkin/external/stamen-maps/tile.stamen.js"></script>
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script><link rel="openid.delegate" href="../index.html" />
+<link rel="openid.server" href="https://indieauth.com/openid" />
+<link rel="authorization_endpoint" href="../session/login-fwd=https-%7C%7Cwww.theojones.name%7Cindieauth%7Cauth.html">
+<link rel="token_endpoint" href="../indieauth/token.html">
+<link rel="micropub" href="../session/login-fwd=%7Cmicropub%7Cendpoint.html"><link href="../Themes/Solo/css/default.css" rel="stylesheet">    
+</head>
+
+<body class="idno_pages_homepage page-tag page-tag-uncategorized logged-out">
+<div id="pjax-container" class="page-container">
+    <a href="uncategorized-offset=20.html#maincontent" style="display:none">Skip to main content</a>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" tabindex="1" href="../index.html">Theo Jones</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+
+            <form class="navbar-form navbar-left" action="https://www.theojones.name/content/all" method="get" role="search">
+    <div class="form-group">
+        <input type="search" class="search-query form-control" name="q" placeholder="Search" tabindex="2" value="#uncategorized">
+    </div>
+</form><ul class="nav navbar-nav">
+        
+            <li class="dropdown" tabindex="3">
+                <a href="uncategorized-offset=20.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                    All content                    <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="../index-q=-uncategorized.html"><span class="dropdown-menu-icon">&nbsp;</span>
+                            Default content</a></li>
+                    <li><a href="../content/all/index-q=-uncategorized.html"><span class="dropdown-menu-icon">&nbsp;</span>
+                            All content</a></li>
+                                                    <li><a
+                                    href="../content/statusupdates/index-q=-uncategorized.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-comment-o"></i></span> Status updates                                </a></li>                                <li><a
+                                    href="../content/posts/index-q=-uncategorized.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-align-left"></i>
+</span> Posts                                </a></li>                                <li><a
+                                    href="../content/photos/index-q=-uncategorized.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-picture-o"></i>
+</span> Photos                                </a></li>                                <li><a
+                                    href="../content/locations/index-q=-uncategorized.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-map-marker"></i>
+</span> Locations                                </a></li>                                <li><a
+                                    href="../content/bookmarkedpages/index-q=-uncategorized.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-bookmark"></i>
+</span> Bookmarked pages                                </a></li>                                <li><a
+                                    href="../content/audio/index-q=-uncategorized.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-microphone"></i>
+</span> Audio                                </a></li>                                <li><a
+                                    href="../content/events/index-q=-uncategorized.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-calendar"></i>
+</span> Events                                </a></li>                                <li><a
+                                    href="../content/rsvp/index-q=-uncategorized.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-calendar-o"></i>
+</span> RSVP                                </a></li>
+
+                </ul>
+            </li>
+
+    </ul>
+            <ul class="nav navbar-nav navbar-right">
+                
+
+    <li><a href="../session/login.html">Sign in</a></li>            </ul>
+
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+    <div class="container page-body">
+        <a name="pagecontent"></a>
+                                    <div class="row idno-entry idno-entry-entry">
+
+                <div
+                    class="col-md-8 col-md-offset-2 h-entry idno-posts idno-object idno-content">
+                    <div style="display: none"> <!-- This is useful for webmentions -->
+                        <p class="p-author author h-card vcard">
+                            <a href="../profile/tjones2.html" class="icon-container"><img
+                                    class="u-logo logo u-photo photo" src="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e"/></a>
+                            <a class="p-name fn u-url url" href="../profile/tjones2.html">Theo Jones</a>
+                            <a class="u-url" href="../profile/tjones2.html">
+                                <!-- This is here to force the hand of your MF2 parser --></a>
+                        </p>
+                    </div>
+                                        <div class="e-content entry-content">
+                        <div>
+                <h2 class="p-name"><a
+                    href="../2015/an-article-that-shows-why-companies-dont-have.html">An article that shows why companies don&#039;t have...</a>
+            </h2>
+                    <p class="reading">
+                <span class="vague">1 min read </span>
+            </p>
+            
+<p>An article that shows why companies don't have to file tons of crap lawsuits to keep their trademarks.<br /><a href="http://blog.grabeh.net/The-myth-of-mandatory-trade-mark-enforcement">http:/<wbr></wbr>/<wbr></wbr>blog.grabeh.net/<wbr></wbr>The-myth-of-mandatory-trade-mark-enforcement</a></p>
+<blockquote>
+<p>Trade mark disputes pop up all the time. Often it's a David v Goliath affair with a large incumbent with an equally large legal budget seeking to squish to plucky start-up.</p>
+
+<p>In some cases, the Goliath can attempt to use its registered trade marks to oppress an upstart providing goods or services in an area completely unrelated to it. </p>
+
+<p>Some may see this kind of action as completely unreasonable on the basis that there couldn't conceivably be any confusion or intention to take advantage of the reputation of the incumbent.</p>
+
+<p>Others might comment that a trade mark owner is required to enforce their trade marks otherwise risk losing the ability to enforce them in the future or as is sometimes mooted lose the trade mark altogether.</p>
+</blockquote><p><a href="law.html" class="p-category" rel="tag">#law</a> <a href="status.html" class="p-category" rel="tag">#status</a> <a href="uncategorized.html" class="p-category" rel="tag">#uncategorized</a></p></div>                    </div>
+                    <div class="footer">
+                        
+        <div class="permalink">
+            <p>
+                <a href="../profile/tjones2.html">Theo Jones</a>published this
+                <a class="u-url url" href="../2015/an-article-that-shows-why-companies-dont-have.html" rel="permalink"><time class="dt-published"
+                          datetime="2015-06-23T07:18:48+0000">23 Jun 2015</time></a>
+                                                                            </p>
+        </div>
+        <div class="interactions">
+	        <span class="annotate-icon">
+                        <a class="stars" href="../2015/an-article-that-shows-why-companies-dont-have.html#comments"><i class="fa fa-star-o"></i> 0 stars</a></span>
+                   <span class="annotate-icon"> <a class="comments" href="../2015/an-article-that-shows-why-companies-dont-have.html#comments"><i class="fa fa-comments"></i> 0 comments</a></span>
+            <a class="shares" href="../2015/an-article-that-shows-why-companies-dont-have.html#comments"></a>
+            <a class="shares" href="../2015/an-article-that-shows-why-companies-dont-have.html#comments"></a>
+        </div>
+        <br clear="all"/>
+                            </div>
+                </div>
+
+            </div>
+
+                    <div class="row idno-entry idno-entry-entry">
+
+                <div
+                    class="col-md-8 col-md-offset-2 h-entry idno-posts idno-object idno-content">
+                    <div style="display: none"> <!-- This is useful for webmentions -->
+                        <p class="p-author author h-card vcard">
+                            <a href="../profile/tjones2.html" class="icon-container"><img
+                                    class="u-logo logo u-photo photo" src="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e"/></a>
+                            <a class="p-name fn u-url url" href="../profile/tjones2.html">Theo Jones</a>
+                            <a class="u-url" href="../profile/tjones2.html">
+                                <!-- This is here to force the hand of your MF2 parser --></a>
+                        </p>
+                    </div>
+                                        <div class="e-content entry-content">
+                        <div>
+                <h2 class="p-name"><a
+                    href="../2015/as-a-reliable-source-of-steady-electricity-nuclear.html">As a reliable source of steady electricity nuclear...</a>
+            </h2>
+                    <p class="reading">
+                <span class="vague">1 min read </span>
+            </p>
+            <blockquote>
+<p>As a reliable source of steady electricity, nuclear energy serves an important role in U.S. grid stability. Even as regional grids become more sophisticated in managing fluctuating input from renewable sources, there remains a base-load requirement to maintain an on-demand minimum generation level. Nuclear energy provides this grid certainty by generating its maximum amount of electricity more often than any other electricity source — on average, more than 90 percent of the time. Life extension technologies, like AREVA's new cavitation peening for reactor heads, help utilities ensure continued safe generation for another 40 years.</p>
+</blockquote>
+<p><cite><a href="http://thehill.com/blogs/pundits-blog/energy-environment/240605-whats-the-value-of-nuclear-energy-to-the-united-states">http:/<wbr></wbr>/<wbr></wbr>thehill.com/<wbr></wbr>blogs/<wbr></wbr>pundits-blog/<wbr></wbr>energy-environment/<wbr></wbr>240605-whats-the-value-of-nuclear-energy-to-the-united-states</a></cite></p>
+<p><a href="energy.html" class="p-category" rel="tag">#energy</a> <a href="nuclear.html" class="p-category" rel="tag">#nuclear</a> <a href="quote.html" class="p-category" rel="tag">#quote</a> <a href="uncategorized.html" class="p-category" rel="tag">#uncategorized</a></p></div>                    </div>
+                    <div class="footer">
+                        
+        <div class="permalink">
+            <p>
+                <a href="../profile/tjones2.html">Theo Jones</a>published this
+                <a class="u-url url" href="../2015/as-a-reliable-source-of-steady-electricity-nuclear.html" rel="permalink"><time class="dt-published"
+                          datetime="2015-06-23T07:14:34+0000">23 Jun 2015</time></a>
+                                                                            </p>
+        </div>
+        <div class="interactions">
+	        <span class="annotate-icon">
+                        <a class="stars" href="../2015/as-a-reliable-source-of-steady-electricity-nuclear.html#comments"><i class="fa fa-star-o"></i> 0 stars</a></span>
+                   <span class="annotate-icon"> <a class="comments" href="../2015/as-a-reliable-source-of-steady-electricity-nuclear.html#comments"><i class="fa fa-comments"></i> 0 comments</a></span>
+            <a class="shares" href="../2015/as-a-reliable-source-of-steady-electricity-nuclear.html#comments"></a>
+            <a class="shares" href="../2015/as-a-reliable-source-of-steady-electricity-nuclear.html#comments"></a>
+        </div>
+        <br clear="all"/>
+                            </div>
+                </div>
+
+            </div>
+
+                    <div class="row idno-entry idno-entry-entry">
+
+                <div
+                    class="col-md-8 col-md-offset-2 h-entry idno-posts idno-object idno-content">
+                    <div style="display: none"> <!-- This is useful for webmentions -->
+                        <p class="p-author author h-card vcard">
+                            <a href="../profile/tjones2.html" class="icon-container"><img
+                                    class="u-logo logo u-photo photo" src="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e"/></a>
+                            <a class="p-name fn u-url url" href="../profile/tjones2.html">Theo Jones</a>
+                            <a class="u-url" href="../profile/tjones2.html">
+                                <!-- This is here to force the hand of your MF2 parser --></a>
+                        </p>
+                    </div>
+                                        <div class="e-content entry-content">
+                        <div>
+                <h2 class="p-name"><a
+                    href="../2015/the-government-cant-seize-hotel-records-without-due.html">The government can&#039;t seize hotel records without due...</a>
+            </h2>
+                    <p class="reading">
+                <span class="vague">1 min read </span>
+            </p>
+            
+<p>The government can't seize hotel records without due process. <br /><a href="http://www.slate.com/articles/news_and_politics/jurisprudence/2015/06/city_of_los_angeles_v_patel_the_supreme_court_rules_that_police_can_t_simply.html">http:/<wbr></wbr>/<wbr></wbr>www.slate.com/<wbr></wbr>articles/<wbr></wbr>news_and_politics/<wbr></wbr>jurisprudence/<wbr></wbr>2015/<wbr></wbr>06/<wbr></wbr>city_of_los_angeles_v_patel_the_supreme_court_rules_that_police_can_t_simply.html</a></p>
+<blockquote>
+<p>In a decision heralded as a big win for privacy rights, the U.S. Supreme Court decided, on 5–4 lines Monday morning, that the Fourth Amendment prevents the city of Los Angeles from enforcing a 116-year-old ordinance that compels hotel operators to turn over certain records to the police. In an opinion authored by Justice Sonia Sotomayor and joined by Justices Ruth Bader Ginsburg, Stephen Breyer, Elena Kagan and Anthony Kennedy, the majority struck down the ordinance punishing hotel operators that refuse to turn over such records “without affording them any opportunity for pre-compliance review.” Justice Antonin Scalia penned a feisty rebuttal in response, accusing the majority of making it vastly more difficult for cops to break up drug rings, human trafficking, and prostitution operations.</p>
+</blockquote><p><a href="law.html" class="p-category" rel="tag">#law</a> <a href="status.html" class="p-category" rel="tag">#status</a> <a href="uncategorized.html" class="p-category" rel="tag">#uncategorized</a></p></div>                    </div>
+                    <div class="footer">
+                        
+        <div class="permalink">
+            <p>
+                <a href="../profile/tjones2.html">Theo Jones</a>published this
+                <a class="u-url url" href="../2015/the-government-cant-seize-hotel-records-without-due.html" rel="permalink"><time class="dt-published"
+                          datetime="2015-06-23T07:08:00+0000">23 Jun 2015</time></a>
+                                                                            </p>
+        </div>
+        <div class="interactions">
+	        <span class="annotate-icon">
+                        <a class="stars" href="../2015/the-government-cant-seize-hotel-records-without-due.html#comments"><i class="fa fa-star-o"></i> 0 stars</a></span>
+                   <span class="annotate-icon"> <a class="comments" href="../2015/the-government-cant-seize-hotel-records-without-due.html#comments"><i class="fa fa-comments"></i> 0 comments</a></span>
+            <a class="shares" href="../2015/the-government-cant-seize-hotel-records-without-due.html#comments"></a>
+            <a class="shares" href="../2015/the-government-cant-seize-hotel-records-without-due.html#comments"></a>
+        </div>
+        <br clear="all"/>
+                            </div>
+                </div>
+
+            </div>
+
+                    <div class="row idno-entry idno-entry-entry">
+
+                <div
+                    class="col-md-8 col-md-offset-2 h-entry idno-posts idno-object idno-content">
+                    <div style="display: none"> <!-- This is useful for webmentions -->
+                        <p class="p-author author h-card vcard">
+                            <a href="../profile/tjones2.html" class="icon-container"><img
+                                    class="u-logo logo u-photo photo" src="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e"/></a>
+                            <a class="p-name fn u-url url" href="../profile/tjones2.html">Theo Jones</a>
+                            <a class="u-url" href="../profile/tjones2.html">
+                                <!-- This is here to force the hand of your MF2 parser --></a>
+                        </p>
+                    </div>
+                                        <div class="e-content entry-content">
+                        <div>
+                <h2 class="p-name"><a
+                    href="../2015/the-employment-trilemma.html">The employment trilemma</a>
+            </h2>
+                    <p class="reading">
+                <span class="vague">3 min read </span>
+            </p>
+            
+<p><a href="../wp-content/uploads/2015/06/Employment-Trilemma.png.html"><img class="  wp-image-2484 alignright" src="../wp-content/uploads/2015/06/Employment-Trilemma.png.html" alt="Employment Trilemma" width="400" height="300"></a>In this post I will contend that macroeconomic policy faces a trilemma in regards to employment and that this trilemma makes alleviating poverty through full employment highly problematic (leaving transfer payments the only viable means of alleviating poverty on a large scale).  This is a large reason why I am a supporter of a basic income as the only viable way to eliminate poverty.   Namely, I will argue that the following three goals can not be satisfied simultaneously.</p>
+<ul type="disc"><li>Full employment</li>
+    <li>High wages --- the wages paid are living wages.</li>
+    <li>No make-work, ie. the jobs being created are economically productive in way that is commiserate with the wages they pay. There are no useless jobs being produced just for the sake of increasing employment</li>
+</ul>
+<p>The core of this trilemma comes from the fact that the economically efficient wage level has very little to do with the needs of the people involved. In ideal circumstances, wages, like all other prices reflect the relative scarcity of the service or good in question. It is entirely possible, if not undoubtedly true, that the market equilibrium wage level for some workers would be far below any reasonable living wage, just as for some workers it is way higher.  At this point we get to the trilemma. If the government attempts to provide for a high wage level, say through a minimum wage increase, <a href="../why-a-higher-minimum-wage-2/index.html">there is a risk of increased unemployment</a> when the economy is out of recession. Thus we are at a case where there are high wages, and the work is useful, but there is unnecessary unemployment.</p>
+
+<p>Now, the government could try to offset this in one of a few ways. The most obvious is a wage subsidy, such as the earned income tax credit. The government would pay a large portion of the wages, reducing the disemployment effect involved. Another proposal in this vein would be for the government to just outright hire the unemployed segment of the population. However, it seems probable that this would violate the third criteria. There would be high paying jobs, but the jobs being created have a good chance of not winding up economically productive in way that is commiserate with the wages they pay. In the case of a subsidy, employers would no longer feel the full cost of the labor they use. Their grounds for hiring someone would be based on the subsidized price of the wages, not the actual price. There would now be a solid range of circumstances when it would be viable for an employer to hire employees even when they produce less then their post-subsidy pay. Likewise, in the job guarantee case, the government would have to come up with the jobs to hire people under. If these are for services that are not desired by the public for reasons other than their employment production, then these services are probably of limited economic value. And thus we are at a case where you can have high wages, and full employment, but some of the employment would be useless.  There should be no useless jobs being produced just for the sake of increasing employment, as if you are paying people for nothing, you might as well enact a basic income.</p>
+
+<p><strong>Title image produced with <a href="http://www.canva.com">canva</a>.</strong></p>
+<p><a href="uncategorized.html" class="p-category" rel="tag">#uncategorized</a></p></div>                    </div>
+                    <div class="footer">
+                        
+        <div class="permalink">
+            <p>
+                <a href="../profile/tjones2.html">Theo Jones</a>published this
+                <a class="u-url url" href="../2015/the-employment-trilemma.html" rel="permalink"><time class="dt-published"
+                          datetime="2015-06-22T15:42:00+0000">22 Jun 2015</time></a>
+                                                                            </p>
+        </div>
+        <div class="interactions">
+	        <span class="annotate-icon">
+                        <a class="stars" href="../2015/the-employment-trilemma.html#comments"><i class="fa fa-star-o"></i> 0 stars</a></span>
+                   <span class="annotate-icon"> <a class="comments" href="../2015/the-employment-trilemma.html#comments"><i class="fa fa-comments"></i> 0 comments</a></span>
+            <a class="shares" href="../2015/the-employment-trilemma.html#comments"></a>
+            <a class="shares" href="../2015/the-employment-trilemma.html#comments"></a>
+        </div>
+        <br clear="all"/>
+                            </div>
+                </div>
+
+            </div>
+
+                    <div class="row idno-entry idno-entry-entry">
+
+                <div
+                    class="col-md-8 col-md-offset-2 h-entry idno-posts idno-object idno-content">
+                    <div style="display: none"> <!-- This is useful for webmentions -->
+                        <p class="p-author author h-card vcard">
+                            <a href="../profile/tjones2.html" class="icon-container"><img
+                                    class="u-logo logo u-photo photo" src="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e"/></a>
+                            <a class="p-name fn u-url url" href="../profile/tjones2.html">Theo Jones</a>
+                            <a class="u-url" href="../profile/tjones2.html">
+                                <!-- This is here to force the hand of your MF2 parser --></a>
+                        </p>
+                    </div>
+                                        <div class="e-content entry-content">
+                        <div>
+                <h2 class="p-name"><a
+                    href="../2015/on-content-marketing-companies-http-fortune-com.html">On  content marketing companies http fortune com...</a>
+            </h2>
+                    <p class="reading">
+                <span class="vague">1 min read </span>
+            </p>
+            
+<p>On "content marketing" companies<br /><a href="http://fortune.com/2014/08/18/taboola-outbrain-battle-bad-reputation-each-other/">http:/<wbr></wbr>/<wbr></wbr>fortune.com/<wbr></wbr>2014/<wbr></wbr>08/<wbr></wbr>18/<wbr></wbr>taboola-outbrain-battle-bad-reputation-each-other/<wbr></wbr></a></p>
+<blockquote>
+<p>Indeed, recent Tweets on the matter are almost universally negative. “Really tired of Taboola and Outbrain,” technologist Greg Sterling wrote. “I’m secretly wishing that Taboola would tell me about celeb tricks for losing belly fat,” videographer Benjamin Harrison wrote with a dose of sarcasm. “Taboola ads really get on my nerves,” wrote investor Thomas Loverro. “Outbrain, the offgas of content,” added Trustev CMO Rurik Bradbury. It goes on.</p>
+</blockquote><p><a href="advertising.html" class="p-category" rel="tag">#advertising</a> <a href="status.html" class="p-category" rel="tag">#status</a> <a href="uncategorized.html" class="p-category" rel="tag">#uncategorized</a></p></div>                    </div>
+                    <div class="footer">
+                        
+        <div class="permalink">
+            <p>
+                <a href="../profile/tjones2.html">Theo Jones</a>published this
+                <a class="u-url url" href="../2015/on-content-marketing-companies-http-fortune-com.html" rel="permalink"><time class="dt-published"
+                          datetime="2015-06-22T03:06:40+0000">22 Jun 2015</time></a>
+                                                                            </p>
+        </div>
+        <div class="interactions">
+	        <span class="annotate-icon">
+                        <a class="stars" href="../2015/on-content-marketing-companies-http-fortune-com.html#comments"><i class="fa fa-star-o"></i> 0 stars</a></span>
+                   <span class="annotate-icon"> <a class="comments" href="../2015/on-content-marketing-companies-http-fortune-com.html#comments"><i class="fa fa-comments"></i> 0 comments</a></span>
+            <a class="shares" href="../2015/on-content-marketing-companies-http-fortune-com.html#comments"></a>
+            <a class="shares" href="../2015/on-content-marketing-companies-http-fortune-com.html#comments"></a>
+        </div>
+        <br clear="all"/>
+                            </div>
+                </div>
+
+            </div>
+
+                    <div class="row idno-entry idno-entry-entry">
+
+                <div
+                    class="col-md-8 col-md-offset-2 h-entry idno-posts idno-object idno-content">
+                    <div style="display: none"> <!-- This is useful for webmentions -->
+                        <p class="p-author author h-card vcard">
+                            <a href="../profile/tjones2.html" class="icon-container"><img
+                                    class="u-logo logo u-photo photo" src="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e"/></a>
+                            <a class="p-name fn u-url url" href="../profile/tjones2.html">Theo Jones</a>
+                            <a class="u-url" href="../profile/tjones2.html">
+                                <!-- This is here to force the hand of your MF2 parser --></a>
+                        </p>
+                    </div>
+                                        <div class="e-content entry-content">
+                        <div>
+                <h2 class="p-name"><a
+                    href="../2015/triangle-shaped-political-chart.html">Triangle-shaped political chart</a>
+            </h2>
+                    <p class="reading">
+                <span class="vague">2 min read </span>
+            </p>
+            
+<p>A common alternative to a simple left-right anatomy of politics is a 2d chart, like the <a href="https://www.politicalcompass.org/analysis2">political compass.</a> Such a taxonomy divides political beliefs into two categories, one on an authoritarian/anti-authoritarian scale, and one on a left-right scale.</p>
+
+<p><img src="https://www.politicalcompass.org/images/bothaxes.gif" alt="cartesian plane with horizontal left-right axis and vertical authoritarian-libertarian axis" width="400" height="400"></p>
+
+<p>A benefit of this is that it can differentiate between ideologies that radically vary in their opinion of how society should be structured, but that are equally left/right wing. An anarchist-communist is, of course, quite different from a Soviet Union style communist. But it is hard to call one more left wing than the other. In terms of economic beliefs there is a great deal of symmetry between the two. But authoritarianism is an obvious differentiation between the two beliefs.</p>
+
+<p>However, there is an issue with this. Authoritarianism and economic beliefs are connected.  In particular, I would suggest that a lot of the difference between left and right wing ideologies dissipates towards authoritarianism. You can see this in the likes of North Korea, which is strongly left wing, but yet, the authoritarian elements of this cause policies that seem very right-wing on first glance (for instance the strong cultural role of the military).  Or you can envision an Orwellian <em>1984</em> type totalitarianism that isn't clearly left or right wing.  Some of the conservatives that have tried to argue that fascism is left wing aren't totally off to see some symmetry between fascism and leftism. But this symmetry comes from the fact that extreme authoritarianism dilutes the difference between left and right. Likewise, I would say that about the strongest level of difference between two ideologies, would be that between leftist-anarchists, and right wing anarchists.</p>
+
+<p>Instead of a square political spectrum, I would suggest a better shape would be a triangle. Complete <em>1984</em> style totalitarianism would be at the top, left-anarchism would be in the bottom left corner, and right-anarchism would be in the bottom right corner.</p>
+
+<p><a href="../wp-content/uploads/2015/06/politicaltriangle.png.html"><img class="aligncenter size-full wp-image-2475" src="../wp-content/uploads/2015/06/politicaltriangle.png.html" alt="politicaltriangle" width="500" height="500"></a></p>
+
+<p> </p>
+<p><a href="uncategorized.html" class="p-category" rel="tag">#uncategorized</a></p></div>                    </div>
+                    <div class="footer">
+                        
+        <div class="permalink">
+            <p>
+                <a href="../profile/tjones2.html">Theo Jones</a>published this
+                <a class="u-url url" href="../2015/triangle-shaped-political-chart.html" rel="permalink"><time class="dt-published"
+                          datetime="2015-06-22T03:03:54+0000">22 Jun 2015</time></a>
+                                                                            </p>
+        </div>
+        <div class="interactions">
+	        <span class="annotate-icon">
+                        <a class="stars" href="../2015/triangle-shaped-political-chart.html#comments"><i class="fa fa-star-o"></i> 0 stars</a></span>
+                   <span class="annotate-icon"> <a class="comments" href="../2015/triangle-shaped-political-chart.html#comments"><i class="fa fa-comments"></i> 0 comments</a></span>
+            <a class="shares" href="../2015/triangle-shaped-political-chart.html#comments"></a>
+            <a class="shares" href="../2015/triangle-shaped-political-chart.html#comments"></a>
+        </div>
+        <br clear="all"/>
+                            </div>
+                </div>
+
+            </div>
+
+                    <div class="row idno-entry idno-entry-entry">
+
+                <div
+                    class="col-md-8 col-md-offset-2 h-entry idno-posts idno-object idno-content">
+                    <div style="display: none"> <!-- This is useful for webmentions -->
+                        <p class="p-author author h-card vcard">
+                            <a href="../profile/tjones2.html" class="icon-container"><img
+                                    class="u-logo logo u-photo photo" src="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e"/></a>
+                            <a class="p-name fn u-url url" href="../profile/tjones2.html">Theo Jones</a>
+                            <a class="u-url" href="../profile/tjones2.html">
+                                <!-- This is here to force the hand of your MF2 parser --></a>
+                        </p>
+                    </div>
+                                        <div class="e-content entry-content">
+                        <div>
+                <h2 class="p-name"><a
+                    href="../2015/http-www-theguardian-com-us-news-2015-jun.html">http www theguardian com us news 2015 jun...</a>
+            </h2>
+                    <p class="reading">
+                <span class="vague">1 min read </span>
+            </p>
+            
+<p><a href="http://www.theguardian.com/us-news/2015/jun/20/los-angeles-police-shoot-unarmed-man-in-head">http:/<wbr></wbr>/<wbr></wbr>www.theguardian.com/<wbr></wbr>us-news/<wbr></wbr>2015/<wbr></wbr>jun/<wbr></wbr>20/<wbr></wbr>los-angeles-police-shoot-unarmed-man-in-head</a></p>
+<blockquote>
+<p>An unarmed man was shot in the head and critically wounded by Los Angeles police officers on Friday night, after he appeared to be flagging them down for assistance.</p>
+
+<p>A passerby recorded graphic video of the incident from a car, and then posted it on Twitter. The video showed officers turning over the man, who appeared to be unconscious and lying on his face, and handcuffing his hands behind his back as his head bled profusely.</p>
+
+<p>The Los Angeles police department said the man, who was not immediately named, had a towel wrapped around his hand and the two officers believed he was concealing a weapon.</p>
+</blockquote>
+<p>Its stuff like that that makes me hate cops. "He is asking me for help. How dare he trifle a cop with such a trivial thing.      <strong>blam</strong> "</p>
+<p><a href="cops.html" class="p-category" rel="tag">#cops</a> <a href="status.html" class="p-category" rel="tag">#status</a> <a href="uncategorized.html" class="p-category" rel="tag">#uncategorized</a></p></div>                    </div>
+                    <div class="footer">
+                        
+        <div class="permalink">
+            <p>
+                <a href="../profile/tjones2.html">Theo Jones</a>published this
+                <a class="u-url url" href="../2015/http-www-theguardian-com-us-news-2015-jun.html" rel="permalink"><time class="dt-published"
+                          datetime="2015-06-22T01:57:41+0000">22 Jun 2015</time></a>
+                                                                            </p>
+        </div>
+        <div class="interactions">
+	        <span class="annotate-icon">
+                        <a class="stars" href="../2015/http-www-theguardian-com-us-news-2015-jun.html#comments"><i class="fa fa-star-o"></i> 0 stars</a></span>
+                   <span class="annotate-icon"> <a class="comments" href="../2015/http-www-theguardian-com-us-news-2015-jun.html#comments"><i class="fa fa-comments"></i> 0 comments</a></span>
+            <a class="shares" href="../2015/http-www-theguardian-com-us-news-2015-jun.html#comments"></a>
+            <a class="shares" href="../2015/http-www-theguardian-com-us-news-2015-jun.html#comments"></a>
+        </div>
+        <br clear="all"/>
+                            </div>
+                </div>
+
+            </div>
+
+                    <div class="row idno-entry idno-entry-entry">
+
+                <div
+                    class="col-md-8 col-md-offset-2 h-entry idno-posts idno-object idno-content">
+                    <div style="display: none"> <!-- This is useful for webmentions -->
+                        <p class="p-author author h-card vcard">
+                            <a href="../profile/tjones2.html" class="icon-container"><img
+                                    class="u-logo logo u-photo photo" src="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e"/></a>
+                            <a class="p-name fn u-url url" href="../profile/tjones2.html">Theo Jones</a>
+                            <a class="u-url" href="../profile/tjones2.html">
+                                <!-- This is here to force the hand of your MF2 parser --></a>
+                        </p>
+                    </div>
+                                        <div class="e-content entry-content">
+                        <div>
+                <h2 class="p-name"><a
+                    href="../2015/in-one-of-the-few-things-i-will.html">In one of the few things I will...</a>
+            </h2>
+                    <p class="reading">
+                <span class="vague">1 min read </span>
+            </p>
+            
+<p>In one of the few things I will commend them for, Uber has a multi-people per car service in some cities "UberPool" <a href="https://get.uber.com/cl/uberpool/">https:/<wbr></wbr>/<wbr></wbr>get.uber.com/<wbr></wbr>cl/<wbr></wbr>uberpool/<wbr></wbr></a><br />And its a good thing too because the share taxi/jitney is probably the most environmentally friendly form of transit around. If Uber can make such a thing common in the US I may forgive them for the other stuff.</p>
+<p><a href="status.html" class="p-category" rel="tag">#status</a> <a href="uber.html" class="p-category" rel="tag">#uber</a> <a href="uncategorized.html" class="p-category" rel="tag">#uncategorized</a></p></div>                    </div>
+                    <div class="footer">
+                        
+        <div class="permalink">
+            <p>
+                <a href="../profile/tjones2.html">Theo Jones</a>published this
+                <a class="u-url url" href="../2015/in-one-of-the-few-things-i-will.html" rel="permalink"><time class="dt-published"
+                          datetime="2015-06-21T06:05:30+0000">21 Jun 2015</time></a>
+                                                                            </p>
+        </div>
+        <div class="interactions">
+	        <span class="annotate-icon">
+                        <a class="stars" href="../2015/in-one-of-the-few-things-i-will.html#comments"><i class="fa fa-star-o"></i> 0 stars</a></span>
+                   <span class="annotate-icon"> <a class="comments" href="../2015/in-one-of-the-few-things-i-will.html#comments"><i class="fa fa-comments"></i> 0 comments</a></span>
+            <a class="shares" href="../2015/in-one-of-the-few-things-i-will.html#comments"></a>
+            <a class="shares" href="../2015/in-one-of-the-few-things-i-will.html#comments"></a>
+        </div>
+        <br clear="all"/>
+                            </div>
+                </div>
+
+            </div>
+
+                    <div class="row idno-entry idno-entry-entry">
+
+                <div
+                    class="col-md-8 col-md-offset-2 h-entry idno-posts idno-object idno-content">
+                    <div style="display: none"> <!-- This is useful for webmentions -->
+                        <p class="p-author author h-card vcard">
+                            <a href="../profile/tjones2.html" class="icon-container"><img
+                                    class="u-logo logo u-photo photo" src="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e"/></a>
+                            <a class="p-name fn u-url url" href="../profile/tjones2.html">Theo Jones</a>
+                            <a class="u-url" href="../profile/tjones2.html">
+                                <!-- This is here to force the hand of your MF2 parser --></a>
+                        </p>
+                    </div>
+                                        <div class="e-content entry-content">
+                        <div>
+                <h2 class="p-name"><a
+                    href="../2015/large-font-sizes-are-better-for-your-blog.html">Large font sizes are better for your blog...</a>
+            </h2>
+                    <p class="reading">
+                <span class="vague">1 min read </span>
+            </p>
+            
+<p>Large font sizes are better for your blog. I've revised the formatting in this website along the lines suggested here</p>
+
+<p><a href="http://chrislema.com/what-is-the-right-font-size-for-your-blog/">http:/<wbr></wbr>/<wbr></wbr>chrislema.com/<wbr></wbr>what-is-the-right-font-size-for-your-blog/<wbr></wbr></a></p>
+<p><a href="blogging.html" class="p-category" rel="tag">#blogging</a> <a href="link.html" class="p-category" rel="tag">#link</a> <a href="uncategorized.html" class="p-category" rel="tag">#uncategorized</a></p></div>                    </div>
+                    <div class="footer">
+                        
+        <div class="permalink">
+            <p>
+                <a href="../profile/tjones2.html">Theo Jones</a>published this
+                <a class="u-url url" href="../2015/large-font-sizes-are-better-for-your-blog.html" rel="permalink"><time class="dt-published"
+                          datetime="2015-06-21T02:34:44+0000">21 Jun 2015</time></a>
+                                                                            </p>
+        </div>
+        <div class="interactions">
+	        <span class="annotate-icon">
+                        <a class="stars" href="../2015/large-font-sizes-are-better-for-your-blog.html#comments"><i class="fa fa-star-o"></i> 0 stars</a></span>
+                   <span class="annotate-icon"> <a class="comments" href="../2015/large-font-sizes-are-better-for-your-blog.html#comments"><i class="fa fa-comments"></i> 0 comments</a></span>
+            <a class="shares" href="../2015/large-font-sizes-are-better-for-your-blog.html#comments"></a>
+            <a class="shares" href="../2015/large-font-sizes-are-better-for-your-blog.html#comments"></a>
+        </div>
+        <br clear="all"/>
+                            </div>
+                </div>
+
+            </div>
+
+                    <div class="row idno-entry idno-entry-entry">
+
+                <div
+                    class="col-md-8 col-md-offset-2 h-entry idno-posts idno-object idno-content">
+                    <div style="display: none"> <!-- This is useful for webmentions -->
+                        <p class="p-author author h-card vcard">
+                            <a href="../profile/tjones2.html" class="icon-container"><img
+                                    class="u-logo logo u-photo photo" src="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e"/></a>
+                            <a class="p-name fn u-url url" href="../profile/tjones2.html">Theo Jones</a>
+                            <a class="u-url" href="../profile/tjones2.html">
+                                <!-- This is here to force the hand of your MF2 parser --></a>
+                        </p>
+                    </div>
+                                        <div class="e-content entry-content">
+                        <div>
+                <h2 class="p-name"><a
+                    href="../2015/top-five-differences-between-object-storage-and-regular-web-hosting.html">Top Five Differences Between Object Storage and Regular Web Hosting</a>
+            </h2>
+                    <p class="reading">
+                <span class="vague">2 min read </span>
+            </p>
+            
+<p><a href="../wp-content/uploads/2015/06/objectstorage.jpg.html"><img class="  wp-image-2416 alignright" src="../wp-content/uploads/2015/06/objectstorage-300x225.jpg.html" alt="objectstorage" width="316" height="237"></a>In response to<a href="../why-dedicated-podcast-hosting-services-are-a-dubious-idea/index.html"> yesterday's post on podcast hosting</a>, I got a comment stating the flaws of regular webhosting for hosting podcasts. I agree with him that regular hosting is pretty bad for hosting large files like podcasts. My alternative is object storage services (S3, DreamObjects). These are designed to host large files. Sure, they usually charge for bandwidth. But its usually something small like five cents. And you will need viewers in the thousands for that to be substantial. And I would bet that there is some confusion between object storage and regular webhosting. So, in this post I will clarify the difference.</p>
+<ol><li> <strong>Pricing regular webhosting charges a flat monthly fee</strong> Object storage charges based on usage.</li>
+    <li> <strong>Metered versus unmetered storage and bandwith</strong> Object storage meters things like storage and bandwidth. Regular webhosting usually allows "unlimited" storage and bandwidth, but with limits on acceptable use of this storage and bandwidth.</li>
+    <li><strong> Dynamic versus static content</strong> Object storage only holds static content (mp3s, videos, large files, html documents, etc). Full webhosting supports dynamic content (php, python, etc). You won't be able to install WordPress on object storage, but you will be able to do so on webhosting.</li>
+    <li><strong>Suitability for a website</strong> You won't want to host your root website on a object storage system because the file names are often not suited to such a use Ie. <a href="https://objects.dreamhost.com/theopodcasts/uber_01_01.mp3">https:/<wbr></wbr>/<wbr></wbr>objects.dreamhost.com/<wbr></wbr>theopodcasts/<wbr></wbr>uber_01_01.mp3</a> (which is the url of one of my podcasts) But hosting full websites its the purpose of existence for webhosts</li>
+    <li><strong>Suitability for large files and backups  </strong>Due to both hardware limitations of the servers allocated to web hosting, the software they use, and the limitations imposed by TOS agreements webhosting is poorly suited to storage large files. Hosting large files, however, is pretty much the point  of object storage. Likewise, you shouldn't backup to your webhost, but object storage providers often explicitly market to the backup market (see, for instance, <a href="http://aws.amazon.com/glacier/">Amazon's Glacier service</a>)</li>
+</ol>
+<p>In short, object storage won't be your main presence on the net, but it can store some of your larger files.</p>
+
+<p>Image credit: <a href="https://flic.kr/p/GkXFw">https:/<wbr></wbr>/<wbr></wbr>flic.kr/<wbr></wbr>p/<wbr></wbr>GkXFw</a></p>
+<p><a href="objectstorage.html" class="p-category" rel="tag">#objectstorage</a> <a href="uncategorized.html" class="p-category" rel="tag">#uncategorized</a> <a href="webhosting.html" class="p-category" rel="tag">#webhosting</a></p></div>                    </div>
+                    <div class="footer">
+                        
+        <div class="permalink">
+            <p>
+                <a href="../profile/tjones2.html">Theo Jones</a>published this
+                <a class="u-url url" href="../2015/top-five-differences-between-object-storage-and-regular-web-hosting.html" rel="permalink"><time class="dt-published"
+                          datetime="2015-06-21T00:43:39+0000">21 Jun 2015</time></a>
+                                                                            </p>
+        </div>
+        <div class="interactions">
+	        <span class="annotate-icon">
+                        <a class="stars" href="../2015/top-five-differences-between-object-storage-and-regular-web-hosting.html#comments"><i class="fa fa-star-o"></i> 0 stars</a></span>
+                   <span class="annotate-icon"> <a class="comments" href="../2015/top-five-differences-between-object-storage-and-regular-web-hosting.html#comments"><i class="fa fa-comments"></i> 0 comments</a></span>
+            <a class="shares" href="../2015/top-five-differences-between-object-storage-and-regular-web-hosting.html#comments"></a>
+            <a class="shares" href="../2015/top-five-differences-between-object-storage-and-regular-web-hosting.html#comments"></a>
+        </div>
+        <br clear="all"/>
+                            </div>
+                </div>
+
+            </div>
+
+        
+        <div class="pager">
+            <ul>
+                <li><a href="uncategorized-offset=10.html" title="Newer" rel="next">&laquo; Newer</a></li>                <li><a href="uncategorized-offset=30.html" title="Older" rel="prev">Older &raquo;</a></li>            </ul>
+        </div>
+
+        <div class="blank-footer">
+    <div>
+        <p class="footer"><a href="https://withknown.com/?utm_source=footer&amp;utm_medium=installation" class="u-platform"><img src="../gfx/logos/logo_k.png" style="height: 1.5em"></a></p>
+    </div>
+</div>
+    </div>
+    <!-- /container -->
+
+        
+</div>
+<!-- Everything below this should be includes, not content -->
+
+<!-- Le javascript -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script
+    src="../external/jquery-timeago/jquery.timeago.js"></script>
+<script
+    src="../external/jquery-pjax/jquery.pjax.js"></script>
+<script src="../external/underscore/underscore-min.js"
+        type="text/javascript"></script>
+<!--<script src="https://www.theojones.name/external/mention/bootstrap-typeahead.js"
+        type="text/javascript"></script>
+<script src="https://www.theojones.name/external/mention/mention.js"
+        type="text/javascript"></script> -->
+
+
+<!-- Flexible media player -->
+<script
+    src="../external/mediaelement/build/mediaelement-and-player.min.js"></script>
+<link rel="stylesheet"
+      href="../external/mediaelement/build/mediaelementplayer.css"/>
+<!-- Video shim -->
+<script src="../external/fitvids/jquery.fitvids.min.js"></script>
+<!-- Mention styles -->
+<link rel="stylesheet" type="text/css"
+      href="../external/mention/recommended-styles.css">
+
+
+<!-- HTML5 form element support for legacy browsers -->
+<script src="../external/h5f/h5f.min.js"></script>
+
+<script>
+
+    function annotateContent() {
+        $(".h-entry").fitVids();
+        $("time.dt-published").timeago();
+    }
+
+    // Shim so that JS functions can get the current site URL
+    function wwwroot() {
+        return 'https://www.theojones.name/';
+    }
+
+    $(document).ready(function () {
+        $.timeago.settings.cutoff = 30 * 24 * 60 * 60 * 1000; // 1 month
+        annotateContent();
+    });
+
+    /**
+     * Handle Twitter tweet embedding
+     */
+    $(document).ready(function () {
+        $('div.twitter-embed').each(function (index) {
+            var url = $(this).attr('data-url');
+            var div = $(this);
+
+            $.ajax({
+                url: "https://api.twitter.com/1/statuses/oembed.json?url=" + url,
+                dataType: "jsonp",
+                success: function (data) {
+                    div.html(data['html']);
+                }
+            });
+        });
+
+        $('body').on('click', function (event, el) {
+            var clickTarget = event.target;
+
+            if (clickTarget.href && clickTarget.href.indexOf(window.location.origin) === -1) {
+                clickTarget.target = "_blank";
+            }
+        });
+    });
+
+    /**
+     * Handle Soundcloud oEmbed code
+     */
+    $(document).ready(function () {
+        $('div.soundcloud-embed').each(function (index) {
+            var url = $(this).attr('data-url');
+            var div = $(this);
+
+            $.getJSON('https://soundcloud.com/oembed?callback=?',
+                {
+                    format: 'js',
+                    url: url,
+                    iframe: true
+                },
+                function (data) {
+                    div.html(data['html']);
+                }
+            );
+        });
+    });
+
+    /**
+     * Better handle links in iOS web applications.
+     * This code (from the discussion here: https://gist.github.com/kylebarrow/1042026)
+     * will prevent internal links being opened up in safari when known is installed
+     * on an ios home screen.
+     */
+    (function (document, navigator, standalone) {
+        if ((standalone in navigator) && navigator[standalone]) {
+            var curnode, location = document.location, stop = /^(a|html)$/i;
+            document.addEventListener('click', function (e) {
+                curnode = e.target;
+                while (!(stop).test(curnode.nodeName)) {
+                    curnode = curnode.parentNode;
+                }
+                if ('href' in curnode && ( curnode.href.indexOf('http') || ~curnode.href.indexOf(location.host) ) && (!curnode.classList.contains('contentTypeButton'))) {
+                    e.preventDefault();
+                    location.href = curnode.href;
+                }
+            }, false);
+        }
+    })(document, window.navigator, 'standalone');
+
+</script>
+
+<script>
+    $('video').mediaelementplayer({
+        features: ['playpause','progress','current','tracks','volume','fullscreen'],
+        alwaysShowControls: false,
+        pauseOtherPlayers: true,
+        enableAutosize: false,
+        mediaWidth: -1,
+        mediaHeight: -1
+    });
+    $('audio').mediaelementplayer({
+        features: ['playpause','progress','current','tracks','volume','fullscreen'],
+        alwaysShowControls: false,
+        pauseOtherPlayers: true,
+        enableAutosize: false,
+        mediaWidth: -1,
+        mediaHeight: -1
+    });
+</script>
+<style>.known-media-element {
+        width: 100%;
+        height: 100%;
+    }
+</style><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+</body>
+
+
+</html>

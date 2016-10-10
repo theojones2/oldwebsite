@@ -1,0 +1,194 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Theo Jones</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link/>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/?q=%23uncategorized&amp;_t=rss&amp;offset=30" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>Can Morality Be Derived Without Special Assumptions</title>
+      <link>http://www.theojones.name/2015/can-morality-be-derived-without-special-assumptions</link>
+      <guid>http://www.theojones.name/2015/can-morality-be-derived-without-special-assumptions</guid>
+      <pubDate>Sat, 20 Jun 2015 22:59:06 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p><a href="http://www.theojones.name/wp-content/uploads/2015/06/contract.jpg"><img class="  wp-image-2419 aligncenter" src="http://www.theojones.name/wp-content/uploads/2015/06/contract.jpg" alt="contract" width="638" height="327"></a>In a previous post<a href="https://www.theojones.name/some-basic-assumptions-of-mine-in-philosophy/">, I discussed what special assumptions</a> are needed to do logical reasoning about philosophy and factual matters. In that post I said some special assumption the bridge the is-ought problem would be needed. In this post I will discuss whatever that is really true, my conclusion will be quite possibly not. I believe that one could make an argument for moral realism somewhat <a href="http://bloggingheads.tv/videos/2346?in=49:59&out=58:34">along the lines of what Steve Pinker has said in an interview</a>. In effect the argument is that morality comes from basic elements of game theory is tempered by a social contract. Game theory is a inherent part of the world as applied by mathematics. The elements of game theory are likely to result in the prisoner’s dilemma type situations that result in moral reasoning are produced by inherent parts of how the laws of physics, chemistry, and biology work on the world. It’s a hybrid between traditional social contract type theories, and traditional moral realism. But in order to operate, such a moral theory doesn’t require any real assumptions beyond what is already known by way of science or other factual information.</p>
+
+<p>This point of view has a few benefits. The first real benefit this point of view is that it avoids the problem of being too demanding. A lot of ethical and political theories have a huge issue that they tend to conform pretty poorly to human nature. Social contract type theories tend not to have this issue. The fact that they are produced by game theoretic bargaining between parties tends to eliminate this issue out of hand. A social contract type theory will tend to lack both the harsh moralizing that deontological ethical theories tend to provide, and the extreme demandingness of traditional utilitarianism.</p>
+
+<p>The next benefit of this is that it’s a moral realist point of view. The elements of game theory embedded in this point of view exist independently of the subjective viewpoints of observers. This implies that morality itself, in some part, exists in a way this is independent of the subjective views of observers. This is both intuitively pleasing, and goes along with the many <a href="http://www.amazon.com/Normative-Web-Argument-Moral-Realism/dp/019958138X/ref=sr_1_8?ie=UTF8&qid=1434835336&sr=8-8&keywords=moral+realism">strong arguments for moral realism</a>.</p>
+
+<p>Furthermore, the substantial sympathy I expressed in the previous post towards some form of preference utilitarianism, is in my opinion somewhat justified by this point of view. I think through a social contract something that looks a lot like fairly traditional preference utilitarianism will emerge, although, perhaps bounded by the Lockean proviso. And even better, this result will most likely emerge only as applied to the world of political philosophy – the place where the over demandingness of traditional utilitarianism does not rear its ugly head. In the world of politics, an assistance that everyone’s preferences be weighted equally by the state is not unreasonable. A derivatization of preference utilitarianism from contract theory is also able to resolve some of the most troubling dilemmas brought up by traditional utilitarianism. Issues like what types of preferences count for the purposes of moral reasoning, and how to deal with things like future generations. From the point of view of raw utilitarianism, there are no obvious solutions to such issues. However, from a social contract type point of view, it’s quite possible to reason through such problems. It’s a potentially a very clean and very elegant solution.</p>
+
+<p><strong>Image credit <a href="https://flic.kr/p/9mjRKW">https:/<wbr></wbr>/<wbr></wbr>flic.kr/<wbr></wbr>p/<wbr></wbr>9mjRKW</a></strong><br /><strong> Flickr User Steve Snodgrass</strong></p>
+<p><a href="http://www.theojones.name/tag/philosophy" class="p-category" rel="tag">#philosophy</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#philosophy</category>
+      <category>#uncategorized</category>
+    </item>
+    <item>
+      <title>Why Dedicated Podcast Hosting Services are a Dubious Idea</title>
+      <link>http://www.theojones.name/2015/why-dedicated-podcast-hosting-services-are-a-dubious-idea</link>
+      <guid>http://www.theojones.name/2015/why-dedicated-podcast-hosting-services-are-a-dubious-idea</guid>
+      <pubDate>Sat, 20 Jun 2015 08:27:10 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p><a href="http://www.theojones.name/wp-content/uploads/2015/06/12212276953_f2f3530bb7_o-edited.jpg"><img class="  wp-image-2398 alignright" src="http://www.theojones.name/wp-content/uploads/2015/06/12212276953_f2f3530bb7_o-edited.jpg" alt="12212276953_f2f3530bb7_o-edited" width="293" height="267"></a>As you may have noticed, I have been working on a podcast feature for this blog. However, I am not hosting it on a podcast hosting service. Why? The cost of it isn't worth the benefit. I looked at some podcast hosts, such as <a href="http://libsyn.com">libsyn </a>and <a href="https://www.blubrry.com/">Blubrry</a>. These services have advocates (See, for instance <a href="http://theaudacitytopodcast.com/best-podcast-hosting-tap133/">http:/<wbr></wbr>/<wbr></wbr>theaudacitytopodcast.com/<wbr></wbr>best-podcast-hosting-tap133/<wbr></wbr></a>) but I think there are better alternatives. Now, it is true that regular webhosting is a very bad idea for podcasts. Web servers like Apache tend not to be designed for the types of large file downloads that podcasts bring and they often use hardware (like SSDs) that isn't suited for bulk storage of large files. My alternative to dedicated hosts is object storage services, like <a href="http://aws.amazon.com/s3/">Amazon's S3 </a>and Dreamhost's <a href="https://www.dreamhost.com/cloud/storage/">DreamObjects</a>. Objectors to this will note that they charge for bandwidth. But do the math. The cheapest feature-rich podcast hosting service that I am aware of is libsyn's $5 per month plan. It provides 50mb of hosting, but with unlimited bandwidth. DreamHost will sell you 40gb of storage (which is quite plentiful) for $0.95 with bandwidth at 5¢/GB. Amazon's prices are similar (I use dreamhost, but have no strong preference between the two services). How many users will you need to come out worse with DreamObjects? Quite a few. Lets say you use your full libsyn 50mb and your subscribers download everything you post. You pay $5. For comparison a DreamObjects user could afford storage plus 80gb of bandwidth. Under these assumptions a Dreamhost user could support 1,600 users before libsyn looks better. In fact, services like libsyn are able to support the few heavy users because the vast majority of their users use less than they pay. The great majority of their users support the few.</p>
+
+<p>Image credit: <a href="https://www.flickr.com/photos/115089924@N02/12212276953/in/photolist-jBa7tc-6prPij-mQTZzo-qwt19h-mQSo9p-95JuwJ-5y3xN1-e3VdRk-dXa6e3-h4G51-qyXa6k-fTfmCa-bfaLPK-kzwSkU-dRDAP1-fxy4rr-kzv7gT-kzwRQL-kzv6Jk-byoNNs-4p9A6w-mqSacg-dXqqju-dXjKCr-dXjKzK-kq9Qh-dG84CM-pBZ4Qv-b95QtF-4cmWDY-fhAY2c-fxNnXw-jetB8o-aFNjYr-4XNY7C-f8SoY5-aBqp7k-6bVXQt-4yLdDU-6xPfo9-984ZGT-eAjZ59-hYu4UY-pBZ6ov-fxNo2h-hqG3GV-6niihH-6hSRQJ-7KJGnA-aapeHV#" rel="nofollow" data-rapid_p="84"><span style="color: #006dac;">www.ilmicrofono.it</span></a></p>
+
+<p> </p>
+<p><a href="http://www.theojones.name/tag/blogging" class="p-category" rel="tag">#blogging</a> <a href="http://www.theojones.name/tag/podcast" class="p-category" rel="tag">#podcast</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#006dac</category>
+      <category>#blogging</category>
+      <category>#podcast</category>
+      <category>#uncategorized</category>
+    </item>
+    <item>
+      <title>http www thedailybeast com articles 2015 06 18...</title>
+      <link>http://www.theojones.name/2015/http-www-thedailybeast-com-articles-2015-06-18</link>
+      <guid>http://www.theojones.name/2015/http-www-thedailybeast-com-articles-2015-06-18</guid>
+      <pubDate>Sat, 20 Jun 2015 05:48:29 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p><a href="http://www.thedailybeast.com/articles/2015/06/18/ditch-jackson-keep-hamilton.html?via=FB_Page&source=HuffPoFacebook">http:/<wbr></wbr>/<wbr></wbr>www.thedailybeast.com/<wbr></wbr>articles/<wbr></wbr>2015/<wbr></wbr>06/<wbr></wbr>18/<wbr></wbr>ditch-jackson-keep-hamilton.html?via=FB_Page&source=HuffPoFacebook</a></p>
+<blockquote>
+<p>Soon after the Treasury’s plan to replace Alexander Hamilton with a woman on the $10 bill was leaked last night, Twitter erupted with queries as to why Hamilton was getting the boot instead of Andrew Jackson, who many have campaigned to replace on the $20 with a woman and/or member of a minority group.</p>
+
+<p>After all, Jackson owned slaves, slaughtered Native Americans, and detested banks, finance, and corporations. Hamilton, on the other hand, was a staunch abolitionist, helped found a school whose original mission was to assimilate Native Americans (today’s Hamilton College), and single-handedly placed the finances of the fledging nation on a solid footing.</p>
+</blockquote><p><a href="http://www.theojones.name/tag/alexanderhamilton" class="p-category" rel="tag">#alexanderhamilton</a> <a href="http://www.theojones.name/tag/andrewjackson" class="p-category" rel="tag">#andrewjackson</a> <a href="http://www.theojones.name/tag/nativeamericans" class="p-category" rel="tag">#nativeamericans</a> <a href="http://www.theojones.name/tag/link" class="p-category" rel="tag">#link</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#alexanderhamilton</category>
+      <category>#andrewjackson</category>
+      <category>#nativeamericans</category>
+      <category>#link</category>
+      <category>#uncategorized</category>
+    </item>
+    <item>
+      <title>The problem with Uber</title>
+      <link>http://www.theojones.name/2015/the-problem-with-uber</link>
+      <guid>http://www.theojones.name/2015/the-problem-with-uber</guid>
+      <pubDate>Fri, 19 Jun 2015 05:48:15 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p><a href="http://www.theojones.name/wp-content/uploads/2015/06/uberharm.jpg"><img class="aligncenter size-full wp-image-2427" src="http://www.theojones.name/wp-content/uploads/2015/06/uberharm.jpg" alt="uberharm" width="640" height="360"></a>Uber recently lost an administrative decision in California over whether their drivers are independent contractors or employees. <a href="http://www.forbes.com/sites/dandiamond/2015/06/17/if-uber-drivers-are-employees-company-faces-hard-decision-on-health-care/">This could have very important implications for the company</a>. It would mean that the company is bound by a wide variety of regulations that fall on companies that hire employees. Uber would be bound to pay employees the minimum wage (regardless of the number of rides given), health benefits, it would be bound by working hours regulations, and many other regulation. Probably worst of all for the company, Uber would have to cover the business expenses of employees, or at least take them into account in tabulating wages paid. This was not a positive ruling for Uber. But to this outcome, I say it’s about time. Uber's entire business model is to ignore every regulation on their industry to keep costs down. Now, some of these regulations are useless. But Uber throws out the good with the bad. It’s nice to hear that regulators are finally "disrupting" them. Now, I will say that the conventional taxi system is pretty terrible. Where I live there aren't too many outright ripoff cab drivers, but there are ones that are 20 minutes late and which are otherwise unreliable. When you get to larger cities that are more dependent on cabs, it gets even worse some of the problems with cabs across the country is due to shitty regulations (hello, New York City medallion system). I can see why people like Uber and use their products, as they provide a very strong improvement over other taxi networks. However, as I said before they toss out the good with the bad in regards to regulations. In this post I’ll discuss some things I believe solidly that Uber should change with their business model.</p>
+
+<p>The first big issue with Uber is their limited insurance for their drivers. There are very strong reasons why anyone driving for a business should have commercial insurance. Regular car insurance does not cover business driving. However, many of Uber’s drivers are driving illegally without the proper commercial insurance, posing strong legal risk to them, to consumers, and to other motorists. Fortunately, Uber has made some improvements on this issue recently by proving their drivers a limited secondary insurance policy for their Uber driving. But it’s not enough, and the coverage this provides is quite limited and poorly fits the legal requirements on commercial driving. This lack of insurance also serves to externalize costs on to the public. If an Uber driver gets into a car wreck while driving, both the victim of the car accident, and the driver have a huge problem. The driver has a large potential liability, while the victim of the car wreck will be left out to dry. The risk created by driving safety by Uber is unloaded onto the public.</p>
+
+<p>The second major issue with Uber is their pricing scheme. All prices on Uber are set by the company. This is bad, because the price that optimizes Uber profits might not be the socially optimal price. In fact, if you accept Uber’s line that they are just a “platform” for independent contractors then, <a href="http://www.interfluidity.com/v2/5822.html">as the economics blogger Steve Waldman points out</a>, in effect Uber is a price-fixing cartel. A more flexible form of pricing set by the drivers is possible. Also, Uber’s pricing system is highly unstable because their surge level fluctuates a lot. I (along with most consumers I would guess) would prefer a much more predictable pricing system. But congestion pricing isn’t totally useless. It is useful to charge riders more for traveling at rush hour, in order to keep cars available for those who need to travel at that time. An intermediate solution is possible. A revision for Uber’s pricing system would involve the following, allow each driver to set his price for different categories of time (ie. Morning rush hour, evening rush hour, rest of the day, night time) but encourage drivers to refrain from changing their rates too much. This would also mean that all prices are human set, avoiding issues like what happened in Sidney, Australia where <a href="http://gawker.com/uber-turned-on-surge-pricing-for-people-fleeing-sydney-1671193132">Uber surged priced people fleeing a hostage situation</a>.</p>
+
+<p>The third major issue with Uber is their tendency to off load a lot of their costs onto the drivers in a way that is nowhere near transparent. <a href="https://get.uber.com/cl/">Uber’s page recruiting new drivers</a> states, “<em>Got a car? Turn it into a money machine. The city is buzzing and Uber makes it easy for you to cash in on the action. Plus, you've already got everything you need to get started.</em>” An ad bought by Uber on the Bing search engine states that drivers “<em>Make Up To $17/hr In Fares</em>”. Of course, this claimed pay is highly misleading. It doesn’t take into account the cost of car maintenance (which not only increase with respect with miles driven, but also should be put to the higher standards of commercial driving). It also doesn’t take into account the cost of fuel, insurance, or other necessities of driving. Probably, the adjusted pay is more like 8-10 dollars per hour. The IRS estimates (for the purposes of tax deductions) that the <a href="http://www.irs.gov/Tax-Professionals/Standard-Mileage-Rates/">non-labor cost of business miles</a> is 57 cents per mile.</p>
+
+<p>Image credit <a href="https://flic.kr/p/qvKug6">https:/<wbr></wbr>/<wbr></wbr>flic.kr/<wbr></wbr>p/<wbr></wbr>qvKug6</a></p>
+<p><a href="http://www.theojones.name/tag/business" class="p-category" rel="tag">#business</a> <a href="http://www.theojones.name/tag/uber" class="p-category" rel="tag">#uber</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#business</category>
+      <category>#uber</category>
+      <category>#uncategorized</category>
+    </item>
+    <item>
+      <title>Why avoid online SEO services: a personal experience.</title>
+      <link>http://www.theojones.name/2015/why-avoid-online-seo-services-a-personal-experience</link>
+      <guid>http://www.theojones.name/2015/why-avoid-online-seo-services-a-personal-experience</guid>
+      <pubDate>Wed, 17 Jun 2015 15:25:20 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p><a href="http://www.theojones.name/wp-content/uploads/2015/06/SEO.png"><img src="http://www.theojones.name/wp-content/uploads/2015/06/SEO.png" alt="SEO" width="1000" height="496" class="aligncenter size-full wp-image-2435"></a>A while ago, I was an idiot and decided to try one of those SEO services on Fivver. The "SEO" person sent me an analytics link for the url shortener used, it was reporting thousands of views a day from the campaign. The analytics on my blog reported less but still over 1000 a day. And, of course, it was fake traffic city.<br />The traffic delivered was obvious bot traffic with spoofed referral headers, instead of the genuine traffic promised in the offer. On both the analytics link the seller provided, and in the internal analytics of my website, there was a large amount of Google traffic. That traffic was almost certainly spoofed for four reasons 1) the Google webmaster tools for my website does not record anywhere near the amount of google search traffic as reported, meaning that the traffic did not go through Google, 2) it is hard to fathom any legitimate way that thousands of Google hits could be produced in a few days when my site usually has around 20 google hits, 3) the IP addresses of this traffic (on the logs of my analytics) come from data centers, and 4) there is no additional traffic from other search engines like Bing (any legitimate way of providing Google hits would of also affected other search engines). Furthermore, the retweets on the promised tweet are also almost certainly fake. These accounts have little activity. The fake tweets and the spoofed search both could have had the strong potential to harm the google ranking of my site.<br />Now, it didn’t take long for me to realize what was going on. So I requested a cancelation on Fivver with text that was effectively the same as the paragraph above. And weirdly, the “seller” accepted – pretty much just conceded and gave my money back in a few hours. I actually expected that I would have had to of gone to support for that one. But, the conclusion remains. Most such online SEO programs are blatant scams. Don’t buy them.</p>
+
+<p><strong>Image credit:</strong> India7 Network <a href="https://flic.kr/p/qYSLjm">https:/<wbr></wbr>/<wbr></wbr>flic.kr/<wbr></wbr>p/<wbr></wbr>qYSLjm</a> www.seolinkbuilding.org/seo-tools/</p>
+<p><a href="http://www.theojones.name/tag/seo" class="p-category" rel="tag">#seo</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#seo</category>
+      <category>#uncategorized</category>
+    </item>
+    <item>
+      <title>More at https www flickr com photos 132940671@N06...</title>
+      <link>http://www.theojones.name/2015/more-at-https-www-flickr-com-photos-132940671n06</link>
+      <guid>http://www.theojones.name/2015/more-at-https-www-flickr-com-photos-132940671n06</guid>
+      <pubDate>Wed, 17 Jun 2015 04:58:08 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>More at <a href="https://www.flickr.com/photos/132940671@N06/sets/72157652336763754">https:/<wbr></wbr>/<wbr></wbr>www.flickr.com/<wbr></wbr>photos/<wbr></wbr>132940671@N06/<wbr></wbr>sets/<wbr></wbr>72157652336763754</a><br /><a href="http://www.theojones.name/wp-content/uploads/2015/06/DSCN0736web.jpg"><img src="http://www.theojones.name/wp-content/uploads/2015/06/DSCN0736web.jpg" alt="DSCN0736web" width="836" height="627" class="alignnone size-full wp-image-2378"></a></p>
+<p><a href="http://www.theojones.name/tag/photos" class="p-category" rel="tag">#photos</a> <a href="http://www.theojones.name/tag/link" class="p-category" rel="tag">#link</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#photos</category>
+      <category>#link</category>
+      <category>#uncategorized</category>
+    </item>
+    <item>
+      <title>The GOP has a catch 22 on issues...</title>
+      <link>http://www.theojones.name/2015/the-gop-has-a-catch-22-on-issues</link>
+      <guid>http://www.theojones.name/2015/the-gop-has-a-catch-22-on-issues</guid>
+      <pubDate>Wed, 17 Jun 2015 04:53:52 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>The GOP has a catch 22 on issues like abortion. Abortion talk is good base feed, but it summons the idots who talk about legitimate rape.  GOPers need to get past the primaries, but they can't nuckledrag too much lest they lose out at the general election.</p>
+<p><a href="http://www.theojones.name/tag/gop" class="p-category" rel="tag">#gop</a> <a href="http://www.theojones.name/tag/status" class="p-category" rel="tag">#status</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#gop</category>
+      <category>#status</category>
+      <category>#uncategorized</category>
+    </item>
+    <item>
+      <title>A New Uber Service (satire)</title>
+      <link>http://www.theojones.name/2015/a-new-uber-service-satire</link>
+      <guid>http://www.theojones.name/2015/a-new-uber-service-satire</guid>
+      <pubDate>Tue, 16 Jun 2015 05:25:16 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p><a href="http://www.theojones.name/wp-content/uploads/2015/06/uberseminar.jpg"><img class="aligncenter size-full wp-image-2431" src="http://www.theojones.name/wp-content/uploads/2015/06/uberseminar.jpg" alt="uberseminar" width="1000" height="361"></a>[podcast]<a href="https://objects.dreamhost.com:443/theopodcasts/uber_01_01.mp3%5B/podcast%5D">https:/<wbr></wbr>/<wbr></wbr>objects.dreamhost.com:443/<wbr></wbr>theopodcasts/<wbr></wbr>uber_01_01.mp3[/<wbr></wbr>podcast]</a></p>
+
+<p>Interested in forming your own <strong><em><u>disruptive</u></em></strong> startup? Well, the Uber business seminar is for you. Learn how to <strong><em><u>disrupt</u></em></strong> competitors, consumers and regulators from the founders of Uber --- <em>Ayn Rand’s Favorite Taxi</em>.</p>
+<ul><li>Learn how to turn a service that has existed for over a century into a <strong><em><u>disruptive</u></em></strong> Silicon Valley wonder, by doing the same thing, only with a computer. Learn the core of the Uber business model from someone who has practiced it for 20 years – John Smith the taxi driver.</li>
+    <li>Learn how to <strong><em><u>disrupt</u></em></strong> regulations regarding your service by pretending that adding a computer means you are doing something different. Learn about the intellectual property applications of this technique from Jack Cheatem, lawyer for many IP litigation companies including Prenda Law, and Intellectual Ventures.</li>
+    <li>Learn from the Uber IT team just how little you can spend on computer security without immediate impact. If you follow our method, by the time you get customer data hacked from your insecure servers, you will be a multibillion dollar company that just doesn’t need to care.</li>
+    <li>Learn how to <strong><em><u>disrupt</u></em></strong> consumer behavior. Are your users attune to your high prices? Our surge pricing method will fix that. They won’t even realize how much you are charging them.</li>
+    <li>Learn how to become a platform not a service. Platforms sound nice and <strong><em><u>disruptive</u></em></strong> and even better, the <span style="text-decoration: line-through;">dolts</span> service providers on your platform aren’t your employees, so you don’t have to follow labor law, disability law, anti-discrimination law, or other big government red tape. And even better, the <span style="text-decoration: line-through;">dolts</span> service providers on your platform won’t realize how many of your costs you outsourced to them.</li>
+    <li>Discuss the books that every business man should read, including, <em>Atlas Shrugged, The Fountainhead,</em> and <em>The Virtue of Selfishness</em>.</li>
+    <li>Learn how to apply the Ferengi Rules of Acquisition to your startup.</li>
+</ul>
+<p>Image credit:<a href="https://flic.kr/p/s6895ev">https:/<wbr></wbr>/<wbr></wbr>flic.kr/<wbr></wbr>p/<wbr></wbr>s6895ev</a><br /><em>See <a href="https://objects.dreamhost.com:443/theopodcasts/uber_01.flac">https:/<wbr></wbr>/<wbr></wbr>objects.dreamhost.com:443/<wbr></wbr>theopodcasts/<wbr></wbr>uber_01.flac</a> for losslessly compressed downloadable version of the audio version of this article.</em></p>
+<p><a href="http://www.theojones.name/tag/uber" class="p-category" rel="tag">#uber</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#uber</category>
+      <category>#uncategorized</category>
+    </item>
+    <item>
+      <title>Google treats www example com and example com...</title>
+      <link>http://www.theojones.name/2015/google-treats-www-example-com-and-example-com</link>
+      <guid>http://www.theojones.name/2015/google-treats-www-example-com-and-example-com</guid>
+      <pubDate>Sun, 14 Jun 2015 22:11:21 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>Google treats www.example.com and example.com as different. This can cause problems with things like the Google Webmaster Tools, and can result in the duplicate content penalty. Redirect one to the other.</p>
+<p><a href="http://www.theojones.name/tag/googlewebmastertools" class="p-category" rel="tag">#googlewebmastertools</a> <a href="http://www.theojones.name/tag/status" class="p-category" rel="tag">#status</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#googlewebmastertools</category>
+      <category>#status</category>
+      <category>#uncategorized</category>
+    </item>
+    <item>
+      <title>On the Phrase &#x201C;Social Justice&#x201D;</title>
+      <link>http://www.theojones.name/2015/on-the-phrase-social-justice</link>
+      <guid>http://www.theojones.name/2015/on-the-phrase-social-justice</guid>
+      <pubDate>Sun, 14 Jun 2015 21:48:51 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p><a href="http://www.theojones.name/wp-content/uploads/2015/06/socialjustice.jpg"><img src="http://www.theojones.name/wp-content/uploads/2015/06/socialjustice.jpg" alt="socialjustice" width="1000" height="800" class="aligncenter size-full wp-image-2439"></a>The above image is a collage of three of the top results on Flickr for a search of the phrase "Social Justice". The <a href="https://www.flickr.com/photos/sully_aka__wstera2/4478077831/">top-left image is from user wstera2 </a>and is titled "When liberals are losing a debate". The top right image is from user Takver and is titled "C<a href="https://www.flickr.com/photos/takver/5415825802/">hange, Freedom, Social Justice - Egypt Uprising protest</a>". The bottom image is titled "<a href="https://www.flickr.com/photos/rikkis_refuge/16400696138/">World Day for Social Justice</a>" and is via user Rikki's Refuge.</p>
+
+<p>By its self, the phrase "social justice" is pretty meaningless. The phrase is effectively equivalent to the word "fairness". Try taking an article that uses the phrase and swapping out all occurrences of "social justice" for fairness. Very little meaning will be lost.    But "fairness" is an arbitrary concept. Almost every political ideology will perceive their goals as "fair".  Phrases like "social justice" are the political equivalent of "maximizing synergies" business speak. Such concepts are almost entirely dependent on ideology. What one will perceive as "fair" or "just is largely subjective in global terms. Every major political ideology has a different conception of the public good. Libertarians regard markets as properly "fair", others regard egalitarianism as "fair", and others take a roughly utilitarian perspective of the greatest good for the greatest number as "fair". However, the concept is still subjective.  In regards to talk of "fairness" in economic policy, <a href="http://blog.dilbert.com/post/102964895406/fairness-test">Scott Adams (the author of the Dilbert cartoon) made a similar point</a>. "<em>fairness is a concept invented so dumb people can participate in debates. Fairness isn't a natural law of the universe. It's a psychological problem. We sometimes get fairness confused with equality. Equality is usually good, and can often be measured with a satisfying precision. Fairness, on the other hand, is usually just a rationale for some sort of bias ….It's just a psychological phenomenon that is easily manipulated.</em>"</p>
+
+<p>However, there is one case where the phrase "social justice" carries more meaning than the word "fairness". The only meaning that is conveyed by that term is signaling about the speaker. Only certain ideologies refer to their goals as maximizing social justice. This gets us to pejoratives like "SJW".  So when a gater rants about "SJWs" they are attacking the ideologies refer to their goals as maximizing social justice. However, SJW is a strong pejorative. Using it is like saying "M$" in a discussion about Windows 10. It removes any indication that you are processing facts in a rational way and indicates that confirmation bias is at work. It's an inherently mocking tone, one that should only be used with clearly unreasonable positions. And treating reasonable positions as unreasonable destroys one's credibility.</p>
+<p><a href="http://www.theojones.name/tag/business" class="p-category" rel="tag">#business</a> <a href="http://www.theojones.name/tag/scottadams" class="p-category" rel="tag">#scottadams</a> <a href="http://www.theojones.name/tag/sjw" class="p-category" rel="tag">#sjw</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#business</category>
+      <category>#scottadams</category>
+      <category>#sjw</category>
+      <category>#uncategorized</category>
+    </item>
+  </channel>
+</rss>

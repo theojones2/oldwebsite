@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>"Demand Destruction"? More like "Grid Leeching"</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/2014/demand-destruction-more-like-grid-leeching</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/2014/demand-destruction-more-like-grid-leeching?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>"Demand Destruction"? More like "Grid Leeching"</title>
+      <link>http://www.theojones.name/2014/demand-destruction-more-like-grid-leeching</link>
+      <guid>http://www.theojones.name/2014/demand-destruction-more-like-grid-leeching</guid>
+      <pubDate>Sun, 03 Aug 2014 17:15:28 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>Slate did an article about <a href="http://www.slate.com/articles/business/the_juice/2014/07/energy_efficiency_vs_demand_destruction_the_big_problem_facing_america_s.html">something called "Demand Destruction"</a>. They make it sound like something that is the result of people just switching over to home-produced electricity, thereby becoming independent of the grid and leaving the power company in the dust. In reality, truly off-grid systems are extremely rare -- and expensive at almost <a href="http://life.gaiam.com/article/whats-it-going-cost-me-go-solar">$3.20 a kilowatt hour</a> (mostly batteries and energy storage, commercial energy storage is much cheaper than home energy storage, but energy storage in general is quite expensive). The source of the problem is malformed renewable energy incentive laws that force power companies to pay</p>
+
+<p>[caption id="attachment_1322" align="alignright" width="300"]<a href="http://www.theojones.name/wp-content/uploads/2014/08/8618709561_53c8c8a794_o.jpg"><img class="size-medium wp-image-1322" src="http://www.theojones.name/wp-content/uploads/2014/08/8618709561_53c8c8a794_o-300x178.jpg" alt="Image Via Flickr (user Angelo DeSantis) &lt;a href=" https: rel="in-reply-to">https:/<wbr></wbr>/<wbr></wbr>flic.kr/<wbr></wbr>p/<wbr></wbr>e8B95H</a>" width="300" height="178" /&gt; Image Via Flickr (user Angelo DeSantis) <a href="https://flic.kr/p/e8B95H%5B/caption%5D" rel="in-reply-to" class="u-in-reply-to">https:/<wbr></wbr>/<wbr></wbr>flic.kr/<wbr></wbr>p/<wbr></wbr>e8B95H[/<wbr></wbr>caption]</a></p>
+
+<p>all energy production an equal rate -- even if the energy is produced at an off-peak time that has little use. This enables a business model that I will call "Grid Leeching". This business model takes advantage of a simple fact. Electricity companies are required to pay and receive payment based on energy produced. But consumers don't want raw energy; they want power -- a constant flow of energy. energy is much cheaper to produce than power. Individuals and businesses buy cheap solar production systems that are designed to barf large amounts of off-peak energy on to the grid. The electricity company is required to pay full price for this energy. The grid leechers then get to use the power grid for their actual power needs practically free of charge. These cheap solar systems can sell for as little as $2 a watt average production or about the equivalent to 15 cents a kilowatt hour. Around this has developed a little market of companies that specialize in attaching leeches to the grid. One of these profiled is SolarCity, which rents out these cheap solar systems. This is very destructive to the grid. The only way that a electricity company can make up for this type of thing is to run load-following power plants -- usually natural gas -- in an inefficient, and rapidily fluctuating way. This happens while the leechers are drawing power while not paying anything on the net. The leechers only give back low quality, off-peak energy.</p>
+
+<p>What can be done about this. It is simple: fluctuate energy charges, and energy production payouts based on the current demand. When there is little energy demand, pay the producers of energy less (and charge the consumers less). When energy demand is high, pay producers more and charge consumers more. Charge a flat monthly fee for a connection to the grid (based on the maximum current the user is allowed to draw). This will put the grid leechers out of business, because their core business model of dumping energy on the grid at low-demand times will no longer work. This will encourage companies to produce constant power (or even better, demand following energy), and will encourage consumers to modulate their energy usage during peak demand times. This may reduce the incentives for renewable energy deployment. However, the current model encourages the formation of grid leechers, instead of actually productive renewable energy firms. Furthermore, it puts nuclear energy (one of the best sources of baseload power) at a disadvantage. Sustainable energy should be directly subsidized at very large levels.</p>
+<p><a href="http://www.theojones.name/tag/imageviaflickr" class="p-category" rel="tag">#imageviaflickr</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#imageviaflickr</category>
+      <category>#old</category>
+      <category>#old</category>
+      <category>#uncategorized</category>
+    </item>
+  </channel>
+</rss>

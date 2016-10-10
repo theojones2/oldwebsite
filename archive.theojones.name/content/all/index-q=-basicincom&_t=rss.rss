@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Theo Jones</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/content/all/?q=%23basicincom</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/content/all/?q=%23basicincom&amp;_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>Video of Milton Friedman discussing the possibility of a basic income/negative income tax in 1968</title>
+      <link>http://www.theojones.name/2015/video-of-milton-friedman-discussing-the-possibility-of-a-basic</link>
+      <guid>http://www.theojones.name/2015/video-of-milton-friedman-discussing-the-possibility-of-a-basic</guid>
+      <pubDate>Wed, 27 May 2015 21:26:31 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>Milton Friedman discussing the possibility of a basic income/negative income tax in 1968. Don't you wish conservatives were still like this instead of like Rush Limbaugh? Probably, part of the reason why Friedman supported this is because, adopting a basic income will allow government policy that is in most other aspects much more libertarian.<br /><a href="https://www.youtube.com/watch?v=xtpgkX588nM">https:/<wbr></wbr>/<wbr></wbr>www.youtube.com/<wbr></wbr>watch?v=xtpgkX588nM</a></p>
+<p><a href="http://www.theojones.name/tag/basicincom" class="p-category" rel="tag">#basicincom</a> <a href="http://www.theojones.name/tag/conservatives" class="p-category" rel="tag">#conservatives</a> <a href="http://www.theojones.name/tag/libertarians" class="p-category" rel="tag">#libertarians</a> <a href="http://www.theojones.name/tag/link" class="p-category" rel="tag">#link</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#basicincom</category>
+      <category>#conservatives</category>
+      <category>#libertarians</category>
+      <category>#link</category>
+      <category>#uncategorized</category>
+    </item>
+  </channel>
+</rss>

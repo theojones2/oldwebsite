@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Theo Jones</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/content/posts/?q=%23chromeextensions</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/content/posts/?q=%23chromeextensions&amp;_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>13 Chrome Extensions for WordPress Lovers - Via WPMU DEV</title>
+      <link>http://www.theojones.name/2015/13-chrome-extensions-for-wordpress-lovers---via-wpmu-dev</link>
+      <guid>http://www.theojones.name/2015/13-chrome-extensions-for-wordpress-lovers---via-wpmu-dev</guid>
+      <pubDate>Thu, 26 Mar 2015 05:03:19 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>A worthwhile read for bloggers</p>
+
+<p>13 Chrome Extensions for WordPress Lovers - Via WPMU DEV</p>
+
+<p><a title="" href="https://premium.wpmudev.org/blog/13-chrome-extensions-for-wordpress-lovers/"></a><a href="https://premium.wpmudev.org/blog/13-chrome-extensions-for-wordpress-lovers/">https:/<wbr></wbr>/<wbr></wbr>premium.wpmudev.org/<wbr></wbr>blog/<wbr></wbr>13-chrome-extensions-for-wordpress-lovers/<wbr></wbr></a></p>
+<blockquote>
+<p>Google’s Chrome is rapidly becoming the most popular browser used worldwide, recently overtaking Firefox in global market share. If you’re a Chrome user and a WordPress lover, we’ve got some goodies for you. Below you will find a collection of extensions that allow you integrate your browser with WordPress in unique ways. Add a few new ones to your browser for a quick productivity boost.</p>
+</blockquote><p><a href="http://www.theojones.name/tag/chromeextensions" class="p-category" rel="tag">#chromeextensions</a> <a href="http://www.theojones.name/tag/link" class="p-category" rel="tag">#link</a> <a href="http://www.theojones.name/tag/scienceandtech" class="p-category" rel="tag">#scienceandtech</a></p></div>]]></description>
+      <category>#chromeextensions</category>
+      <category>#link</category>
+      <category>#scienceandtech</category>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Office 2016 For Mac Is Unstable On El Capitan</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/2015/office-2016-for-mac-is-unstable-on-el-capitan</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/2015/office-2016-for-mac-is-unstable-on-el-capitan?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>Office 2016 For Mac Is Unstable On El Capitan</title>
+      <link>https://www.thurrott.com/cloud/office-365/6389/office-2016-for-mac-is-unstable-on-el-capitan-be-careful-if-you-upgrade</link>
+      <guid>http://www.theojones.name/2015/office-2016-for-mac-is-unstable-on-el-capitan</guid>
+      <pubDate>Thu, 08 Oct 2015 03:00:55 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div class="known-bookmark">
+    <blockquote><p>"Today is the day that Apple is releasing El Capitan for users around the globe and if you are thinking about running the latest version of Office 2016 with this new OS, you need to be aware of performance issues. I have been running the GM candidates and the release build of El Capitan since it was first announced by Apple as well as running the release version of Office 2016 for Mac and the experience is atrocious. I am not alone in this either, there is a lengthy thread in Microsoft’s Answer forums that is filled with other users who have the same issue and users on Twitter are quite vocal about problem as well."</p></blockquote></div>
+]]></description>
+    </item>
+  </channel>
+</rss>

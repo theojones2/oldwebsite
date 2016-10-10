@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Theo Jones</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/tag/quote</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/tag/quote?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>As a reliable source of steady electricity nuclear...</title>
+      <link>http://www.theojones.name/2015/as-a-reliable-source-of-steady-electricity-nuclear</link>
+      <guid>http://www.theojones.name/2015/as-a-reliable-source-of-steady-electricity-nuclear</guid>
+      <pubDate>Tue, 23 Jun 2015 07:14:34 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        <blockquote>
+<p>As a reliable source of steady electricity, nuclear energy serves an important role in U.S. grid stability. Even as regional grids become more sophisticated in managing fluctuating input from renewable sources, there remains a base-load requirement to maintain an on-demand minimum generation level. Nuclear energy provides this grid certainty by generating its maximum amount of electricity more often than any other electricity source — on average, more than 90 percent of the time. Life extension technologies, like AREVA's new cavitation peening for reactor heads, help utilities ensure continued safe generation for another 40 years.</p>
+</blockquote>
+<p><cite><a href="http://thehill.com/blogs/pundits-blog/energy-environment/240605-whats-the-value-of-nuclear-energy-to-the-united-states">http:/<wbr></wbr>/<wbr></wbr>thehill.com/<wbr></wbr>blogs/<wbr></wbr>pundits-blog/<wbr></wbr>energy-environment/<wbr></wbr>240605-whats-the-value-of-nuclear-energy-to-the-united-states</a></cite></p>
+<p><a href="http://www.theojones.name/tag/energy" class="p-category" rel="tag">#energy</a> <a href="http://www.theojones.name/tag/nuclear" class="p-category" rel="tag">#nuclear</a> <a href="http://www.theojones.name/tag/quote" class="p-category" rel="tag">#quote</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#energy</category>
+      <category>#nuclear</category>
+      <category>#quote</category>
+      <category>#uncategorized</category>
+    </item>
+  </channel>
+</rss>

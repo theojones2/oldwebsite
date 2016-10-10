@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>I've deployed twitter blocklists like GG autoblocker and...</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/2015/ive-deployed-twitter-blocklists-like-gg-autoblocker-and</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/2015/ive-deployed-twitter-blocklists-like-gg-autoblocker-and?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>I've deployed twitter blocklists like GG autoblocker and...</title>
+      <link>http://www.theojones.name/2015/ive-deployed-twitter-blocklists-like-gg-autoblocker-and</link>
+      <guid>http://www.theojones.name/2015/ive-deployed-twitter-blocklists-like-gg-autoblocker-and</guid>
+      <pubDate>Sat, 13 Jun 2015 22:12:11 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>I've deployed twitter blocklists (like GG autoblocker, and the A+ blocklist) because I've gotten a bit of trolling because of tweeting about controversial topics (like gamergate). And I'm a man with ~4000 followers. But even despite a smallish audience and my gender, the trolling was annoying enough. And the blocklists shut the trolls up. I'm not totally a fan of them -- the method of adding accounts to the lists seems more aggressive than a Klingon with an anger management problem -- but its better than nothing. Really, these twitter blocklists are like some of the first spam blocklists. Problematic in how they decided to add ip addresses to the killfile, but good enough at killing spammers to make it worth it.</p>
+<p><a href="http://www.theojones.name/tag/gamergate" class="p-category" rel="tag">#gamergate</a> <a href="http://www.theojones.name/tag/status" class="p-category" rel="tag">#status</a> <a href="http://www.theojones.name/tag/twitter" class="p-category" rel="tag">#twitter</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#gamergate</category>
+      <category>#status</category>
+      <category>#twitter</category>
+      <category>#uncategorized</category>
+    </item>
+  </channel>
+</rss>

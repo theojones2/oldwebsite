@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Theo Jones</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/?q=%23coalchina</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/?q=%23coalchina&amp;_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>Nuclear Energy Is the Safest Energy Source</title>
+      <link>http://www.theojones.name/2013/nuclear-energy-is-the-safest-energy-source</link>
+      <guid>http://www.theojones.name/2013/nuclear-energy-is-the-safest-energy-source</guid>
+      <pubDate>Tue, 17 Sep 2013 22:59:49 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>Nuclear energy Is the safest energy source in existence.<a href="http://rationalwiki.org/wiki/FAQ_on_radioactivity_and_nuclear_technology"> It produces a lower number of deaths per trillion kilowatt hours produced than any other power source in use</a>, even beating out renewable energy sources.</p>
+
+<p> </p>
+
+<p>Energy source                              Deaths/Trillion KWH<a href="http://en.wikipedia.org/wiki/File:HEUraniumC.jpg"></a> <br />Coal (world, all uses)                         100,000 <br />Coal (world, electricity only)                60,000 <br />Coal (China, all uses)                        170,000 <br />Coal (USA, all uses)                          15,000 <br />Oil                                                    36,000 <br />Natural gas                                       4,000 <br />Biomass                                          12,000 <br />Peat                                                12,000 <br />Solar PV (rooftop)                             440 <br />Wind                                               150 <br />Hydro (world)                                    1,400 <br />Hydro (Europe)                                 100 <br />Nuclear                                            40</p>
+<p><a href="http://www.theojones.name/tag/coalchina" class="p-category" rel="tag">#coalchina</a> <a href="http://www.theojones.name/tag/hydroeurope" class="p-category" rel="tag">#hydroeurope</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#coalchina</category>
+      <category>#hydroeurope</category>
+      <category>#old</category>
+      <category>#old</category>
+      <category>#uncategorized</category>
+    </item>
+  </channel>
+</rss>

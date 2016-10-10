@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Theo Jones</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/tag/php</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/tag/php?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>Web/Email Server Configuration With Virtualmin on Ubuntu 12.04</title>
+      <link>http://www.theojones.name/2013/webemail-server-configuration-with-virtualmin-on-ubuntu-1204</link>
+      <guid>http://www.theojones.name/2013/webemail-server-configuration-with-virtualmin-on-ubuntu-1204</guid>
+      <pubDate>Sat, 07 Sep 2013 20:03:20 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>I have recently moved the VPS that this blog is hosted on to a Virtualmin install on Ubuntu 12.04. This tutorial shows how I have configured it. Virtualmin is a free program that can install and manage common server services. Among other things it can manage email (defaulting to the</p>
+
+<p>postfix/dovecot servers), web (defaulting to Apache), and mailing lists (using <a class="zem_slink" title="GNU Mailman" href="http://www.gnu.org/software/mailman/" target="_blank" rel="homepage">GNU Mailman</a>). For this tutorial I will assume you have a working Ubuntu 12.04 install. I am using the free/open source GPL licensed version of Virtualmin instead of the proprietary version.</p>
+<!--more--><h3>Install Virtualmin and Dependencies</h3>
+<p>Virtualmin's developers have produced a script that installs Virtualmin and all of its dependencies. Download the install script with the following command.</p>
+
+<p><em>wget <a href="http://software.virtualmin.com/gpl/scripts/install.sh"></a><a href="http://software.virtualmin.com/gpl/scripts/install.sh">http:/<wbr></wbr>/<wbr></wbr>software.virtualmin.com/<wbr></wbr>gpl/<wbr></wbr>scripts/<wbr></wbr>install.sh</a></em></p>
+
+<p>Run the script to install Virtualmin and its dependencies.</p>
+
+<p><em>/bin/sh install.sh</em></p>
+
+<p>Wait while Virtualmin updates and installs.</p>
+<h3>Create a Swap File</h3>
+<p>Some of the components of the Virtualmin system can cause peaks of memory usage that can overfill the system ram on some low memory installations.The spam and virus checking programs (Spamassin and ClamAV) used by Virtualmin are particularly likely to cause peaks of RAM usage. For this reason, it is a good idea to create a swap file if you haven't created a swap partition during your install of Ubuntu.Most images distributed by VPS hosts do not include swap space. Run the following commands to create a 1GB swap file.</p>
+
+<p><em>fallocate -l 1000M /swapfile</em></p>
+
+<p><em>chmod 600 /swapfile</em></p>
+
+<p><em>mkswap /swapfile</em></p>
+
+<p>Set the swap file to load on boot by adding a line to /etc/fstab</p>
+
+<p><em>Nano /etc/fstab</em></p>
+
+<p>add</p>
+
+<p><em>/swapfile none swap defaults 0 0</em></p>
+<h3>Common PHP Extensions</h3>
+<p>Curl and PHP5-gd are common PHP extensions that many PHP applications require. Install them with the following commands.<br /><em>apt-get clean && apt-get update && apt-get install php5-curl</em></p>
+
+<p><em>apt-get install php5-gd</em></p>
+<h3>Configure Virtualmin</h3>
+<p>Now we have a Virtualmin install with all dependencies. Now it is time to configure Virtualmin.</p>
+
+<p>Go to https://<your ip here>:10000/ and run through the Virtualmin configuration wizard.<br /><br />In my experience, the default PHP upload file size limit is too low for many applications. Change the upload settings with the following procedure. Under Services find "PHP 5 Configuration". Then click "Resource Limits".Edit the "Maximum file upload size" textbox. Save your changes.<br /><br /><a class="zem_slink" title="Greylisting" href="http://en.wikipedia.org/wiki/Greylisting" target="_blank" rel="wikipedia">Greylisting</a> is a powerful anti-spam technique that exploits the fact that spammers rarely use standards compliant email servers.The standards for the email protocol allow the receiving server to declare that it is temporarily unavailable instead of outright accepting or rejecting a message. If this happens a standards compliant server will wait and then resend the message.Most spambots will not. Greylisting configures the mail server to declare that it is temporarily unavailable the first time that a server that has never delivered an email to you attempts to send an email. Greylisting may delay some of your email but it is one of the most effective anti-spam methods. To enable it follow the following steps.<br />Under "Email Messages" find "Email Greylisting".Click "Install Greylisting". Under "Email Messages" find "Email Greylisting". Click "Enable Greylisting".<br /><br />DKIM is another anti-spam technique that attempts to filter out spoofed email headers. To enable it follow the following steps. Under "Email Messages" find "DomainKeys Identified Mail". Click "install DKIM".<br /><br /><h3>Add Domain Name</h3><br /><br />You now have a fully configured Virtualmin installation. To add a domain name to it follow the following steps  Click "Create Virtual Server". Fill out the form that appears.<p><a href="http://www.theojones.name/tag/adddomainname" class="p-category" rel="tag">#adddomainname</a> <a href="http://www.theojones.name/tag/configurevirtualmin" class="p-category" rel="tag">#configurevirtualmin</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/php" class="p-category" rel="tag">#php</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a> <a href="http://www.theojones.name/tag/vps" class="p-category" rel="tag">#vps</a></p></your></p>
+</div>]]></description>
+      <category>#adddomainname</category>
+      <category>#configurevirtualmin</category>
+      <category>#old</category>
+      <category>#old</category>
+      <category>#php</category>
+      <category>#uncategorized</category>
+      <category>#vps</category>
+    </item>
+  </channel>
+</rss>

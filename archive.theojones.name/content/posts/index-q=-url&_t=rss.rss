@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Theo Jones</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/content/posts/?q=%23url</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/content/posts/?q=%23url&amp;_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>Two Wordpress Plugins I've Started Using</title>
+      <link>http://www.theojones.name/2014/two-wordpress-plugins-ive-started-using</link>
+      <guid>http://www.theojones.name/2014/two-wordpress-plugins-ive-started-using</guid>
+      <pubDate>Tue, 12 Aug 2014 03:18:22 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        <p><a href="http://wordpress.org/plugins/remove-query-strings-from-static-resources/"><strong>Remove Query Strings From Static Resources <br /></strong></a></p><blockquote>
+<p>This plugin will remove any query strings from static resources like CSS & JS files, and will improve your speed scores in services like PageSpeed, YSlow, Pingdoom and GTmetrix.</p>
+
+<p>Resources with a “?” or “&” in the URL are not cached by some proxy caching servers, and moving the query string and encode the parameters into the URL will increase your WordPress site performance grade significant.</p>
+</blockquote><p><strong><a href="http://wordpress.org/plugins/wp-fastest-cache/">WP Fastest Cache</a></strong></p><blockquote>
+<p>This plugin creates static html files from your dynamic WordPress blog. When a page is rendered, php and mysql are used. Therefor, system needs RAM and CPU. If many visitors come to a site, system uses lots of RAM and CPU so page is rendered so slowly. In this case, you need a cache system not to render page again and again. Cache system generates a static html file and saves. Other users reach to static html page.</p>
+</blockquote><p><a href="http://www.theojones.name/tag/cpu" class="p-category" rel="tag">#cpu</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/ram" class="p-category" rel="tag">#ram</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a> <a href="http://www.theojones.name/tag/url" class="p-category" rel="tag">#url</a></p></div>]]></description>
+      <category>#cpu</category>
+      <category>#old</category>
+      <category>#old</category>
+      <category>#ram</category>
+      <category>#uncategorized</category>
+      <category>#url</category>
+    </item>
+  </channel>
+</rss>

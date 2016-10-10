@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Theo Jones</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="initial-scale=1.0" media="(device-height: 568px)"/>
+    <meta name="description" content="Thoughts and Ideas">
+    <meta name="generator" content="Known https://withknown.com">
+    <meta http-equiv="Content-Language" content="en">
+
+    <!--Le fav and touch icons-->
+<link rel="apple-touch-icon" sizes="57x57" href="../gfx/logos/apple-icon-57x57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="../gfx/logos/apple-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="../gfx/logos/apple-icon-114x114.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="../gfx/logos/apple-icon-144x144.png" />    <link rel="shortcut icon" type="image/png" href="../gfx/logos/logo_k.png">
+<!-- Make this an "app" when saved to an ios device's home screen -->
+<link rel="apple-touch-icon-precomposed" href="../gfx/logos/logo_k.png">
+<!-- Make this an "app" when saved to an ios device's home screen -->
+<link rel="apple-touch-icon" href="../gfx/logos/logo_k.png">
+<!-- <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black"> -->
+    <meta property="og:type" content="website" />
+<meta property="og:title" content="Theo Jones" />
+<meta property="og:site_name" content="Theo Jones" />
+<meta property="og:image" content="https://www.theojones.name/gfx/logos/logo_k.png" />
+
+
+    <!-- Dublin Core -->
+    <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+    <meta name="DC.title" content="Theo Jones">
+    <meta name="DC.description" content="Thoughts and Ideas">    <!-- AMP versions -->
+    <link rel="amphtml" href="uncategorized-offset=170&amp;_t=amp.html">
+
+    <!-- We need jQuery at the top of the page -->
+    <script src="../external/jquery/jquery.min.js"></script>
+
+    <!-- Le styles -->
+    <link
+        href="../external/bootstrap/assets/css/bootstrap.min.css"
+        rel="stylesheet"/>
+    <link
+        href="../external/bootstrap/assets/css/bootstrap-theme.min.css"/>
+    <script
+        src="../external/bootstrap/assets/js/bootstrap.min.js"></script>
+
+    <!-- Accessibility -->
+    <link rel="stylesheet"
+          href="../external/paypal-bootstrap-accessibility-plugin/plugins/css/bootstrap-accessibility_1.0.3.css">
+    <script
+        src="../external/paypal-bootstrap-accessibility-plugin/plugins/js/bootstrap-accessibility_1.0.3.min.js"></script>
+
+    <!-- Fonts -->
+    <link rel="stylesheet"
+          href="../external/font-awesome/css/font-awesome.css">
+    <!--<link rel="stylesheet"
+          href="https://www.theojones.name/external/font-awesome/css/font-awesome.min.css">-->
+    <style>body {
+            padding-top: 100px; /* 60px to make the container go all the way to the bottom of the topbar */
+        }
+    </style>
+
+    <link href="../css/default-20150907.css" rel="stylesheet">
+<link href="../css/defaultb3-20150123.css" rel="stylesheet">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script
+        src="https://www.theojones.name/external/bootstrap/assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Default Known JavaScript -->
+    <script src="../js/default-20150406.js"></script>
+
+    <!-- To silo is human, to syndicate divine -->
+    <link rel="alternate" type="application/rss+xml" title="Theo Jones"
+          href="uncategorized-offset=170&amp;_t=rss.rss"/>
+    <link rel="feed" type="application/rss+xml" title="Theo Jones"
+          href="uncategorized-offset=170&amp;_t=rss.rss"/>
+    <link rel="alternate feed" type="application/rss+xml"
+          title="Theo Jones: all content"
+          href="../content/all-_t=rss.rss"/>
+    <link rel="feed" type="text/html" title="Theo Jones"
+          href="../content/all.html"/>
+
+    <!-- Webmention endpoint -->
+    <link href="../webmention/index.html" rel="http://webmention.org/"/>
+    <link href="../webmention/index.html" rel="webmention"/>
+
+                <!-- Pubsubhubbub -->
+        <link href="http://withknown.superfeedr.com/" rel="hub"/>
+    
+    
+    <script src="../external/fragmention/fragmention.js"></script>
+
+    <!-- Syndication -->
+    <link
+        href="../external/bootstrap-toggle/css/bootstrap-toggle.min.css"
+        rel="stylesheet"/>
+    <script
+        src="../external/bootstrap-toggle/js/bootstrap-toggle.js"></script>
+
+    <style>.withknown-plugin {
+        padding-top: 0.25em;
+        padding-bottom: 0.25em;
+        background-color: #fff;
+        margin-bottom: 0.5em;
+    }
+
+    .withknown-plugin p,
+    .withknown-plugin h4,
+    .withknown-plugin form
+    {
+        margin: 0; padding: 0;
+    }
+
+    .withknown-plugin .plugin-content h4
+    {
+        padding-top: 0.25em;
+    }
+
+    .withknown-plugin .plugin-content p
+    {
+        padding-top: 0.3em;
+    }
+
+    .withknown-plugin .plugin-content {
+        color: #777;
+    }
+
+    .withknown-plugin input[type=submit]
+    {
+        width: 100px;
+    }
+    
+    .withknown-plugin .btn-enabled {
+    background-color: #70997a;
+    background-image: none;
+    background-repeat: repeat-x;
+    border-color: #70997a;
+    color: #ffffff;
+    text-shadow: none;
+	}
+	
+	.withknown-plugin .btn-enabled:hover, 
+	.withknown-plugin .btn-enabled:focus, 
+	.withknown-plugin .btn-enabled:active, 
+	.withknown-plugin .btn-enabled.active, 
+	.withknown-plugin .btn-enabled.disabled, 
+	.withknown-plugin .btn-enabled[disabled] {
+    background-color: #678c70;
+    border-color: #678c70;
+    color: #ffffff;
+	}
+	
+	.withknown-plugin .btn-default {
+	color: #666666;
+	}
+	
+	.withknown-plugin .span2 {
+		margin-left: 0px;
+	}
+	
+    .withknown-plugin h4 {
+		color: #222;
+	}
+
+    .withknown-pro-block {
+        text-align: center;
+        border: 0;
+        border-top: 2px #ccc solid;
+        border-bottom: 2px #ccc solid;
+        margin-bottom: 2em;
+        margin-top: 20px;
+    }
+</style><link rel="stylesheet" href="../IdnoPlugins/Checkin/external/leaflet/leaflet.css"/>
+<!--[if lte IE 8]>
+<link rel="stylesheet" href="https://www.theojones.name/IdnoPlugins/Checkin/external/leaflet/leaflet.ie.css"/>
+<![endif]-->
+<script type="text/javascript" src="../IdnoPlugins/Checkin/external/leaflet/leaflet.js"></script>
+<script type="text/javascript" src="../IdnoPlugins/Checkin/external/stamen-maps/tile.stamen.js"></script>
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script><link rel="openid.delegate" href="../index.html" />
+<link rel="openid.server" href="https://indieauth.com/openid" />
+<link rel="authorization_endpoint" href="../session/login-fwd=https-%7C%7Cwww.theojones.name%7Cindieauth%7Cauth.html">
+<link rel="token_endpoint" href="../indieauth/token.html">
+<link rel="micropub" href="../session/login-fwd=%7Cmicropub%7Cendpoint.html"><link href="../Themes/Solo/css/default.css" rel="stylesheet">    
+</head>
+
+<body class="idno_pages_homepage page-tag page-tag-uncategorized logged-out">
+<div id="pjax-container" class="page-container">
+    <a href="uncategorized-offset=170.html#maincontent" style="display:none">Skip to main content</a>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" tabindex="1" href="../index.html">Theo Jones</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+
+            <form class="navbar-form navbar-left" action="https://www.theojones.name/content/all" method="get" role="search">
+    <div class="form-group">
+        <input type="search" class="search-query form-control" name="q" placeholder="Search" tabindex="2" value="#uncategorized">
+    </div>
+</form><ul class="nav navbar-nav">
+        
+            <li class="dropdown" tabindex="3">
+                <a href="uncategorized-offset=170.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                    All content                    <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="../index-q=-uncategorized.html"><span class="dropdown-menu-icon">&nbsp;</span>
+                            Default content</a></li>
+                    <li><a href="../content/all/index-q=-uncategorized.html"><span class="dropdown-menu-icon">&nbsp;</span>
+                            All content</a></li>
+                                                    <li><a
+                                    href="../content/statusupdates/index-q=-uncategorized.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-comment-o"></i></span> Status updates                                </a></li>                                <li><a
+                                    href="../content/posts/index-q=-uncategorized.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-align-left"></i>
+</span> Posts                                </a></li>                                <li><a
+                                    href="../content/photos/index-q=-uncategorized.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-picture-o"></i>
+</span> Photos                                </a></li>                                <li><a
+                                    href="../content/locations/index-q=-uncategorized.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-map-marker"></i>
+</span> Locations                                </a></li>                                <li><a
+                                    href="../content/bookmarkedpages/index-q=-uncategorized.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-bookmark"></i>
+</span> Bookmarked pages                                </a></li>                                <li><a
+                                    href="../content/audio/index-q=-uncategorized.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-microphone"></i>
+</span> Audio                                </a></li>                                <li><a
+                                    href="../content/events/index-q=-uncategorized.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-calendar"></i>
+</span> Events                                </a></li>                                <li><a
+                                    href="../content/rsvp/index-q=-uncategorized.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-calendar-o"></i>
+</span> RSVP                                </a></li>
+
+                </ul>
+            </li>
+
+    </ul>
+            <ul class="nav navbar-nav navbar-right">
+                
+
+    <li><a href="../session/login.html">Sign in</a></li>            </ul>
+
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+    <div class="container page-body">
+        <a name="pagecontent"></a>
+                                    <div class="row idno-entry idno-entry-entry">
+
+                <div
+                    class="col-md-8 col-md-offset-2 h-entry idno-posts idno-object idno-content">
+                    <div style="display: none"> <!-- This is useful for webmentions -->
+                        <p class="p-author author h-card vcard">
+                            <a href="../profile/tjones2.html" class="icon-container"><img
+                                    class="u-logo logo u-photo photo" src="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e"/></a>
+                            <a class="p-name fn u-url url" href="../profile/tjones2.html">Theo Jones</a>
+                            <a class="u-url" href="../profile/tjones2.html">
+                                <!-- This is here to force the hand of your MF2 parser --></a>
+                        </p>
+                    </div>
+                                        <div class="e-content entry-content">
+                        <div>
+                <h2 class="p-name"><a
+                    href="../2014/compiling-newlisp-on-linux-mint.html">Compiling Newlisp on Linux Mint</a>
+            </h2>
+                    <p class="reading">
+                <span class="vague">1 min read </span>
+            </p>
+            <p>I installed Linux Mint on my laptop, but the Newlisp interpreter is not as easy to install on that distro as Arch Linux/ Manjaro. The Ubuntu package created by the Newlisp project does not work on x64 Mint, so it has to be manually compiled. There are two dependencies for Newlisp, ffi and readline. They can be installed as follows</p><p>sudo apt-get install libffi-devel <br />
+sudo apt-get install libreadline-dev</p><p>Libffi is needed for the Newlisp foreign function interface commands, and readline is needed for the Newlisp REPL.</p><p>Then compile and install Newlisp</p><p>make <br />
+sudo make install</p><p> </p><p><a href="archlinuxmanjaro.html" class="p-category" rel="tag">#archlinuxmanjaro</a> <a href="linuxmint.html" class="p-category" rel="tag">#linuxmint</a> <a href="old.html" class="p-category" rel="tag">#old</a> <a href="old.html" class="p-category" rel="tag">#old</a> <a href="uncategorized.html" class="p-category" rel="tag">#uncategorized</a></p></div>                    </div>
+                    <div class="footer">
+                        
+        <div class="permalink">
+            <p>
+                <a href="../profile/tjones2.html">Theo Jones</a>published this
+                <a class="u-url url" href="../2014/compiling-newlisp-on-linux-mint.html" rel="permalink"><time class="dt-published"
+                          datetime="2014-02-10T23:41:31+0000">10 Feb 2014</time></a>
+                                                                            </p>
+        </div>
+        <div class="interactions">
+	        <span class="annotate-icon">
+                        <a class="stars" href="../2014/compiling-newlisp-on-linux-mint.html#comments"><i class="fa fa-star-o"></i> 0 stars</a></span>
+                   <span class="annotate-icon"> <a class="comments" href="../2014/compiling-newlisp-on-linux-mint.html#comments"><i class="fa fa-comments"></i> 0 comments</a></span>
+            <a class="shares" href="../2014/compiling-newlisp-on-linux-mint.html#comments"></a>
+            <a class="shares" href="../2014/compiling-newlisp-on-linux-mint.html#comments"></a>
+        </div>
+        <br clear="all"/>
+                            </div>
+                </div>
+
+            </div>
+
+                    <div class="row idno-entry idno-entry-entry">
+
+                <div
+                    class="col-md-8 col-md-offset-2 h-entry idno-posts idno-object idno-content">
+                    <div style="display: none"> <!-- This is useful for webmentions -->
+                        <p class="p-author author h-card vcard">
+                            <a href="../profile/tjones2.html" class="icon-container"><img
+                                    class="u-logo logo u-photo photo" src="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e"/></a>
+                            <a class="p-name fn u-url url" href="../profile/tjones2.html">Theo Jones</a>
+                            <a class="u-url" href="../profile/tjones2.html">
+                                <!-- This is here to force the hand of your MF2 parser --></a>
+                        </p>
+                    </div>
+                                        <div class="e-content entry-content">
+                        <div>
+                <h2 class="p-name"><a
+                    href="../2014/riders-thoughts-on-the-trans-pacific-partnership.html">Riders : Thoughts on the Trans-Pacific Partnership</a>
+            </h2>
+                    <p class="reading">
+                <span class="vague">5 min read </span>
+            </p>
+            
+<p>The Trans-Pacific Partnership is a proposed trade agreement involving multiple countries bordering the Pacific Ocean. These countries include the United States, Australia, New Zealand, and Singapore.  However, this agreement is not just about trade. It contains multiple riders relating to copyright, trademark, patent, and anti-trust law. Some of these riders will also serve to censor journalists and researchers, particulary those who study computer security. I believe that these riders will have effects that are harmful enough to erase the benefits of the increased trade that the treaty may bring. The trade parts of the treaty are good, the riders are not. In this post I will briefly discuss the reasons why I generally support free trade. I will then discuss some of the problematic parts of this agreement.  <br /><!--more--></p>
+<h3>My General Opinions On Trade</h3><p>I believe that in general <a href="http://www.theglobeandmail.com/report-on-business/economy/economy-lab/imports-are-a-benefit-exports-are-a-cost-is-it-clear-now/article614908/">imports are a benefit to the economy and exports are not a benefit, but instead the cost of imports</a>. Trade provides the economy tangible goods that can only be produced in the domestic economy at a high cost if at all. I believe that a majority of the trade barriers which remain in the economy primarily "protect" skilled industries.Protectionism harms the economy. It causes consumers to pay more, and because protectionism harms domestic industries that rely on imported materials it can serve as more of a job swap than job protection. An economy in free trade will tend to focus on its most productive industries, and thereby maximize its productivity.</p><p>There are only a handful of cases where I believe that trade restrictions may be justified and none of these cases are protectionist.For example, a government may enact a humanitarian trade restriction, such as a trade sanction designed to deter a human rights violation. Some trade and immigration restrictions may be necessary to give nations policy space to enact needed programs or to protect global economic stability. These may include capital controls designed to restrict speculative transactions that destabilize markets, or possibly some restrictions on immigration designed to limit migrant inflows to a level that an economy has the ability to sustain itself without excessive disruption. Some trade restrictions may also be necessary to develop domestic industry, to allocate limited foreign capital resources in an optimal way, or to phase out a trade policy that cannot be sustained in the long run. Restrictions of this form may be more necessary in developing nations or small nations with limited economic resources.</p><p> </p><h3>The TTP and Free Speech</h3><p>Article 4 of the latest draft of the TTP prohibits the development or publication of technology or methods that serve to "enable or facilitate" the circumvention of a computer security system. This could have a severe chilling effect on discussion and education about computer security. Even though there is a narrow exemption for research this provision could be used to intimidate scholars looking into computer security issues. Even worse would be the effect  on journalists, as there is no exemption for their work. Journalists would be restricted in their ability to discuss computer security issues and would need the approval of the software developer before they could publish information about security  vulnerability in a computer program. J<a href="https://www.eff.org/deeplinks/2007/05/09-f9-legal-primer">udicial interpretation of similar</a>, but more narrow, laws already on the books in the United States suggests that the TPP could make it illegal for bloggers or journalists to even link to websites that publish software that can be used to disable copy protection.</p><p>This provision would also restrict the ability of librarians to archive books and other works which are protected by copy protection. The provision of the treaty which applies penalties to anyone who “distributes, imports for distribution, broadcasts, communicates or makes available to the public copies of works [protected by DRM when the DRM has been disabled]” would completely prohibit librarians from making these archives open to the public.</p><p><a href="https://www.eff.org/deeplinks/2012/08/new-leaked-tpp-puts-fair-use-risk">The TPP would reduce the fair use restrictions that allow excerpts of copyrighted works to be used for "criticism, comment, news reporting, teaching, scholarship and research".  </a>  </p><h3 style="text-align: center;">Copyright, Patent, and Trademarks</h3><p><a href="https://www.eff.org/issues/tpp">The treaty would have other effects on copyright law</a>. It would  </p><ol><li>Enhance the liability put on ISPs for the actions of their users, and would make it easier for people who claim a copyright to force ISPs to remove their users' data. This takedown procedure would have little to no independent oversight and would have few protections against false claims.</li>
+    <li>It would expand copyright terms  to the life of the author plus 70 years.</li>
+    <li>It would <em>prohibit</em> the resale of copyrighted works between countries without the permission of the copyright holder, even when the copies were legally purchased.</li>
+</ol><p>The treaty would also expand the scope of patent law by  </p><ol><li>Lowering the standards needed for an invention to receive a patent. The TPP declares that “patents shall be available for any new forms, uses, or methods of <strong>using a known product</strong>; and may satisfy the criteria for patentability, <strong>even if such invention does not result in the enhancement of the known efficacy of the product</strong>.” (emphasis added)</li>
+    <li>The treaty also expands the scope of genetic patents. It declares that patents may be granted on “plants and animals”.</li>
+    <li>It also expands the scope of medical patents and allows patents on “diagnostic, therapeutic, and <strong>surgical methods</strong> for the treatment of humans or animals.” Emphasis added.</li>
+</ol><p>Trademarks are also expanded.“No Party may require, as a condition of registration, <strong>that a sign be visually perceptible</strong>, nor may a Party deny registration of a trademark solely on the grounds that the sign of which it is composed is a sound or a scent.” Emphasis added.</p><p> </p><p>I will discuss the anti-trust and regulatory implications of the treaty in a later post.</p><p><a href="freespeech.html" class="p-category" rel="tag">#freespeech</a> <a href="newzealand.html" class="p-category" rel="tag">#newzealand</a> <a href="old.html" class="p-category" rel="tag">#old</a> <a href="old.html" class="p-category" rel="tag">#old</a> <a href="tpp.html" class="p-category" rel="tag">#tpp</a> <a href="uncategorized.html" class="p-category" rel="tag">#uncategorized</a> <a href="unitedstates.html" class="p-category" rel="tag">#unitedstates</a></p></div>                    </div>
+                    <div class="footer">
+                        
+        <div class="permalink">
+            <p>
+                <a href="../profile/tjones2.html">Theo Jones</a>published this
+                <a class="u-url url" href="../2014/riders-thoughts-on-the-trans-pacific-partnership.html" rel="permalink"><time class="dt-published"
+                          datetime="2014-01-20T00:00:14+0000">20 Jan 2014</time></a>
+                                                                            </p>
+        </div>
+        <div class="interactions">
+	        <span class="annotate-icon">
+                        <a class="stars" href="../2014/riders-thoughts-on-the-trans-pacific-partnership.html#comments"><i class="fa fa-star-o"></i> 0 stars</a></span>
+                   <span class="annotate-icon"> <a class="comments" href="../2014/riders-thoughts-on-the-trans-pacific-partnership.html#comments"><i class="fa fa-comments"></i> 0 comments</a></span>
+            <a class="shares" href="../2014/riders-thoughts-on-the-trans-pacific-partnership.html#comments"></a>
+            <a class="shares" href="../2014/riders-thoughts-on-the-trans-pacific-partnership.html#comments"></a>
+        </div>
+        <br clear="all"/>
+                            </div>
+                </div>
+
+            </div>
+
+                    <div class="row idno-entry idno-entry-entry">
+
+                <div
+                    class="col-md-8 col-md-offset-2 h-entry idno-posts idno-object idno-content">
+                    <div style="display: none"> <!-- This is useful for webmentions -->
+                        <p class="p-author author h-card vcard">
+                            <a href="../profile/tjones2.html" class="icon-container"><img
+                                    class="u-logo logo u-photo photo" src="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e"/></a>
+                            <a class="p-name fn u-url url" href="../profile/tjones2.html">Theo Jones</a>
+                            <a class="u-url" href="../profile/tjones2.html">
+                                <!-- This is here to force the hand of your MF2 parser --></a>
+                        </p>
+                    </div>
+                                        <div class="e-content entry-content">
+                        <div>
+                <h2 class="p-name"><a
+                    href="../2014/what-to-do-about-poverty.html">What to Do About Poverty</a>
+            </h2>
+                    <p class="reading">
+                <span class="vague">2 min read </span>
+            </p>
+            
+<p>50 years ago this month Lyndon Johnson gave his War on Poverty speech, which was the beginning of most of the U.S government's anti-poverty programs. While these programs have made a clear dent in poverty, they have not come close to eliminating poverty. We need to do more. In this post I will detail how America can solve the poverty issue.</p>
+<ol><li>The U.S government should commit to alleviating unemployment and maintaining full employment. This should include
+<ol><li>The creation of a Works Progress Administration style jobs program that would be able to offer every unemployed person who is willing and able to work a job at a living wage. This program would employ the workers on infrastructure programs, providing public services, and projects done in collaboration with private non-profit groups. This program should continue even after the effects of the recession are over.</li>
+    <li>The government should provide grants to unemployed workers and low income individuals who intend to start a business. This program would evaluate proposals based on their cost, the number of people employed by the businesses, and the benefit to the public that would be created by the proposals.</li>
+    <li>The U.S government should aggressively use monetary policy to encourage private investment. This should include a continuation of the zero interest rate policy -- possibly indefinitely.</li>
+    <li>The government should aggressively use fiscal policy to keep the economy at full employment. This should include increased deficits when the economy is sluggish and reduced deficits/ surpluses when there is a high risk of inflation.</li>
+</ol></li> <br /><li>The current set of anti-poverty programs<a title="The Best Way to Eliminate Poverty in the United States" href="http://web.archive.org/web/20140326141202/%3Ca%20href=" https:>https:/<wbr></wbr>/<wbr></wbr>theojones.name/<wbr></wbr>index.php/<wbr></wbr>2013/<wbr></wbr>09/<wbr></wbr>17/<wbr></wbr>best-way-eliminate-poverty-united-states/<wbr></wbr></a>"&gt; should be replaced with a basic income program that would provide a universal cash grant to all U.S adult citizens that is delivered unconditionally and without means testing  .</li>
+    <li><a title="What should be done with the U.S health care system?" href="http://web.archive.org/web/20140326141811/%3Ca%20href=" https:>https:/<wbr></wbr>/<wbr></wbr>theojones.name/<wbr></wbr>index.php/<wbr></wbr>2014/<wbr></wbr>01/<wbr></wbr>05/<wbr></wbr>done-u-s-health-care-system/<wbr></wbr></a>"&gt;A universal health care system should be adopted. </li>
+</ol><p><a href="lyndonjohnson.html" class="p-category" rel="tag">#lyndonjohnson</a> <a href="old.html" class="p-category" rel="tag">#old</a> <a href="old.html" class="p-category" rel="tag">#old</a> <a href="uncategorized.html" class="p-category" rel="tag">#uncategorized</a> <a href="worksprogressadministration.html" class="p-category" rel="tag">#worksprogressadministration</a></p></div>                    </div>
+                    <div class="footer">
+                        
+        <div class="permalink">
+            <p>
+                <a href="../profile/tjones2.html">Theo Jones</a>published this
+                <a class="u-url url" href="../2014/what-to-do-about-poverty.html" rel="permalink"><time class="dt-published"
+                          datetime="2014-01-11T21:31:49+0000">11 Jan 2014</time></a>
+                                                                            </p>
+        </div>
+        <div class="interactions">
+	        <span class="annotate-icon">
+                        <a class="stars" href="../2014/what-to-do-about-poverty.html#comments"><i class="fa fa-star-o"></i> 0 stars</a></span>
+                   <span class="annotate-icon"> <a class="comments" href="../2014/what-to-do-about-poverty.html#comments"><i class="fa fa-comments"></i> 0 comments</a></span>
+            <a class="shares" href="../2014/what-to-do-about-poverty.html#comments"></a>
+            <a class="shares" href="../2014/what-to-do-about-poverty.html#comments"></a>
+        </div>
+        <br clear="all"/>
+                            </div>
+                </div>
+
+            </div>
+
+                    <div class="row idno-entry idno-entry-entry">
+
+                <div
+                    class="col-md-8 col-md-offset-2 h-entry idno-posts idno-object idno-content">
+                    <div style="display: none"> <!-- This is useful for webmentions -->
+                        <p class="p-author author h-card vcard">
+                            <a href="../profile/tjones2.html" class="icon-container"><img
+                                    class="u-logo logo u-photo photo" src="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e"/></a>
+                            <a class="p-name fn u-url url" href="../profile/tjones2.html">Theo Jones</a>
+                            <a class="u-url" href="../profile/tjones2.html">
+                                <!-- This is here to force the hand of your MF2 parser --></a>
+                        </p>
+                    </div>
+                                        <div class="e-content entry-content">
+                        <div>
+                <h2 class="p-name"><a
+                    href="../2014/who-india-eradicated-polio.html">WHO: India Eradicated Polio</a>
+            </h2>
+                    <p class="reading">
+                <span class="vague">1 min read </span>
+            </p>
+            <p><a href="http://online.wsj.com/news/articles/SB10001424052702303848104579312453860810752?mod=WSJ_MIDDLENexttoWhatsNewsSecond">Via the Wall Street Journal <br /></a></p><blockquote>
+<p>The World Health Organization plans to announce on Monday that India has officially eliminated polio, one of the biggest public-health achievements of recent times, and one that could set the stage for stamping out the ancient scourge globally.</p>
+
+<p>Public-health officials have been counting the days to the three-year anniversary of India's last recorded case, which allows the WHO to certify it as polio free.</p>
+</blockquote><p>Health care throughout the world as as much to gain from effective deployment of new technology, as it does from the discovery of new technology. Vaccination campaigns, such as the one that eradicated polio in India are one of the most effective health care tools ever designed.</p><p><a href="india.html" class="p-category" rel="tag">#india</a> <a href="old.html" class="p-category" rel="tag">#old</a> <a href="old.html" class="p-category" rel="tag">#old</a> <a href="uncategorized.html" class="p-category" rel="tag">#uncategorized</a> <a href="who.html" class="p-category" rel="tag">#who</a></p></div>                    </div>
+                    <div class="footer">
+                        
+        <div class="permalink">
+            <p>
+                <a href="../profile/tjones2.html">Theo Jones</a>published this
+                <a class="u-url url" href="../2014/who-india-eradicated-polio.html" rel="permalink"><time class="dt-published"
+                          datetime="2014-01-10T19:28:21+0000">10 Jan 2014</time></a>
+                                                                            </p>
+        </div>
+        <div class="interactions">
+	        <span class="annotate-icon">
+                        <a class="stars" href="../2014/who-india-eradicated-polio.html#comments"><i class="fa fa-star-o"></i> 0 stars</a></span>
+                   <span class="annotate-icon"> <a class="comments" href="../2014/who-india-eradicated-polio.html#comments"><i class="fa fa-comments"></i> 0 comments</a></span>
+            <a class="shares" href="../2014/who-india-eradicated-polio.html#comments"></a>
+            <a class="shares" href="../2014/who-india-eradicated-polio.html#comments"></a>
+        </div>
+        <br clear="all"/>
+                            </div>
+                </div>
+
+            </div>
+
+                    <div class="row idno-entry idno-entry-entry">
+
+                <div
+                    class="col-md-8 col-md-offset-2 h-entry idno-posts idno-object idno-content">
+                    <div style="display: none"> <!-- This is useful for webmentions -->
+                        <p class="p-author author h-card vcard">
+                            <a href="../profile/tjones2.html" class="icon-container"><img
+                                    class="u-logo logo u-photo photo" src="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e"/></a>
+                            <a class="p-name fn u-url url" href="../profile/tjones2.html">Theo Jones</a>
+                            <a class="u-url" href="../profile/tjones2.html">
+                                <!-- This is here to force the hand of your MF2 parser --></a>
+                        </p>
+                    </div>
+                                        <div class="e-content entry-content">
+                        <div>
+                <h2 class="p-name"><a
+                    href="../2014/japan-passes-secrecy-law-poses-risk-to-free-speech.html">Japan Passes Secrecy Law Poses Risk to Free Speech</a>
+            </h2>
+                    <p class="reading">
+                <span class="vague">2 min read </span>
+            </p>
+            
+<p>Last month <a href="http://www.nytimes.com/2013/12/07/world/asia/japans-parliament-approves-a-secrecy-law-amid-protests.html">Japan's parliament passed a secrecy law</a> which dramatically increases the range of documents that are kept secret in Japan and increases penalties for leaking documents. The law's definition of what constitutes a secret is vague and the law gives government agencies broad latitude in classifying material. The law's broadness and vagueness, and the harsh -- up to 10 years in prison -- penalties that come with it may be used to harass journalists and whistle-blowers.  <br /><!--more--></p>
+<p><a href="http://www.reuters.com/article/2013/10/24/us-japan-secrecy-idUSBRE99N1EC20131024">Reuters describes these risk as follows</a>:  </p><blockquote>
+<p>Japanese Prime Minister Shinzo Abe's government is planning a state secrets act that critics say could curtail public access to information on a wide range of issues, including tensions with China and the Fukushima nuclear crisis.  <br />....<br />"Basically, this bill raises the possibility that the kind of information about which the public should be informed is kept secret eternally," Tadaaki Muto, a lawyer and member of a task force on the bill at the Japan Federation of Bar Associations, told Reuters.</p>
+</blockquote><p>It seems like this new legislation will crimp free speech and freedom of information in Japan and it comes in the aftermath of America's NSA scandal, which shows the important role that whistle-blowers can have in journalism.</p><p><a href="china.html" class="p-category" rel="tag">#china</a> <a href="freespeech.html" class="p-category" rel="tag">#freespeech</a> <a href="old.html" class="p-category" rel="tag">#old</a> <a href="old.html" class="p-category" rel="tag">#old</a> <a href="tadaakimuto.html" class="p-category" rel="tag">#tadaakimuto</a> <a href="uncategorized.html" class="p-category" rel="tag">#uncategorized</a></p></div>                    </div>
+                    <div class="footer">
+                        
+        <div class="permalink">
+            <p>
+                <a href="../profile/tjones2.html">Theo Jones</a>published this
+                <a class="u-url url" href="../2014/japan-passes-secrecy-law-poses-risk-to-free-speech.html" rel="permalink"><time class="dt-published"
+                          datetime="2014-01-06T18:23:00+0000">06 Jan 2014</time></a>
+                                                                            </p>
+        </div>
+        <div class="interactions">
+	        <span class="annotate-icon">
+                        <a class="stars" href="../2014/japan-passes-secrecy-law-poses-risk-to-free-speech.html#comments"><i class="fa fa-star-o"></i> 0 stars</a></span>
+                   <span class="annotate-icon"> <a class="comments" href="../2014/japan-passes-secrecy-law-poses-risk-to-free-speech.html#comments"><i class="fa fa-comments"></i> 0 comments</a></span>
+            <a class="shares" href="../2014/japan-passes-secrecy-law-poses-risk-to-free-speech.html#comments"></a>
+            <a class="shares" href="../2014/japan-passes-secrecy-law-poses-risk-to-free-speech.html#comments"></a>
+        </div>
+        <br clear="all"/>
+                            </div>
+                </div>
+
+            </div>
+
+                    <div class="row idno-entry idno-entry-entry">
+
+                <div
+                    class="col-md-8 col-md-offset-2 h-entry idno-posts idno-object idno-content">
+                    <div style="display: none"> <!-- This is useful for webmentions -->
+                        <p class="p-author author h-card vcard">
+                            <a href="../profile/tjones2.html" class="icon-container"><img
+                                    class="u-logo logo u-photo photo" src="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e"/></a>
+                            <a class="p-name fn u-url url" href="../profile/tjones2.html">Theo Jones</a>
+                            <a class="u-url" href="../profile/tjones2.html">
+                                <!-- This is here to force the hand of your MF2 parser --></a>
+                        </p>
+                    </div>
+                                        <div class="e-content entry-content">
+                        <div>
+                <h2 class="p-name"><a
+                    href="../2014/why-research-should-be-funded-without-the-patent-system.html">Why Research Should be Funded Without the Patent System</a>
+            </h2>
+                    <p class="reading">
+                <span class="vague">4 min read </span>
+            </p>
+            
+<p>The patent system is an amazingly inefficient method to fund research. Patents drive up the costs of pharmaceuticals and other products, they increase market concentration, they harm consumers and they misdirect research efforts away from basic research. This inefficiency comes from three sources. The first is that the patent system is fundamentally a monopoly grant. Monopolies by their nature can charge way more than the cost that something takes to produce. This hurts consumers. The second issue is that research funding produces an economic issue that is similar to that faced in funding public goods like parks and roads. There is a large fixed cost in research that has to be paid regardless of whether 1 person uses a product derived from it or 1 million people benefit from the research. The third issue is that the patent system biases research funding towards research that will result in a marketable product in the short term. However, the basic research that will result in the next generation's innovations gets the short shrift in this system. I argue that the patent system should be replaced  <br /><!--more--></p>
+<p>The patent system is fundamentally a monopoly grant. It gives the inventor the exclusive right to manufacture the invention (even if it was independently discovered by someone else) and excludes all others. The economic effect of this is simple; prices are driven up. A manufacturer in a competitive market can only charge just above the cost of manufacture -- including the cost of outbidding the alternative uses for the resources needed in production. However, a company in a concentrated market can charge whatever consumers are willing to pay. In many markets -- in particular the pharmaceutical business --  what people will pay for a product and what it takes to bring it into production are very different numbers. Because of this many consumers will not be able to access these products, or at least will be overcharged. The empirical evidence for this can be seen in the vast price differences between generic drugs and similar drugs under patent protection.Generic drugs usually cost between  <a href="http://www.healthsmart.com/SmarterHealth/GenericvsBrandDrugs.aspx">30-80% less than their name brand counterparts</a>.When this cost difference results in patients being unable to access the drugs that they need, the effects can be dire. Furthermore, this system encourages businesses to waste resources on gaining and maintaining patent rights. Patent litigation is expensive and the patent system encourages the formation of patent trolls which abuse this system for their profit. Drug companies spend large amounts of money on creating variants of already existing drugs in order to extend their patent rights - even when there is little added benefit to the copycat drugs. The patent system also encourages an industry of lobbying that only makes the system more inefficient.</p><p>Think of a park. A typical park has a large fixed cost --- a cost that must be paid for anyone to use it. However, once this fixed cost is paid then many people can use the park. In fact, the most efficient way to use the park is to allow as many people as possible to access it, once the fixed cost is paid.  It is for this reason that parks are usually government funded with free access, or at least low-cost admission. Research faces a similar issue. There is a cost to making a discovery, but once its made an unlimited number of people can benefit from it. </p><p>The patent system also encourages a disproportionate focus on research that has has a high chance of resulting in the short term production of a patentable product . This is because a patent only can protect  a particular product or method. There is no way that the patent system can be used to reward basic research that does not result directly in a product. This is a severe flaw because basic research can result in long term benefits for industry and the public. </p><p>The alternative to the patent system is public funding of research. One objection to government funding of research is maintaining its independence, while still allowing the public some say in how the funding is allocated. I will propose a system of government research funding that handles both of these goals well. My proposal focuses on what I will call independent funding organizations. These organizations would be ran independently from the government. A voucher would be made available to every resident of the U.S that could be used to fund these organizations. The organizations would of course be regulated to prevent waste and misuse of funds. But the variety of organizations in existence and their decentralized funding source would limit political interference while still encouraging public accountability.         </p><p><a href="old.html" class="p-category" rel="tag">#old</a> <a href="old.html" class="p-category" rel="tag">#old</a> <a href="uncategorized.html" class="p-category" rel="tag">#uncategorized</a></p></div>                    </div>
+                    <div class="footer">
+                        
+        <div class="permalink">
+            <p>
+                <a href="../profile/tjones2.html">Theo Jones</a>published this
+                <a class="u-url url" href="../2014/why-research-should-be-funded-without-the-patent-system.html" rel="permalink"><time class="dt-published"
+                          datetime="2014-01-06T16:29:58+0000">06 Jan 2014</time></a>
+                                                                            </p>
+        </div>
+        <div class="interactions">
+	        <span class="annotate-icon">
+                        <a class="stars" href="../2014/why-research-should-be-funded-without-the-patent-system.html#comments"><i class="fa fa-star-o"></i> 0 stars</a></span>
+                   <span class="annotate-icon"> <a class="comments" href="../2014/why-research-should-be-funded-without-the-patent-system.html#comments"><i class="fa fa-comments"></i> 0 comments</a></span>
+            <a class="shares" href="../2014/why-research-should-be-funded-without-the-patent-system.html#comments"></a>
+            <a class="shares" href="../2014/why-research-should-be-funded-without-the-patent-system.html#comments"></a>
+        </div>
+        <br clear="all"/>
+                            </div>
+                </div>
+
+            </div>
+
+                    <div class="row idno-entry idno-entry-entry">
+
+                <div
+                    class="col-md-8 col-md-offset-2 h-entry idno-posts idno-object idno-content">
+                    <div style="display: none"> <!-- This is useful for webmentions -->
+                        <p class="p-author author h-card vcard">
+                            <a href="../profile/tjones2.html" class="icon-container"><img
+                                    class="u-logo logo u-photo photo" src="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e"/></a>
+                            <a class="p-name fn u-url url" href="../profile/tjones2.html">Theo Jones</a>
+                            <a class="u-url" href="../profile/tjones2.html">
+                                <!-- This is here to force the hand of your MF2 parser --></a>
+                        </p>
+                    </div>
+                                        <div class="e-content entry-content">
+                        <div>
+                <h2 class="p-name"><a
+                    href="../2014/why-we-need-to-provide-health-care-to-all.html">Why We Need to Provide Health Care to All.</a>
+            </h2>
+                    <p class="reading">
+                <span class="vague">6 min read </span>
+            </p>
+            
+<p>As a follow up to <a href="http://web.archive.org/web/20140326141811/%3Ca%20href=" https:>https:/<wbr></wbr>/<wbr></wbr>theojones.name/<wbr></wbr>index.php/<wbr></wbr>2014/<wbr></wbr>01/<wbr></wbr>05/<wbr></wbr>done-u-s-health-care-system/<wbr></wbr></a>" title="What should be done with the U.S health care system?"&gt;yesterday's blog post, I will discuss why we need a health care system which provides universal coverage. <br />What would you do if one day while you were driving on the highway and you saw a car accident victim lieing on the road injured bleeding to death? Most people would try to help the injured person. Some states even require you to do so. When that person is taken to the hospital the hospital is required to provide treatment regardless of the victim's ability to pay.  However, our current healthcare system is not as compassionate to a cancer patient who can not afford the treatment he needs to live. There are millions of uninsured in this country that might face the same fate as that hypothetical cancer patient. <br />Many of you might be worried about the involvement in the healthcare system by government that guaranteeing healthcare as a human right might entail. While this debate is just about whether healthcare is a human right I will address this issue. Are private insurance companies that are accountable to nothing but their profit margins really any better then an accountable elected government? Under our current system you have life and death decisions being made to maximize profit instead of providing healthcare to all.  </p>
+
+<p><!--more--><br />I will argue that healthcare is a human right. Something can become a human right if it is needed to sustain human freedom and dignity. That is the very definition of a right. Protecting human rights keep society livable for all citizens.   I will argue that in the 21st century healthcare is needed for the the rights of "life, liberty and the pursuit of happiness" that are detailed in the United States Deceleration of Independence  to truly take effect.  <br />Very few of will dispute commonly recognized human rights such as freedom of speech, privacy and the ability to participate in the political system. Why should health care also be in this list? One reason is that it's a right that is necessary to fully utilize the political rights. All the rights that exist on paper mean nothing to a dead person. Having the ability to be alive and healthy is a necessary predecessor to being able to enjoy civil and political rights. <br />  <br />The rationale for healthcare being a human right really all goes back to what's in our Declaration of Independence. The Declaration of Independence guarantees everyone "life, liberty and the pursuit of happiness" In our modern society healthcare is life. No one can easily have equal opportunity in pursuing happiness when they have to worry about how they'll pay for their child's cancer treatment. Human rights are special because of the fact that human rights directly relate to fundamental human needs.</p>
+
+<p> Health care  qualifies as a fundamental human need in the 21st century. If you don't have healthcare you get sick and die. Having a functional body that is not collapsing around you is the first and foremost need of humans. It is the need that we are the most concerned about and it is the need that we seek to fulfill for our selves before we become concerned about such issues as participating in society to make the world a better place.   People without healthcare can not fully participate in the society. The level of poverty that allows people to go without something as fundamental as adequate healthcare undermines human dignity. The suffering of someone who can not get the cancer treatment they need is real and it is an avoidable side effect of our current economic system. <br />Even in a industrialized economy like the U.S many people still die from lack of health care. According to a study by Harvard University that was cited by a 2009 article in Reuters over 45,000 Americans die from lack of health care.the study found that the uninsured aged between 17 an 64 have a 40% higher chance of dyeing then those that have health insurance.  According to the U.S Department of Health and Human Services there are almost 46 million uninsured. There are 46 million people in the wealthiest nation in the world that might die of a preventable cause because we have chosen not to provide healthcare to them. <br />Even children and babies are not immune the the effects of lack of healthcare. According to the United Nations Population Division the United States has a infant mortality rate of 6.3 deaths per 1000 births. Nations with universal healthcare tend to have lower infant mortality rates. For example Norway has a infant mortality rate of 3.3 deaths per 1000 births and Sweden has a infant mortality rate of 3.2 deaths per 1000 births <br />The lack of health care in the United States is an issue that causes millions throughout this country to worry and suffer This problem even causes some people to lose their lives. This is one of the strongest arguments that health care is a human right. In the 21st century with all of the inventions of modern medicine that can extend the average person's life by decades healthcare means life. <br />The role of our government is to provide for the safety and protection of its population and to provide a framework for a system  truly allow everyone to pursue happiness.The preamble to the U.S Constitution gives a good summary of this role of government. It reads </p>
+<blockquote>
+<p>We the People of the United States, in Order to form a more perfect Union, establish Justice, insure domestic Tranquility, provide for the common defense, promote the general Welfare, and secure the Blessings of Liberty to ourselves and our Posterity, do ordain and establish this Constitution for the United States of America.</p>
+</blockquote>
+<p> Healthcare isn't all that distinct from other human rights. All human rights require some degree of legal enforcement to be set up so they can be fully realized by the population. One can not invision a workable system where property rights self enforce but they are still internationality reconised as a right that deserves enforcement. Even the political rights require an independent judiciary to validate that they are indeed being enforced.</p>
+
+<p>The argument that healthcare is a human right is bolstered by such treaties as the universal declaration of human rights , which includes the following:</p>
+<blockquote>
+<p>"Everyone has the right to a standard of living adequate for the health and  <br />well-being of himself and of his family, including food, clothing, housing  <br />and medical care and necessary social services, and the right to security in  <br />the event of unemployment, sickness, disability, widowhood, old age or other  <br />lack of livelihood in circumstances beyond his control."</p>
+</blockquote>
+<p>The Universal Declaration of Human Rights was written by the United Nations in 1948 and just eight of the U.N member states chose not to approve the treaty.</p>
+
+<p>In the 21st century healthcare is needed for the the rights of "life, liberty and the pursuit of happiness" to truly take effect. In our world with the wonders of modern science and medicine healthcare is life. Thousands in this country die each year because of lack of healthcare. The U.S has an obligation help the right to healthcare be realised at home and abroad. </p>
+<p><a href="harvarduniversity.html" class="p-category" rel="tag">#harvarduniversity</a> <a href="norway.html" class="p-category" rel="tag">#norway</a> <a href="old.html" class="p-category" rel="tag">#old</a> <a href="old.html" class="p-category" rel="tag">#old</a> <a href="uncategorized.html" class="p-category" rel="tag">#uncategorized</a> <a href="unitednations.html" class="p-category" rel="tag">#unitednations</a> <a href="unitedstates.html" class="p-category" rel="tag">#unitedstates</a></p></div>                    </div>
+                    <div class="footer">
+                        
+        <div class="permalink">
+            <p>
+                <a href="../profile/tjones2.html">Theo Jones</a>published this
+                <a class="u-url url" href="../2014/why-we-need-to-provide-health-care-to-all.html" rel="permalink"><time class="dt-published"
+                          datetime="2014-01-05T18:59:08+0000">05 Jan 2014</time></a>
+                                                                            </p>
+        </div>
+        <div class="interactions">
+	        <span class="annotate-icon">
+                        <a class="stars" href="../2014/why-we-need-to-provide-health-care-to-all.html#comments"><i class="fa fa-star-o"></i> 0 stars</a></span>
+                   <span class="annotate-icon"> <a class="comments" href="../2014/why-we-need-to-provide-health-care-to-all.html#comments"><i class="fa fa-comments"></i> 0 comments</a></span>
+            <a class="shares" href="../2014/why-we-need-to-provide-health-care-to-all.html#comments"></a>
+            <a class="shares" href="../2014/why-we-need-to-provide-health-care-to-all.html#comments"></a>
+        </div>
+        <br clear="all"/>
+                            </div>
+                </div>
+
+            </div>
+
+                    <div class="row idno-entry idno-entry-entry">
+
+                <div
+                    class="col-md-8 col-md-offset-2 h-entry idno-posts idno-object idno-content">
+                    <div style="display: none"> <!-- This is useful for webmentions -->
+                        <p class="p-author author h-card vcard">
+                            <a href="../profile/tjones2.html" class="icon-container"><img
+                                    class="u-logo logo u-photo photo" src="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e"/></a>
+                            <a class="p-name fn u-url url" href="../profile/tjones2.html">Theo Jones</a>
+                            <a class="u-url" href="../profile/tjones2.html">
+                                <!-- This is here to force the hand of your MF2 parser --></a>
+                        </p>
+                    </div>
+                                        <div class="e-content entry-content">
+                        <div>
+                <h2 class="p-name"><a
+                    href="../2014/what-should-be-done-with-the-us-health-care-system.html">What should be done with the U.S health care system?</a>
+            </h2>
+                    <p class="reading">
+                <span class="vague">7 min read </span>
+            </p>
+            
+<p>America should have universal healthcare available to all residents of the country at an affordable price. I believe that the United States healthcare system should be a public insurance system-- one where a government agency is the sole provider of basic health insurance. This basic health coverage should replace Medicare, Medicaid, and the health insurance provisions of the Affordable Care Act (ACA). But some fees should still be charged to patients based on income, ability to pay, and the type of healthcare used. This would prevent overuse of healthcare services. Payments to healthcare providers, such as physicians, should generally be on a fixed salary basis. That is, doctors would be paid a salary, instead of a payment for each appointment or service provided. Additionally, hospital care should be transitioned to a public provider system operated by local governments and funded by the federal government through its insurance system. I also propose a drastic reform of the pharmaceutical industry that includes eliminating patents on drugs and instead funding medical research through government spending, which I will discuss in a follow up post. The role of private insurance companies should be limited to payment for healthcare not covered by the government plan.<br /><!--more--><br />There are two primary goals that I believe a healthcare system should focus on: <br />1. A healthcare system should provide necessary healthcare in an equitable fashion and should limit costs paid by the patients to a level within their ability to pay. This necessary healthcare includes primary care, hospital care, medications, dental care and psychiatric care, as well as nursing home and hospice care. However, currently, <a href="http://web.archive.org/web/20140713035618/%3Ca%20href=" https:>https:/<wbr></wbr>/<wbr></wbr>www.census.gov/<wbr></wbr>newsroom/<wbr></wbr>releases/<wbr></wbr>archives/<wbr></wbr>income_wealth/<wbr></wbr>cb13-165.html</a>"&gt;the American healthcare system does not provide sufficient affordable coverage to all. As of 2012, 48 million Americans lacked health insurance, according to the U.S Census Bureau. <a href="http://web.archive.org/web/20140110020309/%3Ca%20href=" http:>http:/<wbr></wbr>/<wbr></wbr>www.cbo.gov/<wbr></wbr>sites/<wbr></wbr>default/<wbr></wbr>files/<wbr></wbr>cbofiles/<wbr></wbr>attachments/<wbr></wbr>44190_EffectsAffordableCareActHealthInsuranceCoverage_2.pdf</a>"&gt;The implementation of the ACA is expected to reduce this by just 18 million, according to the Congressional Budget Office. This will still leave approximately 30 million without health insurance. The problem of uninsured Americans could be solved by the universal health care system that I'm proposing, which would provide healthcare to all U.S. citizens. <br />2. A healthcare system should promote maximally efficient and cost- effective use of healthcare resources while maintaining quality of care. When consistent with the other goals, individuals should pay some of the the costs of the healthcare services they use consistent with their income and ability to pay. This is necessary to discourage overconsumption of healthcare services and to discourage people from taking actions that increase their risk of health problems. These actions may include some risky activities such as smoking. <br />Neither goal is achieved by the current health care system. Patients are encouraged to over consume health care services because a third party, such as an insurer, often ends up paying the bill. This overconsumption of healthcare can be the result of patient demands for unneeded medical services made without consideration of the cost of the treatment. Healthcare providers are encouraged to over supply healthcare because the fee-for-service payment method used by most of the American healthcare system rewards healthcare providers for each service provided and because consumers of healthcare services have little knowledge of the nature of the care or services provided to them. A healthcare system with a single public health payer, which reimburses providers on a fixed-rate basis, but charges patients fees based on their healthcare use (if they are able to pay), will best be able to create incentives that minimize overconsumption. While any system that provides universal coverage will face overconsumption issues, a system that has patients pay for a portion of their healthcare usage commensurate with their ability to pay will minimize these issues. Fees can serve as a reminder to the patient that there are costs for healthcare services and can act as an incentive to take these costs into account. <br />Fees charged to the patients as part of this system should go into a general healthcare fund, not to the provider. This system would create the positive incentives found in both fee-for-service systems and in fixed-rate systems. I believe this  proposed system would reduce healthcare overconsumption issues because in the current healthcare system insurance plans generally cover a large portion of health expenses, even if the patient can afford to pay more out of pocket. <br />A core way of achieving the goals of providing necessary healthcare in an equitable, as well as in an efficient and cost-effective manner, while maintaining quality care, is through a government insurer with universal, tax-funded coverage. <br />Goal one, providing necessary healthcare in an equitable fashion, would be met because under my proposed public health insurance system, healthcare would be provided to all  with costs commensurate with a patient's ability to pay, The public insurance plan would, however, include co-pays, deductibles, and other fees set based on ability to pay and the nature of the health care provided. These would exist to discourage overuse of health care, discourage use of inferior or more expensive health care options, and to internalize as much of the burden of actions that increase the risk of higher health expenditures. Wealthy individuals would receive much more limited government paid coverage.  I propose that this should be done through attaching a deductible to the government provided basic plan that would be set based on a percentage of the patient's income minus the poverty limit. Those with incomes equal to, or less than, the poverty line will face no deductible. However, those with higher incomes will face gradually higher deductibles. This basic government plan can be supplemented by private insurance and savings. Co-pays could be assessed on treatment methods that are known to have more effective or less expensive alternatives. <br />Goal two, promoting efficiency and cost-effectiveness would be met in three ways. First, under my proposal, with the entire nation on the same healthcare system, there would be economies of scale. A public payer will serve almost all of the patients in the market and, therefore, be able to maximize these economies of scale. With so many private and nonprofit entities providing services in our current healthcare system, there is much redundancy in administrative costs. The administrative costs of an insurer most strongly correlates with its size, as there are many fixed costs in the U.S insurance market. <br />Therefore, it can be expected that public payer administrative costs would be less. For example, the administrative costs of private insurance companies is on average about 14 percent of total expenditures. However, Medicare has administrative costs of about four percent. <br />A second way that the proposed system would be more cost-effective is that a public payer would have have strong bargaining power with health care providers and would be able to negotiate prices downward. This is because almost all health care purchases will be conducted through this payer and any firm that does not negotiate with it will have a strongly limited market share. The potential benefits of this are very high. <br />The third way a public payer would be more efficient is that it would have the ability to significantly influence healthcare and promote cost-effective techniques and methodologies by using its negotiating power. <br />I believe that hospital care in the United States should gradually be transitioned to a public system operated by local governments. Health care provision has multiple issues that make public provision a possibly more efficient option. First of all, hospital markets are very concentrated and have limited competition. A 2011 study found,  that by the Federal Trade Commission's definition, most hospital markets are highly, or very highly, concentrated (Robinson).  In a choice between a private monopolistic market and a public monopoly, the public monopoly will be more accountable to consumers because government officials have to face elections, while the owners of a private monopoly are motivated mostly by profitability.  Also, consumers often lack the knowledge to fully understand the comparative value of the various healthcare options available, so in any market there are many opportunities to profit from this lack of knowledge. Just as there are many economies of scale on the payment side of the healthcare industry, there are many ways that a public provider can become more efficient due to being the main provider in an area.</p>
+<p><a href="aca.html" class="p-category" rel="tag">#aca</a> <a href="congressionalbudgetoffice.html" class="p-category" rel="tag">#congressionalbudgetoffice</a> <a href="federaltradecommission.html" class="p-category" rel="tag">#federaltradecommission</a> <a href="old.html" class="p-category" rel="tag">#old</a> <a href="old.html" class="p-category" rel="tag">#old</a> <a href="uncategorized.html" class="p-category" rel="tag">#uncategorized</a> <a href="unitedstates.html" class="p-category" rel="tag">#unitedstates</a></p></div>                    </div>
+                    <div class="footer">
+                        
+        <div class="permalink">
+            <p>
+                <a href="../profile/tjones2.html">Theo Jones</a>published this
+                <a class="u-url url" href="../2014/what-should-be-done-with-the-us-health-care-system.html" rel="permalink"><time class="dt-published"
+                          datetime="2014-01-04T18:47:48+0000">04 Jan 2014</time></a>
+                                                                            </p>
+        </div>
+        <div class="interactions">
+	        <span class="annotate-icon">
+                        <a class="stars" href="../2014/what-should-be-done-with-the-us-health-care-system.html#comments"><i class="fa fa-star-o"></i> 0 stars</a></span>
+                   <span class="annotate-icon"> <a class="comments" href="../2014/what-should-be-done-with-the-us-health-care-system.html#comments"><i class="fa fa-comments"></i> 0 comments</a></span>
+            <a class="shares" href="../2014/what-should-be-done-with-the-us-health-care-system.html#comments"></a>
+            <a class="shares" href="../2014/what-should-be-done-with-the-us-health-care-system.html#comments"></a>
+        </div>
+        <br clear="all"/>
+                            </div>
+                </div>
+
+            </div>
+
+                    <div class="row idno-entry idno-entry-entry">
+
+                <div
+                    class="col-md-8 col-md-offset-2 h-entry idno-posts idno-object idno-content">
+                    <div style="display: none"> <!-- This is useful for webmentions -->
+                        <p class="p-author author h-card vcard">
+                            <a href="../profile/tjones2.html" class="icon-container"><img
+                                    class="u-logo logo u-photo photo" src="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e"/></a>
+                            <a class="p-name fn u-url url" href="../profile/tjones2.html">Theo Jones</a>
+                            <a class="u-url" href="../profile/tjones2.html">
+                                <!-- This is here to force the hand of your MF2 parser --></a>
+                        </p>
+                    </div>
+                                        <div class="e-content entry-content">
+                        <div>
+                <h2 class="p-name"><a
+                    href="../2014/run-lua-code-in-a-newlisp-script.html">Run Lua Code in a NewLISP Script</a>
+            </h2>
+                    <p class="reading">
+                <span class="vague">1 min read </span>
+            </p>
+            <p>Below is the code for a NewLISP context that uses the Lua API to run Lua code. Its not yet a full binding, however.It works by using NewLISP's FFI interface to load the Lua .so file. So far it only works with Linux and assumes that the Lua library is located in /usr/lib/liblua.so. There are three functions InitLUA , which creates a Lua state and then loads the Lua standard libraries. RunLuaCodeFromString which executes a string of Lua code. RunLuaCodeFromFile which executes the code contained in a file. <br /><code>. <br />
+(context 'LUA)
+(constant 'PathToLuaLib "/usr/lib/liblua.so")
+(constant 'LUA<em>MULTRET -1)
+(import PathToLuaLib "luaL</em>newstate")
+(import PathToLuaLib "luaL<em>loadstring")
+;(import PathToLuaLib "luaL</em>loadfilex")
+;(import PathToLuaLib "lua<em>register")
+(import PathToLuaLib "lua</em>pcallk")
+(import PathToLuaLib "luaL_openlibs")</code></p><p>(define (InitLUA)
+    (set '<em>lua_State</em> (luaL<em>newstate))  ;; *lua</em>State* is a pointer to a lua<em>State struct 
+    (luaL</em>openlibs <em>lua_State</em>)
+)</p><p>(define (RunLuaCodeFromString LuaCode)
+    (luaL<em>loadstring *lua</em>State* LuaCode)
+    (lua<em>pcallk *lua</em>State* 0 LUA_MULTRET 0)
+)</p><p>(define (RunLuaCodeFromFile filename)
+    (RunLuaCodeFromString (read-file filename))  ;; There is a function to do this in the Lua api but this seems cleaner.
+)</p><p>(InitLUA)
+;(RunLuaCodeFromString "print('hello world')")
+;(RunLuaCodeFromFile "hello.lua")</p><p>(context MAIN)
+</p><p><a href="lua.html" class="p-category" rel="tag">#lua</a> <a href="old.html" class="p-category" rel="tag">#old</a> <a href="old.html" class="p-category" rel="tag">#old</a> <a href="uncategorized.html" class="p-category" rel="tag">#uncategorized</a></p></div>                    </div>
+                    <div class="footer">
+                        
+        <div class="permalink">
+            <p>
+                <a href="../profile/tjones2.html">Theo Jones</a>published this
+                <a class="u-url url" href="../2014/run-lua-code-in-a-newlisp-script.html" rel="permalink"><time class="dt-published"
+                          datetime="2014-01-04T17:19:33+0000">04 Jan 2014</time></a>
+                                                                            </p>
+        </div>
+        <div class="interactions">
+	        <span class="annotate-icon">
+                        <a class="stars" href="../2014/run-lua-code-in-a-newlisp-script.html#comments"><i class="fa fa-star-o"></i> 0 stars</a></span>
+                   <span class="annotate-icon"> <a class="comments" href="../2014/run-lua-code-in-a-newlisp-script.html#comments"><i class="fa fa-comments"></i> 0 comments</a></span>
+            <a class="shares" href="../2014/run-lua-code-in-a-newlisp-script.html#comments"></a>
+            <a class="shares" href="../2014/run-lua-code-in-a-newlisp-script.html#comments"></a>
+        </div>
+        <br clear="all"/>
+                            </div>
+                </div>
+
+            </div>
+
+                    <div class="row idno-entry idno-entry-entry">
+
+                <div
+                    class="col-md-8 col-md-offset-2 h-entry idno-posts idno-object idno-content">
+                    <div style="display: none"> <!-- This is useful for webmentions -->
+                        <p class="p-author author h-card vcard">
+                            <a href="../profile/tjones2.html" class="icon-container"><img
+                                    class="u-logo logo u-photo photo" src="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e"/></a>
+                            <a class="p-name fn u-url url" href="../profile/tjones2.html">Theo Jones</a>
+                            <a class="u-url" href="../profile/tjones2.html">
+                                <!-- This is here to force the hand of your MF2 parser --></a>
+                        </p>
+                    </div>
+                                        <div class="e-content entry-content">
+                        <div>
+                <h2 class="p-name"><a
+                    href="../2013/ofb-encryption-in-newlisp-with-a-hashing-algorithm.html">OFB Encryption in Newlisp With A Hashing Algorithm</a>
+            </h2>
+                    <p class="reading">
+                <span class="vague">1 min read </span>
+            </p>
+            
+<p>Below is a bit of code that showcases how to use a block cipher in OFB mode with Newlisp.<a href="http://crypto.stackexchange.com/questions/48/is-it-feasible-to-build-a-stream-cipher-from-a-cryptographic-hash-function?rq=1"> Because it is possible to use</a> a hashing function like an encryption-only "block cipher" and Newlisp has a SHA256 function in its standard libraries this code uses that hashing function.  <br /><!--more--></p>
+<p><code> <br />
+(module "crypto.lsp")</code></p><p>(define (OFBcipherPad encfunc iv key blocksneeded)
+    (if (
+
+</p><p>(define (SHA256Func data)
+    (crypto:sha256 data true)
+)</p><p>(define (encryptdataSHA256 data iv key , OFBpad)
+     (set 'OFBpad (OFBcipherPad SHA256Func iv key (+ 1 (/ (length data))) ))
+     (encrypt data (slice OFBpad 0 (length data)))
+)</p><p>(println (encryptdataSHA256 "dafta" "iv" "key"))
+(exit)
+ </p><p><a href="ofb.html" class="p-category" rel="tag">#ofb</a> <a href="old.html" class="p-category" rel="tag">#old</a> <a href="old.html" class="p-category" rel="tag">#old</a> <a href="uncategorized.html" class="p-category" rel="tag">#uncategorized</a></p></div>                    </div>
+                    <div class="footer">
+                        
+        <div class="permalink">
+            <p>
+                <a href="../profile/tjones2.html">Theo Jones</a>published this
+                <a class="u-url url" href="../2013/ofb-encryption-in-newlisp-with-a-hashing-algorithm.html" rel="permalink"><time class="dt-published"
+                          datetime="2013-12-31T21:31:26+0000">31 Dec 2013</time></a>
+                                                                            </p>
+        </div>
+        <div class="interactions">
+	        <span class="annotate-icon">
+                        <a class="stars" href="../2013/ofb-encryption-in-newlisp-with-a-hashing-algorithm.html#comments"><i class="fa fa-star-o"></i> 0 stars</a></span>
+                   <span class="annotate-icon"> <a class="comments" href="../2013/ofb-encryption-in-newlisp-with-a-hashing-algorithm.html#comments"><i class="fa fa-comments"></i> 0 comments</a></span>
+            <a class="shares" href="../2013/ofb-encryption-in-newlisp-with-a-hashing-algorithm.html#comments"></a>
+            <a class="shares" href="../2013/ofb-encryption-in-newlisp-with-a-hashing-algorithm.html#comments"></a>
+        </div>
+        <br clear="all"/>
+                            </div>
+                </div>
+
+            </div>
+
+        
+        <div class="pager">
+            <ul>
+                <li><a href="uncategorized-offset=160.html" title="Newer" rel="next">&laquo; Newer</a></li>                <li><a href="uncategorized-offset=180.html" title="Older" rel="prev">Older &raquo;</a></li>            </ul>
+        </div>
+
+        <div class="blank-footer">
+    <div>
+        <p class="footer"><a href="https://withknown.com/?utm_source=footer&amp;utm_medium=installation" class="u-platform"><img src="../gfx/logos/logo_k.png" style="height: 1.5em"></a></p>
+    </div>
+</div>
+    </div>
+    <!-- /container -->
+
+        
+</div>
+<!-- Everything below this should be includes, not content -->
+
+<!-- Le javascript -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script
+    src="../external/jquery-timeago/jquery.timeago.js"></script>
+<script
+    src="../external/jquery-pjax/jquery.pjax.js"></script>
+<script src="../external/underscore/underscore-min.js"
+        type="text/javascript"></script>
+<!--<script src="https://www.theojones.name/external/mention/bootstrap-typeahead.js"
+        type="text/javascript"></script>
+<script src="https://www.theojones.name/external/mention/mention.js"
+        type="text/javascript"></script> -->
+
+
+<!-- Flexible media player -->
+<script
+    src="../external/mediaelement/build/mediaelement-and-player.min.js"></script>
+<link rel="stylesheet"
+      href="../external/mediaelement/build/mediaelementplayer.css"/>
+<!-- Video shim -->
+<script src="../external/fitvids/jquery.fitvids.min.js"></script>
+<!-- Mention styles -->
+<link rel="stylesheet" type="text/css"
+      href="../external/mention/recommended-styles.css">
+
+
+<!-- HTML5 form element support for legacy browsers -->
+<script src="../external/h5f/h5f.min.js"></script>
+
+<script>
+
+    function annotateContent() {
+        $(".h-entry").fitVids();
+        $("time.dt-published").timeago();
+    }
+
+    // Shim so that JS functions can get the current site URL
+    function wwwroot() {
+        return 'https://www.theojones.name/';
+    }
+
+    $(document).ready(function () {
+        $.timeago.settings.cutoff = 30 * 24 * 60 * 60 * 1000; // 1 month
+        annotateContent();
+    });
+
+    /**
+     * Handle Twitter tweet embedding
+     */
+    $(document).ready(function () {
+        $('div.twitter-embed').each(function (index) {
+            var url = $(this).attr('data-url');
+            var div = $(this);
+
+            $.ajax({
+                url: "https://api.twitter.com/1/statuses/oembed.json?url=" + url,
+                dataType: "jsonp",
+                success: function (data) {
+                    div.html(data['html']);
+                }
+            });
+        });
+
+        $('body').on('click', function (event, el) {
+            var clickTarget = event.target;
+
+            if (clickTarget.href && clickTarget.href.indexOf(window.location.origin) === -1) {
+                clickTarget.target = "_blank";
+            }
+        });
+    });
+
+    /**
+     * Handle Soundcloud oEmbed code
+     */
+    $(document).ready(function () {
+        $('div.soundcloud-embed').each(function (index) {
+            var url = $(this).attr('data-url');
+            var div = $(this);
+
+            $.getJSON('https://soundcloud.com/oembed?callback=?',
+                {
+                    format: 'js',
+                    url: url,
+                    iframe: true
+                },
+                function (data) {
+                    div.html(data['html']);
+                }
+            );
+        });
+    });
+
+    /**
+     * Better handle links in iOS web applications.
+     * This code (from the discussion here: https://gist.github.com/kylebarrow/1042026)
+     * will prevent internal links being opened up in safari when known is installed
+     * on an ios home screen.
+     */
+    (function (document, navigator, standalone) {
+        if ((standalone in navigator) && navigator[standalone]) {
+            var curnode, location = document.location, stop = /^(a|html)$/i;
+            document.addEventListener('click', function (e) {
+                curnode = e.target;
+                while (!(stop).test(curnode.nodeName)) {
+                    curnode = curnode.parentNode;
+                }
+                if ('href' in curnode && ( curnode.href.indexOf('http') || ~curnode.href.indexOf(location.host) ) && (!curnode.classList.contains('contentTypeButton'))) {
+                    e.preventDefault();
+                    location.href = curnode.href;
+                }
+            }, false);
+        }
+    })(document, window.navigator, 'standalone');
+
+</script>
+
+<script>
+    $('video').mediaelementplayer({
+        features: ['playpause','progress','current','tracks','volume','fullscreen'],
+        alwaysShowControls: false,
+        pauseOtherPlayers: true,
+        enableAutosize: false,
+        mediaWidth: -1,
+        mediaHeight: -1
+    });
+    $('audio').mediaelementplayer({
+        features: ['playpause','progress','current','tracks','volume','fullscreen'],
+        alwaysShowControls: false,
+        pauseOtherPlayers: true,
+        enableAutosize: false,
+        mediaWidth: -1,
+        mediaHeight: -1
+    });
+</script>
+<style>.known-media-element {
+        width: 100%;
+        height: 100%;
+    }
+</style><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+</body>
+
+
+</html>

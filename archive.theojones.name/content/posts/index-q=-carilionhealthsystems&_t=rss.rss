@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Theo Jones</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/content/posts/?q=%23carilionhealthsystems</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/content/posts/?q=%23carilionhealthsystems&amp;_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>Health Care Monopoly: Why the Hospital Market is not Competitive and How Patients Get Ripped Off or Worse</title>
+      <link>http://www.theojones.name/2013/health-care-monopoly-why-the-hospital-market-is-not-competitive</link>
+      <guid>http://www.theojones.name/2013/health-care-monopoly-why-the-hospital-market-is-not-competitive</guid>
+      <pubDate>Thu, 22 Aug 2013 23:58:25 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p><a href="http://online.wsj.com/article/SB121986172394776997.html?mod=hps_us_pageone&cb=logged0.4228730972390622">After a 1989 merger the Roanoke, Va hospital market became concentrated in the hands of one company</a>, Carilion Health Systems. By the most recent accounts profits of the company reached 107 million dollars and the pay of its CEO reached $2.07 million. However, things are not going as well for Carilion's patients. Carilion's colonoscopy fees are 4 to 10 times those of nearby health-care providers and their CT scan fees are almost three times those of other providers.  After the formation of the monopoly, insurance premiums soared in Roanoke. This change was largely driven by Carilion's high fees. Before the merger premiums were 20% lower than those of nearby Richmond. Now premiums in Roanoke are the highest in Virginia.</p>
+
+<p>Unfortunately, such monopolies are all too common in the American health care system. Hospital owners and management get rich while patients get shafted with high fees. Or in many cases bodies that control the care provided at many hospitals pull their weight to ensure that needed care is not provided at all.</p>
+
+<p><a href="http://content.healthaffairs.org/content/suppl/2003/12/12/hlthaff.w3.472v1.DC1">A study published in the journal <em>Health Affairs </em>f</a>ound substantial market concentration in the health care market that is sufficient to allow hospitals to charge public insurance providers (such as Medicare and Medicaid) different prices than those demanded of private insurance providers and individuals. In particular, hospitals can shift costs onto private insurance providers. The evidence suggests that for-profit providers are more likely to abuse their market power then non-profit providers. This differential pricing would be unlikely to occur in a competitive market because competition, and the risk of being undercut by other hospitals, would tend to push the maximum price down to a level near the cost of production.</p>
+
+<p><a href="http://www.huffingtonpost.com/2013/05/08/hospital-prices-cost-differences_n_3232678.html?1367985666">A review of prices charged by hospitals in the greater New York City metropolitan area</a> found vast differences in prices charged for equivalent COPD treatments. The most expensive hospital charged $99,690. The cheapest hospital charged $7,044.</p>
+
+<p><a href="http://www.ncbi.nlm.nih.gov/pubmed/21756018">A 2011 study concluded that</a> "Hospital markets in the United States now mostly fall within the definitions adopted by the DOJ [Department of Justice] and FTC [Federal Trade Commission] as moderately to highly concentrated" and that "Hospitals in concentrated markets charge significantly higher prices and earn significantly higher margins from private insurers than do hospitals in competitive markets."</p>
+
+<p><a href="http://ncronline.org/news/catholic-hospitals-serve-one-six-patients-united-states">One in every 6</a> hospital patients in America is served at a Catholic hospital. <a href="http://rhrealitycheck.org/article/2013/03/25/dont-take-her-to-catholic-hospital/">Almost 10%</a> of the religious hospitals in the United States are the sole provider of hospital care in their area. However, this vast patient body gives the Church substantial power to set the range of health care provided in the United States.  Many more are in highly concentrated markets and face only limited competition.  The Catholic Church requires the hospitals under its control to follow “<a title="(Open in new tab) " href="http://www.usccb.org/about/doctrine/ethical-and-religious-directives/" rel="external">Ethical and Religious Directives</a>” which often<a href="http://rhrealitycheck.org/article/2013/06/06/do-religious-restrictions-force-doctors-to-commit-malpractice/"> contradict generally accepted medical practices</a>.</p>
+
+<p>What should be done to increase competition in the health care market? First of all increased anti-trust enforcement should be applied to the health care market and hospital chains in concentrated markets should be broken up. In areas where there is not sufficient demand for hospital services to support a competitive market a publicly owned hospital monopoly is preferable to a private one.</p>
+<p><a href="http://www.theojones.name/tag/carilionhealthsystems" class="p-category" rel="tag">#carilionhealthsystems</a> <a href="http://www.theojones.name/tag/ftc" class="p-category" rel="tag">#ftc</a> <a href="http://www.theojones.name/tag/healthaffairs" class="p-category" rel="tag">#healthaffairs</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a> <a href="http://www.theojones.name/tag/unitedstates" class="p-category" rel="tag">#unitedstates</a></p></div>]]></description>
+      <category>#carilionhealthsystems</category>
+      <category>#ftc</category>
+      <category>#healthaffairs</category>
+      <category>#old</category>
+      <category>#old</category>
+      <category>#uncategorized</category>
+      <category>#unitedstates</category>
+    </item>
+  </channel>
+</rss>

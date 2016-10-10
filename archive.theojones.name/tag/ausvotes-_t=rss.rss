@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Theo Jones</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/tag/ausvotes</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/tag/ausvotes?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>New Study: Twitter Discussions Reflect Political Polarization on Climate Change</title>
+      <link>http://www.theojones.name/2013/new-study-twitter-discussions-reflect-political-polarization-on-climate-change</link>
+      <guid>http://www.theojones.name/2013/new-study-twitter-discussions-reflect-political-polarization-on-climate-change</guid>
+      <pubDate>Wed, 25 Dec 2013 15:20:20 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>A <a href="http://eprints.nottingham.ac.uk/2236/">study published this month</a> ,<em>Climate change on Twitter: topics, communities and conversations about the 2013 IPCC report</em>, looked into the debate about climate change on Twitter around the release of the latest Intergovernmental Panel on Climate Change assessment.</p>
+
+<p>[caption id="attachment_843" align="alignright" width="238"]<a href="http://en.wikipedia.org/wiki/File:GRES-2.jpg"></a> Image Via Wikipedia.Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.2 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.[/caption]</p>
+
+<p>They analysed the content of  tweets that mentioned the IPCC. Most Twitter posts on climate change  Among their findings is the discovery of a clear political polarization in online discussions of this issue. The discussions largely fit into four topics, "relation to science, political campaigns, geography, and social meanings of climate change". Of particular frequency in this discussion is the debate over the carbon tax bill in Australia. The debate over the accuracy of the science strongly follows these political lines. The following two example tweets given in the paper illustrate this.</p>
+<blockquote>
+<p>The <a href="http://www.theojones.name/tag/Australian" class="p-category" rel="tag">#Australian</a> PM thinks that if he doesn't read the <a href="http://www.theojones.name/tag/IPCC" class="p-category" rel="tag">#IPCC</a> report then <a href="http://www.theojones.name/tag/climatechange" class="p-category" rel="tag">#climatechange</a> is still crap. That's the way this government works.</p>
+</blockquote><blockquote>
+<p>Global Warming Scam unravelling by the day. IPCC exposed as corrupt liars. <a href="http://t.co/rotD07eIEX"></a><a href="http://t.co/rotD07eIEX">http:/<wbr></wbr>/<wbr></wbr>t.co/<wbr></wbr>rotD07eIEX</a> <a href="http://www.theojones.name/tag/auspol" class="p-category" rel="tag">#auspol</a> <a href="http://www.theojones.name/tag/ausvotes" class="p-category" rel="tag">#ausvotes</a></p>
+</blockquote>
+<p>In the United States tweets followed liberal and conservative lines with conservative tweets outnumbering liberal ones two to one. The authors state that</p>
+<blockquote>
+<p>The dominance of conservative-leaning hashtags in the US provide support for the theory that the country’s climate debate is in danger of becoming so polarized as to be described as a “logic schism”, in a similar manner to struggles over President Obama’s healthcare program.</p>
+</blockquote><p><a href="http://www.theojones.name/tag/globalwarmingscam" class="p-category" rel="tag">#globalwarmingscam</a> <a href="http://www.theojones.name/tag/imageviawikipedia" class="p-category" rel="tag">#imageviawikipedia</a> <a href="http://www.theojones.name/tag/ipcc" class="p-category" rel="tag">#ipcc</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a> <a href="http://www.theojones.name/tag/us" class="p-category" rel="tag">#us</a></p></div>]]></description>
+      <category>#Australian</category>
+      <category>#IPCC</category>
+      <category>#climatechange</category>
+      <category>#auspol</category>
+      <category>#ausvotes</category>
+      <category>#globalwarmingscam</category>
+      <category>#imageviawikipedia</category>
+      <category>#ipcc</category>
+      <category>#old</category>
+      <category>#old</category>
+      <category>#uncategorized</category>
+      <category>#us</category>
+    </item>
+  </channel>
+</rss>

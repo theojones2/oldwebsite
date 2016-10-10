@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Slim down your SSD with symbolic links | Macworld</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/2015/slim-down-your-ssd-with-symbolic-links-macworld</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/2015/slim-down-your-ssd-with-symbolic-links-macworld?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>Slim down your SSD with symbolic links | Macworld</title>
+      <link>http://www.macworld.com/article/2148490/slim-down-your-ssd-with-symbolic-links.html#tk.nl_mwdaily</link>
+      <guid>http://www.theojones.name/2015/slim-down-your-ssd-with-symbolic-links-macworld</guid>
+      <pubDate>Tue, 29 Sep 2015 03:20:32 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div class="known-bookmark">
+    <blockquote><p style="line-height: 1.7em; margin: 0px 0px .7em; color: #222222; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 16px;">Absolutely. There are a couple of ways you can go about this. If you find that a lot of the storage is being used by iPhoto and iTunes, you can simply shift their files over to the old hard drive and then point the apps to look there for their resources.</p><p style="line-height: 1.7em; margin: 0px 0px .7em; color: #222222; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px;">For iPhoto, copy the iPhoto Library archive from <em>youruserfolder</em>/Pictures to the old hard drive (where you copy it isn’t important). Then launch iPhoto while holding down the Option key. An iPhoto window will appear that lists any iPhoto Library archives you have as well as the path to the currently selected archive. Select the archive you moved and click <em>Choose</em>. (If you don’t see it in the list, click <em>Other Library</em>, navigate to it, and click <em>Open</em>.) You can now delete the original iPhoto Library archive. Whenever you work with iPhoto it will load and save images using this iPhoto Library archive.</p></blockquote></div>
+]]></description>
+      <category>#tk</category>
+      <category>#222222</category>
+      <category>#222222</category>
+    </item>
+  </channel>
+</rss>

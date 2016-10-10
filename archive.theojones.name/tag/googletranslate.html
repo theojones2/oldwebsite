@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Theo Jones</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="initial-scale=1.0" media="(device-height: 568px)"/>
+    <meta name="description" content="Thoughts and Ideas">
+    <meta name="generator" content="Known https://withknown.com">
+    <meta http-equiv="Content-Language" content="en">
+
+    <!--Le fav and touch icons-->
+<link rel="apple-touch-icon" sizes="57x57" href="../gfx/logos/apple-icon-57x57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="../gfx/logos/apple-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="../gfx/logos/apple-icon-114x114.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="../gfx/logos/apple-icon-144x144.png" />    <link rel="shortcut icon" type="image/png" href="../gfx/logos/logo_k.png">
+<!-- Make this an "app" when saved to an ios device's home screen -->
+<link rel="apple-touch-icon-precomposed" href="../gfx/logos/logo_k.png">
+<!-- Make this an "app" when saved to an ios device's home screen -->
+<link rel="apple-touch-icon" href="../gfx/logos/logo_k.png">
+<!-- <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black"> -->
+    <meta property="og:type" content="website" />
+<meta property="og:title" content="Theo Jones" />
+<meta property="og:site_name" content="Theo Jones" />
+<meta property="og:image" content="https://www.theojones.name/gfx/logos/logo_k.png" />
+
+
+    <!-- Dublin Core -->
+    <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+    <meta name="DC.title" content="Theo Jones">
+    <meta name="DC.description" content="Thoughts and Ideas">    <!-- AMP versions -->
+    <link rel="amphtml" href="googletranslate-_t=amp.html">
+
+    <!-- We need jQuery at the top of the page -->
+    <script src="../external/jquery/jquery.min.js"></script>
+
+    <!-- Le styles -->
+    <link
+        href="../external/bootstrap/assets/css/bootstrap.min.css"
+        rel="stylesheet"/>
+    <link
+        href="../external/bootstrap/assets/css/bootstrap-theme.min.css"/>
+    <script
+        src="../external/bootstrap/assets/js/bootstrap.min.js"></script>
+
+    <!-- Accessibility -->
+    <link rel="stylesheet"
+          href="../external/paypal-bootstrap-accessibility-plugin/plugins/css/bootstrap-accessibility_1.0.3.css">
+    <script
+        src="../external/paypal-bootstrap-accessibility-plugin/plugins/js/bootstrap-accessibility_1.0.3.min.js"></script>
+
+    <!-- Fonts -->
+    <link rel="stylesheet"
+          href="../external/font-awesome/css/font-awesome.css">
+    <!--<link rel="stylesheet"
+          href="https://www.theojones.name/external/font-awesome/css/font-awesome.min.css">-->
+    <style>body {
+            padding-top: 100px; /* 60px to make the container go all the way to the bottom of the topbar */
+        }
+    </style>
+
+    <link href="../css/default-20150907.css" rel="stylesheet">
+<link href="../css/defaultb3-20150123.css" rel="stylesheet">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script
+        src="https://www.theojones.name/external/bootstrap/assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Default Known JavaScript -->
+    <script src="../js/default-20150406.js"></script>
+
+    <!-- To silo is human, to syndicate divine -->
+    <link rel="alternate" type="application/rss+xml" title="Theo Jones"
+          href="googletranslate-_t=rss.rss"/>
+    <link rel="feed" type="application/rss+xml" title="Theo Jones"
+          href="googletranslate-_t=rss.rss"/>
+    <link rel="alternate feed" type="application/rss+xml"
+          title="Theo Jones: all content"
+          href="../content/all-_t=rss.rss"/>
+    <link rel="feed" type="text/html" title="Theo Jones"
+          href="../content/all.html"/>
+
+    <!-- Webmention endpoint -->
+    <link href="../webmention/index.html" rel="http://webmention.org/"/>
+    <link href="../webmention/index.html" rel="webmention"/>
+
+                <!-- Pubsubhubbub -->
+        <link href="http://withknown.superfeedr.com/" rel="hub"/>
+    
+    
+    <script src="../external/fragmention/fragmention.js"></script>
+
+    <!-- Syndication -->
+    <link
+        href="../external/bootstrap-toggle/css/bootstrap-toggle.min.css"
+        rel="stylesheet"/>
+    <script
+        src="../external/bootstrap-toggle/js/bootstrap-toggle.js"></script>
+
+    <style>.withknown-plugin {
+        padding-top: 0.25em;
+        padding-bottom: 0.25em;
+        background-color: #fff;
+        margin-bottom: 0.5em;
+    }
+
+    .withknown-plugin p,
+    .withknown-plugin h4,
+    .withknown-plugin form
+    {
+        margin: 0; padding: 0;
+    }
+
+    .withknown-plugin .plugin-content h4
+    {
+        padding-top: 0.25em;
+    }
+
+    .withknown-plugin .plugin-content p
+    {
+        padding-top: 0.3em;
+    }
+
+    .withknown-plugin .plugin-content {
+        color: #777;
+    }
+
+    .withknown-plugin input[type=submit]
+    {
+        width: 100px;
+    }
+    
+    .withknown-plugin .btn-enabled {
+    background-color: #70997a;
+    background-image: none;
+    background-repeat: repeat-x;
+    border-color: #70997a;
+    color: #ffffff;
+    text-shadow: none;
+	}
+	
+	.withknown-plugin .btn-enabled:hover, 
+	.withknown-plugin .btn-enabled:focus, 
+	.withknown-plugin .btn-enabled:active, 
+	.withknown-plugin .btn-enabled.active, 
+	.withknown-plugin .btn-enabled.disabled, 
+	.withknown-plugin .btn-enabled[disabled] {
+    background-color: #678c70;
+    border-color: #678c70;
+    color: #ffffff;
+	}
+	
+	.withknown-plugin .btn-default {
+	color: #666666;
+	}
+	
+	.withknown-plugin .span2 {
+		margin-left: 0px;
+	}
+	
+    .withknown-plugin h4 {
+		color: #222;
+	}
+
+    .withknown-pro-block {
+        text-align: center;
+        border: 0;
+        border-top: 2px #ccc solid;
+        border-bottom: 2px #ccc solid;
+        margin-bottom: 2em;
+        margin-top: 20px;
+    }
+</style><link rel="stylesheet" href="../IdnoPlugins/Checkin/external/leaflet/leaflet.css"/>
+<!--[if lte IE 8]>
+<link rel="stylesheet" href="https://www.theojones.name/IdnoPlugins/Checkin/external/leaflet/leaflet.ie.css"/>
+<![endif]-->
+<script type="text/javascript" src="../IdnoPlugins/Checkin/external/leaflet/leaflet.js"></script>
+<script type="text/javascript" src="../IdnoPlugins/Checkin/external/stamen-maps/tile.stamen.js"></script>
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script><link rel="openid.delegate" href="../index.html" />
+<link rel="openid.server" href="https://indieauth.com/openid" />
+<link rel="authorization_endpoint" href="../session/login-fwd=https-%7C%7Cwww.theojones.name%7Cindieauth%7Cauth.html">
+<link rel="token_endpoint" href="../indieauth/token.html">
+<link rel="micropub" href="../session/login-fwd=%7Cmicropub%7Cendpoint.html"><link href="../Themes/Solo/css/default.css" rel="stylesheet">    
+</head>
+
+<body class="idno_pages_homepage page-tag page-tag-googletranslate logged-out">
+<div id="pjax-container" class="page-container">
+    <a href="googletranslate.html#maincontent" style="display:none">Skip to main content</a>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" tabindex="1" href="../index.html">Theo Jones</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+
+            <form class="navbar-form navbar-left" action="https://www.theojones.name/content/all" method="get" role="search">
+    <div class="form-group">
+        <input type="search" class="search-query form-control" name="q" placeholder="Search" tabindex="2" value="#googletranslate">
+    </div>
+</form><ul class="nav navbar-nav">
+        
+            <li class="dropdown" tabindex="3">
+                <a href="googletranslate.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                    All content                    <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="../index-q=-googletranslate.html"><span class="dropdown-menu-icon">&nbsp;</span>
+                            Default content</a></li>
+                    <li><a href="../content/all/index-q=-googletranslate.html"><span class="dropdown-menu-icon">&nbsp;</span>
+                            All content</a></li>
+                                                    <li><a
+                                    href="../content/statusupdates/index-q=-googletranslate.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-comment-o"></i></span> Status updates                                </a></li>                                <li><a
+                                    href="../content/posts/index-q=-googletranslate.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-align-left"></i>
+</span> Posts                                </a></li>                                <li><a
+                                    href="../content/photos/index-q=-googletranslate.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-picture-o"></i>
+</span> Photos                                </a></li>                                <li><a
+                                    href="../content/locations/index-q=-googletranslate.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-map-marker"></i>
+</span> Locations                                </a></li>                                <li><a
+                                    href="../content/bookmarkedpages/index-q=-googletranslate.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-bookmark"></i>
+</span> Bookmarked pages                                </a></li>                                <li><a
+                                    href="../content/audio/index-q=-googletranslate.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-microphone"></i>
+</span> Audio                                </a></li>                                <li><a
+                                    href="../content/events/index-q=-googletranslate.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-calendar"></i>
+</span> Events                                </a></li>                                <li><a
+                                    href="../content/rsvp/index-q=-googletranslate.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-calendar-o"></i>
+</span> RSVP                                </a></li>
+
+                </ul>
+            </li>
+
+    </ul>
+            <ul class="nav navbar-nav navbar-right">
+                
+
+    <li><a href="../session/login.html">Sign in</a></li>            </ul>
+
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+    <div class="container page-body">
+        <a name="pagecontent"></a>
+                                    <div class="row idno-entry idno-entry-entry">
+
+                <div
+                    class="col-md-8 col-md-offset-2 h-entry idno-posts idno-object idno-content">
+                    <div style="display: none"> <!-- This is useful for webmentions -->
+                        <p class="p-author author h-card vcard">
+                            <a href="../profile/tjones2.html" class="icon-container"><img
+                                    class="u-logo logo u-photo photo" src="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e"/></a>
+                            <a class="p-name fn u-url url" href="../profile/tjones2.html">Theo Jones</a>
+                            <a class="u-url" href="../profile/tjones2.html">
+                                <!-- This is here to force the hand of your MF2 parser --></a>
+                        </p>
+                    </div>
+                                        <div class="e-content entry-content">
+                        <div>
+                <h2 class="p-name"><a
+                    href="../2015/thoughts-on-thegrid.html">Thoughts on thegrid</a>
+            </h2>
+                    <p class="reading">
+                <span class="vague">5 min read </span>
+            </p>
+            
+<p>The startup called <a href="https://thegrid.io/">thegrid</a> is releasing a product that is effectively a content management system, roughly similar in functionality to WordPress and such. This startup seems to be promising is software that can handle website design task in a more intelligent way than a traditional template-filling content management system. The company is accepting preorders and has done a pretty intensive advertising campaign on Facebook and other social media and has gotten quite a bit of media attention. They haven't released a beta of it yet, but when they do have something released I'll write a follow-up article saying what I think of it. But just seeing their advertising material on the articles have been written about it I have a few thoughts so far.</p>
+<ul><li> This is the type of software that is either going to be absolutely terrible or is going to be very good. I have signed up for the pre order but I wouldn't recommend paying for the preorder unless you are willing to be disappointed. However, it might be worth it you're willing to take a risk, as they do give some discounts for later usage to those who preorder. Having not seen an actual release of this software, I can't recommend it yet. 
+</li><li> I seriously doubt that it's going to replace WordPress on this website (unless it has some very impressive features, just on account of the level of commitment I've put into the Wordpress platform already. But it may replace Wordpress as my general go to recommendation for novice computer users wanting to create a website and if it's functional it might be the type of software I use for some new websites.
+</li><li>There is a serious market for content management systems are easy to use for not computer types. I think this is the main reason why content silos like Twitter or Facebook or such have become popular over traditional websites. Even with good content management systems like WordPress running a website is pretty tough. If thegrid can improve on this situation they will have a good future.
+</li><li>My biggest criticism of what I've seen so far from thegrid that their software, from what it seems, is going to be proprietary and closed source. This is not good. And this has the potential to bring up fundamentally the same issues that occur with the likes of Facebook and Twitter. The upside of their design is that it seems like their software does output static files that can be hosted on other platforms and which are relatively easy to migrate between content management systems. The output format appears to be compatible with Jekyl. But for any platform I use for mission critical stuff, or projects like this blog where I put large amounts of time into it, open source Free Software (in the RMS way) is a must. The fact that thegrid software looks like it will be proprietary severely limits the use cases that I have for it. For a program like this the ability to leave their platform about undue stress is as important as the functionality that their platform provides. I do not want to be trapped in another content silo.
+</li><li>Looking at their list of developers; their team seems experienced. It seems like it is within in their skill to deliver on what they are promising. It does not look like this is going to be one of the scams that has plagued crowd sourcing efforts.
+</li><li>I really don't like their buzzword filled way of describing their product. They like to use words and phrases like "artificial intelligence" and "websites that design themselves" to really mean "content management system". This makes me substantially skeptical of their product.
+</li><li>They have released a few sample websites designed with their engine. These websites seemed generally pretty clean in terms of layout generally have no major design issues. However, layout does seem substantially different in your typical blog or personal website.
+</li><li>For this type of thing, the level of customizability is going to be pretty critical. If their engine only has a few possible layouts and designs that can do it's going to be limited to the world of novice users who lack the technical skill in use anything better, or people working on websites so simple they have no use for anything more sophisticated.
+</li><li>It seems like they are trying to shake up some of the more fundamental parts of how CMSes function. Their way of handling themes is radically different than the typical implementation. This type of exploration can on
+</li><li>A lot of commentators on this, and to some extent developers of thegrid themselves, think that this type of program will replace the role of web designers. I strongly doubt this, they may come up with a way to automate some of the more routine tests that web designers do, but fundamentally creative work still require humans at least to be done with perfection. The best this type of program can hope to do is to leverage the worse is better effect -the fact that her sound the desired functionality can often be delivered by 20% of the effort. This will not be a threat to most web designers, just as the role of cheap and efficient automated translation by services like Google Translate, is not a threat to human translators. This type of software will either be a help to web designers by simplifying some more routine tasks, and/or it will be the type of software used in markets where people can't afford the full effort of a web designer. Web designers and other creative workers will keep their jobs, improved content management systems or not.</li></ul><p><a href="freesoftware.html" class="p-category" rel="tag">#freesoftware</a> <a href="googletranslate.html" class="p-category" rel="tag">#googletranslate</a> <a href="rms.html" class="p-category" rel="tag">#rms</a> <a href="scienceandtech.html" class="p-category" rel="tag">#scienceandtech</a></p></div>                    </div>
+                    <div class="footer">
+                        
+        <div class="permalink">
+            <p>
+                <a href="../profile/tjones2.html">Theo Jones</a>published this
+                <a class="u-url url" href="../2015/thoughts-on-thegrid.html" rel="permalink"><time class="dt-published"
+                          datetime="2015-03-18T05:22:03+0000">18 Mar 2015</time></a>
+                                                                            </p>
+        </div>
+        <div class="interactions">
+	        <span class="annotate-icon">
+                        <a class="stars" href="../2015/thoughts-on-thegrid.html#comments"><i class="fa fa-star-o"></i> 0 stars</a></span>
+                   <span class="annotate-icon"> <a class="comments" href="../2015/thoughts-on-thegrid.html#comments"><i class="fa fa-comments"></i> 0 comments</a></span>
+            <a class="shares" href="../2015/thoughts-on-thegrid.html#comments"></a>
+            <a class="shares" href="../2015/thoughts-on-thegrid.html#comments"></a>
+        </div>
+        <br clear="all"/>
+                            </div>
+                </div>
+
+            </div>
+
+        
+        <div class="pager">
+            <ul>
+                                <li><a href="googletranslate-offset=10.html" title="Older" rel="prev">Older &raquo;</a></li>            </ul>
+        </div>
+
+        <div class="blank-footer">
+    <div>
+        <p class="footer"><a href="https://withknown.com/?utm_source=footer&amp;utm_medium=installation" class="u-platform"><img src="../gfx/logos/logo_k.png" style="height: 1.5em"></a></p>
+    </div>
+</div>
+    </div>
+    <!-- /container -->
+
+        
+</div>
+<!-- Everything below this should be includes, not content -->
+
+<!-- Le javascript -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script
+    src="../external/jquery-timeago/jquery.timeago.js"></script>
+<script
+    src="../external/jquery-pjax/jquery.pjax.js"></script>
+<script src="../external/underscore/underscore-min.js"
+        type="text/javascript"></script>
+<!--<script src="https://www.theojones.name/external/mention/bootstrap-typeahead.js"
+        type="text/javascript"></script>
+<script src="https://www.theojones.name/external/mention/mention.js"
+        type="text/javascript"></script> -->
+
+
+<!-- Flexible media player -->
+<script
+    src="../external/mediaelement/build/mediaelement-and-player.min.js"></script>
+<link rel="stylesheet"
+      href="../external/mediaelement/build/mediaelementplayer.css"/>
+<!-- Video shim -->
+<script src="../external/fitvids/jquery.fitvids.min.js"></script>
+<!-- Mention styles -->
+<link rel="stylesheet" type="text/css"
+      href="../external/mention/recommended-styles.css">
+
+
+<!-- HTML5 form element support for legacy browsers -->
+<script src="../external/h5f/h5f.min.js"></script>
+
+<script>
+
+    function annotateContent() {
+        $(".h-entry").fitVids();
+        $("time.dt-published").timeago();
+    }
+
+    // Shim so that JS functions can get the current site URL
+    function wwwroot() {
+        return 'https://www.theojones.name/';
+    }
+
+    $(document).ready(function () {
+        $.timeago.settings.cutoff = 30 * 24 * 60 * 60 * 1000; // 1 month
+        annotateContent();
+    });
+
+    /**
+     * Handle Twitter tweet embedding
+     */
+    $(document).ready(function () {
+        $('div.twitter-embed').each(function (index) {
+            var url = $(this).attr('data-url');
+            var div = $(this);
+
+            $.ajax({
+                url: "https://api.twitter.com/1/statuses/oembed.json?url=" + url,
+                dataType: "jsonp",
+                success: function (data) {
+                    div.html(data['html']);
+                }
+            });
+        });
+
+        $('body').on('click', function (event, el) {
+            var clickTarget = event.target;
+
+            if (clickTarget.href && clickTarget.href.indexOf(window.location.origin) === -1) {
+                clickTarget.target = "_blank";
+            }
+        });
+    });
+
+    /**
+     * Handle Soundcloud oEmbed code
+     */
+    $(document).ready(function () {
+        $('div.soundcloud-embed').each(function (index) {
+            var url = $(this).attr('data-url');
+            var div = $(this);
+
+            $.getJSON('https://soundcloud.com/oembed?callback=?',
+                {
+                    format: 'js',
+                    url: url,
+                    iframe: true
+                },
+                function (data) {
+                    div.html(data['html']);
+                }
+            );
+        });
+    });
+
+    /**
+     * Better handle links in iOS web applications.
+     * This code (from the discussion here: https://gist.github.com/kylebarrow/1042026)
+     * will prevent internal links being opened up in safari when known is installed
+     * on an ios home screen.
+     */
+    (function (document, navigator, standalone) {
+        if ((standalone in navigator) && navigator[standalone]) {
+            var curnode, location = document.location, stop = /^(a|html)$/i;
+            document.addEventListener('click', function (e) {
+                curnode = e.target;
+                while (!(stop).test(curnode.nodeName)) {
+                    curnode = curnode.parentNode;
+                }
+                if ('href' in curnode && ( curnode.href.indexOf('http') || ~curnode.href.indexOf(location.host) ) && (!curnode.classList.contains('contentTypeButton'))) {
+                    e.preventDefault();
+                    location.href = curnode.href;
+                }
+            }, false);
+        }
+    })(document, window.navigator, 'standalone');
+
+</script>
+
+<script>
+    $('video').mediaelementplayer({
+        features: ['playpause','progress','current','tracks','volume','fullscreen'],
+        alwaysShowControls: false,
+        pauseOtherPlayers: true,
+        enableAutosize: false,
+        mediaWidth: -1,
+        mediaHeight: -1
+    });
+    $('audio').mediaelementplayer({
+        features: ['playpause','progress','current','tracks','volume','fullscreen'],
+        alwaysShowControls: false,
+        pauseOtherPlayers: true,
+        enableAutosize: false,
+        mediaWidth: -1,
+        mediaHeight: -1
+    });
+</script>
+<style>.known-media-element {
+        width: 100%;
+        height: 100%;
+    }
+</style><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+</body>
+
+
+</html>

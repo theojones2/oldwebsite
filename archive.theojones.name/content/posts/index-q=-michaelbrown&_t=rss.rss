@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Theo Jones</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/content/posts/?q=%23michaelbrown</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/content/posts/?q=%23michaelbrown&amp;_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>An Interesting Article on The DOJ Ferguson Report</title>
+      <link>http://www.theojones.name/2015/an-interesting-article-on-the-doj-ferguson-report</link>
+      <guid>http://www.theojones.name/2015/an-interesting-article-on-the-doj-ferguson-report</guid>
+      <pubDate>Wed, 18 Mar 2015 18:11:28 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>The conservative website Red State recently published an editorial about the Department of Justice report on the Ferguson Police Department. Although Red State is the type of place I generally consider unreliable, (however, liberal sites like Daily Kos have also been pretty good BS sources on this topic) the article sums up the topic pretty well, and explains why some of FPD's actions are of concern. <br /><a href="http://www.redstate.com/2015/03/15/many-conservatives-blowing-it-ferguson-doj-report/"></a><a href="http://www.redstate.com/2015/03/15/many-conservatives-blowing-it-ferguson-doj-report/">http:/<wbr></wbr>/<wbr></wbr>www.redstate.com/<wbr></wbr>2015/<wbr></wbr>03/<wbr></wbr>15/<wbr></wbr>many-conservatives-blowing-it-ferguson-doj-report/<wbr></wbr></a></p>
+<blockquote>
+<p>It’s unfortunate, the way news is consumed and interpreted in the age of twitter. Everyone feels tremendous pressure to form an opinion quickly and state it loudly and with certainty. Once this has been done, people are highly resistant to changing their minds and they become impervious to new evidence, often dismissing out of hand outright facts just because they are reported by a given source (e.g., “the media is untrustworthy” or “you can’t trust the Holder Department of Justice.”) Perhaps nowhere has this phenomenon been more obvious (or regrettable) than in Ferguson, Missouri, in the wake of the shooting death of Michael Brown. Interpreting the news out of Ferguson has become a part of ideological tribalism in which, if you are a conservative you stand for the Ferguson PD and if you are a liberal you stand against them. Thus, liberals have become highly resistant to assimilating information that strongly suggests that “hands up, don’t shoot” never happened. Conservatives, on the other hand, have become highly resistant to assimilating information that strongly suggests that the Ferguson PD – as with many other municipal police departments in the country – truly is out of control, in that it recklessly violates the constitutional rights of the citizens of Ferguson and does so in a manner that has a clearly disproportionate impact on minorities.</p>
+</blockquote><p><a href="http://www.theojones.name/tag/althoughredstate" class="p-category" rel="tag">#althoughredstate</a> <a href="http://www.theojones.name/tag/dailykos" class="p-category" rel="tag">#dailykos</a> <a href="http://www.theojones.name/tag/fergusonpolicedepartment" class="p-category" rel="tag">#fergusonpolicedepartment</a> <a href="http://www.theojones.name/tag/michaelbrown" class="p-category" rel="tag">#michaelbrown</a> <a href="http://www.theojones.name/tag/politics" class="p-category" rel="tag">#politics</a></p></div>]]></description>
+      <category>#althoughredstate</category>
+      <category>#dailykos</category>
+      <category>#fergusonpolicedepartment</category>
+      <category>#michaelbrown</category>
+      <category>#politics</category>
+    </item>
+  </channel>
+</rss>

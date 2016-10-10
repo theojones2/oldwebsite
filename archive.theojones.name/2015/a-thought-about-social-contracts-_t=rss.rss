@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>A thought about social contracts</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/2015/a-thought-about-social-contracts</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/2015/a-thought-about-social-contracts?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>A thought about social contracts</title>
+      <link>http://www.theojones.name/2015/a-thought-about-social-contracts</link>
+      <guid>http://www.theojones.name/2015/a-thought-about-social-contracts</guid>
+      <pubDate>Tue, 30 Jun 2015 06:27:14 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>Although I do think that Occam's Razor rules out moral theories that rely on more than a few basic assumptions. So, theories that assume (instead of derive) high-level things like Blackstone's ratio are out. The is-ought problem of turning facts into ethics produces a similar issue to the problem of how to turn observations into facts. For the observation to facts issue I would say that the scientific method is a sufficient solution. (I'm a scientific positivist, so, I think that the scientific method is the only reliable source of factual knowledge.</p>
+
+<p>However, I can't even settle on what the set of assumptions for ethics would be. If you really pressed me on the subject I might be tempted to bring up preference utilitarianism, but I'm not even convinced of that. And/therefore I think there is an even higher level problem. This type of argument (and the whole idea of finding the axioms for morality) assumes moral realism -- the idea that moral truths exist in some form that is independent of the subjective ideas of people. And the more I think about it, I start to come to the opinion that moral realism is probably false. Morality is a human thing, not a fact of the universe.</p>
+
+<p>But that doesn't mean that morality doesn't exist. I would say that it is effectively the product of game theory as applied through a social contract. The alternative is a war of all against all that isn't in the self-interest of anyone.</p>
+<p><a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#uncategorized</category>
+    </item>
+  </channel>
+</rss>

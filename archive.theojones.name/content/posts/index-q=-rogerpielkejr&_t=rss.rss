@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Theo Jones</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/content/posts/?q=%23rogerpielkejr</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/content/posts/?q=%23rogerpielkejr&amp;_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>Five-Thirty-Eight Converts into a Generic News Website</title>
+      <link>http://www.theojones.name/2014/five-thirty-eight-converts-into-a-generic-news-website</link>
+      <guid>http://www.theojones.name/2014/five-thirty-eight-converts-into-a-generic-news-website</guid>
+      <pubDate>Thu, 05 Jun 2014 16:17:38 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        <header style="color: #000000;"><h1 class="post-title"></h1></header><div class="post-content" style="color: #000000;">
+<p> It looks like Nate Silver has turned Five-Thirty-Eight into a  generic news website ,and, in the process of this conversion is killing killing what made the old Five-Thirty-Eight website so popular. Or at least Nate Silver has ventured out of the areas that he is skilled at (ie. forcasting elections), and venturing into the world of making a fool of himself (although it does seem that the problem articles are largely ones written by others).</p>
+
+<p>It also looks like Nate Silver is going for that whole be shocking, even at the expense of the facts thing. Look at his climate change coverage:</p>
+
+<p>Think Progress: "<a href="http://thinkprogress.org/climate/2014/03/19/3416369/538-climate-article/">First Climate Article On Nate Silver’s Data Website Uses ‘Deeply Misleading’ Data, Top Climatologists Say</a>"</p>
+<blockquote>
+<p><em>One of the first articles on Nate Silver’s highly anticipated data-driven news site used flawed data to make its conclusions, according to some of the nation’s top climate scientists. Silver’s FiveThirtyEight published its first article about climate change on Wednesday, entitled “Disasters Cost More Than Ever — But Not Because of Climate Change.” But climate scientists are condemning the article and its author, Roger Pielke Jr., saying he ignored critical data to produce a “deeply misleading” result.</em></p>
+</blockquote>
+<p>Ooh.. SHOCKING result! Climate change isn't increasing the cost of disasters! However, there is a big asterisk on that story, as you will find out if you read the Think Progress article.</p>
+
+<p>The Five-Thirty-Eight  economics coverage also seems to have some flaws, and <a href="http://krugman.blogs.nytimes.com/2014/03/18/sergeant-friday-was-not-a-fox/?_php=true&_type=blogs&module=BlogPost-Title&version=Blog%20Main&contentCollection=Opinion&action=Click&pgtype=Blogs&region=Body&_r=0">Krugman has written a take down</a>.</p>
+</div><p><a href="http://www.theojones.name/tag/natesilver" class="p-category" rel="tag">#natesilver</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/rogerpielkejr" class="p-category" rel="tag">#rogerpielkejr</a> <a href="http://www.theojones.name/tag/shocking" class="p-category" rel="tag">#shocking</a> <a href="http://www.theojones.name/tag/thinkprogress" class="p-category" rel="tag">#thinkprogress</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#000000</category>
+      <category>#000000</category>
+      <category>#natesilver</category>
+      <category>#old</category>
+      <category>#old</category>
+      <category>#rogerpielkejr</category>
+      <category>#shocking</category>
+      <category>#thinkprogress</category>
+      <category>#uncategorized</category>
+    </item>
+  </channel>
+</rss>

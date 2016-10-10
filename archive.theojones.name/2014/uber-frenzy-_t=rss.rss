@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Uber Frenzy</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/2014/uber-frenzy</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/2014/uber-frenzy?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>Uber Frenzy</title>
+      <link>http://www.theojones.name/2014/uber-frenzy</link>
+      <guid>http://www.theojones.name/2014/uber-frenzy</guid>
+      <pubDate>Sat, 19 Jul 2014 13:26:27 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        <p>What is the deal with the people who are fawning over "ride sharing" (read: unregulated taxi) services like Uber, and Lyft? I've seen lots of people who think these services will bring forth a transportation utopia and replace the need to own your own car. The companies themselves (and many of their supporters) think they have an uniquely "disruptive" service that . These types of services are pretty much more efficient taxi services. Taxi services where people use their own private cars, and mostly work part time. They bring up the exact same problems and limitations that other taxi services have.</p><p>They are a way to hire a driver to take you some place -- only in this case the hiring is done through a computer, allowing more rapid adjustment of pricing and more ability to select the driver you want to ride with. The companies claim that this minor difference is enough to make them exempt from the same regulations that bind normal taxis. Lyft went far enough to <a href="http://arstechnica.com/tech-policy/2014/07/lyft-defies-new-york-city-taxi-agencys-ban-to-launch-friday/">defy</a> a order from the New York City Taxi and Limousine Commission, and an associated order from the New York State Supreme Court, until the state's attorney general o<a href="http://www.latimes.com/business/technology/la-fi-tn-lyft-nyc-20140711-story.html">btained a second court order</a> that would have subjected individual drivers to legal risk. As Eric Schneiderman, the New York attorney general put it "Lyft decided to move ahead and simply ignore state and local laws." Their legal justification is the absurd claim that they are not taxis, but are instead "ride sharing" firms. Ride sharing companies that have paid drivers on staff, that can drive you to where you want on demand, and that you pay based on the distance taken. Not exactly carpooling.</p><p>People who should know better are in on the Uber worship frenzy. Take Paul Krugman's <a href="http://krugman.blogs.nytimes.com/2014/07/15/life-without-cars/">thoughts on the magic disruptor</a>.  </p><blockquote>
+<p>Anyway: the big benefit from new IT-mediated car services will come if they make it possible for lots of people — and not just people in Manhattan — to live without owning their own cars. And if you think about it, you can see how that might work.</p>
+</blockquote><p>Taxis, even "IT-mediated" ones need human drivers -- at least until Google releases their car to market. Human drivers are expensive. <a href="https://www.lyft.com/drivers">Lyft claims</a> that their drivers can "MAKE $35/HR DRIVING WITH LYFT". In an advertisement ran on the Bing search engine Uber claims their drivers can "Make Up To $40/hr In Fares". It goes without saying that few can afford this on a regular basis. This is why taxis have not replaced personal cars, not that they aren't sufficiently "IT-mediated". Replacing your car with a taxi or "ride sharing service" just isn't practical.  </p><blockquote>
+<p>Right now, if you live in places without exceptionally good public transportation, it’s very difficult to manage without a car. Yet when you think about it, for most people owning a car is quite wasteful. It’s an expensive item of equipment that sits idle most of the time; it requires parking (and often a parking structure) both at origin and at destination; it requires maintenance and is a big hassle all around.</p>
+</blockquote><p>Wasteful is hiring a large portion of the population at $35 per hour just to drive others around. All of these benefits can be reached by mass transit construction, at a cost that is actually reasonable to consumers.</p><p><a href="http://www.theojones.name/tag/make" class="p-category" rel="tag">#make</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#make</category>
+      <category>#old</category>
+      <category>#old</category>
+      <category>#uncategorized</category>
+    </item>
+  </channel>
+</rss>

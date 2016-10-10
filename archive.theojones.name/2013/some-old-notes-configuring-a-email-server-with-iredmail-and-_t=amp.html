@@ -1,0 +1,160 @@
+<!doctype html>
+<html amp>
+    <head>
+        <meta charset="utf-8">
+        <title>Some Old Notes: Configuring a Email Server with Iredmail and Ubuntu 12.04</title>
+        <link rel="canonical" href="some-old-notes-configuring-a-email-server-with-iredmail-and.html">
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui">
+        <script src="https://cdn.ampproject.org/v0.js" async></script>
+        <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
+        <style>body {opacity: 0}</style><noscript><style>body {opacity: 1}</style></noscript>
+
+        <!-- To silo is human, to syndicate divine -->
+        <link rel="alternate" type="application/rss+xml" title="Some Old Notes: Configuring a Email Server with Iredmail and Ubuntu 12.04"
+              href="some-old-notes-configuring-a-email-server-with-iredmail-and-_t=rss.rss"/>
+        <link rel="feed" type="application/rss+xml" title="Some Old Notes: Configuring a Email Server with Iredmail and Ubuntu 12.04"
+              href="some-old-notes-configuring-a-email-server-with-iredmail-and-_t=rss.rss"/>
+        <link rel="alternate feed" type="application/rss+xml"
+              title="Theo Jones: all content"
+              href="../content/all-_t=rss.rss"/>
+        <link rel="feed" type="text/html" title="Theo Jones"
+              href="../content/all.html"/>
+
+        <!-- Fonts -->
+        <link rel="stylesheet"
+              href="../external/font-awesome/css/font-awesome.css">
+
+        <!-- Webmention endpoint -->
+        <link href="../webmention/index.html" rel="http://webmention.org/"/>
+        <link href="../webmention/index.html" rel="webmention"/>
+
+        <link href="../css/default-20150907.css" rel="stylesheet">
+<link href="../css/defaultb3-20150123.css" rel="stylesheet">
+        <meta property="og:type" content="article" />
+<meta property="og:title" content="Some Old Notes: Configuring a Email Server with Iredmail and Ubuntu 12.04" />
+<meta property="og:site_name" content="Theo Jones" />
+<meta property="og:image" content="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e" />
+<meta property="og:url" content="https://www.theojones.name/2013/some-old-notes-configuring-a-email-server-with-iredmail-and" />
+<meta property="og:description" content="Install Iredmail
+
+See the Iredmail documentation http://www.iredmail.org/installiredmailon_ubuntu.html for more details
+
+First install bzip2
+
+apt-get install bzip2
+
+Edit first line of /etc/hosts
+
+nano /etc/hosts
+
+To read like the following
+
+127.0.0.1       mail.theojones.name localhost mail
+
+&amp;nbsp;
+
+Download" />
+<meta property="og:image:width" content="200" />
+<meta property="og:image:height" content="200" />
+
+
+        <!-- Dublin Core -->
+        <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+        <meta name="DC.title" content="Some Old Notes: Configuring a Email Server with Iredmail and Ubuntu 12.04">
+        <meta name="DC.description" content="Install Iredmail
+
+See the Iredmail documentation http://www.iredmail.org/installiredmailon_ubuntu.html for more details
+
+First install bzip2
+
+apt-get install bzip2
+
+Edit first line of /etc/hosts
+
+nano /etc/hosts
+
+To read like the following
+
+127.0.0.1       mail.theojones.name localhost mail
+
+&amp;nbsp;
+
+Download">                        <meta name="DC.creator" content="Theo Jones">                        <meta name="DC.date" content="2013-09-04T07:21:46+00:00">                        <meta name="DC.identifier" content="https://www.theojones.name/2013/some-old-notes-configuring-a-email-server-with-iredmail-and">
+        <style>body {
+                font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
+            }
+        </style>
+
+    </head>
+    <body>
+                            <div class="row idno-entry idno-entry-entry">
+
+                <div
+                    class="col-md-8 h-entry idno-posts idno-object idno-content">
+                                        <div class="e-content entry-content">
+                        <div>
+                <h2 class="p-name"><a
+                    href="some-old-notes-configuring-a-email-server-with-iredmail-and.html">Some Old Notes: Configuring a Email Server with Iredmail and Ubuntu 12.04</a>
+            </h2>
+                    <p class="reading">
+                <span class="vague">1 min read </span>
+            </p>
+            
+<p>Install Iredmail</p>
+
+<p>See the Iredmail documentation <a href="http://web.archive.org/web/20141115122245/%3Ca%20href=" http: rel="in-reply-to" class="u-in-reply-to">http:/<wbr></wbr>/<wbr></wbr>www.iredmail.org:80/<wbr></wbr>install_iredmail_on_ubuntu.html</a>"&gt;<a href="http://www.iredmail.org/install" rel="in-reply-to" class="u-in-reply-to">http:/<wbr></wbr>/<wbr></wbr>www.iredmail.org/<wbr></wbr>install</a><em>iredmail</em>on_ubuntu.html for more details</p>
+
+<p>First install bzip2</p>
+
+<p><em>apt-get install bzip2</em></p>
+
+<p>Edit first line of /etc/hosts</p>
+
+<p><em>nano /etc/hosts</em></p>
+
+<p>To read like the following</p>
+<blockquote>
+<p>127.0.0.1       mail.theojones.name localhost mail</p>
+
+<p> </p>
+</blockquote>
+<p>Download Ired Mail</p>
+
+<p>wget <a href="https://bitbucket.org/zhb/iredmail/downloads/iRedMail-0.8.5.tar.bz2"></a><a href="https://bitbucket.org/zhb/iredmail/downloads/iRedMail-0.8.5.tar.bz2" rel="in-reply-to" class="u-in-reply-to">https:/<wbr></wbr>/<wbr></wbr>bitbucket.org/<wbr></wbr>zhb/<wbr></wbr>iredmail/<wbr></wbr>downloads/<wbr></wbr>iRedMail-0.8.5.tar.bz2</a></p>
+
+<p>Untar Ired mail.</p>
+
+<p>tar xjf iRedMail-0.8.5.tar.bz2</p>
+
+<p><strong>Add forwarding</strong></p>
+
+<p>Go to <a href="https://mail.theojones.name/phpldapadmin/htdocs/cmd.php"></a><a href="https://mail.theojones.name/phpldapadmin/htdocs/cmd.php" rel="in-reply-to" class="u-in-reply-to">https:/<wbr></wbr>/<wbr></wbr>mail.theojones.name/<wbr></wbr>phpldapadmin/<wbr></wbr>htdocs/<wbr></wbr>cmd.php</a></p>
+<p><a href="../tag/downloadiredmail.html" class="p-category" rel="tag">#downloadiredmail</a> <a href="../tag/old.html" class="p-category" rel="tag">#old</a> <a href="../tag/old.html" class="p-category" rel="tag">#old</a> <a href="../tag/uncategorized.html" class="p-category" rel="tag">#uncategorized</a> <a href="../tag/untarired.html" class="p-category" rel="tag">#untarired</a></p></div>                    </div>
+                    <div class="footer">
+                        
+        <div class="permalink">
+            <p>
+                <a href="../profile/tjones2.html">Theo Jones</a>published this
+                <a class="u-url url" href="some-old-notes-configuring-a-email-server-with-iredmail-and.html" rel="permalink"><time class="dt-published"
+                                                                                                          datetime="2013-09-04T07:21:46+00:00">Wednesday, September 4, 2013</time></a>
+                                                                            </p>
+        </div>
+        <div class="interactions">
+	        <span class="annotate-icon">
+                        <a class="stars" href="some-old-notes-configuring-a-email-server-with-iredmail-and.html#comments"><i class="fa fa-star-o"></i> 0 stars</a></span>
+                    <span class="annotate-icon"> <a class="comments" href="some-old-notes-configuring-a-email-server-with-iredmail-and.html#comments"><i class="fa fa-comments"></i> 0 comments</a></span>
+            <a class="shares" href="some-old-notes-configuring-a-email-server-with-iredmail-and.html#comments"></a>
+            <a class="shares" href="some-old-notes-configuring-a-email-server-with-iredmail-and.html#comments"></a>
+        </div>
+        <br clear="all"/>
+                            </div>
+                </div>
+
+            </div>
+
+                    <div class="blank-footer">
+    <div>
+        <p class="footer"><a href="https://withknown.com/?utm_source=footer&amp;utm_medium=installation" class="u-platform"><img src="../gfx/logos/logo_k.png" style="height: 1.5em"></a></p>
+    </div>
+</div>    </body>
+</html>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Join Uber in a tale of rent seeking and employment law &#x2022; The Register</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/2015/join-uber-in-a-tale-of-rent-seeking-and-employment</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/2015/join-uber-in-a-tale-of-rent-seeking-and-employment?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>Join Uber in a tale of rent seeking and employment law &#x2022; The Register</title>
+      <link>http://www.theregister.co.uk/2015/10/07/uber_tale_of_rent_seeking_network_effects_and_employment_law/</link>
+      <guid>http://www.theojones.name/2015/join-uber-in-a-tale-of-rent-seeking-and-employment</guid>
+      <pubDate>Thu, 08 Oct 2015 03:09:16 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div class="known-bookmark">
+    <blockquote><p>"The first is one well known to youse guys in the tech industry: network effects. The first fax machine isn't all that much use and every other one added to the network adds to the usefulness of every other one. This is obviously true of Facebitch, of the internet in general and so on: and it's also true, to some extent at least, of the gig and sharing economy behemoths like Airbnb and Uber. The more people that use them the more supply there will be for people to use, attracting more people and so on. So, the game that, as organisations, all of these people are engaging in is the attempt to be the network for whatever it is; eBay for tchotchke, Uber for transportation, Google for ad slinging and Amazon for, erm, tchotchke."</p></blockquote></div>
+]]></description>
+    </item>
+  </channel>
+</rss>

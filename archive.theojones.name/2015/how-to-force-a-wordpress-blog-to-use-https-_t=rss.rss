@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>How to force a WordPress blog to use https</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/2015/how-to-force-a-wordpress-blog-to-use-https</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/2015/how-to-force-a-wordpress-blog-to-use-https?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>How to force a WordPress blog to use https</title>
+      <link>http://www.theojones.name/2015/how-to-force-a-wordpress-blog-to-use-https</link>
+      <guid>http://www.theojones.name/2015/how-to-force-a-wordpress-blog-to-use-https</guid>
+      <pubDate>Thu, 26 Mar 2015 04:31:38 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p><a href="http://www.theojones.name/wp-content/uploads/2015/03/Capture1.png"><img class="alignright size-medium wp-image-2076" src="http://www.theojones.name/wp-content/uploads/2015/03/Capture1-300x131.png" alt="Capture" width="300" height="131"></a>Using the <a href="https://wordpress.org/plugins/wp-force-https/">WordPress Force HTTPS plugin</a>, I have configured this blog such that it redirects to https. Its a very simple plugin to use, just install and activate it (from the official WordPress repositories) and your blog will redirect to HTTPS. Make sure you have your https certificates configured properly first. <a href="http://blog.codinghorror.com/should-all-web-traffic-be-encrypted/">There are a number of reasons to force https whenever possible</a>.</p>
+<p><a href="http://www.theojones.name/tag/computersecurityandtrolling" class="p-category" rel="tag">#computersecurityandtrolling</a> <a href="http://www.theojones.name/tag/https" class="p-category" rel="tag">#https</a></p></div>]]></description>
+      <category>#computersecurityandtrolling</category>
+      <category>#https</category>
+    </item>
+  </channel>
+</rss>

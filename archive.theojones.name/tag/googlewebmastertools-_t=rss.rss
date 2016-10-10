@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Theo Jones</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/tag/googlewebmastertools</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/tag/googlewebmastertools?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>Google treats www example com and example com...</title>
+      <link>http://www.theojones.name/2015/google-treats-www-example-com-and-example-com</link>
+      <guid>http://www.theojones.name/2015/google-treats-www-example-com-and-example-com</guid>
+      <pubDate>Sun, 14 Jun 2015 22:11:21 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>Google treats www.example.com and example.com as different. This can cause problems with things like the Google Webmaster Tools, and can result in the duplicate content penalty. Redirect one to the other.</p>
+<p><a href="http://www.theojones.name/tag/googlewebmastertools" class="p-category" rel="tag">#googlewebmastertools</a> <a href="http://www.theojones.name/tag/status" class="p-category" rel="tag">#status</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#googlewebmastertools</category>
+      <category>#status</category>
+      <category>#uncategorized</category>
+    </item>
+  </channel>
+</rss>

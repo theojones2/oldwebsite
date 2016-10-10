@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Theo Jones</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/content/posts/?q=%23todayintel</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/content/posts/?q=%23todayintel&amp;_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>Intel's Donation to Diversity Efforts Will Not Remove the Taint Of Sexism in the Company</title>
+      <link>http://www.theojones.name/2015/intels-donation-to-diversity-efforts-will-not-remove-the-taint</link>
+      <guid>http://www.theojones.name/2015/intels-donation-to-diversity-efforts-will-not-remove-the-taint</guid>
+      <pubDate>Thu, 08 Jan 2015 04:43:33 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>A few months ago Intel decided to take a pro-Gamergate stance and the company pulled advertisements from anti-Gamergate publications. It was clear to everyone (except perhaps for Intel's marketing department) that siding with a movement with a severe problem of harassment of women in the tech industry and sexism would damage the company's image. And of course, it did. [caption id="attachment_1427" align="alignright" width="300"]<a href="http://www.theojones.name/wp-content/uploads/2015/01/4290983579_ed16d588c9_o.jpg"><img src="http://www.theojones.name/wp-content/uploads/2015/01/4290983579_ed16d588c9_o-300x225.jpg" alt="Intel will sell fewer of these. Image via Flickr user  Leonardo Rizzi  &lt;a href=" https:>https:/<wbr></wbr>/<wbr></wbr>flic.kr/<wbr></wbr>p/<wbr></wbr>7xbpVv</a>" width="300" height="225" class="size-medium wp-image-1427" /&gt; Intel will sell fewer of these. Image via Flickr user  Leonardo Rizzi<br /><a href="https://flic.kr/p/7xbpVv%5B/caption%5DIntel">https:/<wbr></wbr>/<wbr></wbr>flic.kr/<wbr></wbr>p/<wbr></wbr>7xbpVv[/<wbr></wbr>caption]Intel</a> received an immediate backlash, and Intel's reputation with OEMs and consumers was damaged as a result. Through direct builds of my own and advice to friends and relatives, I was involved in a number of computer purchases since this incident. All run AMD CPUs. The Intel backing of Gamergate was a non-trivial part of this decision. Intel now has a problem, a problem that they tried to fix by throwing money at the issue. Today <a href="http://arstechnica.com/business/2015/01/intel-pledges-300-million-to-improve-diversity-in-tech/">Intel announced their intent to donate $300 million to tech diversity initiatives</a>. However, this is not sufficient to relieve Intel of their issue. The fact that Intel would not only back a toxic movement such as GG, but also back one of their most toxic efforts (an attempt to retaliate against journalists who published articles that GG did not like) indicates a severe problem at Intel's culture. A problem that will take much more than money to fix, and until Intel does that, this scandal will be a black mark on the company's record.</p>
+<p><a href="http://www.theojones.name/tag/economybusiness" class="p-category" rel="tag">#economybusiness</a> <a href="http://www.theojones.name/tag/gamergate" class="p-category" rel="tag">#gamergate</a> <a href="http://www.theojones.name/tag/gaming" class="p-category" rel="tag">#gaming</a> <a href="http://www.theojones.name/tag/leonardorizzi" class="p-category" rel="tag">#leonardorizzi</a> <a href="http://www.theojones.name/tag/politics" class="p-category" rel="tag">#politics</a> <a href="http://www.theojones.name/tag/scienceandtech" class="p-category" rel="tag">#scienceandtech</a> <a href="http://www.theojones.name/tag/todayintel" class="p-category" rel="tag">#todayintel</a></p></div>]]></description>
+      <category>#economybusiness</category>
+      <category>#gamergate</category>
+      <category>#gaming</category>
+      <category>#leonardorizzi</category>
+      <category>#politics</category>
+      <category>#scienceandtech</category>
+      <category>#todayintel</category>
+    </item>
+  </channel>
+</rss>

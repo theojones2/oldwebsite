@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>I have a Twitter @Theo_Jones1</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/2014/i-have-a-twitter-theo_jones1</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/2014/i-have-a-twitter-theo_jones1?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>I have a Twitter @Theo_Jones1</title>
+      <link>http://www.theojones.name/2014/i-have-a-twitter-theo_jones1</link>
+      <guid>http://www.theojones.name/2014/i-have-a-twitter-theo_jones1</guid>
+      <pubDate>Tue, 05 Aug 2014 04:57:57 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        <p>Follow it <br /><a href="https://twitter.com/Theo_Jones1"></a><a href="https://twitter.com/Theo_Jones1" rel="in-reply-to" class="u-in-reply-to">https:/<wbr></wbr>/<wbr></wbr>twitter.com/<wbr></wbr>Theo_Jones1</a></p><p><a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#old</category>
+      <category>#old</category>
+      <category>#uncategorized</category>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>[mac] QUESTION: Are files in Evernote also stored locally at the original file size? - Mac Help - Evernote User Forum</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/2015/mac-question-are-files-in-evernote-also-stored-locally-at</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/2015/mac-question-are-files-in-evernote-also-stored-locally-at?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>[mac] QUESTION: Are files in Evernote also stored locally at the original file size? - Mac Help - Evernote User Forum</title>
+      <link>https://discussion.evernote.com/topic/26278-question-are-files-in-evernote-also-stored-locally-at-the-original-file-size/</link>
+      <guid>http://www.theojones.name/2015/mac-question-are-files-in-evernote-also-stored-locally-at</guid>
+      <pubDate>Tue, 29 Sep 2015 03:26:41 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div class="known-bookmark">
+    <p> </p><blockquote><div class="post entry-content" style="margin: 0px; padding: 0px; color: #282828; line-height: 1.6; font-size: 14px; font-family: helvetica, arial, sans-serif; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px;">Yes, all files in the Evernote Mac client are on your computer's hard drive. If you don't use the Mac client at all and just stick to the Web client, your notes and files will exist solely in the cloud. If you're concerned about disk space, that's certainly an option. Personally, I don't like the idea of having all my data in one place without a backup. </div></blockquote></div>
+]]></description>
+      <category>#282828</category>
+    </item>
+  </channel>
+</rss>

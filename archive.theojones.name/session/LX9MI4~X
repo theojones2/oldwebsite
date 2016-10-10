@@ -1,0 +1,102 @@
+<!doctype html>
+<html amp>
+    <head>
+        <meta charset="utf-8">
+        <title>Sign in</title>
+        <link rel="canonical" href="login-fwd=http-%7C%7Cwww.theojones.name%7Cindieauth%7Cauth.html">
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui">
+        <script src="https://cdn.ampproject.org/v0.js" async></script>
+        <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
+        <style>body {opacity: 0}</style><noscript><style>body {opacity: 1}</style></noscript>
+
+        <!-- To silo is human, to syndicate divine -->
+        <link rel="alternate" type="application/rss+xml" title="Sign in"
+              href="login-fwd=http-%7C%7Cwww.theojones.name%7Cindieauth%7Cauth&amp;_t=rss.rss"/>
+        <link rel="feed" type="application/rss+xml" title="Sign in"
+              href="login-fwd=http-%7C%7Cwww.theojones.name%7Cindieauth%7Cauth&amp;_t=rss.rss"/>
+        <link rel="alternate feed" type="application/rss+xml"
+              title="Theo Jones: all content"
+              href="../content/all-_t=rss.rss"/>
+        <link rel="feed" type="text/html" title="Theo Jones"
+              href="../content/all.html"/>
+
+        <!-- Fonts -->
+        <link rel="stylesheet"
+              href="../external/font-awesome/css/font-awesome.css">
+
+        <!-- Webmention endpoint -->
+        <link href="../webmention/index.html" rel="http://webmention.org/"/>
+        <link href="../webmention/index.html" rel="webmention"/>
+
+        <link href="../css/default-20150907.css" rel="stylesheet">
+<link href="../css/defaultb3-20150123.css" rel="stylesheet">
+        <meta property="og:type" content="website" />
+<meta property="og:title" content="Sign in" />
+<meta property="og:site_name" content="Theo Jones" />
+<meta property="og:image" content="http://www.theojones.name/gfx/logos/logo_k.png" />
+
+
+        <!-- Dublin Core -->
+        <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+        <meta name="DC.title" content="Sign in">
+        <meta name="DC.description" content="">
+        <style>body {
+                font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
+            }
+        </style>
+
+    </head>
+    <body>
+                <div class="row">
+    <div class="col-md-6 col-md-offset-3 well text-center">
+
+		<h2 class="text-center welcome">Welcome back!</h2>
+
+        <h3 class="text-center">
+            Sign in
+        </h3>
+        
+        <div class="col-md-10 col-md-offset-1">
+
+        <form action="http://www.theojones.name/session/login" method="post">
+            <div class="control-group">
+                <div class="controls">
+                    <input type="text" id="inputEmail" name="email" placeholder="Your email address or username"
+                           class="form-control">
+                </div>
+            </div>
+            <div class="control-group">
+                <div class="controls">
+                    <input type="password" id="inputPassword" name="password" placeholder="Password" class="form-control">
+                </div>
+            </div>
+            <div class="control-group">
+                <div class="controls">
+                    <button type="submit" class="btn btn-signin">Sign in</button>
+                    <input type="hidden" name="fwd" value="http://www.theojones.name/indieauth/auth" />
+                </div>
+            </div>
+            
+              <div class="control-group">
+                <div class="controls">
+                                        <a href="../account/password.html">Forgot your password?</a>
+                </div>
+            </div>
+            <input type="hidden" name="__bTs" value="1455424554" />
+<input type="hidden" name="__bTk" value="ab78dea9b2beb86c293593745ac6606810c11a7e" />
+<input type="hidden" name="__bTa" value="/session/login" />        </form>
+        </div>
+
+    </div>
+</div>
+
+<script language="JavaScript">
+    $(document).ready(function() {
+        $('#inputEmail').focus();
+    });
+</script>        <div class="blank-footer">
+    <div>
+        <p class="footer"><a href="https://withknown.com/?utm_source=footer&amp;utm_medium=installation" class="u-platform"><img src="../gfx/logos/logo_k.png" style="height: 1.5em"></a></p>
+    </div>
+</div>    </body>
+</html>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>This Post Will Prove that You've Been Writing Articles the Wrong Way Your Whole Life: Is Clickbaiting Just Professional Trolling?</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/2015/this-post-will-prove-that-youve-been-writing-articles-the</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/2015/this-post-will-prove-that-youve-been-writing-articles-the?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>This Post Will Prove that You've Been Writing Articles the Wrong Way Your Whole Life: Is Clickbaiting Just Professional Trolling?</title>
+      <link>http://www.theojones.name/2015/this-post-will-prove-that-youve-been-writing-articles-the</link>
+      <guid>http://www.theojones.name/2015/this-post-will-prove-that-youve-been-writing-articles-the</guid>
+      <pubDate>Sat, 03 Jan 2015 02:59:40 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>The New Yorker <a href="http://www.newyorker.com/magazine/2015/01/05/virologist?mbid=rss">recently profiled Emerson Spartz</a>, the founder of a number of "viral content" websites, including Doze and Brainwreck. The thing I noticed in this article is how close the motivation of viral content designers become to those of internet trolls. The classic [caption id="attachment_1418" align="alignright" width="300"]<a href="http://www.theojones.name/wp-content/uploads/2015/01/5297464066_736311e515_o.jpg"><img src="http://www.theojones.name/wp-content/uploads/2015/01/5297464066_736311e515_o-300x225.jpg" alt="Image via Flickr user Si1very &lt;a href=" https: rel="in-reply-to" class="u-in-reply-to">https:/<wbr></wbr>/<wbr></wbr>flic.kr/<wbr></wbr>p/<wbr></wbr>957Tvm</a>" width="300" height="225" class="size-medium wp-image-1418" /&gt; Image via Flickr user Si1very <a href="https://flic.kr/p/957Tvm%5B/caption%5Dbehavior" rel="in-reply-to" class="u-in-reply-to">https:/<wbr></wbr>/<wbr></wbr>flic.kr/<wbr></wbr>p/<wbr></wbr>957Tvm[/<wbr></wbr>caption]behavior</a> of trolls is posting material designed more to inflame readers than to get a true viewpoint through. This can be seen in the attention getting nature of clickbait, as clickbaiters put attention getting before actual value. Says Spartz “The way we view the world, the ultimate barometer of quality is: if it gets shared, it’s quality. If someone wants to toil in obscurity, if that makes them happy, that’s fine. Not everybody has to change the world.” To the authors of clickbait, quality is no goal, attention is the only goal. During <a href="https://www.youtube.com/watch?v=AHqGV5WjS4w">a talk at the Defcon security and hacking conference, Matt Joyce</a> defined trolling as a fuzzing attack on users. In a fuzzing attack the hacker feeds a wide variety of unexpected input into a computer program until anomalous behavior appears in the program. Likewise, a troll feeds unexpected input into internet users until a good response is obtained. Clickbaiters work in a similar way. Spartz quite literally has bots generate candidate article content by crawling forums and social media. Humans then approve and collate the most promising content suggestions and the bots then proceed to test them on users and the articles that gain the biggest response are then pushed out. This is quite close to fuzzing. Their bots quite literally generate the input fed into users.</p>
+<p><a href="http://www.theojones.name/tag/emersonspartz" class="p-category" rel="tag">#emersonspartz</a> <a href="http://www.theojones.name/tag/mattjoyce" class="p-category" rel="tag">#mattjoyce</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#emersonspartz</category>
+      <category>#mattjoyce</category>
+      <category>#uncategorized</category>
+    </item>
+  </channel>
+</rss>

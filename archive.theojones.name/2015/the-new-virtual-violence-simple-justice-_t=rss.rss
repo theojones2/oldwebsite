@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>The New Virtual Violence | Simple Justice</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/2015/the-new-virtual-violence-simple-justice</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/2015/the-new-virtual-violence-simple-justice?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>The New Virtual Violence | Simple Justice</title>
+      <link>http://blog.simplejustice.us/2015/09/26/the-new-virtual-violence/</link>
+      <guid>http://www.theojones.name/2015/the-new-virtual-violence-simple-justice</guid>
+      <pubDate>Wed, 30 Sep 2015 00:04:51 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div class="known-bookmark">
+    <blockquote><p><span style="color: #444444; font-family: Arial, sans-serif; font-size: 15px; line-height: 20px;">"now is exactly the time to stop the use of the word 'violence' in connection with online communications. Speech on the internet can be patently offensive and monumentally stupid (and those of you doing so really need to STFU), but this isn’t violence."</span></p></blockquote></div>
+]]></description>
+      <category>#444444</category>
+    </item>
+  </channel>
+</rss>

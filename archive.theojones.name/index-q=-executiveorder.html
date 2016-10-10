@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Theo Jones</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="initial-scale=1.0" media="(device-height: 568px)"/>
+    <meta name="description" content="Thoughts and Ideas">
+    <meta name="generator" content="Known https://withknown.com">
+    <meta http-equiv="Content-Language" content="en">
+
+    <!--Le fav and touch icons-->
+<link rel="apple-touch-icon" sizes="57x57" href="gfx/logos/apple-icon-57x57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="gfx/logos/apple-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="gfx/logos/apple-icon-114x114.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="gfx/logos/apple-icon-144x144.png" />    <link rel="shortcut icon" type="image/png" href="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e">
+<!-- Make this an "app" when saved to an ios device's home screen -->
+<link rel="apple-touch-icon-precomposed" href="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e">
+<!-- Make this an "app" when saved to an ios device's home screen -->
+<link rel="apple-touch-icon" href="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e">
+<!-- <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black"> -->
+    <meta property="og:type" content="website" />
+<meta property="og:title" content="Theo Jones" />
+<meta property="og:site_name" content="Theo Jones" />
+<meta property="og:image" content="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e" />
+
+
+    <!-- Dublin Core -->
+    <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+    <meta name="DC.title" content="Theo Jones">
+    <meta name="DC.description" content="Thoughts and Ideas">    <!-- AMP versions -->
+    <link rel="amphtml" href="index-q=-executiveorder&amp;_t=amp.html">
+
+    <!-- We need jQuery at the top of the page -->
+    <script src="external/jquery/jquery.min.js"></script>
+
+    <!-- Le styles -->
+    <link
+        href="external/bootstrap/assets/css/bootstrap.min.css"
+        rel="stylesheet"/>
+    <link
+        href="external/bootstrap/assets/css/bootstrap-theme.min.css"/>
+    <script
+        src="external/bootstrap/assets/js/bootstrap.min.js"></script>
+
+    <!-- Accessibility -->
+    <link rel="stylesheet"
+          href="external/paypal-bootstrap-accessibility-plugin/plugins/css/bootstrap-accessibility_1.0.3.css">
+    <script
+        src="external/paypal-bootstrap-accessibility-plugin/plugins/js/bootstrap-accessibility_1.0.3.min.js"></script>
+
+    <!-- Fonts -->
+    <link rel="stylesheet"
+          href="external/font-awesome/css/font-awesome.css">
+    <!--<link rel="stylesheet"
+          href="https://www.theojones.name/external/font-awesome/css/font-awesome.min.css">-->
+    <style>body {
+            padding-top: 100px; /* 60px to make the container go all the way to the bottom of the topbar */
+        }
+    </style>
+
+    <link href="css/default-20150907.css" rel="stylesheet">
+<link href="css/defaultb3-20150123.css" rel="stylesheet">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script
+        src="https://www.theojones.name/external/bootstrap/assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Default Known JavaScript -->
+    <script src="js/default-20150406.js"></script>
+
+    <!-- To silo is human, to syndicate divine -->
+    <link rel="alternate" type="application/rss+xml" title="Theo Jones"
+          href="index-q=-executiveorder&amp;_t=rss.rss"/>
+    <link rel="feed" type="application/rss+xml" title="Theo Jones"
+          href="index-q=-executiveorder&amp;_t=rss.rss"/>
+    <link rel="alternate feed" type="application/rss+xml"
+          title="Theo Jones: all content"
+          href="content/all-_t=rss.rss"/>
+    <link rel="feed" type="text/html" title="Theo Jones"
+          href="content/all.html"/>
+
+    <!-- Webmention endpoint -->
+    <link href="webmention/index.html" rel="http://webmention.org/"/>
+    <link href="webmention/index.html" rel="webmention"/>
+
+                <!-- Pubsubhubbub -->
+        <link href="http://withknown.superfeedr.com/" rel="hub"/>
+    
+    
+    <script src="external/fragmention/fragmention.js"></script>
+
+    <!-- Syndication -->
+    <link
+        href="external/bootstrap-toggle/css/bootstrap-toggle.min.css"
+        rel="stylesheet"/>
+    <script
+        src="external/bootstrap-toggle/js/bootstrap-toggle.js"></script>
+
+    <style>.withknown-plugin {
+        padding-top: 0.25em;
+        padding-bottom: 0.25em;
+        background-color: #fff;
+        margin-bottom: 0.5em;
+    }
+
+    .withknown-plugin p,
+    .withknown-plugin h4,
+    .withknown-plugin form
+    {
+        margin: 0; padding: 0;
+    }
+
+    .withknown-plugin .plugin-content h4
+    {
+        padding-top: 0.25em;
+    }
+
+    .withknown-plugin .plugin-content p
+    {
+        padding-top: 0.3em;
+    }
+
+    .withknown-plugin .plugin-content {
+        color: #777;
+    }
+
+    .withknown-plugin input[type=submit]
+    {
+        width: 100px;
+    }
+    
+    .withknown-plugin .btn-enabled {
+    background-color: #70997a;
+    background-image: none;
+    background-repeat: repeat-x;
+    border-color: #70997a;
+    color: #ffffff;
+    text-shadow: none;
+	}
+	
+	.withknown-plugin .btn-enabled:hover, 
+	.withknown-plugin .btn-enabled:focus, 
+	.withknown-plugin .btn-enabled:active, 
+	.withknown-plugin .btn-enabled.active, 
+	.withknown-plugin .btn-enabled.disabled, 
+	.withknown-plugin .btn-enabled[disabled] {
+    background-color: #678c70;
+    border-color: #678c70;
+    color: #ffffff;
+	}
+	
+	.withknown-plugin .btn-default {
+	color: #666666;
+	}
+	
+	.withknown-plugin .span2 {
+		margin-left: 0px;
+	}
+	
+    .withknown-plugin h4 {
+		color: #222;
+	}
+
+    .withknown-pro-block {
+        text-align: center;
+        border: 0;
+        border-top: 2px #ccc solid;
+        border-bottom: 2px #ccc solid;
+        margin-bottom: 2em;
+        margin-top: 20px;
+    }
+</style><link rel="stylesheet" href="IdnoPlugins/Checkin/external/leaflet/leaflet.css"/>
+<!--[if lte IE 8]>
+<link rel="stylesheet" href="https://www.theojones.name/IdnoPlugins/Checkin/external/leaflet/leaflet.ie.css"/>
+<![endif]-->
+<script type="text/javascript" src="IdnoPlugins/Checkin/external/leaflet/leaflet.js"></script>
+<script type="text/javascript" src="IdnoPlugins/Checkin/external/stamen-maps/tile.stamen.js"></script>
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script><link rel="openid.delegate" href="index.html" />
+<link rel="openid.server" href="https://indieauth.com/openid" />
+<link rel="authorization_endpoint" href="session/login-fwd=https-%7C%7Cwww.theojones.name%7Cindieauth%7Cauth.html">
+<link rel="token_endpoint" href="indieauth/token.html">
+<link rel="micropub" href="session/login-fwd=%7Cmicropub%7Cendpoint.html"><link href="Themes/Solo/css/default.css" rel="stylesheet">    
+</head>
+
+<body class="idno_pages_homepage logged-out">
+<div id="pjax-container" class="page-container">
+    <a href="index-q=-executiveorder.html#maincontent" style="display:none">Skip to main content</a>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" tabindex="1" href="index.html">Theo Jones</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+
+            <form class="navbar-form navbar-left" action="https://www.theojones.name/content/all/" method="get" role="search">
+    <div class="form-group">
+        <input type="search" class="search-query form-control" name="q" placeholder="Search" tabindex="2" value="#executiveorder">
+    </div>
+</form><ul class="nav navbar-nav">
+        
+            <li class="dropdown" tabindex="3">
+                <a href="index-q=-executiveorder.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                    Filter content                    <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="index-q=-executiveorder.html"><span class="dropdown-menu-icon">&nbsp;</span>
+                            Default content</a></li>
+                    <li><a href="content/all/index-q=-executiveorder.html"><span class="dropdown-menu-icon">&nbsp;</span>
+                            All content</a></li>
+                                                    <li><a
+                                    href="content/statusupdates/index-q=-executiveorder.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-comment-o"></i></span> Status updates                                </a></li>                                <li><a
+                                    href="content/posts/index-q=-executiveorder.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-align-left"></i>
+</span> Posts                                </a></li>                                <li><a
+                                    href="content/photos/index-q=-executiveorder.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-picture-o"></i>
+</span> Photos                                </a></li>                                <li><a
+                                    href="content/locations/index-q=-executiveorder.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-map-marker"></i>
+</span> Locations                                </a></li>                                <li><a
+                                    href="content/bookmarkedpages/index-q=-executiveorder.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-bookmark"></i>
+</span> Bookmarked pages                                </a></li>                                <li><a
+                                    href="content/audio/index-q=-executiveorder.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-microphone"></i>
+</span> Audio                                </a></li>                                <li><a
+                                    href="content/events/index-q=-executiveorder.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-calendar"></i>
+</span> Events                                </a></li>                                <li><a
+                                    href="content/rsvp/index-q=-executiveorder.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-calendar-o"></i>
+</span> RSVP                                </a></li>
+
+                </ul>
+            </li>
+
+    </ul>
+            <ul class="nav navbar-nav navbar-right">
+                
+
+    <li><a href="session/login.html">Sign in</a></li>            </ul>
+
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+    <div class="container page-body">
+        <a name="pagecontent"></a>
+                        <div class="row profile h-card">
+    <div class="col-md-8 col-md-offset-2">
+        <!--<div class="row visible-sm">
+            <div class="col-md-2">
+                <div style="margin-bottom: 2em; margin-top: -2em; text-align: center">
+                    <p>
+                                            </p>
+
+                    <p style="margin-bottom: 2em" clear="all"></p>
+                </div>
+            </div>
+        </div>-->
+        <div class="row">
+            <div class="col-md-4 namebadge">
+                <p>
+                    <a href="profile/tjones2.html" class="u-url icon-container"><img class="u-photo"
+                                                                                               src="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e"/></a>
+                </p>
+
+                                            </div>
+            
+            <div class="col-md-8 namebadge-profile">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="p-profile">
+                            <a href="profile/tjones2.html"
+                               class="u-url p-name fn">Theo Jones</a>
+                        </h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="e-note"></div>
+
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>            <div class="row idno-entry idno-entry-entry">
+
+                <div
+                    class="col-md-8 col-md-offset-2 h-entry idno-posts idno-object idno-content">
+                    <div style="display: none"> <!-- This is useful for webmentions -->
+                        <p class="p-author author h-card vcard">
+                            <a href="profile/tjones2.html" class="icon-container"><img
+                                    class="u-logo logo u-photo photo" src="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e"/></a>
+                            <a class="p-name fn u-url url" href="profile/tjones2.html">Theo Jones</a>
+                            <a class="u-url" href="profile/tjones2.html">
+                                <!-- This is here to force the hand of your MF2 parser --></a>
+                        </p>
+                    </div>
+                                        <div class="e-content entry-content">
+                        <div>
+                <h2 class="p-name"><a
+                    href="2014/the-birth-of-anti-environmentalism.html">The Birth of Anti-environmentalism</a>
+            </h2>
+                    <p class="reading">
+                <span class="vague">8 min read </span>
+            </p>
+            
+<p><em>This post is part of a series <a title="Blog Post Series on the History of Sustainable Energy and Climate Change Politics" href="https://theojones.name/index.php/blog-post-series-on-the-history-of-sustainable-energy-and-climate-change-politics/">on the history of the politics of sustainable energy</a> <br /></em>The image to the top is an internet meme of "coal rolling", a trend that grew in popularity after the Obama administration attempted to increase regulations on greenhouse gasses. Coal rollers modify their trucks so that they can emit smoke on demand. Many do this to protest environmentalists and the regulations they advocate. This hobby is quite expensive and <a href="http://www.vocativ.com/culture/society/dicks-pick-trucks-meme-rollin-coal/">an article describes it as follows</a>:</p>
+<blockquote>
+<p>Today kids will spend anywhere from $1,000 to $5,000 modifying their pickups for this sole purpose; adding smoke stacks and smoke switches (which trick the engine into thinking it needs more gas), or even revamping the entire fuel system.  <br />Kids make a point of blowing smoke back at pedestrians, in addition to cop cars and rice burners (Japanese-made sedans), which can make it dangerously difficult to see out of the windshield. Diesel soot can also be a great road rage weapon should some wimpy looking Honda Civic ever piss you off. “If someone makes you mad, you can just roll coal, and it makes you feel better sometimes,” says Ryan, a high school senior who works at the diesel garage with Robbie. “The other day I did it to this kid who was driving a Mustang with his windows down, and it was awesome.” [...]</p>
+
+<p>The ultimate highway enemy, however, are “nature nuffies,” or people who drive hybrid cars, because apparently, pro-earth sentiment is an offense to the diesel-trucking lifestyle. “The feeling around here is that everyone who drives a small car is a liberal,” says Ryan. “I rolled coal on a Prius once just because they were tailing me.”</p>
+</blockquote>
+<p>However, this severe opposition to environmentalism did not come ex nihilo. This comes as part of a political movement.  As I noted in my last post, after the election of President Obama in 2008, the tone in the media changed from a reasonably pro environment one to a one where climate change denial was given strong credence. The Tea Party movement, formed out of a mix of populist New Right fiscal conservatives, libertarians and social conservatives, and this movement made opposition to climate change mitigation and other forms of environmental regulation a core goal. This movement started with the explosion of conservative ideology that came with the Reagan Administration.</p>
+
+<p>However, at this time environmental regulation had wide political support and neither Congress nor the courts would accept a direct challenge to the increasing role of these regulations. However, the Reagan era did bring many important changes to the regulatory apparatus. Reagan was able to halt action on acid rain for almost a decade, and he placed conservative appointees in top places. His administration promoted the increased use of monetary based cost-benefit analysis and other procedural hurdles to new regulation. His budgets reduced the funding available to regulators and reduced the level of enforcement available -- turning many regulations into dead letters. Reagan was able to effectively use the bully pulpit to promote anti-regulatory sentiments, and due to his administration these sentiments began to gain credence among those with influence in politics. Even before the Reagan Administration, many economists, lawyers, and scholars criticized the system of environmental regulation as inefficient. These critics claimed that it came at a high cost, micromanaged business actions, was overly rigid, and is a highly complex system that buries businesses in paperwork. Some of this criticism was, and to some extent still is true. Regulators have tended to use a command and control (regulations that ) style of regulation, when a more market-based approach of subsidies, taxes, cap&trade programs, and property rights may have done better. A command and control based system limits choice available to businesses and consumers. However, there are still places for traditional regulation. In a future post I will discuss the role of command and control type regulation in abating climate change. In the 80s conservative thinktanks and advocacy groups began to attack the system of regulation. The Heritage Foundation published a 1000 page report titled <em>Mandate For Leadership</em> which declared that "regulation threatens to destroy the private competitive free market economy" and that "the extraordinary growth of government ... has brought mounting costs to society, which, in turn have added to inflationary pressures, reduced productivity, discouraged new investment, and increased bureaucrats' intrusion into everyday life". The report put forward a "conservative's dream of doing away with government controls and abolishing federal regulatory agencies". For his part Reagan stated that "if they [the EPA] had their way you and I would have to live in rabbit holes or bird's nests". To fight these regulations Reagan undertook a strategy of obstruction of the environmental laws instead of directly challenging them. He and his administration downplayed the risks of harms to the environment and up-played the harms of the regulations to prevent the damage. The Reagan Administration also played Democratic interest groups off each other, with unions often in opposition to environmental laws. Reagan also centralized the production of regulations. He mandated increased direct oversight of the production of regulations by the White House. He also interfered with the decision making of regulators, signing Executive Order 12291 which required all regulations to pass a cost-benefit analysis. He also increased the power of the Office of Budget Management to review regulations and directed that office to prepare lists of regulations that should be repealed or amended. When making selections of people to head regulatory agencies Reagan often appointed hard-line conservatives. While the courts often opposed the administration, the courts started to give great weight to the Administration's "interpretations" of environmental laws. In <em>Chevron U.S.A., Inc. v. Natural Resources Defense Council , Inc</em> (1984) the Supreme Court ruled that the interpretations of regulatory agencies should be given great deference. The Court declared "If the Court determines Congress has not directly addressed the precise question at issue, the court does not simply impose its own construction of the statute . . . If the statute is silent or ambiguous with respect to the specific question, the issue for the court is whether the agency's answer is based on a permissible construction of the statute." The Reagan administration also gave birth to the first conservative opposition to climate change. The Carter Administration decided to provide funding to the then nacient field of climate change research. Reagan's budgets slashed this funding. Reagan's administration was of course also opposed to doing anything about the climate change threat, or promoting sustainable energy. <br />     Reagan also <a href="http://www.presidency.ucsb.edu/ws/index.php?pid=40982">acted deregulated the natural gas industry</a>, although this was a continuation  of policies enacted by the previous administration, <a href="http://www.eia.gov/oil_gas/natural_gas/analysis_publications/ngmajorleg/ngact1978.html">such as the The Natural Gas Policy Act of 1978</a>. The most impoprtant change was to lift price controls and restrictions that kept gas prices low at the expense of reduced supply and widespread shortages.  This action was probably the most beneficial of all of the environmental policy changes of this era. The increase in natural gas production allowed utilities to swap oil for gas as a electricity generating fuel source. <a href="http://moslereconomics.com/2008/07/25/nat-gas/">This broke the cycle of oil price increases that drove the high inflation</a> of the time.</p>
+
+<p>George H. W. Bush however though that environmental regulation needed expansion. <a href="http://millercenter.org/president/bush/essays/biography/4">An article describes his policy on that subject as follows</a>:</p>
+<blockquote>
+<p>Bush took the lead with the other significant piece of domestic legislation he signed while in office: the Clean Air Act Amendments of 1990. Ironically, an environmental disaster aided his efforts; in March 1989, the Exxon Valdez oil tanker ran aground, and more than 10 million gallons of oil spilled into Prince William Sound in Alaska. The Exxon Valdez disaster made the public more receptive to the need for environmental protection. Bush also showed his support for the environment by appointing the first professional environmentalist to lead the Environmental Protection Agency (EPA) when he chose William Reilly as its head in 1989.  <br />The Clean Air Act Amendments of 1990 built on the first bill passed in 1963 and subsequent bills in 1970 and 1977. The 1990 amendments focused on three aspects of clean air: reducing urban smog, curbing acid rain, and eliminating industrial emissions of toxic chemicals. Although critics were concerned about the cost of the act and its effect on an already weakened economy, President Bush was deeply committed to environmental issues and claimed that by working with the business community to find innovative ways to improve the environment, the economy and the American people could both benefit. Congress passed the bill with significant support, and on November 15, 1990, President Bush signed the act</p>
+</blockquote>
+<p>However, Reagan's opposition to environmental regulation had a lasting impact and the Tea Party movement brought this ideology back into the mainstream. The growth of this movement gave birth to an anti-environmentalism that is the main road block to action on climate change.</p>
+<p><a href="tag/executiveorder.html" class="p-category" rel="tag">#executiveorder</a> <a href="tag/old.html" class="p-category" rel="tag">#old</a> <a href="tag/old.html" class="p-category" rel="tag">#old</a> <a href="tag/presidentbush.html" class="p-category" rel="tag">#presidentbush</a> <a href="tag/reaganadministration.html" class="p-category" rel="tag">#reaganadministration</a> <a href="tag/uncategorized.html" class="p-category" rel="tag">#uncategorized</a> <a href="tag/williamreilly.html" class="p-category" rel="tag">#williamreilly</a></p></div>                    </div>
+                    <div class="footer">
+                        
+        <div class="permalink">
+            <p>
+                <a href="profile/tjones2.html">Theo Jones</a>published this
+                <a class="u-url url" href="2014/the-birth-of-anti-environmentalism.html" rel="permalink"><time class="dt-published"
+                          datetime="2014-07-26T07:50:23+0000">26 Jul 2014</time></a>
+                                                                            </p>
+        </div>
+        <div class="interactions">
+	        <span class="annotate-icon">
+                        <a class="stars" href="2014/the-birth-of-anti-environmentalism.html#comments"><i class="fa fa-star-o"></i> 0 stars</a></span>
+                   <span class="annotate-icon"> <a class="comments" href="2014/the-birth-of-anti-environmentalism.html#comments"><i class="fa fa-comments"></i> 0 comments</a></span>
+            <a class="shares" href="2014/the-birth-of-anti-environmentalism.html#comments"></a>
+            <a class="shares" href="2014/the-birth-of-anti-environmentalism.html#comments"></a>
+        </div>
+        <br clear="all"/>
+                            </div>
+                </div>
+
+            </div>
+
+        
+        <div class="pager">
+            <ul>
+                                <li><a href="index-q=-executiveorder&amp;offset=10.html" title="Older" rel="prev">Older &raquo;</a></li>            </ul>
+        </div>
+
+        <div class="blank-footer">
+    <div>
+        <p class="footer"><a href="https://withknown.com/?utm_source=footer&amp;utm_medium=installation" class="u-platform"><img src="gfx/logos/logo_k.png" style="height: 1.5em"></a></p>
+    </div>
+</div>
+    </div>
+    <!-- /container -->
+
+        
+</div>
+<!-- Everything below this should be includes, not content -->
+
+<!-- Le javascript -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script
+    src="external/jquery-timeago/jquery.timeago.js"></script>
+<script
+    src="external/jquery-pjax/jquery.pjax.js"></script>
+<script src="external/underscore/underscore-min.js"
+        type="text/javascript"></script>
+<!--<script src="https://www.theojones.name/external/mention/bootstrap-typeahead.js"
+        type="text/javascript"></script>
+<script src="https://www.theojones.name/external/mention/mention.js"
+        type="text/javascript"></script> -->
+
+
+<!-- Flexible media player -->
+<script
+    src="external/mediaelement/build/mediaelement-and-player.min.js"></script>
+<link rel="stylesheet"
+      href="external/mediaelement/build/mediaelementplayer.css"/>
+<!-- Video shim -->
+<script src="external/fitvids/jquery.fitvids.min.js"></script>
+<!-- Mention styles -->
+<link rel="stylesheet" type="text/css"
+      href="external/mention/recommended-styles.css">
+
+
+<!-- HTML5 form element support for legacy browsers -->
+<script src="external/h5f/h5f.min.js"></script>
+
+<script>
+
+    function annotateContent() {
+        $(".h-entry").fitVids();
+        $("time.dt-published").timeago();
+    }
+
+    // Shim so that JS functions can get the current site URL
+    function wwwroot() {
+        return 'https://www.theojones.name/';
+    }
+
+    $(document).ready(function () {
+        $.timeago.settings.cutoff = 30 * 24 * 60 * 60 * 1000; // 1 month
+        annotateContent();
+    });
+
+    /**
+     * Handle Twitter tweet embedding
+     */
+    $(document).ready(function () {
+        $('div.twitter-embed').each(function (index) {
+            var url = $(this).attr('data-url');
+            var div = $(this);
+
+            $.ajax({
+                url: "https://api.twitter.com/1/statuses/oembed.json?url=" + url,
+                dataType: "jsonp",
+                success: function (data) {
+                    div.html(data['html']);
+                }
+            });
+        });
+
+        $('body').on('click', function (event, el) {
+            var clickTarget = event.target;
+
+            if (clickTarget.href && clickTarget.href.indexOf(window.location.origin) === -1) {
+                clickTarget.target = "_blank";
+            }
+        });
+    });
+
+    /**
+     * Handle Soundcloud oEmbed code
+     */
+    $(document).ready(function () {
+        $('div.soundcloud-embed').each(function (index) {
+            var url = $(this).attr('data-url');
+            var div = $(this);
+
+            $.getJSON('https://soundcloud.com/oembed?callback=?',
+                {
+                    format: 'js',
+                    url: url,
+                    iframe: true
+                },
+                function (data) {
+                    div.html(data['html']);
+                }
+            );
+        });
+    });
+
+    /**
+     * Better handle links in iOS web applications.
+     * This code (from the discussion here: https://gist.github.com/kylebarrow/1042026)
+     * will prevent internal links being opened up in safari when known is installed
+     * on an ios home screen.
+     */
+    (function (document, navigator, standalone) {
+        if ((standalone in navigator) && navigator[standalone]) {
+            var curnode, location = document.location, stop = /^(a|html)$/i;
+            document.addEventListener('click', function (e) {
+                curnode = e.target;
+                while (!(stop).test(curnode.nodeName)) {
+                    curnode = curnode.parentNode;
+                }
+                if ('href' in curnode && ( curnode.href.indexOf('http') || ~curnode.href.indexOf(location.host) ) && (!curnode.classList.contains('contentTypeButton'))) {
+                    e.preventDefault();
+                    location.href = curnode.href;
+                }
+            }, false);
+        }
+    })(document, window.navigator, 'standalone');
+
+</script>
+
+<script>
+    $('video').mediaelementplayer({
+        features: ['playpause','progress','current','tracks','volume','fullscreen'],
+        alwaysShowControls: false,
+        pauseOtherPlayers: true,
+        enableAutosize: false,
+        mediaWidth: -1,
+        mediaHeight: -1
+    });
+    $('audio').mediaelementplayer({
+        features: ['playpause','progress','current','tracks','volume','fullscreen'],
+        alwaysShowControls: false,
+        pauseOtherPlayers: true,
+        enableAutosize: false,
+        mediaWidth: -1,
+        mediaHeight: -1
+    });
+</script>
+<style>.known-media-element {
+        width: 100%;
+        height: 100%;
+    }
+</style><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+</body>
+
+
+</html>

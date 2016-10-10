@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Theo Jones</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/tag/india</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/tag/india?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>WHO: India Eradicated Polio</title>
+      <link>http://www.theojones.name/2014/who-india-eradicated-polio</link>
+      <guid>http://www.theojones.name/2014/who-india-eradicated-polio</guid>
+      <pubDate>Fri, 10 Jan 2014 19:28:21 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        <p><a href="http://online.wsj.com/news/articles/SB10001424052702303848104579312453860810752?mod=WSJ_MIDDLENexttoWhatsNewsSecond">Via the Wall Street Journal <br /></a></p><blockquote>
+<p>The World Health Organization plans to announce on Monday that India has officially eliminated polio, one of the biggest public-health achievements of recent times, and one that could set the stage for stamping out the ancient scourge globally.</p>
+
+<p>Public-health officials have been counting the days to the three-year anniversary of India's last recorded case, which allows the WHO to certify it as polio free.</p>
+</blockquote><p>Health care throughout the world as as much to gain from effective deployment of new technology, as it does from the discovery of new technology. Vaccination campaigns, such as the one that eradicated polio in India are one of the most effective health care tools ever designed.</p><p><a href="http://www.theojones.name/tag/india" class="p-category" rel="tag">#india</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a> <a href="http://www.theojones.name/tag/who" class="p-category" rel="tag">#who</a></p></div>]]></description>
+      <category>#india</category>
+      <category>#old</category>
+      <category>#old</category>
+      <category>#uncategorized</category>
+      <category>#who</category>
+    </item>
+  </channel>
+</rss>

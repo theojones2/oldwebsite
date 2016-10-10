@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>New Community Post Feature</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/2014/new-community-post-feature</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/2014/new-community-post-feature?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>New Community Post Feature</title>
+      <link>http://www.theojones.name/2014/new-community-post-feature</link>
+      <guid>http://www.theojones.name/2014/new-community-post-feature</guid>
+      <pubDate>Tue, 05 Aug 2014 14:51:05 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>Look to the sidebar of this blog for the new community post feature. With this new feature of the blog, users can submit posts. Posts may be delayed for my approval. This feature is to build community and community posts of wide viewpoints and topics are accepted. Approved community posts will appear <a href="https://theojones.name/index.php/fv-community-news/archive/">in the community posts page</a>. Select community posts will be elevated to the front page of the blog. Creating an account will expedite the acceptance of a community post. Second posts from a user will be automatically accepted without moderation. Remember to save a copy of your submission before sending it. All community posts must follow the comment guidelines.</p>
+
+<p>By creating an account and logging in you can gain access to a more complex editing form.</p>
+<p><a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#old</category>
+      <category>#old</category>
+      <category>#uncategorized</category>
+    </item>
+  </channel>
+</rss>

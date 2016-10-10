@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>The Latest in the NSA Spying Scandal</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/2013/the-latest-in-the-nsa-spying-scandal</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/2013/the-latest-in-the-nsa-spying-scandal?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>The Latest in the NSA Spying Scandal</title>
+      <link>http://www.theojones.name/2013/the-latest-in-the-nsa-spying-scandal</link>
+      <guid>http://www.theojones.name/2013/the-latest-in-the-nsa-spying-scandal</guid>
+      <pubDate>Mon, 30 Dec 2013 20:05:24 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>Via Slashdot</p>
+
+<p> </p>
+<div class="rpuEmbedCode"><div class="rpuArticle rpuNoTitle rpuRepost-a3105a84c51c5040532a2ee00605a3fd-top" style="margin:0;padding:0;">
+<p><script src="https://1.rp-api.com/rjs/repost-article.js?3" type="text/javascript" data-cfasync="false"></script><a href="http://s.tt/1UX26" class="rpuThumb" rel="norewrite"></a><a href="http://s.tt/1UX26" class="rpuTitle" rel="norewrite"><strong>NSA Infects Much U.S. Tech Before it Even Ships</strong></a> (via <a href="http://s.tt/1UX26" class="rpuHost" rel="norewrite">slashdot</a>)</p>
+<p class="rpuSnip">  
+Even the most dramatic accusations of improper or criminal behavior appear to understate the actual digital-espionage methods of the National Security Agency (NSA), according to a series of stories published over the weekend by German daily Der Spiegel…  
+</p></div></div><!-- put the "tease", "jump" or "more" break here --><hr id="system-readmore" style="display: none;"><!--more--><!--break--><hr class="at-page-break" style="display: none;"><div class="rpuEmbedCode"><div class="rpuArticle rpuRepostMain rpuRepost-a3105a84c51c5040532a2ee00605a3fd-bottom" style="display:none;"> </div><div style="display: none;"><!-- How to customize this embed: <a href="http://www.repost.us/article-preview/hash/f472f8f610977d87447344ceeaa78c2e" rel="in-reply-to" class="u-in-reply-to">http:/<wbr />/<wbr />www.repost.us/<wbr />article-preview/<wbr />hash/<wbr />f472f8f610977d87447344ceeaa78c2e</a> --></div></div><p><a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#old</category>
+      <category>#old</category>
+      <category>#uncategorized</category>
+    </item>
+  </channel>
+</rss>

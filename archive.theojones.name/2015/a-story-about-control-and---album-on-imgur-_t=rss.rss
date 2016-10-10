@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>A story about control and &#x2318; - Album on Imgur</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/2015/a-story-about-control-and---album-on-imgur</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/2015/a-story-about-control-and---album-on-imgur?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>A story about control and &#x2318; - Album on Imgur</title>
+      <link>http://imgur.com/gallery/Wd4Jj</link>
+      <guid>http://www.theojones.name/2015/a-story-about-control-and---album-on-imgur</guid>
+      <pubDate>Mon, 05 Oct 2015 04:54:10 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div class="known-bookmark">
+    <blockquote><p>"People asked why Apple uses the Command key for shortcuts, and not Control, even though there is a Control key present. I now attempt to explain. It's a bit of a brain dump, so sorry if it's a bit difficult to navigate. I'm not good at this sort of thing. There's some mildly interesting info in here, but in case of tl;dr: One of the Steves (probably Woz) wanted to be purist about the use of the Control key for generating control characters on the Apple IIe, so added a new key for use with application shortcuts, and the rest is history."</p></blockquote></div>
+]]></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Theo Jones</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/content/posts/?q=%23shinzoabe</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/content/posts/?q=%23shinzoabe&amp;_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>Japan Considers Constitutional Amendments: Proposed Changes Include Military Buildup and Gutted Civil Liberties Protections</title>
+      <link>http://www.theojones.name/2013/japan-considers-constitutional-amendments-proposed-changes-include-military-buildup-and</link>
+      <guid>http://www.theojones.name/2013/japan-considers-constitutional-amendments-proposed-changes-include-military-buildup-and</guid>
+      <pubDate>Mon, 19 Aug 2013 21:03:16 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        <p>Japan's prime minister Shinzo Abe <a href="http://japandailypress.com/pm-abe-says-its-his-historic-mission-to-change-japans-constitution-1333768/">has stated that he</a> "will strive toward constitutional revisions for the future” and that changing Japan's constitution, which has remained unattended since its ratification in 1947, is part of his “historic mission”. These changes have become possible as Abe's party won a sizable majority in the Diet -- the country's legislative body -- <a href="http://japandailypress.com/voter-turnout-for-japans-upper-house-elections-low-even-with-internet-campaigning-2232679/">despite low voter turnout</a>. <a href="http://japandailypress.com/pm-abe-says-he-intends-to-revise-constitution-in-bid-to-get-more-votes-for-ldp-1732466/">To obtain the needed 2/3rds of both houses of the Diet,</a> Abe will still need substantial cooperation from outside his own party. <br />
+However, it appears that many of the suggested changes are very troubling. Article 9 of Japan's constitution prohibits the use of military force to solve political disputes and declares that "land, sea, and air forces, as well as other war potential, will never be maintained". While the exact wording of the proposed amendments have not yet been released it is likely that these restrictions on the military will likely be reduced. Likely changes include permitting preemptive military offensives and an expansion of Japan's Self Defense Forces. <a href="http://www.chinapost.com.tw/editorial/world-issues/2013/08/05/385502/p2/Japan's-pacifist.htm">A draft declares that</a> Japanese citizens have an obligation to “guard the sovereignty of the land, sea, and air territories of the nation” and creates a formal Japanese military force. <br />
+Even more troubling are the proposed reductions to protections of civil liberties.According to a NPR report a proposed amendment <a href="http://www.npr.org/templates/story/story.php?storyId=213578220">will place the goal protecting public order</a> at a priority superior to protecting individual rights. <a href="http://www.chinapost.com.tw/editorial/world-issues/2013/08/05/385502/Japans-pacifist.htm">The proposed amendment</a> declares that while the government should “respect the rights of the individual to the greatest extent”, but only when “maintaining public order” is not threatened. The amendment then states that "[the citizenry] must have self-consciousness regarding the responsibilities and duties that come with freedom." <br />
+Another amendment, which Abe proposes to put to a vote before his other proposals, will reduce the barrier to passing constitutional amendments.  </p><p><a href="http://www.theojones.name/tag/npr" class="p-category" rel="tag">#npr</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/shinzoabe" class="p-category" rel="tag">#shinzoabe</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#npr</category>
+      <category>#old</category>
+      <category>#old</category>
+      <category>#shinzoabe</category>
+      <category>#uncategorized</category>
+    </item>
+  </channel>
+</rss>

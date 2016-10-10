@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>On the Gender Pay Gap</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/2014/on-the-gender-pay-gap</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/2014/on-the-gender-pay-gap?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>On the Gender Pay Gap</title>
+      <link>http://www.theojones.name/2014/on-the-gender-pay-gap</link>
+      <guid>http://www.theojones.name/2014/on-the-gender-pay-gap</guid>
+      <pubDate>Tue, 05 Aug 2014 04:52:44 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        <p>I think that a fraction of the 70% pay gap is due to direct discrimination (sexist employers deciding explicitly or implicitly that women are less valuable employees). Lets say, a 5%-10% lower pay due to discrimination. M<a href="http://consad.com/content/reports/Gender%20Wage%20Gap%20Final%20Report.pdf">ost of the pay gap seems to be factors exogenous to the labor market</a>  Ie. the reason that women are generally paid less is more that they never went into highly paid fields like IT, than active discrimination. The linked paper also finds other causes, such as a preference for benefits over wages among women. And exiting and re-entering the labor market due to child care.If there is direct wage discrimination (what most legislation aimed to reduce the pay gap targets) large enough to produce a 70% gap, then why aren't there quite a few businesses that prefer the (lower-paid) female workers?</p><p>Now, some of this may be due to a less direct form of sexism. I.e a belief that IT (or [insert highly paid field here]) isn't for women. Or a belief that child care is a thing for women. But businesses have little control over that type of thing. </p><p>I've seen quite a few people though claim that the whole 70% gap is due to direct discrimination. That seems as unlikely as the "there is no wage gap, only Zuul" claim of the Tea Party types.</p><p><a href="http://www.theojones.name/tag/it" class="p-category" rel="tag">#it</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/teaparty" class="p-category" rel="tag">#teaparty</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#it</category>
+      <category>#old</category>
+      <category>#old</category>
+      <category>#teaparty</category>
+      <category>#uncategorized</category>
+    </item>
+  </channel>
+</rss>

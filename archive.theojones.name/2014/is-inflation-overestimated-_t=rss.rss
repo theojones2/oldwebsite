@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Is Inflation Overestimated?</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/2014/is-inflation-overestimated</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/2014/is-inflation-overestimated?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>Is Inflation Overestimated?</title>
+      <link>http://www.theojones.name/2014/is-inflation-overestimated</link>
+      <guid>http://www.theojones.name/2014/is-inflation-overestimated</guid>
+      <pubDate>Wed, 20 Aug 2014 04:43:14 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>It is a common argument among libertarians and other conservatives that the official statistics are dramatically understating the level of inflation in the economy. However, I will argue that the opposite is most likely the truth. The government is probably <i>overestimating</i> the level of inflation. This is because most measures of inflation look at a fixed basket of products and monitor how the price of the basket changes over time. However, in the world of real</p>
+
+<p>[caption id="attachment_1320" align="alignright" width="300"]<a href="http://www.theojones.name/wp-content/uploads/2014/09/1989719848_9c7242ebf0_o.jpg"><img class="size-medium wp-image-1320" src="http://www.theojones.name/wp-content/uploads/2014/09/1989719848_9c7242ebf0_o-300x225.jpg" alt="Image via Flickr (user Dustin Moore) &lt;a href=" https: rel="in-reply-to">https:/<wbr></wbr>/<wbr></wbr>flic.kr/<wbr></wbr>p/<wbr></wbr>42PQoC</a> " width="300" height="225" /&gt; Image via Flickr (user Dustin Moore) <a href="https://flic.kr/p/42PQoC%5B/caption%5D" rel="in-reply-to" class="u-in-reply-to">https:/<wbr></wbr>/<wbr></wbr>flic.kr/<wbr></wbr>p/<wbr></wbr>42PQoC[/<wbr></wbr>caption]</a></p>
+
+<p>consumers,  price isn't the only thing that is changing, the basket itself is. As technology improves, consumers begin to buy other products that were not even on the market at the time. There is a substantial economic value to this ability to use this technology and most economic measures of real GDP don't take this value into account. Therefore, they over estimate the level of inflation in the economy.</p>
+
+<p>The yearly change in real GDP can be described as follows:</p>
+
+<p>RealChange = NominalChange - InflationRate</p>
+
+<p>Inflation is calculated in terms of the real GDP. One inflation measure, the GDP deflator works as follows. Economists calculate what it would cost to buy the goods and services produced in the economy last year in both the dollars of this year and last year. The change can be taken as the imputed level of inflation. We have already seen the problem with this type of method. The products bought by consumers are not constant. The other major measure of inflation is not much better. The CPI is created by forming a basket of goods that represents typical consumer spending, and tracking how this basket of goods changes over time. Nether measure takes changes in technology into account.</p>
+
+<p>There are two reasons why this is inaccurate.</p>
+<ol><li>Technology change has great economic value. If the consumers of this year were allowed to pay a fee to access the technology of next year, this would likely be a substantial amount (although a difficult to calculate one at that).</li>
+    <li>The items subject to the lowest level of technological change tend to be ones with the lowest reduction in price.</li>
+</ol><p><a href="http://www.theojones.name/tag/dustinmoore" class="p-category" rel="tag">#dustinmoore</a> <a href="http://www.theojones.name/tag/gdp" class="p-category" rel="tag">#gdp</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#dustinmoore</category>
+      <category>#gdp</category>
+      <category>#old</category>
+      <category>#old</category>
+      <category>#uncategorized</category>
+    </item>
+  </channel>
+</rss>

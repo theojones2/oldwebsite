@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Theo Jones</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/tag/wysiwyg</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/tag/wysiwyg?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>I Don't Use Word Processors</title>
+      <link>http://www.theojones.name/2014/i-dont-use-word-processors</link>
+      <guid>http://www.theojones.name/2014/i-dont-use-word-processors</guid>
+      <pubDate>Mon, 28 Jul 2014 20:24:09 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        <p>I don't use standard WYSIWYG type word processors when it is possible to avoid them. Instead I use typesetting systems like LATEX for long documents, and plain ANSI text for shorter documents. This has three huge benefits </p><p>1) Separation between layout and content. With a typesetting program, you just write the text and the program takes care of formatting it. <br />
+2)Follows the UNIX philosophy. The LATEX + Typesetting system closely follows the core rule of the UNIX philosophy "<em>This is the Unix philosophy: Write programs that do one thing and do it well. Write programs to work together. Write programs to handle text streams, because that is a universal interface.</em>" The core of TEX is extremely small and the entire LATEX system is formed out of a set of small scripts that are built upon this. The system is extremely modular and flexible. These programs are driven by the command line. While it is impossible to use a command driven system without first learining it, it gives vast power to the user <br />
+3)Flexibility. Due to the modular and flexible nature of LATEX the system can do almost anything. Want to properly format math equations? Sure.  Want to create a circut diagram? There is a package for that? Want to format a book so it is ready to go for Amazon's CreateSpace system?<a href="https://github.com/aginiewicz/createspace"> A package just for that</a> is ready to go. I could name many other examples. This is only made possible by the code driven modular nature of a typesetting type system. <br />
+4) Plain text is the universal system. Almost every operating system written since the 70s can edit and view plain text files. LATEX is just a plain text file of markup code.So, anything could view a document written in LATEX. Try that with Libreoffice or MS Word. </p><p>The following article is written by someone with a similar opinion to me on this. It mostly focuses on the layout versus content issue. <br /><a href="http://ricardo.ecn.wfu.edu/~cottrell/wp.html"></a><a href="http://ricardo.ecn.wfu.edu/~cottrell/wp.html">http:/<wbr></wbr>/<wbr></wbr>ricardo.ecn.wfu.edu/<wbr></wbr>~cottrell/<wbr></wbr>wp.html</a></p><p><a href="http://www.theojones.name/tag/ansi" class="p-category" rel="tag">#ansi</a> <a href="http://www.theojones.name/tag/latex" class="p-category" rel="tag">#latex</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a> <a href="http://www.theojones.name/tag/unix" class="p-category" rel="tag">#unix</a> <a href="http://www.theojones.name/tag/wysiwyg" class="p-category" rel="tag">#wysiwyg</a></p></div>]]></description>
+      <category>#ansi</category>
+      <category>#latex</category>
+      <category>#old</category>
+      <category>#old</category>
+      <category>#uncategorized</category>
+      <category>#unix</category>
+      <category>#wysiwyg</category>
+    </item>
+  </channel>
+</rss>

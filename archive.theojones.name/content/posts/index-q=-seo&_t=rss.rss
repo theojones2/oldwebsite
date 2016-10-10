@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Theo Jones</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/content/posts/?q=%23seo</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/content/posts/?q=%23seo&amp;_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>Why avoid online SEO services: a personal experience.</title>
+      <link>http://www.theojones.name/2015/why-avoid-online-seo-services-a-personal-experience</link>
+      <guid>http://www.theojones.name/2015/why-avoid-online-seo-services-a-personal-experience</guid>
+      <pubDate>Wed, 17 Jun 2015 15:25:20 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p><a href="http://www.theojones.name/wp-content/uploads/2015/06/SEO.png"><img src="http://www.theojones.name/wp-content/uploads/2015/06/SEO.png" alt="SEO" width="1000" height="496" class="aligncenter size-full wp-image-2435"></a>A while ago, I was an idiot and decided to try one of those SEO services on Fivver. The "SEO" person sent me an analytics link for the url shortener used, it was reporting thousands of views a day from the campaign. The analytics on my blog reported less but still over 1000 a day. And, of course, it was fake traffic city.<br />The traffic delivered was obvious bot traffic with spoofed referral headers, instead of the genuine traffic promised in the offer. On both the analytics link the seller provided, and in the internal analytics of my website, there was a large amount of Google traffic. That traffic was almost certainly spoofed for four reasons 1) the Google webmaster tools for my website does not record anywhere near the amount of google search traffic as reported, meaning that the traffic did not go through Google, 2) it is hard to fathom any legitimate way that thousands of Google hits could be produced in a few days when my site usually has around 20 google hits, 3) the IP addresses of this traffic (on the logs of my analytics) come from data centers, and 4) there is no additional traffic from other search engines like Bing (any legitimate way of providing Google hits would of also affected other search engines). Furthermore, the retweets on the promised tweet are also almost certainly fake. These accounts have little activity. The fake tweets and the spoofed search both could have had the strong potential to harm the google ranking of my site.<br />Now, it didn’t take long for me to realize what was going on. So I requested a cancelation on Fivver with text that was effectively the same as the paragraph above. And weirdly, the “seller” accepted – pretty much just conceded and gave my money back in a few hours. I actually expected that I would have had to of gone to support for that one. But, the conclusion remains. Most such online SEO programs are blatant scams. Don’t buy them.</p>
+
+<p><strong>Image credit:</strong> India7 Network <a href="https://flic.kr/p/qYSLjm">https:/<wbr></wbr>/<wbr></wbr>flic.kr/<wbr></wbr>p/<wbr></wbr>qYSLjm</a> www.seolinkbuilding.org/seo-tools/</p>
+<p><a href="http://www.theojones.name/tag/seo" class="p-category" rel="tag">#seo</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#seo</category>
+      <category>#uncategorized</category>
+    </item>
+  </channel>
+</rss>

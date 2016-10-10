@@ -1,0 +1,114 @@
+<!doctype html>
+<html amp>
+    <head>
+        <meta charset="utf-8">
+        <title>Run Lua Code in a NewLISP Script</title>
+        <link rel="canonical" href="run-lua-code-in-a-newlisp-script.html">
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui">
+        <script src="https://cdn.ampproject.org/v0.js" async></script>
+        <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
+        <style>body {opacity: 0}</style><noscript><style>body {opacity: 1}</style></noscript>
+
+        <!-- To silo is human, to syndicate divine -->
+        <link rel="alternate" type="application/rss+xml" title="Run Lua Code in a NewLISP Script"
+              href="run-lua-code-in-a-newlisp-script-_t=rss.rss"/>
+        <link rel="feed" type="application/rss+xml" title="Run Lua Code in a NewLISP Script"
+              href="run-lua-code-in-a-newlisp-script-_t=rss.rss"/>
+        <link rel="alternate feed" type="application/rss+xml"
+              title="Theo Jones: all content"
+              href="../content/all-_t=rss.rss"/>
+        <link rel="feed" type="text/html" title="Theo Jones"
+              href="../content/all.html"/>
+
+        <!-- Fonts -->
+        <link rel="stylesheet"
+              href="../external/font-awesome/css/font-awesome.css">
+
+        <!-- Webmention endpoint -->
+        <link href="../webmention/index.html" rel="http://webmention.org/"/>
+        <link href="../webmention/index.html" rel="webmention"/>
+
+        <link href="../css/default-20150907.css" rel="stylesheet">
+<link href="../css/defaultb3-20150123.css" rel="stylesheet">
+        <meta property="og:type" content="article" />
+<meta property="og:title" content="Run Lua Code in a NewLISP Script" />
+<meta property="og:site_name" content="Theo Jones" />
+<meta property="og:image" content="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e" />
+<meta property="og:url" content="https://www.theojones.name/2014/run-lua-code-in-a-newlisp-script" />
+<meta property="og:description" content="Below is the code for a NewLISP context that uses the Lua API to run Lua code. Its not yet a full binding, however.It works" />
+<meta property="og:image:width" content="200" />
+<meta property="og:image:height" content="200" />
+
+
+        <!-- Dublin Core -->
+        <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+        <meta name="DC.title" content="Run Lua Code in a NewLISP Script">
+        <meta name="DC.description" content="Below is the code for a NewLISP context that uses the Lua API to run Lua code. Its not yet a full binding, however.It works">                        <meta name="DC.creator" content="Theo Jones">                        <meta name="DC.date" content="2014-01-04T17:19:33+00:00">                        <meta name="DC.identifier" content="https://www.theojones.name/2014/run-lua-code-in-a-newlisp-script">
+        <style>body {
+                font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
+            }
+        </style>
+
+    </head>
+    <body>
+                            <div class="row idno-entry idno-entry-entry">
+
+                <div
+                    class="col-md-8 h-entry idno-posts idno-object idno-content">
+                                        <div class="e-content entry-content">
+                        <div>
+                <h2 class="p-name"><a
+                    href="run-lua-code-in-a-newlisp-script.html">Run Lua Code in a NewLISP Script</a>
+            </h2>
+                    <p class="reading">
+                <span class="vague">1 min read </span>
+            </p>
+            <p>Below is the code for a NewLISP context that uses the Lua API to run Lua code. Its not yet a full binding, however.It works by using NewLISP's FFI interface to load the Lua .so file. So far it only works with Linux and assumes that the Lua library is located in /usr/lib/liblua.so. There are three functions InitLUA , which creates a Lua state and then loads the Lua standard libraries. RunLuaCodeFromString which executes a string of Lua code. RunLuaCodeFromFile which executes the code contained in a file. <br /><code>. <br />
+(context 'LUA)
+(constant 'PathToLuaLib "/usr/lib/liblua.so")
+(constant 'LUA<em>MULTRET -1)
+(import PathToLuaLib "luaL</em>newstate")
+(import PathToLuaLib "luaL<em>loadstring")
+;(import PathToLuaLib "luaL</em>loadfilex")
+;(import PathToLuaLib "lua<em>register")
+(import PathToLuaLib "lua</em>pcallk")
+(import PathToLuaLib "luaL_openlibs")</code></p><p>(define (InitLUA)
+    (set '<em>lua_State</em> (luaL<em>newstate))  ;; *lua</em>State* is a pointer to a lua<em>State struct 
+    (luaL</em>openlibs <em>lua_State</em>)
+)</p><p>(define (RunLuaCodeFromString LuaCode)
+    (luaL<em>loadstring *lua</em>State* LuaCode)
+    (lua<em>pcallk *lua</em>State* 0 LUA_MULTRET 0)
+)</p><p>(define (RunLuaCodeFromFile filename)
+    (RunLuaCodeFromString (read-file filename))  ;; There is a function to do this in the Lua api but this seems cleaner.
+)</p><p>(InitLUA)
+;(RunLuaCodeFromString "print('hello world')")
+;(RunLuaCodeFromFile "hello.lua")</p><p>(context MAIN)
+</p><p><a href="../tag/lua.html" class="p-category" rel="tag">#lua</a> <a href="../tag/old.html" class="p-category" rel="tag">#old</a> <a href="../tag/old.html" class="p-category" rel="tag">#old</a> <a href="../tag/uncategorized.html" class="p-category" rel="tag">#uncategorized</a></p></div>                    </div>
+                    <div class="footer">
+                        
+        <div class="permalink">
+            <p>
+                <a href="../profile/tjones2.html">Theo Jones</a>published this
+                <a class="u-url url" href="run-lua-code-in-a-newlisp-script.html" rel="permalink"><time class="dt-published"
+                                                                                                          datetime="2014-01-04T17:19:33+00:00">Saturday, January 4, 2014</time></a>
+                                                                            </p>
+        </div>
+        <div class="interactions">
+	        <span class="annotate-icon">
+                        <a class="stars" href="run-lua-code-in-a-newlisp-script.html#comments"><i class="fa fa-star-o"></i> 0 stars</a></span>
+                    <span class="annotate-icon"> <a class="comments" href="run-lua-code-in-a-newlisp-script.html#comments"><i class="fa fa-comments"></i> 0 comments</a></span>
+            <a class="shares" href="run-lua-code-in-a-newlisp-script.html#comments"></a>
+            <a class="shares" href="run-lua-code-in-a-newlisp-script.html#comments"></a>
+        </div>
+        <br clear="all"/>
+                            </div>
+                </div>
+
+            </div>
+
+                    <div class="blank-footer">
+    <div>
+        <p class="footer"><a href="https://withknown.com/?utm_source=footer&amp;utm_medium=installation" class="u-platform"><img src="../gfx/logos/logo_k.png" style="height: 1.5em"></a></p>
+    </div>
+</div>    </body>
+</html>

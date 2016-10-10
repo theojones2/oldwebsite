@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Should I really go paperless?</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/2015/should-i-really-go-paperless</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/2015/should-i-really-go-paperless?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>Should I really go paperless?</title>
+      <link>http://ask-leo.com/should_i_really_go_paperless.html</link>
+      <guid>http://www.theojones.name/2015/should-i-really-go-paperless</guid>
+      <pubDate>Fri, 02 Oct 2015 20:02:46 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div class="known-bookmark">
+    <blockquote><p>" recently heard from someone that they had essentially done the opposite of going paperless. They'd reverted from digital tools and gone back to paper for most of their tasks. Needless to say, I had something to say on the topic. Smile I think that there are some serious advantages to going digital if it's done properly. In fact, I'll give you three very specific reasons why digital is better than paper in many (if not most) situations. The first one is, to me, so compelling that it alone would be enough. (And if you're a regular reader, you'll recognize it immediately.) I'll also discuss some situations where paper really is better."</p></blockquote></div>
+]]></description>
+    </item>
+  </channel>
+</rss>

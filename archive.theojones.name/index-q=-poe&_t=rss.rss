@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Theo Jones</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/?q=%23poe</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/?q=%23poe&amp;_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>I've seen a lot of el cheapo Ethernet...</title>
+      <link>http://www.theojones.name/2015/ive-seen-a-lot-of-el-cheapo-ethernet</link>
+      <guid>http://www.theojones.name/2015/ive-seen-a-lot-of-el-cheapo-ethernet</guid>
+      <pubDate>Wed, 10 Jun 2015 04:18:14 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>I've seen a lot of el cheapo Ethernet cabling on Amazon and other places that uses  "copper clad aluminum" wiring instead of copper. This is a bad idea for quality, breaks Ethernet standards, and if you run POE through it, it can start a fire. This article does a good job of explaining the issue.<br /><a href="http://www.cetecglobal.com/technologies/cabling/cca.htm">http:/<wbr></wbr>/<wbr></wbr>www.cetecglobal.com/<wbr></wbr>technologies/<wbr></wbr>cabling/<wbr></wbr>cca.htm</a></p>
+<p><a href="http://www.theojones.name/tag/etherent" class="p-category" rel="tag">#etherent</a> <a href="http://www.theojones.name/tag/poe" class="p-category" rel="tag">#poe</a> <a href="http://www.theojones.name/tag/status" class="p-category" rel="tag">#status</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#etherent</category>
+      <category>#poe</category>
+      <category>#status</category>
+      <category>#uncategorized</category>
+    </item>
+  </channel>
+</rss>

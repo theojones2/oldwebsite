@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Theo Jones</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>Why I ad block</title>
+      <link>http://www.theojones.name/2015/why-i-ad-block</link>
+      <guid>http://www.theojones.name/2015/why-i-ad-block</guid>
+      <pubDate>Sat, 10 Oct 2015 20:57:07 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        <p>There have been a few recent <a href="http://blog.practicalethics.ox.ac.uk/2015/10/whats-the-moral-difference-between-ad-blocking-and-piracy/">controversies</a> about internet adblocking. <a href="http://www.theguardian.com/technology/2015/sep/18/peace-app-ad-blocker-pulled-marco-arment-iphone-ios-9">The most prominent of these</a> has been Apple's decision to allow ad-blocking software on the App Store for Ipads. I will admit to running adblocking software on my computer and on the pfsense box I use as a router. I realsize that there are some issues with this. I get that there is an impact on the revinue of the websites I visit, as many websites use cost per impression ads that pay out based on the number of visitors to the website. I know that there have been cases where ad blockers have abused their control over the blocklists inorder to make profit. Adblock Plus, for instance, will de-list the ads on a website -- for a fee. However, there are some reasons why I use adblocking software on my computer</p><ol><li>Tracking and privacy. Advertisers use their networks to monitor what websites the viewers of the ads go to, and keep a databse of this tracking. They use this information about web browsing habits to create a profile of each user, and to guess at a wide range of other personal information. This information is used to "target" the ad to the users, and is quite often sold to other companies. This is a substintial violation of privacy and one of the main reasons I ad block. </li>
+<li>Computer performance issues. A lot of ads contain flash/javascript code that is quite ram and CPU hogging. </li>
+<li>Secutity issues. There have been cases where ads have contained malware. Which isn't surprising, considering that the core of internet targeted advertising is to load untrusted content onto the website you are viewing. Due to the need to keep advertising "targeted" this is pretty much unavoidable under the current internet marketing model. </li>
+<li>These problems are at the core of the internet advertising model. Unlike a dead-tree publication, you can't effectively target on geographic location, or the like. So, the much more intrusive methods of advertising become unavoidable. </li>
+</ol></div>]]></description>
+    </item>
+    <item>
+      <title>Systemic Causation and Anti-Science </title>
+      <link>http://www.theojones.name/2015/systemic-causation-and-anti-science</link>
+      <guid>http://www.theojones.name/2015/systemic-causation-and-anti-science</guid>
+      <pubDate>Sun, 04 Oct 2015 22:12:20 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        <p>In previous posts I have mentioned George Lakoff's ideas about how misunderstanding systemic causation contributes to science denialism. He describes <a href="http://www.huffingtonpost.com/george-lakoff/sandy-climate-change_b_2042871.html">his ideas at HuffPo</a> and academically in <a href="http://www.tandfonline.com/doi/abs/10.1080/17524030903529749">a 2010 paper </a>(as usual, full citation at end of post). Lakoff differentiates between two types of causation; systemic and direct. Direct causation is the type of non-probablistic causation that occurs when you shove a box. The box moves, and it will move pretty much every time you shove it. Systemic causation instead involves shifting the probability distribution of events. Climate change does not make a hurricane of a given strength at a given location an unvoidable occurance, in the same way that pushing the box make its movement unavoidable. However, it does make certan types of hurricanes more likely, and therefore can be said to cause hurricanes. A lot of science involves systemic causation. And the fields of science where the causation involved is the most systemic and probabilistic tend to be the biggest denialism magnets. Think climate change or evolution. Why does the role of systemic causation tend to correlate with tendiencies to deny the science? Lakoff seems to think the cause is political ideology.  In his opinion, conservative/libertarian political beliefs tend to have more difficulties with systemic causation. </p><p>However, I doubt this ideological explanation. It is wrong (and perhaps actively dangerous)  for roughly the reasons that <a href="http://onlinelibrary.wiley.com/doi/10.1111/j.1744-540X.2007.00466.x/abstract;jsessionid=EB663E5ADD49D613AFCC5CED88563015.f02t03">Steve Pinker points out</a>. Conservatives use arguements that reily on systemic causation all the time, particulary in regards to economic policy. And it is particulary dangerous to treat ideological framing as a goal of political discourse, instead of an all to common discription of it. Such a goal involves a brain-rotting mixing of normative goals and positive description of how the world works. Read Lakoff's writings on GMOs and nuclear energy to see the mind-rot in action.  </p><p>Instead I propose two other explinations of how systemic causation relates to denialism</p><ol><li>The fact that denialism relies on the asymmetry of difficulty in creating reasonable sounding, but incorrect arguements, and refuting them. </li>
+<li>The fact that complex systems create emergent properties that often go aganist the intuitions and herististuics that underlie a lot of human reasoning.</li>
+</ol><p>Lets start with point one.</p><p><img src="http://www.theojones.name/file/339c444f4e618040977c19a343fd4d1c" alt="The amount of energy necessary to refute bullshit is an order of magnitude bigger than to produce it width=" height="239"></p><p><em>Image via <a href="https://jasonapril.wordpress.com/2014/06/05/the-amount-of-energy-necessary-to-refute-bullshit/"></a><a href="https://jasonapril.wordpress.com/2014/06/05/the-amount-of-energy-necessary-to-refute-bullshit/">https:/<wbr></wbr>/<wbr></wbr>jasonapril.wordpress.com/<wbr></wbr>2014/<wbr></wbr>06/<wbr></wbr>05/<wbr></wbr>the-amount-of-energy-necessary-to-refute-bullshit/<wbr></wbr></a></em></p><p> </p><p>The claims that climate change deniers and creationists and their ilk make reily on very subtle misconseptions. The misconceptions are pretty beleiveable to a non-expert, and a full explination of why the misconception is wrong can take a lot of effort. Go to SKS or a similar website that rebuts climate change deniers. Look at the section where they list their rebuttials to these arguements <a href="http://www.skepticalscience.com/argument.php"></a><a href="http://www.skepticalscience.com/argument.php">http:/<wbr></wbr>/<wbr></wbr>www.skepticalscience.com/<wbr></wbr>argument.php</a> . Note that the rebuttal is usually at least a few times longer than the claim itself.  But it is only a certan type of science that follows the bullshit asymtery rule. Sciences that involve a lot of systemic causation. Complex systems can behave in some pretty subtle ways. Ways that are not ovious, and that take a lot of effort to understand and predict. Due to the Dunning-Kruger effect, and such, it can take quite a bit of knowledge to even be able tell good arguements from bad ones. Add bias, and the generally poor quality of human reasoning, and it becomes easy to talk from <a href="http://imgur.com/cNFqi">Mt. Stupid</a>. </p><p>But when was the last time you saw a math denialist? Not recently? The reason for that is the fact that math does not follow the bullshit asymmetry rule. Its hard to come up with a reasonable sounding, but wrong mathmatical arguement. And when you do come up with one the reason why it is wrong is usually pretty simple. It has actually  become a bit of a game in the math community to come up with invalid "proofs" that seem pleasing. Usually the "proof" is of a clearly absurd claim, like 1=2. Take the following example from Wikipedia. <a href="https://en.wikipedia.org/wiki/Mathematical_fallacy#Division_by_zero"></a><a href="https://en.wikipedia.org/wiki/Mathematical_fallacy#Division_by_zero">https:/<wbr></wbr>/<wbr></wbr>en.wikipedia.org/<wbr></wbr>wiki/<wbr></wbr>Mathematical_fallacy#Division_by_zero</a></p><p>Let a and b be be equal non-zero quantities.</p><p>$$a=b$$</p><p>Multiply  both sides of the above equation by a. This results in </p><p>$$a^2 = ab$$</p><p>Subtract </p><p>$$b^2$$</p><p>from both sides, resulting in </p><p>$$a^2 - b^2 = ab - b^2$$</p><p>Factor both sides</p><p>$$(a-b)(a+b) = b(a-b)$$ </p><p>Divide both sides by </p><p>$$(a-b) $$</p><p>Resulting in </p><p>$$a + b = b$$ </p><p>Because we know that a = b</p><p>$$ b + b = b $$ </p><p>$$2b = b$ </p><p>$$2 = 1$$ </p><p>The issue with this is simple, there was an implicit division by zero in the "proof" </p><p> </p><p><a href="http://www.theojones.name/tag/climatechange" class="p-category" rel="tag">#climatechange</a> <a href="http://www.theojones.name/tag/denialism" class="p-category" rel="tag">#denialism</a> <a href="http://www.theojones.name/tag/science" class="p-category" rel="tag">#science</a> <a href="http://www.theojones.name/tag/lakoff" class="p-category" rel="tag">#lakoff</a> </p><p>Lakoff, George. "Why it matters how we frame the environment." Environmental Communication 4.1 (2010): 70-81.</p><p>Pinker, Steven, and George Lakoff. "Does language frame politics?." Public Policy Research 14.1 (2007): 59-71.</p><p> </p></div>]]></description>
+      <category>#Division</category>
+      <category>#Division</category>
+      <category>#climatechange</category>
+      <category>#denialism</category>
+      <category>#science</category>
+      <category>#lakoff</category>
+    </item>
+    <item>
+      <title>Climate Change and the Effectiveness of Geoengineering</title>
+      <link>http://www.theojones.name/2015/rate-of-change-and-geoengineering</link>
+      <guid>http://www.theojones.name/2015/rate-of-change-and-geoengineering</guid>
+      <pubDate>Sat, 03 Oct 2015 23:51:34 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        <p>Geoengineering refers to proposals to ameliorate global warming by causing a man-made cooling effect. This may have the potential to blunt some of the more destructive effects of climate change. I'm not entirely opposed to the idea, as it might be good for blunting some of the worse effects of climate change. It is probably better than doing nothing, although is a worse option than keeping emissions at their current rate. It serves as a middle ground between actually dealing with the issue by reducing emissions, and doing noting about the problem. What this post is about is why it isn't a good alternative to emissions reduction.</p><p>The ultimate problem with climate change/global warming isn't that the climate is warming, or even that it is switching to a different climate pattern. The problem is the rate of change at which this is happening. Its that the new climate will have new weather patterns, and that our infrastructure, and the locations of human populations are suited for the old ones. It is even possible that the new weather patterns could be at least as "good" as the old ones. But the problem is the disparity between how our infrastructure and society is set up, and what the climate patterns look like.</p><p>Temperature is one of many variables that sets what the climate and the weather patterns of the world look like. It is the one that is currently being modified by greenhouse gas pollution. Geoengineering will have the effect of adjusting the temperature in a way that offsets the effects of greenhouse gasses on temperature. But, it will also have the effect of modifying other key aspects of the global climate. These modifications mean that we will not end up with the same climate that we had before the introduction of greenhouse gas pollution after geoengineering. The net change may be less drastic. But it will not be non zero. Geoengineering offsets the effects of human activity on one climate variable at the expense of poking at others. This means that we will still have a substantial climate change even after geoengineering.</p><p>What could some of that climate change in a post-geoengineering world look like? A 2009 paper by Robock et al looked at some of those issues (see the end of this post for a full citation). </p><p><a href="http://onlinelibrary.wiley.com/doi/10.1029/2009GL039209/full">http:/<wbr></wbr>/<wbr></wbr>onlinelibrary.wiley.com/<wbr></wbr>doi/<wbr></wbr>10.1029/<wbr></wbr>2009GL039209/<wbr></wbr>full</a></p><p>In particular, they looked at one commonly proposed method, stratospheric aerosol injection. They write:</p><blockquote><p>Anthropogenic stratospheric aerosol injection would cool the planet, stop the melting of sea ice and land-based glaciers, slow sea level rise, and increase the terrestrial carbon sink, but produce regional drought, ozone depletion, less sunlight for solar power, and make skies less blue.</p></blockquote><p> </p><p> </p><p><span style="color: #222222; font-family: Arial, sans-serif; font-size: 13px;">Robock, Alan, et al. "Benefits, risks, and costs of stratospheric geoengineering." </span><em style="color: #222222; font-family: Arial, sans-serif; font-size: 13px;">Geophysical Research Letters</em><span style="color: #222222; font-family: Arial, sans-serif; font-size: 13px;"> 36.19 (2009).</span></p><p> </p><p><a href="http://www.theojones.name/tag/geoengineering" class="p-category" rel="tag">#geoengineering</a> <a href="http://www.theojones.name/tag/climatechange" class="p-category" rel="tag">#climatechange</a></p></div>]]></description>
+      <category>#222222</category>
+      <category>#222222</category>
+      <category>#222222</category>
+      <category>#geoengineering</category>
+      <category>#climatechange</category>
+    </item>
+    <item>
+      <title>Pope Francis and Kim Davis</title>
+      <link>http://www.theojones.name/2015/pope-francis-and-kim-davis</link>
+      <guid>http://www.theojones.name/2015/pope-francis-and-kim-davis</guid>
+      <pubDate>Thu, 01 Oct 2015 17:30:24 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        <p>Pope Francis met with Kim Davis, and in the process killed some <a href="https://twitter.com/VincentHarris/status/649291050067099648">endangered social media feels</a>. I'm with Washington Post <a href="http://www.washingtonpost.com/news/the-fix/wp/2015/09/30/why-no-one-should-be-surprised-that-pope-francis-met-with-kim-davis/?tid=sm_fb">editorial writer Chris Cillizza on this, why is anyone surprised</a>? </p><p>Its not like the pope kept his opinions on gay marriage a secret. And on a similar note, why do people think that Pope Francis is such a change from previous popes? Other than changing the presentation, he has made minimal changes to catholic doctrine. His opinions on economic issues are the same as most other recent popes, and skepticism about capitalism has been part of the religion for quite a while. And the catholic church is as opposed to gay marriage, and abortion as ever. It is still the same religion as before, only with different packaging. </p><p>And do Davis' opinions and those  of the Pope actually vary that radically? Other than the fact that Davis is a million times more of an asshole about them?</p><p>Consider the following:</p><ul><li>Pope Francis is the monarch of a country that is decidedly not issuing marriage licenses to gay people.</li>
+<li>Until a week ago, Davis was a member of the democratic party, so we can at least assume her opinions are at least somewhat moderate on economic issues.</li>
+</ul><p>A lot of the sympathy going around towards both individuals is just political signaling. Davis  sends out the conservative political signals, while Francis is associated with liberal ones. Supporters of both follow these signals.</p></div>]]></description>
+    </item>
+    <item>
+      <title>Humans on Mars....</title>
+      <link>http://www.theojones.name/2015/untitled</link>
+      <guid>http://www.theojones.name/2015/untitled</guid>
+      <pubDate>Tue, 29 Sep 2015 17:53:59 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[            <p style="text-align: center">
+                <a href="http://www.theojones.name/file/1ac4a15b5d9a40263c0482199a9e6dc3/12068833_1159563634057013_1214572708709815019_o.png"><img src="http://www.theojones.name/file/2f99527b188b655232499d7a53fe52d6/thumb.png" class="u-photo"/></a>
+            </p>
+        <p>Via <a href="https://www.facebook.com/nixcraft/photos/a.431194973560553.114666.126000117413375/1159563634057013/?type=3&theater">https:/<wbr></wbr>/<wbr></wbr>www.facebook.com/<wbr></wbr>nixcraft/<wbr></wbr>photos/<wbr></wbr>a.431194973560553.114666.126000117413375/<wbr></wbr>1159563634057013/<wbr></wbr>?type=3&theater</a></p>]]></description>
+      <enclosure url="http://www.theojones.name/file/1ac4a15b5d9a40263c0482199a9e6dc3/12068833_1159563634057013_1214572708709815019_o.png" type="image/png" length="74788"/>
+    </item>
+    <item>
+      <title>"Facebook has long been keen for more journalists to use their personal accounts like they do Twitter &ndash; to engage with followers, discuss their articles</title>
+      <link>http://www.theojones.name/2015/facebook-has-long-been-keen-for-more-journalists-to-use</link>
+      <guid>http://www.theojones.name/2015/facebook-has-long-been-keen-for-more-journalists-to-use</guid>
+      <pubDate>Tue, 29 Sep 2015 17:38:52 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div class="">
+    <p class="p-name"><br />
+"Facebook has long been keen for more journalists to use their personal accounts like they do Twitter &ndash; to engage with followers, discuss their articles and hunt for information. The company hasn&rsquo;t had much success on this front to date, but&nbsp;that may be starting to&nbsp;change. It&rsquo;s built a &lsquo;parallel universe&rsquo; for journalists to use with their personal accounts, and it&rsquo;s just like Twitter."<br />
+<br />
+<a href="http://thenextweb.com/facebook/2015/09/27/facebook-has-built-a-parallel-universe-for-journalists-and-its-just-like-twitter/" >http:/<wbr />/<wbr />thenextweb.com/<wbr />facebook/<wbr />2015/<wbr />09/<wbr />27/<wbr />facebook-has-built-a-parallel-universe-for-journalists-and-its-just-like-twitter/<wbr /></a></p>
+</div>
+]]></description>
+      <category>#444444</category>
+    </item>
+    <item>
+      <title>Food production per capita over time </title>
+      <link>http://www.theojones.name/2015/food-production-per-capita-over-time</link>
+      <guid>http://www.theojones.name/2015/food-production-per-capita-over-time</guid>
+      <pubDate>Tue, 29 Sep 2015 04:11:04 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[            <p style="text-align: center">
+                <a href="http://www.theojones.name/file/1290d82186ba0cf02ed363e563549afa/bjKOf-2.png"><img src="http://www.theojones.name/file/1290d82186ba0cf02ed363e563549afa/bjKOf-2.png" class="u-photo"/></a>
+            </p>
+        <p>Via <a href="http://one-salient-oversight.blogspot.com/2012/10/worldwide-food-production-still-no.html">http:/<wbr></wbr>/<wbr></wbr>one-salient-oversight.blogspot.com/<wbr></wbr>2012/<wbr></wbr>10/<wbr></wbr>worldwide-food-production-still-no.html</a></p>]]></description>
+      <enclosure url="http://www.theojones.name/file/1290d82186ba0cf02ed363e563549afa/bjKOf-2.png" type="image/png" length="35891"/>
+    </item>
+    <item>
+      <title>Dealing With The Growing Toxicity Of American Politics Does Not Mean Centrism</title>
+      <link>http://www.theojones.name/2015/dealing-with-the-growing-toxicity-of-american-politics-does-not</link>
+      <guid>http://www.theojones.name/2015/dealing-with-the-growing-toxicity-of-american-politics-does-not</guid>
+      <pubDate>Mon, 28 Sep 2015 07:01:04 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        <div style="font-family: 'Helvetica Neue';">There are two ideas about what is wrong in American politics that, are often confused with each other</div><div style="font-family: 'Helvetica Neue';"><strong> </strong></div><div style="font-family: 'Helvetica Neue';"><strong>The toxicity problem</strong>— The idea that politics has become very divisive, partisan, and that this toxicity is beginning to undermine shared goals and values. This issues is roughly symmetrical on both sides of American politics. Furthermore, this is worse than in the recent past. There are a few sub-issues with in this that I identify</div><ul style="font-family: 'Helvetica Neue';"><li>Partisanship </li>
+<li>Irreason (science denials, the inability for people to challenge wrong/disingenuous arguments from their own side) </li>
+<li>The inability to admit uncertainty in one’s beliefs </li>
+<li>The growth of political media outlets — (Fox News, social media, talk radio etc.) </li>
+<li>Attacks on important shared values like civil liberties, due process, and freedom of speech.</li>
+<li>The end of bipartisan cooperation to meet shared goals</li>
+<li>The increasing inability to separate personal, non-political life from politics </li>
+<li>Overconfidence — over estimating the probability that one’s ideas are correct</li>
+</ul><div style="font-family: 'Helvetica Neue';"><strong>The centrism solution </strong>— The idea that the ideas promoted by both sides of American politics are extreme, and the optimal set of policies is roughly in-between the two extremes. </div><div style="font-family: 'Helvetica Neue';"> </div><div style="font-family: 'Helvetica Neue';">I believe that the increasing toxicity of American politics is a major problem for the country. However, centrism is not the solution to it. The ultimate issue with the current American political situation is the <em>way</em> that political issues are being resolved. It is the political culture where the other side is viewed as the enemy. A threat to be countered before it destroys the real americans. It is the political culture that considers a “safe place” as one in which the other side is not present. It is the red tribe versus blue tribe politics. However, this is not nessarily an issue with the particular policies being promoted. It does not mean that the correct policy is halfway in-between those favored by the typical democrat and those favored by the typical republican. In many cases one side is wrong, and one side is right. Either action needs to be taken on climate change or it does not. The half-way centrist solution may very well be the worse of all options — one that neither side desires, and one that does just enough to incur a lot of costs but not enough to actually fix the climate change issue (think of the introduction of biofuels as a real world example of this). Either gay marriage should be legal or it shouldn’t, and any attempts at half way policies (such as civil unions) are unsatisfactory at best. Either the minimum wage produces dangerous disemployment effects or it doesn’t. And so on. </div><div style="font-family: 'Helvetica Neue';"> </div><p> </p><div style="font-family: 'Helvetica Neue';">Now, the centrism-as-the-solution idea seems intuitive for a simple reason — in an highly toxic political climate , people will reject the good with the bad from the other side. The mere fact that an idea comes from the other side of the political spectrum (or even attains an association with it) becomes sufficient reason to reject it. The behavior and ideas of one side are given favoritism compared to the ideas from the other side. This may give one the idea that the middle is where the solution can be found. But even though some good conservative ideas may be rejected by liberals and some good liberal ideas may be rejected by conservatives , this does not mean that the correct choice for each issue is the middle. It means that liberals and conservatives should pay attention to each others’ ideas. </div><div style="font-family: 'Helvetica Neue';"> </div><div style="font-family: 'Helvetica Neue';"><a href="http://www.theojones.name/tag/politics" class="p-category" rel="tag">#politics</a><a href="http://www.theojones.name/tag/centrism" class="p-category" rel="tag">#centrism</a><strong> </strong></div></div>]]></description>
+      <category>#politics</category>
+      <category>#centrism</category>
+    </item>
+    <item>
+      <title>A link on the John Boehner story. It looks like we will hear some of his real opinions about the rest of  the GOP.</title>
+      <link>http://www.theojones.name/2015/a-link-on-the-john-boehner-story-it-looks-like</link>
+      <guid>http://www.theojones.name/2015/a-link-on-the-john-boehner-story-it-looks-like</guid>
+      <pubDate>Sun, 27 Sep 2015 22:59:18 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div class="">
+    <p class="p-name">A link on the John Boehner story. It looks like we will hear some of his real opinions about the rest of  the GOP. <br />
+<a href="http://www.rawstory.com/2015/09/john-boehner-rips-false-prophet-ted-cruz-for-spreading-noise-every-time-he-doesnt-get-his-way/" >http:/<wbr />/<wbr />www.rawstory.com/<wbr />2015/<wbr />09/<wbr />john-boehner-rips-false-prophet-ted-cruz-for-spreading-noise-every-time-he-doesnt-get-his-way/<wbr /></a><br />
+"John Boehner rips ‘false prophet’ Ted Cruz for ‘spreading noise’ every time he doesn’t get his way"<br />
+<br />
+</p>
+</div>
+]]></description>
+    </item>
+    <item>
+      <title>http://www.washingtonpost.com/business/economy/fiorinas-record-at-hp-defines-her-candidacy--which-could-be-a-problem/2015/09/26/5a5b5e16-6174-11e5-8e9e-dce8a2a2a679_story.html&#xD;
+"Now a rising star in the race for the Republican presidential nomination, Fiorina, 61, has pointed to her leadership of the printer and computer giant</title>
+      <link>http://www.theojones.name/2015/businesseconomyfiorinas-record-at-hp-defines-her-candidacy--which-could-be-a-problem201509265a5b5e16-6174-11e5-8e9e-dce8a2a2a679_storyhtmlnow-a-rising-star-in-the-race-for-the-republican</link>
+      <guid>http://www.theojones.name/2015/businesseconomyfiorinas-record-at-hp-defines-her-candidacy--which-could-be-a-problem201509265a5b5e16-6174-11e5-8e9e-dce8a2a2a679_storyhtmlnow-a-rising-star-in-the-race-for-the-republican</guid>
+      <pubDate>Sun, 27 Sep 2015 22:37:37 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div class="">
+    <p class="p-name"><a href="http://www.washingtonpost.com/business/economy/fiorinas-record-at-hp-defines-her-candidacy--which-could-be-a-problem/2015/09/26/5a5b5e16-6174-11e5-8e9e-dce8a2a2a679_story.html" >http:/<wbr />/<wbr />www.washingtonpost.com/<wbr />business/<wbr />economy/<wbr />fiorinas-record-at-hp-defines-her-candidacy--which-could-be-a-problem/<wbr />2015/<wbr />09/<wbr />26/<wbr />5a5b5e16-6174-11e5-8e9e-dce8a2a2a679_story.html</a><br />
+"Now a rising star in the race for the Republican presidential nomination, Fiorina, 61, has pointed to her leadership of the printer and computer giant to showcase her corporate savvy and courage under fire. She has blamed the dot-com bust, sexism and an ineffective board of directors for helping sink what was then a global juggernaut.<br />
+<br />
+But in interviews with more than two dozen former HP senior directors and employees, many remember Fiorina’s legacy as troubling and divisive: A high-energy marketer, she nevertheless failed to deliver on lofty promises, alienated her workforce and presided over a disastrous reign at what was once a Silicon Valley pioneer."</p>
+</div>
+]]></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Theo Jones</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/content/posts/?q=%23twitter</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/content/posts/?q=%23twitter&amp;_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>I've deployed twitter blocklists like GG autoblocker and...</title>
+      <link>http://www.theojones.name/2015/ive-deployed-twitter-blocklists-like-gg-autoblocker-and</link>
+      <guid>http://www.theojones.name/2015/ive-deployed-twitter-blocklists-like-gg-autoblocker-and</guid>
+      <pubDate>Sat, 13 Jun 2015 22:12:11 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>I've deployed twitter blocklists (like GG autoblocker, and the A+ blocklist) because I've gotten a bit of trolling because of tweeting about controversial topics (like gamergate). And I'm a man with ~4000 followers. But even despite a smallish audience and my gender, the trolling was annoying enough. And the blocklists shut the trolls up. I'm not totally a fan of them -- the method of adding accounts to the lists seems more aggressive than a Klingon with an anger management problem -- but its better than nothing. Really, these twitter blocklists are like some of the first spam blocklists. Problematic in how they decided to add ip addresses to the killfile, but good enough at killing spammers to make it worth it.</p>
+<p><a href="http://www.theojones.name/tag/gamergate" class="p-category" rel="tag">#gamergate</a> <a href="http://www.theojones.name/tag/status" class="p-category" rel="tag">#status</a> <a href="http://www.theojones.name/tag/twitter" class="p-category" rel="tag">#twitter</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#gamergate</category>
+      <category>#status</category>
+      <category>#twitter</category>
+      <category>#uncategorized</category>
+    </item>
+    <item>
+      <title>http news yahoo com twitter adds sharing block...</title>
+      <link>http://www.theojones.name/2015/http-news-yahoo-com-twitter-adds-sharing-block</link>
+      <guid>http://www.theojones.name/2015/http-news-yahoo-com-twitter-adds-sharing-block</guid>
+      <pubDate>Thu, 11 Jun 2015 03:56:22 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p><a href="http://news.yahoo.com/twitter-adds-sharing-block-lists-224203264.html">http:/<wbr></wbr>/<wbr></wbr>news.yahoo.com/<wbr></wbr>twitter-adds-sharing-block-lists-224203264.html</a>Twitter's new block list feature is very good. Its the perfect fix to idiots on twitter with little potential for abuse. These blocklists are voluntary. In fact, voluntary, user directed filtering is much less abuse prone than its alternative -- the banhammer. If a killfile you got from somewhere is nuking stuff you want to see, just drop it.</p>
+<p><a href="http://www.theojones.name/tag/link" class="p-category" rel="tag">#link</a> <a href="http://www.theojones.name/tag/twitter" class="p-category" rel="tag">#twitter</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#link</category>
+      <category>#twitter</category>
+      <category>#uncategorized</category>
+    </item>
+    <item>
+      <title>How do you tell the difference between Twitter's...</title>
+      <link>http://www.theojones.name/2015/how-do-you-tell-the-difference-between-twitters</link>
+      <guid>http://www.theojones.name/2015/how-do-you-tell-the-difference-between-twitters</guid>
+      <pubDate>Thu, 11 Jun 2015 03:48:47 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>How do you tell the difference between Twitter's new killfile options and McCarthyist censorship?  In one Commie McRed was prevented from talking to people who what to hear what he has to say. In the other, Gater McAsshole is being stopped from spewing to a captive audience who doesn't want to listen to him. Freedom of speech doesn't guarantee an audience. There will be people who don't want to hear what you have to say, and its their right to tune you out (as long as they don't try to stop you from reaching those who do want to hear you). McCarthyism was firing people for being part of the communist party. This twitter feature is more like telling your secretary you want all mailings from the communist party thrown away.</p>
+<p><a href="http://www.theojones.name/tag/censorship" class="p-category" rel="tag">#censorship</a> <a href="http://www.theojones.name/tag/gamergate" class="p-category" rel="tag">#gamergate</a> <a href="http://www.theojones.name/tag/status" class="p-category" rel="tag">#status</a> <a href="http://www.theojones.name/tag/twitter" class="p-category" rel="tag">#twitter</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#censorship</category>
+      <category>#gamergate</category>
+      <category>#status</category>
+      <category>#twitter</category>
+      <category>#uncategorized</category>
+    </item>
+  </channel>
+</rss>

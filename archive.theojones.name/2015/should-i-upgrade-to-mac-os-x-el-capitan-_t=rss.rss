@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Should I Upgrade to Mac OS X El Capitan?</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/2015/should-i-upgrade-to-mac-os-x-el-capitan</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/2015/should-i-upgrade-to-mac-os-x-el-capitan?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>Should I Upgrade to Mac OS X El Capitan?</title>
+      <link>http://lifehacker.com/should-i-upgrade-to-mac-os-x-el-capitan-1733465450</link>
+      <guid>http://www.theojones.name/2015/should-i-upgrade-to-mac-os-x-el-capitan</guid>
+      <pubDate>Thu, 08 Oct 2015 03:16:20 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div class="known-bookmark">
+    <blockquote><p>"One thing in El Capitan you might want to pay attention to is a new security feature called System Integrity Protection (SIP), which has the potential to break some apps. In short, Apple introduced it as a way to limit even the level of access that root users and processes have, and to protect core components of the OS. That means there are some things you won’t be able to do, even if you have and use root. You can read the nitty gritty over at Ars Technica. This also means some applications that leverage root won’t work anymore—one notable example is Bartender, before it was recently updated with El Capitan support. It’s not a huge problem, and you can disable it, but in all reality most people won’t need to and shouldn’t have to. However, some programs may need to be updated before they’ll work—and if you’re using some long-abandoned apps that have worked up to this point and they break, well, they could be dead for good, and you’ll have to make the call to disable it or find an alternative."</p></blockquote></div>
+]]></description>
+    </item>
+  </channel>
+</rss>

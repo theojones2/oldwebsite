@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Putting a price on water</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/2015/putting-a-price-on-water</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/2015/putting-a-price-on-water?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>Putting a price on water</title>
+      <link>http://www.theojones.name/2015/putting-a-price-on-water</link>
+      <guid>http://www.theojones.name/2015/putting-a-price-on-water</guid>
+      <pubDate>Fri, 03 Jul 2015 07:03:01 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>In an earlier post, I talked about how defective policy turns the <a href="http://www.theojones.name/water-scarcity-and-water-shortage/">inherent limits of water supply into water shortage</a>.  I also recently discussed how many commentators are focusing on very trivial usages of water, <a href="http://www.theojones.name/bottled-drinking-water-is-effectively-irrelevant-to-water-policy/">like bottled drinking water</a>, instead of major users of water. In this post, I will discuss how the water usage problem can be alleviated. The core of water policy is limiting usage of water. There is an effectively fixed supply of freshwater (and the methods that increase this supply, like desalination are prohibitively expensive).  Not every one can have all the water they want under the current system. Therefore, there will need to be some kind of method to allocate the water towards its most efficient use.</p>
+
+<p>The only reasonably effective way to limit water use without excessive side effects is to put a price on drawing from limited water sources. A cap and trade for water. Prices are efficient because it means that users have to give something up for the water thereby discouraging extremely inefficient usages. Prices are about the only way to take opportunity cost into account into economic decision making. The current system of water rights is unable to sufficiently limit water usage. Policy driven rationing often acts inefficiently and with imperfect information. It entrenches powerful, but highly inefficient users. Growers of alfalfa in California, where the crop is poorly suited for the climate, are a powerful example of this. On the other hand, non-destructive and reasonably efficient uses of water, such as the previously mentioned bottled water get shafted due to activists and politicians acting on poor information and mindless outrage.  Inefficient uses of water need to go but efficient ones should stay. Sure, water isn't totally free. But it is priced far below the market clearing rate.</p>
+
+<p>Here is how I would price water usage. I would establish a cap and trade style program for water draw from bodies of water/groundwater. A government panel would set yearly sustainable draw rates for each body of water.  Resalable permits should be sold for each to draw from these bodies of water, partially replacing conventional water rights.  The permits should auctioned by the government on a yearly basis and long term ownership of them should not be allowed (to avoid speculation on permits and to ensure that the economic rents produced go the public as a whole).</p>
+<p><a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#uncategorized</category>
+    </item>
+  </channel>
+</rss>

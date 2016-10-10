@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Run Lua Code in a NewLISP Script</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/2014/run-lua-code-in-a-newlisp-script</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/2014/run-lua-code-in-a-newlisp-script?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>Run Lua Code in a NewLISP Script</title>
+      <link>http://www.theojones.name/2014/run-lua-code-in-a-newlisp-script</link>
+      <guid>http://www.theojones.name/2014/run-lua-code-in-a-newlisp-script</guid>
+      <pubDate>Sat, 04 Jan 2014 17:19:33 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        <p>Below is the code for a NewLISP context that uses the Lua API to run Lua code. Its not yet a full binding, however.It works by using NewLISP's FFI interface to load the Lua .so file. So far it only works with Linux and assumes that the Lua library is located in /usr/lib/liblua.so. There are three functions InitLUA , which creates a Lua state and then loads the Lua standard libraries. RunLuaCodeFromString which executes a string of Lua code. RunLuaCodeFromFile which executes the code contained in a file. <br /><code>. <br />
+(context 'LUA)
+(constant 'PathToLuaLib "/usr/lib/liblua.so")
+(constant 'LUA<em>MULTRET -1)
+(import PathToLuaLib "luaL</em>newstate")
+(import PathToLuaLib "luaL<em>loadstring")
+;(import PathToLuaLib "luaL</em>loadfilex")
+;(import PathToLuaLib "lua<em>register")
+(import PathToLuaLib "lua</em>pcallk")
+(import PathToLuaLib "luaL_openlibs")</code></p><p>(define (InitLUA)
+    (set '<em>lua_State</em> (luaL<em>newstate))  ;; *lua</em>State* is a pointer to a lua<em>State struct 
+    (luaL</em>openlibs <em>lua_State</em>)
+)</p><p>(define (RunLuaCodeFromString LuaCode)
+    (luaL<em>loadstring *lua</em>State* LuaCode)
+    (lua<em>pcallk *lua</em>State* 0 LUA_MULTRET 0)
+)</p><p>(define (RunLuaCodeFromFile filename)
+    (RunLuaCodeFromString (read-file filename))  ;; There is a function to do this in the Lua api but this seems cleaner.
+)</p><p>(InitLUA)
+;(RunLuaCodeFromString "print('hello world')")
+;(RunLuaCodeFromFile "hello.lua")</p><p>(context MAIN)
+</p><p><a href="http://www.theojones.name/tag/lua" class="p-category" rel="tag">#lua</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#lua</category>
+      <category>#old</category>
+      <category>#old</category>
+      <category>#uncategorized</category>
+    </item>
+  </channel>
+</rss>

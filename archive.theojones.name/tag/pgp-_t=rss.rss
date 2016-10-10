@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Theo Jones</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/tag/pgp</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/tag/pgp?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>Mailpile, a Free Software Webmail System</title>
+      <link>http://www.theojones.name/2013/mailpile-a-free-software-webmail-system</link>
+      <guid>http://www.theojones.name/2013/mailpile-a-free-software-webmail-system</guid>
+      <pubDate>Fri, 06 Sep 2013 22:05:59 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        <p><a href="http://www.mailpile.is/">Mailpile</a> is one of the most interesting free software/open source projects I've seen lately.It is a webmail program that is focused on security and making encryption easy to use while replicating the full feature set of a hosted email system like Gmail. The project is in an early stage of development and is not very usable yet, so it will be interesting to see how close it comes to meeting its goals. Mailpile has raised almost $150,000 in a croudfunding campaign, so it has a good chance of succeeding.</p><!--more--><p>My personal email account is self hosted and there are real benefits to hosting your own email, including resistance to mass surveillance programs and self hosted email is free of the advertising that comes with services like Gmail. However, the current free webmail programs are lackluster. Roundcube and Squirrelmail are the two big programs in this market. <a href="http://squirrelmail.org/">Squirrelmail</a> looks like something from the 90s. <a href="http://roundcube.net/">Roundcube</a> is better but still can't match the feature set of Gmail.</p><p>Mailpile will be able to run as both a web app on a remote server or as an application on the user's computer and if it is able to ship all planned features it will be superior to Roundcube and Squirrelmail. Its planned encryption features are also very interesting. Email is not very secure without encryption. It is <a href="http://www.anonymailer.net/">ea</a><a href="http://www.anonymailer.net/">sy to spoof </a>senders of email and spoofed emails <a href="http://stackoverflow.com/questions/1847402/how-to-verify-email-sender-address-is-not-spoofed">are very hard to detect</a> because the email protocol contains no way to authenticate senders.Emails are delivered and stored in plaintext and are therefore vulnerable to interception. PGP email encryption can solve these issues but encryption is difficult with most email clients. If programs like Mailpile are able to get more people to actually use email encryption then it will be a big plus.</p><p><a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/pgp" class="p-category" rel="tag">#pgp</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#old</category>
+      <category>#old</category>
+      <category>#pgp</category>
+      <category>#uncategorized</category>
+    </item>
+  </channel>
+</rss>

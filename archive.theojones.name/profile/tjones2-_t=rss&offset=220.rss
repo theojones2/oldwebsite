@@ -1,0 +1,413 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Theo Jones</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/profile/tjones2?offset=220</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/profile/tjones2?_t=rss&amp;offset=220" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>Thoughts on the Ferguson Incident</title>
+      <link>http://www.theojones.name/2014/thoughts-on-the-ferguson-incident</link>
+      <guid>http://www.theojones.name/2014/thoughts-on-the-ferguson-incident</guid>
+      <pubDate>Sat, 16 Aug 2014 00:20:39 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        <p>That the shot person was a suspect in a robbery is interesting. I've always thought that neither story in the case adds up and that there is some missing detail. However, it is clear that the cops clearly used vastly excessive force. </p><p>1) The cops' story that Brown attacked Wilson to take his gun seems extremely unlikely to begin with, and contradicts witness testimony. <br />
+2) However, I find it implausible that the cops would shoot someone for no apparent reason. That would very unusual, even for cops.</p><p>If Brown was a suspect in a robbery it would explain what happened (even if he had noting to do with it). Note that I am not justifying the clearly excessive force used in that case and in its aftermath.</p><p>I would also say that the focus on the past actions of the actors in this type of case is irrelevant. This goes on both sides to a degree. If the possible involvement in the robbery is not directly related, then it is not really that worthy of discussion. I will note however that  its as related as the claims by activists that Brown was a gentle giant who wouldn't hurt a fly. I.e not very related (my suggested policy towards robbers is NOT shoot on sight). But if activists get to bring up Brown's character I have no huge problem with the cops publishing a police report that puts Brown's character into question (the evidence of his involvement does seem pretty compelling, see <a href="http://www.upi.com/Top_News/US/2014/08/15/Mike-Brown-called-robbery-suspect-in-police-report/9901408112725/ph2/"></a><a href="http://www.upi.com/Top_News/US/2014/08/15/Mike-Brown-called-robbery-suspect-in-police-report/9901408112725/ph2/">http:/<wbr></wbr>/<wbr></wbr>www.upi.com/<wbr></wbr>Top_News/<wbr></wbr>US/<wbr></wbr>2014/<wbr></wbr>08/<wbr></wbr>15/<wbr></wbr>Mike-Brown-called-robbery-suspect-in-police-report/<wbr></wbr>9901408112725/<wbr></wbr>ph2/<wbr></wbr></a>) <br />
+The police report (released today) about the robbery that Brown allegedly was involved in should have been public record put on internet anyways.</p><p>Also, what this type of case makes me think is that cops have too much experience. And that dealing with the worst the world has to offer creates a cop culture that is toxic to the public interest. To see this go to any forum that is targeted to the police community. The discussion at the following link is a good case study in this <a href="http://theerant.yuku.com/topic/68862/FDNY-EMTs-official-complaint-against-NYPD-of-EDP-Handling#.U-8E-3XoJhE"></a><a href="http://theerant.yuku.com/topic/68862/FDNY-EMTs-official-complaint-against-NYPD-of-EDP-Handling#.U-8E-3XoJhE">http:/<wbr></wbr>/<wbr></wbr>theerant.yuku.com/<wbr></wbr>topic/<wbr></wbr>68862/<wbr></wbr>FDNY-EMTs-official-complaint-against-NYPD-of-EDP-Handling#.U-8E-3XoJhE</a> Because one EMT ratted them out, about half the cops on that forum want to "hammer" all emergency medical workers. The only reservation of many of the people there who don't is that screwing with EMTs would look bad to the public and bring a lot of crap down on them. There are a few people that talk of "rotten apples", but it seems that by "rotten apple" they mean "snitch". The comments on the following article are also "good" <a href="http://www.policeone.com/use-of-force/articles/7385823-Video-NY-man-dies-in-struggle-during-arrest/"></a><a href="http://www.policeone.com/use-of-force/articles/7385823-Video-NY-man-dies-in-struggle-during-arrest/">http:/<wbr></wbr>/<wbr></wbr>www.policeone.com/<wbr></wbr>use-of-force/<wbr></wbr>articles/<wbr></wbr>7385823-Video-NY-man-dies-in-struggle-during-arrest/<wbr></wbr></a></p><p>The police become something separate and above the regular population. Just trying to regulate the system won't work because the culture will fight all attempts at limiting abuse. I think that the best way to deal with this type of thing would be to in a way de-professionalize the police system. Make it so that most cops aren't career cops. I envision a system where people become cops for a few years and then go back to a different job. It could be one option in a universal national service system. The police roles that need professionals could be part time to the extent possible. This would limit the emergence of a cop culture that is separate from the general culture, and would therefore make it easier to regulate the few remaining bad apples out of existence.</p><p><a href="http://www.theojones.name/tag/emt" class="p-category" rel="tag">#emt</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#emt</category>
+      <category>#old</category>
+      <category>#old</category>
+      <category>#uncategorized</category>
+    </item>
+    <item>
+      <title>Regular Expression To Convert Wordpress Style Urls to Ghost Urls</title>
+      <link>http://www.theojones.name/2014/regular-expression-to-convert-wordpress-style-urls-to-ghost-urls</link>
+      <guid>http://www.theojones.name/2014/regular-expression-to-convert-wordpress-style-urls-to-ghost-urls</guid>
+      <pubDate>Thu, 14 Aug 2014 23:19:37 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        <p>It took me a while to come up with a regular expression to convert wordpress urls (index.php/year/month/day/title) to the ghost urls  This is the corrosponding redirect line in my Nginx config. </p><p>rewrite "/index.php/([0-9]{4})/([0-9]{2})/([0-9]{2})/(.*)" /$4 permanent;</p><p><a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#old</category>
+      <category>#old</category>
+      <category>#uncategorized</category>
+    </item>
+    <item>
+      <title>New Server Installation/ New Blogging Engine / Web and Mail on Ubuntu</title>
+      <link>http://www.theojones.name/2014/new-server-installation-new-blogging-engine-web-and-mail-on</link>
+      <guid>http://www.theojones.name/2014/new-server-installation-new-blogging-engine-web-and-mail-on</guid>
+      <pubDate>Thu, 14 Aug 2014 11:33:53 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>As you have have noticed from some of the recent posts, and the bit of downtime I have done some reconfiguration of this website. I switched the blog engine from wordpress to ghost. I have also switched from Debian to Ubuntu (and made a few other changes). Some details about the new config are as follows. The new setup is based on the ghost image from Digital Ocean (the host of the VPS that this website runs on). I will discuss why I made this change later.</p>
+
+<p>[caption id="attachment_1318" align="alignright" width="226"]<a href="http://www.theojones.name/wp-content/uploads/2014/12/31436961_33399f4066_o.jpg"><img class="size-medium wp-image-1318" src="http://www.theojones.name/wp-content/uploads/2014/12/31436961_33399f4066_o-226x300.jpg" alt="Image Via Flickr (user sylvar) &lt;a href=" https:>https:/<wbr></wbr>/<wbr></wbr>flic.kr/<wbr></wbr>p/<wbr></wbr>3M87z</a>" width="226" height="300" /&gt; Image Via Flickr (user sylvar) <a href="https://flic.kr/p/3M87z%5B/caption%5D">https:/<wbr></wbr>/<wbr></wbr>flic.kr/<wbr></wbr>p/<wbr></wbr>3M87z[/<wbr></wbr>caption]</a></p>
+
+<p>I use the mosh remote connection system rather than Openssh to remotely manage the server. The instructions <a href="http://mosh.mit.edu/">available on the Mosh website</a> work well for this installation.</p>
+
+<p>Mosh<br />$ sudo apt-get install python-software-properties</p>
+
+<p>$ sudo add-apt-repository ppa:keithw/mosh</p>
+
+<p>$ sudo apt-get update</p>
+
+<p>$ sudo apt-get install mosh</p>
+
+<p><a href="http://www.linuxscrew.com/2012/04/11/why-mosh-is-better-than-ssh/">Mosh has multiple clear benefits.</a> 1) it handles special sequences like control-c better than ssh (i.e it dosn't wait for the current task to finish), 2) it can handle network disconnects and IP address changes, 3)its executable runs as a normal user, minimizing security issues, and 4) it handles lagged terminals better. It is worth noting that Mosh is not a complete replacement for SSH, it still uses SSH for authentication.</p>
+
+<p>Using mosh from the client side is simple.</p>
+
+<p>$mosh root@server</p>
+
+<p>It may be a good idea to swap OpenSSH for the lighter weight dropbear if you don't use Mosh.Install Dropbear</p>
+
+<p>$ apt-get install dropbear</p>
+
+<p>Edit<br />/etc/default/dropbear</p>
+
+<p>Set <em>NO_START=0 </em><br />This option makes dropbear run on boot.</p>
+
+<p>Also set <em>DROPBEAR<em>EXTRA</em>ARGS="-a"</em>.</p>
+
+<p>If you installed dropbear remove the openssh server if it is present.</p>
+
+<p>$ apt-get remove openssh-server</p>
+
+<p>Reboot.</p>
+
+<p>You may want to create a non-root user at this point. This has some security advantages (mostly in the case of multi user systems). You can see some articles on this as follows<br /><a href="http://security.stackexchange.com/questions/34915/what-is-the-actual-value-of-disabling-remote-root-login-using-ssh"></a><a href="http://security.stackexchange.com/questions/34915/what-is-the-actual-value-of-disabling-remote-root-login-using-ssh">http:/<wbr></wbr>/<wbr></wbr>security.stackexchange.com/<wbr></wbr>questions/<wbr></wbr>34915/<wbr></wbr>what-is-the-actual-value-of-disabling-remote-root-login-using-ssh</a><br /><a href="https://linuxacademy.com/blog/linux/when-you-should-and-should-not-disable-root-login/"></a><a href="https://linuxacademy.com/blog/linux/when-you-should-and-should-not-disable-root-login/">https:/<wbr></wbr>/<wbr></wbr>linuxacademy.com/<wbr></wbr>blog/<wbr></wbr>linux/<wbr></wbr>when-you-should-and-should-not-disable-root-login/<wbr></wbr></a></p>
+
+<p>It can be done as the following:<br />useradd theo</p>
+
+<p>I use the UFW firewall. Two good articles on this are as follows.</p>
+
+<p><a href="https://www.digitalocean.com/community/tutorials/how-to-setup-a-firewall-with-ufw-on-an-ubuntu-and-debian-cloud-server"></a><a href="https://www.digitalocean.com/community/tutorials/how-to-setup-a-firewall-with-ufw-on-an-ubuntu-and-debian-cloud-server">https:/<wbr></wbr>/<wbr></wbr>www.digitalocean.com/<wbr></wbr>community/<wbr></wbr>tutorials/<wbr></wbr>how-to-setup-a-firewall-with-ufw-on-an-ubuntu-and-debian-cloud-server</a><br /><a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-use-mosh-on-a-vps"></a><a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-use-mosh-on-a-vps">https:/<wbr></wbr>/<wbr></wbr>www.digitalocean.com/<wbr></wbr>community/<wbr></wbr>tutorials/<wbr></wbr>how-to-install-and-use-mosh-on-a-vps</a></p>
+
+<p>Here is a summary of what I did.<br />$apt-get install ufw</p>
+
+<p>The above command installs UFW. This is often installed by defauly</p>
+
+<p>$ ufw allow 22</p>
+
+<p>The above command allows ssh to pass through the firewall.</p>
+
+<p>$ufw allow 60000:61000/udp</p>
+
+<p>The above command allows mosh to pass through.</p>
+
+<p>Edit /etc/default/ufw and adjust ipv6 settings</p>
+
+<p>The following two commands sets all defaults to deny, for both outgoing and incoming traffic<br />$sudo ufw default deny incoming</p>
+
+<p>$sudo ufw default deny outgoing</p>
+
+<p>Start UFW</p>
+
+<p>sudo ufw disable --- just in case its on<br />sudo ufw enable</p>
+
+<p>ufw allow out 53</p>
+
+<p>The above allows outgoing DNS traffic</p>
+
+<p>ufw allow http --- web<br />ufw allow out http<br />ufw allow https --- web over ssl<br />ufw allow out https</p>
+
+<p>ufw allow smtp -- to send/receive email<br />ufw allow out smtp</p>
+
+<p>ufw allow imap -- pick up email</p>
+
+<p>I poked around with an alternate setup for a LEMP Stack. Here are some notes<br /><a href="https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-on-ubuntu-14-04"></a><a href="https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-on-ubuntu-14-04">https:/<wbr></wbr>/<wbr></wbr>www.digitalocean.com/<wbr></wbr>community/<wbr></wbr>tutorials/<wbr></wbr>how-to-install-linux-nginx-mysql-php-lemp-stack-on-ubuntu-14-04</a></p>
+
+<p>apt-get update && apt-get upgrade</p>
+
+<p>apt-get install nginx</p>
+
+<p>apt-get install mysql-server<br />mysql_install_db<br />mysql_secure_installation --- run through the wizard</p>
+
+<p>apt-get install php5-fpm php5-mysql</p>
+
+<p>Configure PHP<br />nano /etc/php5/fpm/php.ini</p>
+
+<p>set<br />cgi.fix_pathinfo=0</p>
+
+<p>edit /etc/nginx/nginx.conf</p>
+
+<p>under http add<br />fastcgi_buffers 8 16k;<br />fastcgi_buffer_size 32k;</p>
+
+<p>Set NGINx config<br />See notes</p>
+
+<p>Automatic updates<br /><a href="http://www.richud.com/wiki/Ubuntu">http:/<wbr></wbr>/<wbr></wbr>www.richud.com/<wbr></wbr>wiki/<wbr></wbr>Ubuntu</a><em>Enable</em>Automatic_Updates<br /><a href="https://help.ubuntu.com/14.04/serverguide/automatic-updates.html"></a><a href="https://help.ubuntu.com/14.04/serverguide/automatic-updates.html">https:/<wbr></wbr>/<wbr></wbr>help.ubuntu.com/<wbr></wbr>14.04/<wbr></wbr>serverguide/<wbr></wbr>automatic-updates.html</a><br />apt-get install unattended-upgrades<br />edit /etc/apt/apt.conf.d/50unattended-upgrades</p>
+
+<p>At the very least enable security updates (should be enabled by default)<br />uncomment the "${distro<em>id}:${distro</em>codename}-updates"; line to enable other updates.</p>
+
+<p>edit /etc/apt/apt.conf.d/10periodic<br />set<br />APT::Periodic::Update-Package-Lists "1";<br />APT::Periodic::Download-Upgradeable-Packages "1";<br />APT::Periodic::AutocleanInterval "7";<br />APT::Periodic::Unattended-Upgrade "1";</p>
+
+<p>Email<br /><a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-a-postfix-e-mail-server-with-dovecot"></a><a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-a-postfix-e-mail-server-with-dovecot">https:/<wbr></wbr>/<wbr></wbr>www.digitalocean.com/<wbr></wbr>community/<wbr></wbr>tutorials/<wbr></wbr>how-to-set-up-a-postfix-e-mail-server-with-dovecot</a><br />sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/mail.key -out /etc/ssl/certs/mailcert.pem<br />sudo openssl req -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/mail.key -out mailcert.csr</p>
+
+<p>aptitude remove exim4 && aptitude install postfix && postfix stop<br />Install as internet site and follow wizard (although config will be cleared)<br />Edit<br />/etc/postfix/master.cf</p>
+
+<p>set<br />submission inet n - - - - smtpd<br />-o syslog<em>name=postfix/submission<br />-o smtpd</em>tls<em>wrappermode=no<br />-o smtpd</em>tls<em>security</em>level=encrypt<br />-o smtpd<em>sasl</em>auth<em>enable=yes<br />-o smtpd</em>recipient<em>restrictions=permit</em>mynetworks,permit<em>sasl</em>authenticated,reject<br />-o milter<em>macro</em>daemon<em>name=ORIGINATING<br />-o smtpd</em>sasl<em>type=dovecot<br />-o smtpd</em>sasl_path=private/auth</p>
+
+<p>wipe main.cf (copy it to a new folder if nesarry)<br />cp /etc/postfix/main.cf /etc/postfix/main.cf.orig<br />rm /etc/postfix/main.cf</p>
+
+<p>Set<br />myhostname = mail.domain.com<br />myorigin = /etc/mailname<br />mydestination = mail.domain.com, domain.com, localhost, localhost.localdomain<br />relayhost =<br />mynetworks = 127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128<br />mailbox_size_limit = 0<br />recipient<em>delimiter = +<br />inet</em>interfaces = all<br />alias<em>maps = hash:/etc/aliases<br />alias</em>database = hash:/etc/aliases<br />smtpd_tls_cert_file=/etc/ssl/certs/mailcert.pem<br />smtpd_tls_key_file=/etc/ssl/private/mail.key<br />smtpd_use_tls=yes<br />smtpd_tls_session_cache_database = btree:${data<em>directory}/smtpd</em>scache<br />smtp_tls_session_cache_database = btree:${data<em>directory}/smtp</em>scache<br />smtpd_tls_security_level=may<br />smtpd_tls_protocols = !SSLv2, !SSLv3<br />local_recipient_maps = proxy:unix:passwd.byname $alias_maps</p>
+
+<p>edit /etc/aliases and set the file's content as the following<br />mailer-daemon: postmaster<br />postmaster: root<br />nobody: root<br />hostmaster: root<br />usenet: root<br />news: root<br />webmaster: root<br />www: root<br />ftp: root<br />abuse: root<br />root: theo</p>
+
+<p>newaliases</p>
+
+<p>aptitude install dovecot-core dovecot-imapd</p>
+
+<p>clear /etc/dovecot/dovecot.conf<br />rm /etc/dovecot/dovecot.conf</p>
+
+<p>create /etc/dovecot/dovecot.conf<br />disable_plaintext_auth = no<br />mail_privileged_group = mail<br />mail<em>location = mbox:~/mail:INBOX=/var/mail/%u<br />userdb {<br />driver = passwd<br />}<br />passdb {<br />args = %s<br />driver = pam<br />}<br />protocols = " imap"<br />protocol imap {<br />mail</em>plugins = " autocreate"<br />}<br />plugin {<br />autocreate = Trash<br />autocreate2 = Sent<br />autosubscribe = Trash<br />autosubscribe2 = Sent<br />}<br />service auth {<br />unix<em>listener /var/spool/postfix/private/auth {<br />group = postfix<br />mode = 0660<br />user = postfix<br />}<br />}<br />ssl=required<br />ssl</em>cert =<a href="http://www.theojones.name/tag/digitalocean" class="p-category" rel="tag">#digitalocean</a> <a href="http://www.theojones.name/tag/installdropbear" class="p-category" rel="tag">#installdropbear</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/ssh" class="p-category" rel="tag">#ssh</a> <a href="http://www.theojones.name/tag/ufw" class="p-category" rel="tag">#ufw</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p>
+</div>]]></description>
+      <category>#digitalocean</category>
+      <category>#installdropbear</category>
+      <category>#old</category>
+      <category>#old</category>
+      <category>#ssh</category>
+      <category>#ufw</category>
+      <category>#uncategorized</category>
+    </item>
+    <item>
+      <title>Some Notes on System Administration Commands on Debian</title>
+      <link>http://www.theojones.name/2014/some-notes-on-system-administration-commands-on-debian</link>
+      <guid>http://www.theojones.name/2014/some-notes-on-system-administration-commands-on-debian</guid>
+      <pubDate>Tue, 12 Aug 2014 04:25:29 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        <p><strong>Restart Nginx</strong></p><p>/etc/init.d/nginx restart</p><p><strong>Website Speed Test</strong></p><p><a href="http://tools.pingdom.com/fpt/"></a><a href="http://tools.pingdom.com/fpt/">http:/<wbr></wbr>/<wbr></wbr>tools.pingdom.com/<wbr></wbr>fpt/<wbr></wbr></a></p><p><strong>GNU Screen Tutorial</strong> <br /><a href="https://www.linux.com/learn/tutorials/285795-taking-command-of-the-terminal-with-gnu-screen-"></a><a href="https://www.linux.com/learn/tutorials/285795-taking-command-of-the-terminal-with-gnu-screen-">https:/<wbr></wbr>/<wbr></wbr>www.linux.com/<wbr></wbr>learn/<wbr></wbr>tutorials/<wbr></wbr>285795-taking-command-of-the-terminal-with-gnu-screen-</a></p><blockquote>
+<p>For an easy reference, here's a list of the most common screen commands that you'll want to know. This isn't exhaustive, but it should be enough for most users to get started using screen happily for most use cases.</p>
+
+<p>Start Screen: screen  <br />Detatch Screen: Ctrl-a d  <br />Re-attach Screen: screen -x or screen -x PID  <br />Split Horizontally: Ctrl-a S  <br />Split Vertically: Ctrl-a |  <br />Move Between Windows: Ctrl-a Tab  <br />Name Session: Ctrl-a A  <br />Log Session: Ctrl-a H  <br />Note Session: Ctrl-a h</p>
+</blockquote><p><strong>MySql Config Wizard</strong> <br /><a href="https://tools.percona.com/wizard"></a><a href="https://tools.percona.com/wizard">https:/<wbr></wbr>/<wbr></wbr>tools.percona.com/<wbr></wbr>wizard</a></p><p><strong>MySQL Database Creation</strong> <br /><a href="http://www.debuntu.org/how-to-create-a-mysql-database-and-set-privileges-to-a-user/"></a><a href="http://www.debuntu.org/how-to-create-a-mysql-database-and-set-privileges-to-a-user/">http:/<wbr></wbr>/<wbr></wbr>www.debuntu.org/<wbr></wbr>how-to-create-a-mysql-database-and-set-privileges-to-a-user/<wbr></wbr></a></p><p>To login: <br />
+ mysql -u root -p
+To Create DB : <br />
+mysql&gt; create database exampledb; <br />
+Create User: <br />
+mysql&gt; grant usage on <em>.</em> to user@localhost identified by 'passwd'; <br />
+mysql&gt; grant all privileges on exampledb.* to user@localhost ;</p><p><a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/reattachscreen" class="p-category" rel="tag">#reattachscreen</a> <a href="http://www.theojones.name/tag/restartnginx" class="p-category" rel="tag">#restartnginx</a> <a href="http://www.theojones.name/tag/startscreen" class="p-category" rel="tag">#startscreen</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a> <a href="http://www.theojones.name/tag/websitespeedtest" class="p-category" rel="tag">#websitespeedtest</a></p></div>]]></description>
+      <category>#old</category>
+      <category>#old</category>
+      <category>#reattachscreen</category>
+      <category>#restartnginx</category>
+      <category>#startscreen</category>
+      <category>#uncategorized</category>
+      <category>#websitespeedtest</category>
+    </item>
+    <item>
+      <title>Two Wordpress Plugins I've Started Using</title>
+      <link>http://www.theojones.name/2014/two-wordpress-plugins-ive-started-using</link>
+      <guid>http://www.theojones.name/2014/two-wordpress-plugins-ive-started-using</guid>
+      <pubDate>Tue, 12 Aug 2014 03:18:22 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        <p><a href="http://wordpress.org/plugins/remove-query-strings-from-static-resources/"><strong>Remove Query Strings From Static Resources <br /></strong></a></p><blockquote>
+<p>This plugin will remove any query strings from static resources like CSS & JS files, and will improve your speed scores in services like PageSpeed, YSlow, Pingdoom and GTmetrix.</p>
+
+<p>Resources with a “?” or “&” in the URL are not cached by some proxy caching servers, and moving the query string and encode the parameters into the URL will increase your WordPress site performance grade significant.</p>
+</blockquote><p><strong><a href="http://wordpress.org/plugins/wp-fastest-cache/">WP Fastest Cache</a></strong></p><blockquote>
+<p>This plugin creates static html files from your dynamic WordPress blog. When a page is rendered, php and mysql are used. Therefor, system needs RAM and CPU. If many visitors come to a site, system uses lots of RAM and CPU so page is rendered so slowly. In this case, you need a cache system not to render page again and again. Cache system generates a static html file and saves. Other users reach to static html page.</p>
+</blockquote><p><a href="http://www.theojones.name/tag/cpu" class="p-category" rel="tag">#cpu</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/ram" class="p-category" rel="tag">#ram</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a> <a href="http://www.theojones.name/tag/url" class="p-category" rel="tag">#url</a></p></div>]]></description>
+      <category>#cpu</category>
+      <category>#old</category>
+      <category>#old</category>
+      <category>#ram</category>
+      <category>#uncategorized</category>
+      <category>#url</category>
+    </item>
+    <item>
+      <title>Why Voucher Systems Fail</title>
+      <link>http://www.theojones.name/2014/why-voucher-systems-fail</link>
+      <guid>http://www.theojones.name/2014/why-voucher-systems-fail</guid>
+      <pubDate>Mon, 11 Aug 2014 13:34:06 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p><a href="http://www.slate.com/articles/news_and_politics/the_dismal_science/2014/07/sweden_school_choice_the_country_s_disastrous_experiment_with_milton_friedman.html">Slate has the following article on Sweeden's school voucher system and its failings</a>.I have a few thoughts on this.</p>
+
+<p>The Slate author seems to be amazed that a generally left-wing country like Sweden could adopt a voucher system.</p>
+<blockquote>
+<p>To the extent that Americans think about Sweden at all, it usually conjures images of gibberish-speaking Muppets, Ikea furniture, and, when it comes to government policies, the welfare state. So it’s something of a surprise that a higher fraction of Swedish students go to privately run (and mostly for-profit) schools than in the U.S.* The system was put in place in the early 1990s by a center-right (by Swedish standards) government,</p>
+</blockquote>
+<p>It doesn't particularly amaze me. Imagine a politician believes all of the following</p>
+<ol><li>Milton Friedman was right. A privatized education system built around a voucher system is more efficient than a public system. (For reasons why this argument is doubtful in the realm of education read on)</li>
+    <li>Inequality and distributional effects are important.
+
+[caption id="attachment_1342" align="alignright" width="300"]<a href="http://www.theojones.name/wp-content/uploads/2014/08/187432802_c852d1c139_o.jpg"><img class="size-medium wp-image-1342" src="http://www.theojones.name/wp-content/uploads/2014/08/187432802_c852d1c139_o-300x225.jpg" alt="Image via Flickr (user David Schott) &lt;a href=" https:>https:/<wbr></wbr>/<wbr></wbr>flic.kr/<wbr></wbr>p/<wbr></wbr>hyDf3</a>" width="300" height="225" /&gt; Image via Flickr (user David Schott) <a href="https://flic.kr/p/hyDf3%5B/caption%5D">https:/<wbr></wbr>/<wbr></wbr>flic.kr/<wbr></wbr>p/<wbr></wbr>hyDf3[/<wbr></wbr>caption]</a></li>
+</ol>
+<p>What would such a politician want to do about education in a) a relatively egalitarian country like Sweden with a strong welfare state, and b) a  relatively unequal economy like that of the U.S</p>
+
+<p>In system <em><strong>a)</strong></em> a politician would clearly prefer a voucher system. In economy <em><strong>b)</strong></em> such a politician could defend a government centered education system on the grounds of it being a second best option. A system of taxation increases and transfer payments needed to fight inequality directly might be unrealistic. However, privatizing the education system could disproportionately hurt the poor. Keeping the system public would be a good second best option.<a href="http://www.interfluidity.com/v2/5117.html"> See this link</a> for a discussion of how inequality can provoke second best policies.  This situation can be seen in other policy matters such as the minimum wage (<a href="http://wiki.answers.com/Q/Minimum_wages_per_hour_in_sweden">Sweden does not have one</a> [1. It is worth noting that unions are also stronger in that nation]), or <a href="http://www.nytimes.com/2000/06/07/opinion/reckonings-a-rent-affair.html">rent controls</a> (Sweden has them, but to a lesser extent than the U.S).  Because of this trend you would expect support for a voucher system to be higher in Sweden</p>
+
+<p>Now, why doesn't the free market argument of Milton Friedman work for education. Well, markets work efficiently when the goals of three groups are aligned.</p>
+<ol><li> The person buying the product</li>
+    <li>The person using the product</li>
+    <li>The public interest</li>
+</ol>
+<p>Usually the first two are the same individual, but not so with education. The  parents are the ones buying the product, but not the consumer of the education. There are in fact many cases where the goals of the parents can conflict with the goals of the student. In the United States, I have seen a number of charter schools with a business model built around reducing work for the parent as much as possible. And even if there was no conflict of interest between the student's needs and the parent's needs there may be a conflict with the public interest. The student's interest is in maximizing the purely economic interest in the education. The public has a different interest. The public interest comes from providing that people have the skills sufficient to be good voters and citizens. There is no interest in funding vocational training, thereby subsidizing the industries that need the trained workers. Workers/industry should pay the full cost of their economic production. Any economic value that comes from education funding is a good side effect and should not be the target of educational policy (there may be a small second best option-type justification for funding vocational training). I will discuss this further in a later post.</p>
+<p><a href="http://www.theojones.name/tag/davidschott" class="p-category" rel="tag">#davidschott</a> <a href="http://www.theojones.name/tag/miltonfriedman" class="p-category" rel="tag">#miltonfriedman</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/sweden" class="p-category" rel="tag">#sweden</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a> <a href="http://www.theojones.name/tag/unitedstates" class="p-category" rel="tag">#unitedstates</a></p></div>]]></description>
+      <category>#davidschott</category>
+      <category>#miltonfriedman</category>
+      <category>#old</category>
+      <category>#old</category>
+      <category>#sweden</category>
+      <category>#uncategorized</category>
+      <category>#unitedstates</category>
+    </item>
+    <item>
+      <title>Economics and the Use of Math</title>
+      <link>http://www.theojones.name/2014/economics-and-the-use-of-math</link>
+      <guid>http://www.theojones.name/2014/economics-and-the-use-of-math</guid>
+      <pubDate>Sun, 10 Aug 2014 17:09:52 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>In this post I will contend that quite a bit of the use of mathematics by economists is just a form of jargon. The vast majority of math used in economics papers is at best just fluff that says things that could be easily enough said in plain English. At worst, it is an effective way to hide vastly incorrect assumptions. The most similar thing in academia is the use of complex jargon in fields such as diversity studies. However, in the case of economics this usage is much less noticed. People can easily see jargon over use for what it is -- often a</p>
+
+<p>[caption id="attachment_1345" align="alignright" width="300"]<a href="http://www.theojones.name/wp-content/uploads/2014/08/6267107228_661d5bca4b_o.jpg"><img class="size-medium wp-image-1345" src="http://www.theojones.name/wp-content/uploads/2014/08/6267107228_661d5bca4b_o-300x300.jpg" alt="Image via Flickr (user Dylan Ng) &lt;a href=" https:>https:/<wbr></wbr>/<wbr></wbr>flic.kr/<wbr></wbr>p/<wbr></wbr>axNyCU</a> " width="300" height="300" /&gt; Image via Flickr (user Dylan Ng) <a href="https://flic.kr/p/axNyCU%5B/caption%5D">https:/<wbr></wbr>/<wbr></wbr>flic.kr/<wbr></wbr>p/<wbr></wbr>axNyCU[/<wbr></wbr>caption]</a></p>
+
+<p>good way of misleading. However, people take the use of <strong><em>math</em></strong> as authoritative without realizing that mathematical notation is a language that, while better at expressing some concepts, can also be abused in the same way as natural language. I would say that the math heaviness of economics is the main reason why the field is taken with a much higher credibility by the public than any other social science -- even though there is no merit for such a distinction.</p>
+
+<p>Other than appearance, the over use of math is connected to some real problems in the economics field. The first is the hiding of assumptions, and the second is an anti-science tendency in some of the economics field.</p>
+
+<p>The mathematical models used in economics can hide many assumptions in their formalism. These include some of the following</p>
+<ul><li>Individuals possessing perfect information about all relevant factors to a transaction.</li>
+    <li> <a href="http://www.interfluidity.com/v2/5117.html">Assuming an optimal distribution of money arranged so that money spent actually reflects the net benefits to consumers. </a></li>
+    <li>Assuming an ideal market, with a large number of producers and consumers</li>
+</ul>
+<p>I will discuss the relation between economics research and the scientific method in a future post.</p>
+<p><a href="http://www.theojones.name/tag/dylanng" class="p-category" rel="tag">#dylanng</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#dylanng</category>
+      <category>#old</category>
+      <category>#old</category>
+      <category>#uncategorized</category>
+    </item>
+    <item>
+      <title>Replace the Copyright System</title>
+      <link>http://www.theojones.name/2014/replace-the-copyright-system</link>
+      <guid>http://www.theojones.name/2014/replace-the-copyright-system</guid>
+      <pubDate>Sun, 10 Aug 2014 08:09:44 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        <blockquote>
+<p>If nature has made any one thing less susceptible than all others of exclusive property, it is the action of the thinking power called an idea, which an individual may exclusively possess as long as he keeps it to himself; but the moment it is divulged, it forces itself into the possession of every one, and the receiver cannot dispossess himself of it. Its peculiar character, too, is that no one possesses the less, because every other possesses the whole of it. He who receives an idea from me, receives instruction himself without lessening mine; as he who lights his taper at mine, receives light without darkening me. That ideas should freely spread from one to another over the globe, for the moral and mutual instruction of man, and improvement of his condition, seems to have been peculiarly and benevolently designed by nature, when she made them, like fire, expansible over all space, without lessening their density in any point, and like the air in which we breathe, move, and have our physical being, incapable of confinement or exclusive appropriation. Inventions then cannot, in nature, be a subject of property.</p>
+
+<p><strong>--- Thomas Jefferson</strong></p>
+</blockquote>
+<p>In this post I will argue for completely repealing the copyright system and</p>
+
+<p>[caption id="attachment_1348" align="alignright" width="399"]<a href="http://www.theojones.name/wp-content/uploads/2014/08/4371001458_0b7721a183_o.jpg"><img class="wp-image-1348" src="http://www.theojones.name/wp-content/uploads/2014/08/4371001458_0b7721a183_o.jpg" alt="Image via &lt;a href=" http:>http:/<wbr></wbr>/<wbr></wbr>opensource.com/<wbr></wbr>law/<wbr></wbr>09/<wbr></wbr>10/<wbr></wbr>copyright-license-choice?sc_cid=70160000000IDmjAAG</a>" width="399" height="224" /&gt; Image via <a href="http://opensource.com/law/09/10/copyright-license-choice?sc_cid=70160000000IDmjAAG%5B/caption%5D">http:/<wbr></wbr>/<wbr></wbr>opensource.com/<wbr></wbr>law/<wbr></wbr>09/<wbr></wbr>10/<wbr></wbr>copyright-license-choice?sc_cid=70160000000IDmjAAG[/<wbr></wbr>caption]</a></p>
+
+<p>replacing it with a series of subsidies. My argument will have four parts. 1) I will argue that the copyright system is fundamentally inefficient, 2) that the types of material protected by copyright is fundamentally different from real property, 3) that the copyright system promotes a form of artificial scarcity , 4) that copyright is fundamentally opposed to freedom of speech. I will give more elaboration of these points in future posts (but a overview in this one), I will also give an overview of an alternative to the copyright system in a future post.</p>
+
+<p>A copyright is fundamentally different than a right in real property.It is a right to the dissemination of information. It is a monopoly power over that information. Real property has one key distinguishing factor -- what economists call rivalry. That is, only one person can use a physical item at a time, or at least can't use it without impacting other users. There is a cost, a marginal cost, to each additional user. This cost either comes in the form of a Therefore, there needs be a way to allocate access to this item. An effective way to do so is through property rights. However, the same consideration does not apply to copyrights. One person having an idea, or access to a copy of a piece of information does not stop another from having that information. Therefore there is no inherent need for copyright on property rights grounds. However, this analysis still does still leave the opportunity for an economic justification. There is still a fixed cost to producing a copyrighted work, and someone needs to pay this cost. However, this is a weak argument for copyright. There are many business models that don't depend on copyright, and copyright is a inefficient way to fund artists and authors.</p>
+
+<p>The copyright system is fundamentally inefficient at its main goal of promoting the arts. It grants a monopoly for the distribution of works. But of course, this monopoly comes at a high cost. Copyright makes it such that only one entity can distribute a given work. In a competitive market, prices will tend to fall to something close to the cost that the producer faces. This is the most efficient outcome, any price charged above what it costs to bring something into production is wasteful. It harms consumers by over charging them, and it reduces the net production of economic resources. It is a diversion of resources from a productive use to a non-productive use. However, a monopoly will be able to insist on a price well above actual production. Even worse, the copyright system tends to promote a system that is centralized around a few publishers. This system expands the monopoly from just single works of art. Publishers have a monopoly over the large number of works that exist in their portfolio and are more than willing to use this to abuse consumers and the artists themselves. In fact, the promotion of arts was not the initial goal of copyright law. The British Parliament passed early copyright laws for the explicit goal of centralizing publishing into the hands of a few companies because a centralized press is easier to censor. Copyright is an inefficient system because it produces these monopolies. While it may to some degree encourage the arts, it does so while bringing along a huge deadweight economic loss.</p>
+
+<p>Copyright works from turning abundance into scarcity. Because of the internet, almost anyone anywhere has the potential to share in a work of art instantly at a very small cost.The internet has a great potential to create a cultural abundance. Copyright serves to turn this abundance into scarcity. The economically efficient method of distributing a work is to make sure that it is distributed as widely as possible once the cost of producing it is covered. Copyright law tends to subordinate this goal to profit maximization. A publisher will charge the most profitable price they can, even when this price is well above the actual cost of production. This will reduce the number of people who will have access to the work.</p>
+
+<p>Finally, copyright has strong incompatibilities with free speech. By assigning an exclusive right to a piece of information it prevents others from disseminating that information. Copyright covers a lot more than just the direct form of expression of an idea -- it goes into protecting the ideas themselves. It limits the ability for people to disseminate the ideas contained in that expression, or to modify and recombine the ideas. The expression of an idea is hard to distinguish from the idea itself. Furthermore copyright entails freedom of information. People should have to right to reproduce and receive knowledge in all of its forms. By centralizing control over a given peice of knowledge, the public's right to free information is abridged.</p>
+<p><a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#old</category>
+      <category>#old</category>
+      <category>#uncategorized</category>
+    </item>
+    <item>
+      <title>The Legal Basis Behind the Gay Marriage Lawsuits</title>
+      <link>http://www.theojones.name/2014/the-legal-basis-behind-the-gay-marriage-lawsuits</link>
+      <guid>http://www.theojones.name/2014/the-legal-basis-behind-the-gay-marriage-lawsuits</guid>
+      <pubDate>Fri, 08 Aug 2014 17:40:31 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>Another day, another lawsuit challenging laws prohibiting gay marriage. <a href="http://www.latinpost.com/articles/16225/20140806/north-dakota-officials-urge-dismissal-lawsuit-challenging-gay-marriage-ban.htm">This time</a> the state of North Dakota is having its law challenged. North Dakota's <span style="color: #000000;">solicitor general has filed a motion disputing the claims in the lawsuit and seeks the lawsuit dismissed. Judging by how other courts have dealt with this issue the solicitor general probably won't get his way. In a post written before the recent lawsuits, <a title="If you love freedom, vote to allow gay marriage" href="https://theojones.name/index.php/if-you-love-freedom-vote-to-allow-gay-marriage/">I argued that gay marriage prohibitions are likely not constitutional, and even if they were should be opposed on policy grounds</a>. In this post I will discus the legal basis for this litigation. The cases are based</span></p>
+
+<p>[caption id="attachment_1351" align="alignright" width="300"]<a href="http://www.theojones.name/wp-content/uploads/2014/08/6685160247_5e2fbc8e78_o.jpg"><img class="size-medium wp-image-1351" src="http://www.theojones.name/wp-content/uploads/2014/08/6685160247_5e2fbc8e78_o-300x225.jpg" alt="Image via Flickr user Janet Lindenmuth &lt;a href=" https:>https:/<wbr></wbr>/<wbr></wbr>flic.kr/<wbr></wbr>p/<wbr></wbr>bbKcez</a>" width="300" height="225" /&gt; Image via Flickr user Janet Lindenmuth <a href="https://flic.kr/p/bbKcez%5B/caption%5D">https:/<wbr></wbr>/<wbr></wbr>flic.kr/<wbr></wbr>p/<wbr></wbr>bbKcez[/<wbr></wbr>caption]</a></p>
+
+<p><span style="color: #000000;">around section 1 of the 14th amendment which reads </span></p>
+<blockquote>
+<p>All persons born or naturalized in the United States, and subject to the jurisdiction thereof, are citizens of the United States and of the State wherein they reside. No State shall make or enforce any law which shall abridge the privileges or immunities of citizens of the United States; nor shall any State deprive any person of life, liberty, or property, without due process of law;<strong> nor deny to any person within its jurisdiction the equal protection of the laws.</strong></p>
+</blockquote>
+<p>Emphasis added. The bolded part is the equal protection clause. The courts interpret this based on three standards of scrutiny.The higher standards are only applied to certain protected classes. For a law that targets a group of people to pass the scrutiny of the courts, the law must meet standards that vary based on the scrutiny test applied.</p>
+<ol><li>Strict Scrutiny. This standard is applied to laws that impact a fundamental right (i.e one in the Bill of Rights). More relevant to this case is the fact that this standard is used in regards to some protected classes, particularly race.   To pass this standard the government must have a compelling governmental interest, the legislation must be narrowly tailored to fulfill the interest, and must be the least restrictive means of meeting the interest. This is the most stringent of the standards.</li>
+    <li>Intermediate Scrutiny. This is the standard that applies on the basis of sex/gender discrimination, among other protected classes.To pass this standard a law must further important government interest in a way that is substantially related to that interest</li>
+    <li>The third standard is the rational basis test. It has two poorly defined sub-types. The cases where each is used have not been well defined.
+<ol><li>Regular rational basis -- this is the generic standard that applies to all laws. It is nearly all permissive. A law has to be rationally related to a legitimate government interest. This legitimate government interest does not need to be the actual reason for the law nor do the costs of the legislation have to be proportionate to the interest.</li>
+    <li>Rational basis with teeth. This is a poorly defined heightened version of the rational basis test This adds to the regular rational basis standard by declaring that the interest must be strong enough that a reasonable and impartial legislature could come to the conclusion that the legislation is justified. The gay marriage related cases that have involved rational basis have used this standard.</li>
+</ol></li>
+</ol>
+<p>Now we need to figure out which one of these standards to apply to gay marriage. Unfortunately, the Supreme Court has not stated which of these standards applies to gay rights, nor has it provided clear guidelines for determining which groups are protected by which standards. The selection of a scrutiny standard is to an extent arbitrary. I would argue for intermediate scrutiny on the grounds that discrimination against LGBT groups is analogous to discrimination on the basis of sex. We shall see what the courts will do with this issue. So far, the lower courts and state that have dealt with this issue have picked every one of the possibilities. The selection of the scrutiny standard is critical to the outcome of the lawsuits on gay marriage. A determination of strict scrutiny or intermediate scrutiny will close the case in the favor of gay rights. This is because strict scrutiny pretty much is a complete prohibition of discrimination ,and intermediate scrutiny severely bounds and puts strong limits the range of possible discrimination. It is severely unlikely that the states will be able to find the needed important government interest to meet intermediate scrutiny. A determination of rational basis with teeth will favor gay rights, but will leave a possibility that the state could still snatch a victory, as they will have difficulties showing an actual and substantial harm caused by allowing gay marriage. A finding of normal rational basis will be a clear victory for the states, as normal rational basis is nearly all permissive.</p>
+
+<p>It is worth noting that I think that this whole standards of scrutiny system for the equal protection clause is a Rube Goldberg system. I will leave you with thoughts from Justice Stevens on this from <em><a href="http://law2.umkc.edu/faculty/projects/ftrials/conlaw/cleburne.html">City of Cleburne v. Cleburne Living Center</a></em> (1985)</p>
+<blockquote>
+<p>I am inclined to believe that what has become known as the [tiered] analysis of equal protection claims does not describe a completely logical method of deciding cases, but rather is a method the Court has employed to explain decisions that actually apply a single standard in a reasonably consistent fashion." In my own approach to these cases, I have always asked myself whether I could find a "rational basis" for the classification at issue. The term "rational," of course, includes a requirement that an impartial lawmaker could logically believe that the classification would serve a legitimate public purpose that transcends the harm to the members of the disadvantaged class. Thus, the word "rational" -- for me at least -- includes elements of legitimacy and neutrality that must always characterize the performance of the sovereign's duty to govern impartially.</p>
+
+<p>The rational-basis test, properly understood, adequately explains why a law that deprives a person of the right to vote because his skin has a different pigmentation than that of other voters violates the Equal Protection Clause. It would be utterly irrational to limit the franchise on the basis of height or weight; it is equally invalid to limit it on the basis of skin color. None of these attributes has any bearing at all on the citizen's willingness or ability to exercise that civil right. We do not need to apply a special standard, or to apply "strict scrutiny," or even "heightened scrutiny," to decide such cases.</p>
+
+<p>In every equal protection case, we have to ask certain basic questions. What class is harmed by the legislation, and has it been subjected to a "tradition of disfavor" by our laws? What is the public purpose that is being served by the law? What is the characteristic of the disadvantaged class that justifies the disparate treatment? In most cases the answer to these questions will tell us whether the statute has a "rational basis." The answers will result in the virtually automatic invalidation of racial classifications and in the validation of most economic classifications, but they will provide differing results in cases involving classifications based on alienage, gender, or illegitimacy. But that is not because we apply an "intermediate standard of review" in these cases; rather it is because the characteristics of these groups are sometimes relevant and sometimes irrelevant to a valid public purpose, or, more specifically, to the purpose that the challenged laws purportedly intended to serve</p>
+</blockquote><p><a href="http://www.theojones.name/tag/intermediatescrutiny" class="p-category" rel="tag">#intermediatescrutiny</a> <a href="http://www.theojones.name/tag/northdakota" class="p-category" rel="tag">#northdakota</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/rubegoldberg" class="p-category" rel="tag">#rubegoldberg</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a> <a href="http://www.theojones.name/tag/unitedstates" class="p-category" rel="tag">#unitedstates</a></p></div>]]></description>
+      <category>#000000</category>
+      <category>#000000</category>
+      <category>#intermediatescrutiny</category>
+      <category>#northdakota</category>
+      <category>#old</category>
+      <category>#old</category>
+      <category>#rubegoldberg</category>
+      <category>#uncategorized</category>
+      <category>#unitedstates</category>
+    </item>
+    <item>
+      <title>Rand Paul Flip-Flops on U.S Funding Granted to The Israeli MIlitary</title>
+      <link>http://www.theojones.name/2014/rand-paul-flip-flops-on-us-funding-granted-to-the-israeli</link>
+      <guid>http://www.theojones.name/2014/rand-paul-flip-flops-on-us-funding-granted-to-the-israeli</guid>
+      <pubDate>Fri, 08 Aug 2014 08:00:35 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        <p>See <a href="http://www.politifact.com/truth-o-meter/statements/2014/aug/07/rand-paul/did-rand-paul-propose-cutting-aid-israel/"></a><a href="http://www.politifact.com/truth-o-meter/statements/2014/aug/07/rand-paul/did-rand-paul-propose-cutting-aid-israel/">http:/<wbr></wbr>/<wbr></wbr>www.politifact.com/<wbr></wbr>truth-o-meter/<wbr></wbr>statements/<wbr></wbr>2014/<wbr></wbr>aug/<wbr></wbr>07/<wbr></wbr>rand-paul/<wbr></wbr>did-rand-paul-propose-cutting-aid-israel/<wbr></wbr></a></p><p>U.S Senator Rand Paul said the following on Israeli aid:</p><blockquote>
+<p>I haven’t really proposed that in the past. We’ve never had a legislative proposal to do that. You can mistake my position, but then I’ll answer the question. That has not been a position — a legislative position — we have introduced to phase out or get rid of Israel’s aid. That’s the answer to that question. Israel has always been a strong ally of ours and I appreciate that. I voted just this week to give money — more money — to the Iron Dome, so don’t mischaracterize my position on Israel.</p>
+</blockquote><p>However, in a 2011 budget proposal he wrote the following:</p><blockquote>
+<p>"While this budget proposal does eliminate foreign aid to Israel, it is not meant to hurt, negate, or single out one of America’s most important allies. This proposal eliminates all foreign aid to all countries. Israel’s ability to conduct foreign policy, regain economic dominance, and support itself without the heavy hand of U.S. interests and policies, will only strengthen the Israeli community. The elimination of all foreign aid, including provisions to Israel, is not necessarily a new idea. In 1996, during an address before the U.S. Congress, Israeli Prime Minister Benjamin Netanyahu declared that his nation would eventually wean itself from dependence on U.S. foreign aid. Prominent Israeli politicians and economists alike have called for the end of foreign aid. Among them is economist Amon Gafney, who served as governor of the Bank of Israel from 1970 to 1981. He pointed out that foreign aid has caused Israel to suffer from ―Dutch Disease, a situation in which a generous gift brings short-term benefits but impairs a country’s long-term competitiveness."</p>
+</blockquote><p>He also quoted the following from Stanford University economist Alvin Rabushka "Free money is the scourge of Israel’s economy. It is the difference between a free, prosperous Israel and a statist, dependent Israel."</p><p>He gave the following interview on CNN</p><blockquote>
+<p>Blitzer: "You want to end all foreign aid as well, is that right?"</p>
+
+<p>Paul: "Yes, and in fact, the other day Reuters did a poll, 71 percent of American people agree with me that when we're short of money, where we can't do the things we need to do in our country, we certainly shouldn't be shipping the money overseas. …"</p>
+
+<p>Blitzer: "What about the $2 billion or $3 billion that goes every year to Israel? Do you want to eliminate that as well?"</p>
+
+<p>Paul: "Well, I think what you have to do is you have to look. When you send foreign aid, you actually (send) quite a bit to Israel's enemies, Islamic nations around Israel get quite a bit of foreign aid, too."</p>
+
+<p>Blitzer: "Egypt gets almost the same amount?"</p>
+
+<p>Paul: "Almost the same amount, so really you have to ask yourself, are we funding an arms race on both sides? I have a lot of sympathy and respect for Israel as a democratic nation, as a fountain of peace and a fountain of democracy within the Middle East. But at the same time, I don't think funding both sides of the arms race, particularly when we have to borrow the money from China to send it to someone else. We just can't do it anymore. The debt is all-consuming and it threatens our well being as a country."</p>
+
+<p>The Jonathan Karl interview. Then, on Feb. 3, 2011, Paul sat for an interview with ABC News’ Jonathan Karl. Here’s a portion of their conversation:</p>
+
+<p>Paul: "I’m not singling out Israel. I support Israel. I want to be known as a friend of Israel, but not with money you don’t have. We can’t just borrow from our kids’ future and give it to countries, even if they are our friends. ... I think they’re an important ally, but I also think that their per capita income is greater than probably three-fourths of the rest of the world. Should we be giving free money or welfare to a rich nation? I don’t think so."</p>
+
+<p>Karl: "And you think they can handle their own defense?"</p>
+
+<p>Paul: "I think they’re probably 10 years ahead of any neighboring country. I think their defense is very significant, and I think probably well in advance of any of their potential enemies."</p>
+
+<p>Karl: "Would you leave any foreign aid intact?"</p>
+
+<p>Paul: "No."</p>
+
+<p>Karl: "None?"</p>
+
+<p>Paul: "No. I just don’t think you can give people’s money away when we can’t rebuild bridges in our country."</p>
+</blockquote><p><a href="http://www.theojones.name/tag/blitzeregypt" class="p-category" rel="tag">#blitzeregypt</a> <a href="http://www.theojones.name/tag/middleeast" class="p-category" rel="tag">#middleeast</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/paulalmost" class="p-category" rel="tag">#paulalmost</a> <a href="http://www.theojones.name/tag/paulyes" class="p-category" rel="tag">#paulyes</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#blitzeregypt</category>
+      <category>#middleeast</category>
+      <category>#old</category>
+      <category>#old</category>
+      <category>#paulalmost</category>
+      <category>#paulyes</category>
+      <category>#uncategorized</category>
+    </item>
+  </channel>
+</rss>

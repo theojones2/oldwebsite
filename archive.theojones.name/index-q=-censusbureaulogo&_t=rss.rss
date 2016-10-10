@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Theo Jones</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/?q=%23censusbureaulogo</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/?q=%23censusbureaulogo&amp;_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>Census Bureau Publishes Summary of State and Local Tax Revenues</title>
+      <link>http://www.theojones.name/2013/census-bureau-publishes-summary-of-state-and-local-tax-revenues</link>
+      <guid>http://www.theojones.name/2013/census-bureau-publishes-summary-of-state-and-local-tax-revenues</guid>
+      <pubDate>Tue, 24 Sep 2013 08:36:11 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>The U.S Census Bureau has published a summary of state and local tax revenues. It appears that they have increased throughout the recession. In my opinion, the positive benefits of stimulus at the federal level have been largely neutralized by austerity at the state level.</p>
+
+<p>The Census Bureau press release announcing this summary is as follows (below the read more).<br /><!--more--></p>
+<div class="rpuEmbedCode"><div class="rpuArticle rpuRepost-3347e33a42760db59e1b920142cd0478-top" style="margin:0;padding:0;">
+<p><script src="https://1.rp-api.com/rjs/repost-article.js?3" type="text/javascript" data-cfasync="false"></script><a href="http://s.tt/1MbO1" class="rpuThumb" rel="norewrite"></a><a href="http://s.tt/1MbO1" class="rpuTitle" rel="norewrite"><strong>Census Bureau News: Quarterly Summary of State and Local Government Tax Revenue for 2013: 2nd Quarter</strong></a> (via <a href="http://s.tt/1MbO1" class="rpuHost" rel="norewrite">PR Newswire</a>)</p>
+<p class="rpuSnip">  
+Download image U.S. Census Bureau Logo. (PRNewsFoto/U.S. Census Bureau) WASHINGTON, Sept. 24, 2013 /PRNewswire-USNewswire/ -- Quarterly Summary of State and Local Government Tax Revenue for 2013: 2nd Quarter — This summary shows quarterly tax revenue…  
+</p></div></div><!-- put the "tease", "jump" or "more" break here --><hr id="system-readmore" style="display: none;"><!--more--><!--break--><hr class="at-page-break" style="display: none;"><div class="rpuEmbedCode"><div class="rpuArticle rpuRepostMain rpuRepost-3347e33a42760db59e1b920142cd0478-bottom" style="display:none;"> </div><div style="display: none;"><!-- How to customize this embed: <a href="http://www.repost.us/article-preview/hash/221ba0da9f62756fcf6008aaebe84177" >http:/<wbr />/<wbr />www.repost.us/<wbr />article-preview/<wbr />hash/<wbr />221ba0da9f62756fcf6008aaebe84177</a> --></div></div><p><a href="http://www.theojones.name/tag/censusbureaulogo" class="p-category" rel="tag">#censusbureaulogo</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#censusbureaulogo</category>
+      <category>#old</category>
+      <category>#old</category>
+      <category>#uncategorized</category>
+    </item>
+  </channel>
+</rss>

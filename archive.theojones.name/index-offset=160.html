@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Theo Jones</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="initial-scale=1.0" media="(device-height: 568px)"/>
+    <meta name="description" content="Thoughts and Ideas">
+    <meta name="generator" content="Known https://withknown.com">
+    <meta http-equiv="Content-Language" content="en">
+
+    <!--Le fav and touch icons-->
+<link rel="apple-touch-icon" sizes="57x57" href="gfx/logos/apple-icon-57x57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="gfx/logos/apple-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="gfx/logos/apple-icon-114x114.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="gfx/logos/apple-icon-144x144.png" />    <link rel="shortcut icon" type="image/png" href="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e">
+<!-- Make this an "app" when saved to an ios device's home screen -->
+<link rel="apple-touch-icon-precomposed" href="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e">
+<!-- Make this an "app" when saved to an ios device's home screen -->
+<link rel="apple-touch-icon" href="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e">
+<!-- <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black"> -->
+    <meta property="og:type" content="website" />
+<meta property="og:title" content="Theo Jones" />
+<meta property="og:site_name" content="Theo Jones" />
+<meta property="og:image" content="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e" />
+
+
+    <!-- Dublin Core -->
+    <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+    <meta name="DC.title" content="Theo Jones">
+    <meta name="DC.description" content="Thoughts and Ideas">    <!-- AMP versions -->
+    <link rel="amphtml" href="index-offset=160&amp;_t=amp.html">
+
+    <!-- We need jQuery at the top of the page -->
+    <script src="external/jquery/jquery.min.js"></script>
+
+    <!-- Le styles -->
+    <link
+        href="external/bootstrap/assets/css/bootstrap.min.css"
+        rel="stylesheet"/>
+    <link
+        href="external/bootstrap/assets/css/bootstrap-theme.min.css"/>
+    <script
+        src="external/bootstrap/assets/js/bootstrap.min.js"></script>
+
+    <!-- Accessibility -->
+    <link rel="stylesheet"
+          href="external/paypal-bootstrap-accessibility-plugin/plugins/css/bootstrap-accessibility_1.0.3.css">
+    <script
+        src="external/paypal-bootstrap-accessibility-plugin/plugins/js/bootstrap-accessibility_1.0.3.min.js"></script>
+
+    <!-- Fonts -->
+    <link rel="stylesheet"
+          href="external/font-awesome/css/font-awesome.css">
+    <!--<link rel="stylesheet"
+          href="https://www.theojones.name/external/font-awesome/css/font-awesome.min.css">-->
+    <style>body {
+            padding-top: 100px; /* 60px to make the container go all the way to the bottom of the topbar */
+        }
+    </style>
+
+    <link href="css/default-20150907.css" rel="stylesheet">
+<link href="css/defaultb3-20150123.css" rel="stylesheet">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script
+        src="https://www.theojones.name/external/bootstrap/assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Default Known JavaScript -->
+    <script src="js/default-20150406.js"></script>
+
+    <!-- To silo is human, to syndicate divine -->
+    <link rel="alternate" type="application/rss+xml" title="Theo Jones"
+          href="index-offset=160&amp;_t=rss.rss"/>
+    <link rel="feed" type="application/rss+xml" title="Theo Jones"
+          href="index-offset=160&amp;_t=rss.rss"/>
+    <link rel="alternate feed" type="application/rss+xml"
+          title="Theo Jones: all content"
+          href="content/all-_t=rss.rss"/>
+    <link rel="feed" type="text/html" title="Theo Jones"
+          href="content/all.html"/>
+
+    <!-- Webmention endpoint -->
+    <link href="webmention/index.html" rel="http://webmention.org/"/>
+    <link href="webmention/index.html" rel="webmention"/>
+
+                <!-- Pubsubhubbub -->
+        <link href="http://withknown.superfeedr.com/" rel="hub"/>
+    
+    
+    <script src="external/fragmention/fragmention.js"></script>
+
+    <!-- Syndication -->
+    <link
+        href="external/bootstrap-toggle/css/bootstrap-toggle.min.css"
+        rel="stylesheet"/>
+    <script
+        src="external/bootstrap-toggle/js/bootstrap-toggle.js"></script>
+
+    <style>.withknown-plugin {
+        padding-top: 0.25em;
+        padding-bottom: 0.25em;
+        background-color: #fff;
+        margin-bottom: 0.5em;
+    }
+
+    .withknown-plugin p,
+    .withknown-plugin h4,
+    .withknown-plugin form
+    {
+        margin: 0; padding: 0;
+    }
+
+    .withknown-plugin .plugin-content h4
+    {
+        padding-top: 0.25em;
+    }
+
+    .withknown-plugin .plugin-content p
+    {
+        padding-top: 0.3em;
+    }
+
+    .withknown-plugin .plugin-content {
+        color: #777;
+    }
+
+    .withknown-plugin input[type=submit]
+    {
+        width: 100px;
+    }
+    
+    .withknown-plugin .btn-enabled {
+    background-color: #70997a;
+    background-image: none;
+    background-repeat: repeat-x;
+    border-color: #70997a;
+    color: #ffffff;
+    text-shadow: none;
+	}
+	
+	.withknown-plugin .btn-enabled:hover, 
+	.withknown-plugin .btn-enabled:focus, 
+	.withknown-plugin .btn-enabled:active, 
+	.withknown-plugin .btn-enabled.active, 
+	.withknown-plugin .btn-enabled.disabled, 
+	.withknown-plugin .btn-enabled[disabled] {
+    background-color: #678c70;
+    border-color: #678c70;
+    color: #ffffff;
+	}
+	
+	.withknown-plugin .btn-default {
+	color: #666666;
+	}
+	
+	.withknown-plugin .span2 {
+		margin-left: 0px;
+	}
+	
+    .withknown-plugin h4 {
+		color: #222;
+	}
+
+    .withknown-pro-block {
+        text-align: center;
+        border: 0;
+        border-top: 2px #ccc solid;
+        border-bottom: 2px #ccc solid;
+        margin-bottom: 2em;
+        margin-top: 20px;
+    }
+</style><link rel="stylesheet" href="IdnoPlugins/Checkin/external/leaflet/leaflet.css"/>
+<!--[if lte IE 8]>
+<link rel="stylesheet" href="https://www.theojones.name/IdnoPlugins/Checkin/external/leaflet/leaflet.ie.css"/>
+<![endif]-->
+<script type="text/javascript" src="IdnoPlugins/Checkin/external/leaflet/leaflet.js"></script>
+<script type="text/javascript" src="IdnoPlugins/Checkin/external/stamen-maps/tile.stamen.js"></script>
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script><link rel="openid.delegate" href="index.html" />
+<link rel="openid.server" href="https://indieauth.com/openid" />
+<link rel="authorization_endpoint" href="session/login-fwd=https-%7C%7Cwww.theojones.name%7Cindieauth%7Cauth.html">
+<link rel="token_endpoint" href="indieauth/token.html">
+<link rel="micropub" href="session/login-fwd=%7Cmicropub%7Cendpoint.html"><link href="Themes/Solo/css/default.css" rel="stylesheet">    
+</head>
+
+<body class="idno_pages_homepage logged-out">
+<div id="pjax-container" class="page-container">
+    <a href="index-offset=160.html#maincontent" style="display:none">Skip to main content</a>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" tabindex="1" href="index.html">Theo Jones</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+
+            <form class="navbar-form navbar-left" action="https://www.theojones.name/content/all/" method="get" role="search">
+    <div class="form-group">
+        <input type="search" class="search-query form-control" name="q" placeholder="Search" tabindex="2" value="">
+    </div>
+</form><ul class="nav navbar-nav">
+        
+            <li class="dropdown" tabindex="3">
+                <a href="index-offset=160.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                    Filter content                    <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="index.html"><span class="dropdown-menu-icon">&nbsp;</span>
+                            Default content</a></li>
+                    <li><a href="content/all/index.html"><span class="dropdown-menu-icon">&nbsp;</span>
+                            All content</a></li>
+                                                    <li><a
+                                    href="content/statusupdates/index.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-comment-o"></i></span> Status updates                                </a></li>                                <li><a
+                                    href="content/posts/index.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-align-left"></i>
+</span> Posts                                </a></li>                                <li><a
+                                    href="content/photos/index.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-picture-o"></i>
+</span> Photos                                </a></li>                                <li><a
+                                    href="content/locations/index.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-map-marker"></i>
+</span> Locations                                </a></li>                                <li><a
+                                    href="content/bookmarkedpages/index.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-bookmark"></i>
+</span> Bookmarked pages                                </a></li>                                <li><a
+                                    href="content/audio/index.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-microphone"></i>
+</span> Audio                                </a></li>                                <li><a
+                                    href="content/events/index.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-calendar"></i>
+</span> Events                                </a></li>                                <li><a
+                                    href="content/rsvp/index.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-calendar-o"></i>
+</span> RSVP                                </a></li>
+
+                </ul>
+            </li>
+
+    </ul>
+            <ul class="nav navbar-nav navbar-right">
+                
+
+    <li><a href="session/login.html">Sign in</a></li>            </ul>
+
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+    <div class="container page-body">
+        <a name="pagecontent"></a>
+                                    <div class="row idno-entry idno-entry-entry">
+
+                <div
+                    class="col-md-8 col-md-offset-2 h-entry idno-posts idno-object idno-content">
+                    <div style="display: none"> <!-- This is useful for webmentions -->
+                        <p class="p-author author h-card vcard">
+                            <a href="profile/tjones2.html" class="icon-container"><img
+                                    class="u-logo logo u-photo photo" src="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e"/></a>
+                            <a class="p-name fn u-url url" href="profile/tjones2.html">Theo Jones</a>
+                            <a class="u-url" href="profile/tjones2.html">
+                                <!-- This is here to force the hand of your MF2 parser --></a>
+                        </p>
+                    </div>
+                                        <div class="e-content entry-content">
+                        <div>
+                <h2 class="p-name"><a
+                    href="2014/rand-paul-flip-flops-on-us-funding-granted-to-the-israeli.html">Rand Paul Flip-Flops on U.S Funding Granted to The Israeli MIlitary</a>
+            </h2>
+                    <p class="reading">
+                <span class="vague">4 min read </span>
+            </p>
+            <p>See <a href="http://www.politifact.com/truth-o-meter/statements/2014/aug/07/rand-paul/did-rand-paul-propose-cutting-aid-israel/"></a><a href="http://www.politifact.com/truth-o-meter/statements/2014/aug/07/rand-paul/did-rand-paul-propose-cutting-aid-israel/">http:/<wbr></wbr>/<wbr></wbr>www.politifact.com/<wbr></wbr>truth-o-meter/<wbr></wbr>statements/<wbr></wbr>2014/<wbr></wbr>aug/<wbr></wbr>07/<wbr></wbr>rand-paul/<wbr></wbr>did-rand-paul-propose-cutting-aid-israel/<wbr></wbr></a></p><p>U.S Senator Rand Paul said the following on Israeli aid:</p><blockquote>
+<p>I haven’t really proposed that in the past. We’ve never had a legislative proposal to do that. You can mistake my position, but then I’ll answer the question. That has not been a position — a legislative position — we have introduced to phase out or get rid of Israel’s aid. That’s the answer to that question. Israel has always been a strong ally of ours and I appreciate that. I voted just this week to give money — more money — to the Iron Dome, so don’t mischaracterize my position on Israel.</p>
+</blockquote><p>However, in a 2011 budget proposal he wrote the following:</p><blockquote>
+<p>"While this budget proposal does eliminate foreign aid to Israel, it is not meant to hurt, negate, or single out one of America’s most important allies. This proposal eliminates all foreign aid to all countries. Israel’s ability to conduct foreign policy, regain economic dominance, and support itself without the heavy hand of U.S. interests and policies, will only strengthen the Israeli community. The elimination of all foreign aid, including provisions to Israel, is not necessarily a new idea. In 1996, during an address before the U.S. Congress, Israeli Prime Minister Benjamin Netanyahu declared that his nation would eventually wean itself from dependence on U.S. foreign aid. Prominent Israeli politicians and economists alike have called for the end of foreign aid. Among them is economist Amon Gafney, who served as governor of the Bank of Israel from 1970 to 1981. He pointed out that foreign aid has caused Israel to suffer from ―Dutch Disease, a situation in which a generous gift brings short-term benefits but impairs a country’s long-term competitiveness."</p>
+</blockquote><p>He also quoted the following from Stanford University economist Alvin Rabushka "Free money is the scourge of Israel’s economy. It is the difference between a free, prosperous Israel and a statist, dependent Israel."</p><p>He gave the following interview on CNN</p><blockquote>
+<p>Blitzer: "You want to end all foreign aid as well, is that right?"</p>
+
+<p>Paul: "Yes, and in fact, the other day Reuters did a poll, 71 percent of American people agree with me that when we're short of money, where we can't do the things we need to do in our country, we certainly shouldn't be shipping the money overseas. …"</p>
+
+<p>Blitzer: "What about the $2 billion or $3 billion that goes every year to Israel? Do you want to eliminate that as well?"</p>
+
+<p>Paul: "Well, I think what you have to do is you have to look. When you send foreign aid, you actually (send) quite a bit to Israel's enemies, Islamic nations around Israel get quite a bit of foreign aid, too."</p>
+
+<p>Blitzer: "Egypt gets almost the same amount?"</p>
+
+<p>Paul: "Almost the same amount, so really you have to ask yourself, are we funding an arms race on both sides? I have a lot of sympathy and respect for Israel as a democratic nation, as a fountain of peace and a fountain of democracy within the Middle East. But at the same time, I don't think funding both sides of the arms race, particularly when we have to borrow the money from China to send it to someone else. We just can't do it anymore. The debt is all-consuming and it threatens our well being as a country."</p>
+
+<p>The Jonathan Karl interview. Then, on Feb. 3, 2011, Paul sat for an interview with ABC News’ Jonathan Karl. Here’s a portion of their conversation:</p>
+
+<p>Paul: "I’m not singling out Israel. I support Israel. I want to be known as a friend of Israel, but not with money you don’t have. We can’t just borrow from our kids’ future and give it to countries, even if they are our friends. ... I think they’re an important ally, but I also think that their per capita income is greater than probably three-fourths of the rest of the world. Should we be giving free money or welfare to a rich nation? I don’t think so."</p>
+
+<p>Karl: "And you think they can handle their own defense?"</p>
+
+<p>Paul: "I think they’re probably 10 years ahead of any neighboring country. I think their defense is very significant, and I think probably well in advance of any of their potential enemies."</p>
+
+<p>Karl: "Would you leave any foreign aid intact?"</p>
+
+<p>Paul: "No."</p>
+
+<p>Karl: "None?"</p>
+
+<p>Paul: "No. I just don’t think you can give people’s money away when we can’t rebuild bridges in our country."</p>
+</blockquote><p><a href="tag/blitzeregypt.html" class="p-category" rel="tag">#blitzeregypt</a> <a href="tag/middleeast.html" class="p-category" rel="tag">#middleeast</a> <a href="tag/old.html" class="p-category" rel="tag">#old</a> <a href="tag/old.html" class="p-category" rel="tag">#old</a> <a href="tag/paulalmost.html" class="p-category" rel="tag">#paulalmost</a> <a href="tag/paulyes.html" class="p-category" rel="tag">#paulyes</a> <a href="tag/uncategorized.html" class="p-category" rel="tag">#uncategorized</a></p></div>                    </div>
+                    <div class="footer">
+                        
+        <div class="permalink">
+            <p>
+                <a href="profile/tjones2.html">Theo Jones</a>published this
+                <a class="u-url url" href="2014/rand-paul-flip-flops-on-us-funding-granted-to-the-israeli.html" rel="permalink"><time class="dt-published"
+                          datetime="2014-08-08T08:00:35+0000">08 Aug 2014</time></a>
+                                                                            </p>
+        </div>
+        <div class="interactions">
+	        <span class="annotate-icon">
+                        <a class="stars" href="2014/rand-paul-flip-flops-on-us-funding-granted-to-the-israeli.html#comments"><i class="fa fa-star-o"></i> 0 stars</a></span>
+                   <span class="annotate-icon"> <a class="comments" href="2014/rand-paul-flip-flops-on-us-funding-granted-to-the-israeli.html#comments"><i class="fa fa-comments"></i> 0 comments</a></span>
+            <a class="shares" href="2014/rand-paul-flip-flops-on-us-funding-granted-to-the-israeli.html#comments"></a>
+            <a class="shares" href="2014/rand-paul-flip-flops-on-us-funding-granted-to-the-israeli.html#comments"></a>
+        </div>
+        <br clear="all"/>
+                            </div>
+                </div>
+
+            </div>
+
+                    <div class="row idno-entry idno-entry-entry">
+
+                <div
+                    class="col-md-8 col-md-offset-2 h-entry idno-posts idno-object idno-content">
+                    <div style="display: none"> <!-- This is useful for webmentions -->
+                        <p class="p-author author h-card vcard">
+                            <a href="profile/tjones2.html" class="icon-container"><img
+                                    class="u-logo logo u-photo photo" src="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e"/></a>
+                            <a class="p-name fn u-url url" href="profile/tjones2.html">Theo Jones</a>
+                            <a class="u-url" href="profile/tjones2.html">
+                                <!-- This is here to force the hand of your MF2 parser --></a>
+                        </p>
+                    </div>
+                                        <div class="e-content entry-content">
+                        <div>
+                <h2 class="p-name"><a
+                    href="2014/a-good-scientific-theory-is-defined-by-what-it-says.html">A Good Scientific Theory Is Defined by What it Says Shouldn&#039;t Happen</a>
+            </h2>
+                    <p class="reading">
+                <span class="vague">3 min read </span>
+            </p>
+            
+<p>In this post I will contend that a good scientific theory is defined by its ability to project what shouldn't happen, not by its ability to predict what should happen. A good theory is definitely not defined by its ability to account for an event. Now, a good theory may be able to do the last two of those things, but that should not be the goal of designing a theory. The least assumptions that the theory contains, the better. A scientific theory is at its core an explanation and description of the world. Its possible to create a bad theory that can account for</p>
+
+<p>[caption id="attachment_1353" align="alignright" width="355"]<a href="wp-content/uploads/2014/08/466115926_a84be8036d_o.jpg.html"><img class="wp-image-1353" src="wp-content/uploads/2014/08/466115926_a84be8036d_o-201x300.jpg.html" alt="Image via flickr user Josh Hallett &lt;a href=" https:>https:/<wbr></wbr>/<wbr></wbr>flic.kr/<wbr></wbr>p/<wbr></wbr>HbY2u</a>" width="355" height="529" /&gt; Image via flickr user Josh Hallett <a href="https://flic.kr/p/HbY2u%5B/caption%5D">https:/<wbr></wbr>/<wbr></wbr>flic.kr/<wbr></wbr>p/<wbr></wbr>HbY2u[/<wbr></wbr>caption]</a></p>
+
+<p>any observation. The god did it theory of creationists, for example, can account for any possible observation -- an omnipotent god could do anything. Where it fails catastrophically though is in its ability to rule out possible observations. Evolutionary theory though can tell you what you should not observe under any circumstance. A bad theory can also create correct predictions of the future -- the ancient Egyptian proposal that the sunrise was due the the movements of the gods makes the correct prediction. But it didn't rule anything out in any meaningful way. If the sun rose in the wrong direction one day an ancient Egyptian could have just blamed it on a different pattern of movement among the gods. Modern astronomy is not so flexible. Its easy to project a observed trend into the future. Its much harder to explain the world. Being able to rule things out is a good sign that you have an accurate explanation of the world. When looking at a new theory the first thing you should ask is: what does this say shouldn't happen?</p>
+
+<p>I believe that science is fundamentally a description/explanation of the real world, and that good science is measured by the extent to which the explanation it provides is correct. I believe that the so called <a href="http://arxiv.org/abs/0704.0646">External Reality Hypothesis</a> is correct, meaning that the objects described and explained by science actually exist separately from their observers. I believe that our current best scientific models are at least partially accurate at describing this reality. Our scientific theories are gradually getting better at explaining this world.</p>
+
+<p>However, it is possible to have two theories that explain the same event. How do you tell which one is correct. I would suggest two rules. Parsimony -- the simplest of the two wins out. And experimental testing -- the one that went through the most rigorous reproducible testing should be preferred. Testing requires that the theories be falsifiable. This means that there must be some reasonable condition that the theory says should not happen. An experiment could then try to produce that condition. If the thing that the possible theory says should not happen happens, then we know that the theory must be wrong.This gets us back to the title of this post:</p>
+
+<p><strong> A Good Scientific Theory Is Defined by What it Says Shouldn't Happen </strong></p>
+
+<p>This concept is at the core of the scientific method.</p>
+<p><a href="tag/externalrealityhypothesis.html" class="p-category" rel="tag">#externalrealityhypothesis</a> <a href="tag/joshhallett.html" class="p-category" rel="tag">#joshhallett</a> <a href="tag/old.html" class="p-category" rel="tag">#old</a> <a href="tag/old.html" class="p-category" rel="tag">#old</a> <a href="tag/uncategorized.html" class="p-category" rel="tag">#uncategorized</a></p></div>                    </div>
+                    <div class="footer">
+                        
+        <div class="permalink">
+            <p>
+                <a href="profile/tjones2.html">Theo Jones</a>published this
+                <a class="u-url url" href="2014/a-good-scientific-theory-is-defined-by-what-it-says.html" rel="permalink"><time class="dt-published"
+                          datetime="2014-08-07T18:10:54+0000">07 Aug 2014</time></a>
+                                                                            </p>
+        </div>
+        <div class="interactions">
+	        <span class="annotate-icon">
+                        <a class="stars" href="2014/a-good-scientific-theory-is-defined-by-what-it-says.html#comments"><i class="fa fa-star-o"></i> 0 stars</a></span>
+                   <span class="annotate-icon"> <a class="comments" href="2014/a-good-scientific-theory-is-defined-by-what-it-says.html#comments"><i class="fa fa-comments"></i> 0 comments</a></span>
+            <a class="shares" href="2014/a-good-scientific-theory-is-defined-by-what-it-says.html#comments"></a>
+            <a class="shares" href="2014/a-good-scientific-theory-is-defined-by-what-it-says.html#comments"></a>
+        </div>
+        <br clear="all"/>
+                            </div>
+                </div>
+
+            </div>
+
+                    <div class="row idno-entry idno-entry-entry">
+
+                <div
+                    class="col-md-8 col-md-offset-2 h-entry idno-posts idno-object idno-content">
+                    <div style="display: none"> <!-- This is useful for webmentions -->
+                        <p class="p-author author h-card vcard">
+                            <a href="profile/tjones2.html" class="icon-container"><img
+                                    class="u-logo logo u-photo photo" src="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e"/></a>
+                            <a class="p-name fn u-url url" href="profile/tjones2.html">Theo Jones</a>
+                            <a class="u-url" href="profile/tjones2.html">
+                                <!-- This is here to force the hand of your MF2 parser --></a>
+                        </p>
+                    </div>
+                                        <div class="e-content entry-content">
+                        <div>
+                <h2 class="p-name"><a
+                    href="2014/new-community-post-feature.html">New Community Post Feature</a>
+            </h2>
+                    <p class="reading">
+                <span class="vague">1 min read </span>
+            </p>
+            
+<p>Look to the sidebar of this blog for the new community post feature. With this new feature of the blog, users can submit posts. Posts may be delayed for my approval. This feature is to build community and community posts of wide viewpoints and topics are accepted. Approved community posts will appear <a href="https://theojones.name/index.php/fv-community-news/archive/">in the community posts page</a>. Select community posts will be elevated to the front page of the blog. Creating an account will expedite the acceptance of a community post. Second posts from a user will be automatically accepted without moderation. Remember to save a copy of your submission before sending it. All community posts must follow the comment guidelines.</p>
+
+<p>By creating an account and logging in you can gain access to a more complex editing form.</p>
+<p><a href="tag/old.html" class="p-category" rel="tag">#old</a> <a href="tag/old.html" class="p-category" rel="tag">#old</a> <a href="tag/uncategorized.html" class="p-category" rel="tag">#uncategorized</a></p></div>                    </div>
+                    <div class="footer">
+                        
+        <div class="permalink">
+            <p>
+                <a href="profile/tjones2.html">Theo Jones</a>published this
+                <a class="u-url url" href="2014/new-community-post-feature.html" rel="permalink"><time class="dt-published"
+                          datetime="2014-08-05T14:51:05+0000">05 Aug 2014</time></a>
+                                                                            </p>
+        </div>
+        <div class="interactions">
+	        <span class="annotate-icon">
+                        <a class="stars" href="2014/new-community-post-feature.html#comments"><i class="fa fa-star-o"></i> 0 stars</a></span>
+                   <span class="annotate-icon"> <a class="comments" href="2014/new-community-post-feature.html#comments"><i class="fa fa-comments"></i> 0 comments</a></span>
+            <a class="shares" href="2014/new-community-post-feature.html#comments"></a>
+            <a class="shares" href="2014/new-community-post-feature.html#comments"></a>
+        </div>
+        <br clear="all"/>
+                            </div>
+                </div>
+
+            </div>
+
+                    <div class="row idno-entry idno-entry-entry">
+
+                <div
+                    class="col-md-8 col-md-offset-2 h-entry idno-posts idno-object idno-content">
+                    <div style="display: none"> <!-- This is useful for webmentions -->
+                        <p class="p-author author h-card vcard">
+                            <a href="profile/tjones2.html" class="icon-container"><img
+                                    class="u-logo logo u-photo photo" src="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e"/></a>
+                            <a class="p-name fn u-url url" href="profile/tjones2.html">Theo Jones</a>
+                            <a class="u-url" href="profile/tjones2.html">
+                                <!-- This is here to force the hand of your MF2 parser --></a>
+                        </p>
+                    </div>
+                                        <div class="e-content entry-content">
+                        <div>
+                <h2 class="p-name"><a
+                    href="2014/i-have-a-twitter-theo_jones1.html">I have a Twitter @Theo_Jones1</a>
+            </h2>
+                    <p class="reading">
+                <span class="vague">1 min read </span>
+            </p>
+            <p>Follow it <br /><a href="https://twitter.com/Theo_Jones1"></a><a href="https://twitter.com/Theo_Jones1">https:/<wbr></wbr>/<wbr></wbr>twitter.com/<wbr></wbr>Theo_Jones1</a></p><p><a href="tag/old.html" class="p-category" rel="tag">#old</a> <a href="tag/old.html" class="p-category" rel="tag">#old</a> <a href="tag/uncategorized.html" class="p-category" rel="tag">#uncategorized</a></p></div>                    </div>
+                    <div class="footer">
+                        
+        <div class="permalink">
+            <p>
+                <a href="profile/tjones2.html">Theo Jones</a>published this
+                <a class="u-url url" href="2014/i-have-a-twitter-theo_jones1.html" rel="permalink"><time class="dt-published"
+                          datetime="2014-08-05T04:57:57+0000">05 Aug 2014</time></a>
+                                                                            </p>
+        </div>
+        <div class="interactions">
+	        <span class="annotate-icon">
+                        <a class="stars" href="2014/i-have-a-twitter-theo_jones1.html#comments"><i class="fa fa-star-o"></i> 0 stars</a></span>
+                   <span class="annotate-icon"> <a class="comments" href="2014/i-have-a-twitter-theo_jones1.html#comments"><i class="fa fa-comments"></i> 0 comments</a></span>
+            <a class="shares" href="2014/i-have-a-twitter-theo_jones1.html#comments"></a>
+            <a class="shares" href="2014/i-have-a-twitter-theo_jones1.html#comments"></a>
+        </div>
+        <br clear="all"/>
+                            </div>
+                </div>
+
+            </div>
+
+                    <div class="row idno-entry idno-entry-entry">
+
+                <div
+                    class="col-md-8 col-md-offset-2 h-entry idno-posts idno-object idno-content">
+                    <div style="display: none"> <!-- This is useful for webmentions -->
+                        <p class="p-author author h-card vcard">
+                            <a href="profile/tjones2.html" class="icon-container"><img
+                                    class="u-logo logo u-photo photo" src="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e"/></a>
+                            <a class="p-name fn u-url url" href="profile/tjones2.html">Theo Jones</a>
+                            <a class="u-url" href="profile/tjones2.html">
+                                <!-- This is here to force the hand of your MF2 parser --></a>
+                        </p>
+                    </div>
+                                        <div class="e-content entry-content">
+                        <div>
+                <h2 class="p-name"><a
+                    href="2014/on-the-gender-pay-gap.html">On the Gender Pay Gap</a>
+            </h2>
+                    <p class="reading">
+                <span class="vague">2 min read </span>
+            </p>
+            <p>I think that a fraction of the 70% pay gap is due to direct discrimination (sexist employers deciding explicitly or implicitly that women are less valuable employees). Lets say, a 5%-10% lower pay due to discrimination. M<a href="http://consad.com/content/reports/Gender%20Wage%20Gap%20Final%20Report.pdf">ost of the pay gap seems to be factors exogenous to the labor market</a>  Ie. the reason that women are generally paid less is more that they never went into highly paid fields like IT, than active discrimination. The linked paper also finds other causes, such as a preference for benefits over wages among women. And exiting and re-entering the labor market due to child care.If there is direct wage discrimination (what most legislation aimed to reduce the pay gap targets) large enough to produce a 70% gap, then why aren't there quite a few businesses that prefer the (lower-paid) female workers?</p><p>Now, some of this may be due to a less direct form of sexism. I.e a belief that IT (or [insert highly paid field here]) isn't for women. Or a belief that child care is a thing for women. But businesses have little control over that type of thing. </p><p>I've seen quite a few people though claim that the whole 70% gap is due to direct discrimination. That seems as unlikely as the "there is no wage gap, only Zuul" claim of the Tea Party types.</p><p><a href="tag/it.html" class="p-category" rel="tag">#it</a> <a href="tag/old.html" class="p-category" rel="tag">#old</a> <a href="tag/old.html" class="p-category" rel="tag">#old</a> <a href="tag/teaparty.html" class="p-category" rel="tag">#teaparty</a> <a href="tag/uncategorized.html" class="p-category" rel="tag">#uncategorized</a></p></div>                    </div>
+                    <div class="footer">
+                        
+        <div class="permalink">
+            <p>
+                <a href="profile/tjones2.html">Theo Jones</a>published this
+                <a class="u-url url" href="2014/on-the-gender-pay-gap.html" rel="permalink"><time class="dt-published"
+                          datetime="2014-08-05T04:52:44+0000">05 Aug 2014</time></a>
+                                                                            </p>
+        </div>
+        <div class="interactions">
+	        <span class="annotate-icon">
+                        <a class="stars" href="2014/on-the-gender-pay-gap.html#comments"><i class="fa fa-star-o"></i> 0 stars</a></span>
+                   <span class="annotate-icon"> <a class="comments" href="2014/on-the-gender-pay-gap.html#comments"><i class="fa fa-comments"></i> 0 comments</a></span>
+            <a class="shares" href="2014/on-the-gender-pay-gap.html#comments"></a>
+            <a class="shares" href="2014/on-the-gender-pay-gap.html#comments"></a>
+        </div>
+        <br clear="all"/>
+                            </div>
+                </div>
+
+            </div>
+
+                    <div class="row idno-entry idno-entry-entry">
+
+                <div
+                    class="col-md-8 col-md-offset-2 h-entry idno-posts idno-object idno-content">
+                    <div style="display: none"> <!-- This is useful for webmentions -->
+                        <p class="p-author author h-card vcard">
+                            <a href="profile/tjones2.html" class="icon-container"><img
+                                    class="u-logo logo u-photo photo" src="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e"/></a>
+                            <a class="p-name fn u-url url" href="profile/tjones2.html">Theo Jones</a>
+                            <a class="u-url" href="profile/tjones2.html">
+                                <!-- This is here to force the hand of your MF2 parser --></a>
+                        </p>
+                    </div>
+                                        <div class="e-content entry-content">
+                        <div>
+                <h2 class="p-name"><a
+                    href="2014/demand-destruction-more-like-grid-leeching.html">&quot;Demand Destruction&quot;? More like &quot;Grid Leeching&quot;</a>
+            </h2>
+                    <p class="reading">
+                <span class="vague">3 min read </span>
+            </p>
+            
+<p>Slate did an article about <a href="http://www.slate.com/articles/business/the_juice/2014/07/energy_efficiency_vs_demand_destruction_the_big_problem_facing_america_s.html">something called "Demand Destruction"</a>. They make it sound like something that is the result of people just switching over to home-produced electricity, thereby becoming independent of the grid and leaving the power company in the dust. In reality, truly off-grid systems are extremely rare -- and expensive at almost <a href="http://life.gaiam.com/article/whats-it-going-cost-me-go-solar">$3.20 a kilowatt hour</a> (mostly batteries and energy storage, commercial energy storage is much cheaper than home energy storage, but energy storage in general is quite expensive). The source of the problem is malformed renewable energy incentive laws that force power companies to pay</p>
+
+<p>[caption id="attachment_1322" align="alignright" width="300"]<a href="wp-content/uploads/2014/08/8618709561_53c8c8a794_o.jpg.html"><img class="size-medium wp-image-1322" src="wp-content/uploads/2014/08/8618709561_53c8c8a794_o-300x178.jpg.html" alt="Image Via Flickr (user Angelo DeSantis) &lt;a href=" https:>https:/<wbr></wbr>/<wbr></wbr>flic.kr/<wbr></wbr>p/<wbr></wbr>e8B95H</a>" width="300" height="178" /&gt; Image Via Flickr (user Angelo DeSantis) <a href="https://flic.kr/p/e8B95H%5B/caption%5D">https:/<wbr></wbr>/<wbr></wbr>flic.kr/<wbr></wbr>p/<wbr></wbr>e8B95H[/<wbr></wbr>caption]</a></p>
+
+<p>all energy production an equal rate -- even if the energy is produced at an off-peak time that has little use. This enables a business model that I will call "Grid Leeching". This business model takes advantage of a simple fact. Electricity companies are required to pay and receive payment based on energy produced. But consumers don't want raw energy; they want power -- a constant flow of energy. energy is much cheaper to produce than power. Individuals and businesses buy cheap solar production systems that are designed to barf large amounts of off-peak energy on to the grid. The electricity company is required to pay full price for this energy. The grid leechers then get to use the power grid for their actual power needs practically free of charge. These cheap solar systems can sell for as little as $2 a watt average production or about the equivalent to 15 cents a kilowatt hour. Around this has developed a little market of companies that specialize in attaching leeches to the grid. One of these profiled is SolarCity, which rents out these cheap solar systems. This is very destructive to the grid. The only way that a electricity company can make up for this type of thing is to run load-following power plants -- usually natural gas -- in an inefficient, and rapidily fluctuating way. This happens while the leechers are drawing power while not paying anything on the net. The leechers only give back low quality, off-peak energy.</p>
+
+<p>What can be done about this. It is simple: fluctuate energy charges, and energy production payouts based on the current demand. When there is little energy demand, pay the producers of energy less (and charge the consumers less). When energy demand is high, pay producers more and charge consumers more. Charge a flat monthly fee for a connection to the grid (based on the maximum current the user is allowed to draw). This will put the grid leechers out of business, because their core business model of dumping energy on the grid at low-demand times will no longer work. This will encourage companies to produce constant power (or even better, demand following energy), and will encourage consumers to modulate their energy usage during peak demand times. This may reduce the incentives for renewable energy deployment. However, the current model encourages the formation of grid leechers, instead of actually productive renewable energy firms. Furthermore, it puts nuclear energy (one of the best sources of baseload power) at a disadvantage. Sustainable energy should be directly subsidized at very large levels.</p>
+<p><a href="tag/imageviaflickr.html" class="p-category" rel="tag">#imageviaflickr</a> <a href="tag/old.html" class="p-category" rel="tag">#old</a> <a href="tag/old.html" class="p-category" rel="tag">#old</a> <a href="tag/uncategorized.html" class="p-category" rel="tag">#uncategorized</a></p></div>                    </div>
+                    <div class="footer">
+                        
+        <div class="permalink">
+            <p>
+                <a href="profile/tjones2.html">Theo Jones</a>published this
+                <a class="u-url url" href="2014/demand-destruction-more-like-grid-leeching.html" rel="permalink"><time class="dt-published"
+                          datetime="2014-08-03T17:15:28+0000">03 Aug 2014</time></a>
+                                                                            </p>
+        </div>
+        <div class="interactions">
+	        <span class="annotate-icon">
+                        <a class="stars" href="2014/demand-destruction-more-like-grid-leeching.html#comments"><i class="fa fa-star-o"></i> 0 stars</a></span>
+                   <span class="annotate-icon"> <a class="comments" href="2014/demand-destruction-more-like-grid-leeching.html#comments"><i class="fa fa-comments"></i> 0 comments</a></span>
+            <a class="shares" href="2014/demand-destruction-more-like-grid-leeching.html#comments"></a>
+            <a class="shares" href="2014/demand-destruction-more-like-grid-leeching.html#comments"></a>
+        </div>
+        <br clear="all"/>
+                            </div>
+                </div>
+
+            </div>
+
+                    <div class="row idno-entry idno-entry-entry">
+
+                <div
+                    class="col-md-8 col-md-offset-2 h-entry idno-posts idno-object idno-content">
+                    <div style="display: none"> <!-- This is useful for webmentions -->
+                        <p class="p-author author h-card vcard">
+                            <a href="profile/tjones2.html" class="icon-container"><img
+                                    class="u-logo logo u-photo photo" src="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e"/></a>
+                            <a class="p-name fn u-url url" href="profile/tjones2.html">Theo Jones</a>
+                            <a class="u-url" href="profile/tjones2.html">
+                                <!-- This is here to force the hand of your MF2 parser --></a>
+                        </p>
+                    </div>
+                                        <div class="e-content entry-content">
+                        <div>
+                <h2 class="p-name"><a
+                    href="2014/material-efficiency-versus-economic-efficiency.html">Material Efficiency versus Economic Efficiency</a>
+            </h2>
+                    <p class="reading">
+                <span class="vague">4 min read </span>
+            </p>
+            
+<p>There is a large difference between how scientists/engineers and economists/business leaders about how efficiency in the economy is viewed. Scientists tend to look at efficiency as minimizing the materials and labor needed to reach a tangible outcome (such as an increase in life expectancy, or general well being). I will call this material efficiency  However, economists tend to look at efficiency as maximizing the goods and services produced in the economy -- even if the production is just for the churn of it and has minimal impact on outcomes.[caption id="attachment_1452" align="alignright" width="300"]<a href="wp-content/uploads/2014/08/8196207581_4c583b3543_o.jpg.html"><img src="wp-content/uploads/2014/08/8196207581_4c583b3543_o-300x214.jpg.html" alt="Image via Flickr user  Pavel P. &lt;a href=" https:>https:/<wbr></wbr>/<wbr></wbr>flic.kr/<wbr></wbr>p/<wbr></wbr>dugGXP</a>" width="300" height="214" class="size-medium wp-image-1452" /&gt; Image via Flickr user  Pavel P.<br /><a href="https://flic.kr/p/dugGXP%5B/caption%5D">https:/<wbr></wbr>/<wbr></wbr>flic.kr/<wbr></wbr>p/<wbr></wbr>dugGXP[/<wbr></wbr>caption]</a> Efficiency to an economist is about maximizing GDP. To a scientist GDP (the sum of all goods and services produced in the economy) is effectively the cost of producing the desired outcomes. As I will discuss  later this is very different from the perspective of some hard line environmentalists who beleive that the economy is over-grown and needs to be pruned down to shape. <a href="http://www.c2.com/cgi/wiki?EconomicEfficiencyIsNotEngineeringEfficiency">An article describes this difference as follows:</a></p>
+<blockquote>
+<p>In Engineering, a design or process is efficient if it maximizes the amount of work done, while minimizing the resources used (raw materials, time, labor, fuel, etc). An efficient design should do everything it is designed for, and if possible eliminate the need for other devices or processes, while avoiding any unnecessary steps or equipment. Cost is only an issue to the extent that money is itself a resource, and often a limiting one. An important engineering goal is to produce a solution that is lasting; if a product can be maintained indefinitely, and need not be replaced, it is especially esteemed.  <br />In Microeconomics, a company is efficient if it returns the greatest profit in the shortest amount of time, and continues to do so indefinitely. All other considerations are irrelevant; maximizing the bottom line is the only yardstick. This contradicts the Engineering definition in that a sensible manager can and should be ready to throw vast amounts of cheap resources into a project, if it means that greater revenue is made as a result.</p>
+</blockquote>
+<p>When scientists obtain management of an industry material efficiency is generally focused on, while when economists and business types are in charge economic efficiency is emphasized. This has strong implications in many industries. From a strict GDP maximizing perspective the U.S health-care system is quite "efficient", i.e it produces over 15% of the nation's GDP. However, it does not do as well at more tangible measures -- such as improvements in health outcomes. In European health care systems, where scientists have more say in the management of the system the health care system tends to produce less of the GDP (ie. lower economic efficiency), but produces better real world outcomes for fewer resources (ie. better material efficiency). </p>
+
+<p>In the software industry, similar issues come up. The opensource community (which is ran mostly by computer scientists, and software engineers)  tends to favor less profitable development methodologies that reduce profit. For example, the licencing found in this community has vastly more provisions for code reuse. The code is licensed to anyone under terms that allow anyone to make use of it. This ability to reuse reduces the labor required (improved material efficiency), but this also eliminates much of the profit of the companies, and makes it hard to sell the software (reduced economic efficiency).</p>
+
+<p>This focus on material efficiency is very different from the hardline environmentalist "degrowth" perspective. In regards to a material efficiency outlook economic output is not considered a bad, just not something that should be an explicit target. Increased economic growth should be favored when it produces improved real world outcomes.</p>
+<p><a href="tag/gdp.html" class="p-category" rel="tag">#gdp</a> <a href="tag/old.html" class="p-category" rel="tag">#old</a> <a href="tag/old.html" class="p-category" rel="tag">#old</a> <a href="tag/uncategorized.html" class="p-category" rel="tag">#uncategorized</a></p></div>                    </div>
+                    <div class="footer">
+                        
+        <div class="permalink">
+            <p>
+                <a href="profile/tjones2.html">Theo Jones</a>published this
+                <a class="u-url url" href="2014/material-efficiency-versus-economic-efficiency.html" rel="permalink"><time class="dt-published"
+                          datetime="2014-08-02T08:43:07+0000">02 Aug 2014</time></a>
+                                                                            </p>
+        </div>
+        <div class="interactions">
+	        <span class="annotate-icon">
+                        <a class="stars" href="2014/material-efficiency-versus-economic-efficiency.html#comments"><i class="fa fa-star-o"></i> 0 stars</a></span>
+                   <span class="annotate-icon"> <a class="comments" href="2014/material-efficiency-versus-economic-efficiency.html#comments"><i class="fa fa-comments"></i> 0 comments</a></span>
+            <a class="shares" href="2014/material-efficiency-versus-economic-efficiency.html#comments"></a>
+            <a class="shares" href="2014/material-efficiency-versus-economic-efficiency.html#comments"></a>
+        </div>
+        <br clear="all"/>
+                            </div>
+                </div>
+
+            </div>
+
+                    <div class="row idno-entry idno-entry-entry">
+
+                <div
+                    class="col-md-8 col-md-offset-2 h-entry idno-posts idno-object idno-content">
+                    <div style="display: none"> <!-- This is useful for webmentions -->
+                        <p class="p-author author h-card vcard">
+                            <a href="profile/tjones2.html" class="icon-container"><img
+                                    class="u-logo logo u-photo photo" src="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e"/></a>
+                            <a class="p-name fn u-url url" href="profile/tjones2.html">Theo Jones</a>
+                            <a class="u-url" href="profile/tjones2.html">
+                                <!-- This is here to force the hand of your MF2 parser --></a>
+                        </p>
+                    </div>
+                                        <div class="e-content entry-content">
+                        <div>
+                <h2 class="p-name"><a
+                    href="2014/is-the-economy-separate-from-the-political-system.html">Is The Economy Separate From the Political System</a>
+            </h2>
+                    <p class="reading">
+                <span class="vague">3 min read </span>
+            </p>
+            
+<p>In this post I will argue that the economy is fundamentally part of the political system and not some separate thing. By extension I will argue that economics should not be considered a separate field but instead  should be considered as part of the theory of politics and political science. <a href="http://economics.about.com/od/economics-basics/a/What-Is-Economics.htm">Lets start with looking at a common definition of economics. </a>  Emphasis added. [caption id="attachment_1454" align="alignright" width="300"]<a href="wp-content/uploads/2014/07/4744388119_4afba167a4_o.jpg.html"><img src="wp-content/uploads/2014/07/4744388119_4afba167a4_o-300x199.jpg.html" alt="Image via Flickr user  JD Hancock &lt;a href=" https:>https:/<wbr></wbr>/<wbr></wbr>flic.kr/<wbr></wbr>p/<wbr></wbr>8efeia</a>" width="300" height="199" class="size-medium wp-image-1454" /&gt; Image via Flickr user  JD Hancock<br /><a href="https://flic.kr/p/8efeia%5B/caption%5D">https:/<wbr></wbr>/<wbr></wbr>flic.kr/<wbr></wbr>p/<wbr></wbr>8efeia[/<wbr></wbr>caption]</a></p>
+<blockquote>
+<p>Simply, and perhaps surprisingly put,<strong> economics is the study of scarcity</strong>. Resources are limited, and every society wants to figure out how to allocate its resources for maximum benefit. The field of economics serves in large part to help answer this resource allocation question. Economists study topics such as:  <br />How prices and quantities of items are determined in market economies  <br />How much value markets create for society  <br />How taxes and regulation affect economic value  <br />Why some goods and services are under-supplied in a market economy  <br />How firms compete and maximize profit  <br />How households decide what to consume, how much to save, and how much to work (or, more generally, how people respond to incentives)  <br />Why some economies grow faster than others  <br />What effect monetary and fiscal policy has on economic well-being  <br />How interest rates are determined</p>
+</blockquote>
+<p>This definition argues that the allocation of goods under scarcity is the defining factor of economics, and by extension the difference between the general political system and the economy. However, all institutions work to allocate goods under scarcity. Without scarcity there would be no need for a government and anarchism would be a functioning system. Politics is about scarcity as much as economics. Likewise the examples used in the quoted section all assume some kind of market existing outside of the government and political system. But the market is fundamentally a creature of this system. The government decides how contracts will be made (if you think that there is some kind of natural contract law look at how much this law has varied between societies over history).The government sets the broad outlines of what is sold, it sets the question of who has the authority to make decisions within the businesses in the market. The government sets the outlines of property rights, and determines what can be owned, and how this ownership can be obtained. It creates the currency system. Markets cannot exist in a stable fashion without governments. Governments have shaped every economic intuitions. There is no economy or set of economic institutions that is separate from the political system as a whole. There is no distinction between economics and the study of the political system as a whole.</p>
+<p><a href="tag/old.html" class="p-category" rel="tag">#old</a> <a href="tag/old.html" class="p-category" rel="tag">#old</a> <a href="tag/uncategorized.html" class="p-category" rel="tag">#uncategorized</a></p></div>                    </div>
+                    <div class="footer">
+                        
+        <div class="permalink">
+            <p>
+                <a href="profile/tjones2.html">Theo Jones</a>published this
+                <a class="u-url url" href="2014/is-the-economy-separate-from-the-political-system.html" rel="permalink"><time class="dt-published"
+                          datetime="2014-07-31T13:45:28+0000">31 Jul 2014</time></a>
+                                                                            </p>
+        </div>
+        <div class="interactions">
+	        <span class="annotate-icon">
+                        <a class="stars" href="2014/is-the-economy-separate-from-the-political-system.html#comments"><i class="fa fa-star-o"></i> 0 stars</a></span>
+                   <span class="annotate-icon"> <a class="comments" href="2014/is-the-economy-separate-from-the-political-system.html#comments"><i class="fa fa-comments"></i> 0 comments</a></span>
+            <a class="shares" href="2014/is-the-economy-separate-from-the-political-system.html#comments"></a>
+            <a class="shares" href="2014/is-the-economy-separate-from-the-political-system.html#comments"></a>
+        </div>
+        <br clear="all"/>
+                            </div>
+                </div>
+
+            </div>
+
+                    <div class="row idno-entry idno-entry-entry">
+
+                <div
+                    class="col-md-8 col-md-offset-2 h-entry idno-posts idno-object idno-content">
+                    <div style="display: none"> <!-- This is useful for webmentions -->
+                        <p class="p-author author h-card vcard">
+                            <a href="profile/tjones2.html" class="icon-container"><img
+                                    class="u-logo logo u-photo photo" src="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e"/></a>
+                            <a class="p-name fn u-url url" href="profile/tjones2.html">Theo Jones</a>
+                            <a class="u-url" href="profile/tjones2.html">
+                                <!-- This is here to force the hand of your MF2 parser --></a>
+                        </p>
+                    </div>
+                                        <div class="e-content entry-content">
+                        <div>
+                <h2 class="p-name"><a
+                    href="2014/im-going-to-start-the-500-word-writing-challenge-for.html">I&#039;m Going to Start the 500 Word Writing Challenge For My Blog</a>
+            </h2>
+                    <p class="reading">
+                <span class="vague">1 min read </span>
+            </p>
+            <p>I'm going to write at least 500 words every day for this blog as part of the 500 Word Writing Challenge. <br /><a href="http://goinswriter.com/my500words/"></a><a href="http://goinswriter.com/my500words/">http:/<wbr></wbr>/<wbr></wbr>goinswriter.com/<wbr></wbr>my500words/<wbr></wbr></a></p><blockquote>
+<p>The rules:  <br />Write 500 words per day, every day during the month of January.  <br />You can write more if you want, but 500 words is the minimum.  <br />Don’t edit. Just write.  <br />If you miss a day, pick up where you left off. Don’t make up for lost days.  <br />Encourage, don’t criticize (unless explicitly invited to do so).  <br />Blogging counts, but email does not.</p>
+</blockquote><p><a href="tag/old.html" class="p-category" rel="tag">#old</a> <a href="tag/old.html" class="p-category" rel="tag">#old</a> <a href="tag/uncategorized.html" class="p-category" rel="tag">#uncategorized</a> <a href="tag/wordwritingchallenge.html" class="p-category" rel="tag">#wordwritingchallenge</a></p></div>                    </div>
+                    <div class="footer">
+                        
+        <div class="permalink">
+            <p>
+                <a href="profile/tjones2.html">Theo Jones</a>published this
+                <a class="u-url url" href="2014/im-going-to-start-the-500-word-writing-challenge-for.html" rel="permalink"><time class="dt-published"
+                          datetime="2014-07-29T13:32:03+0000">29 Jul 2014</time></a>
+                                                                            </p>
+        </div>
+        <div class="interactions">
+	        <span class="annotate-icon">
+                        <a class="stars" href="2014/im-going-to-start-the-500-word-writing-challenge-for.html#comments"><i class="fa fa-star-o"></i> 0 stars</a></span>
+                   <span class="annotate-icon"> <a class="comments" href="2014/im-going-to-start-the-500-word-writing-challenge-for.html#comments"><i class="fa fa-comments"></i> 0 comments</a></span>
+            <a class="shares" href="2014/im-going-to-start-the-500-word-writing-challenge-for.html#comments"></a>
+            <a class="shares" href="2014/im-going-to-start-the-500-word-writing-challenge-for.html#comments"></a>
+        </div>
+        <br clear="all"/>
+                            </div>
+                </div>
+
+            </div>
+
+                    <div class="row idno-entry idno-entry-entry">
+
+                <div
+                    class="col-md-8 col-md-offset-2 h-entry idno-posts idno-object idno-content">
+                    <div style="display: none"> <!-- This is useful for webmentions -->
+                        <p class="p-author author h-card vcard">
+                            <a href="profile/tjones2.html" class="icon-container"><img
+                                    class="u-logo logo u-photo photo" src="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e"/></a>
+                            <a class="p-name fn u-url url" href="profile/tjones2.html">Theo Jones</a>
+                            <a class="u-url" href="profile/tjones2.html">
+                                <!-- This is here to force the hand of your MF2 parser --></a>
+                        </p>
+                    </div>
+                                        <div class="e-content entry-content">
+                        <div>
+                <h2 class="p-name"><a
+                    href="2014/mozilla-appoints-new-ceo.html">Mozilla Appoints New CEO</a>
+            </h2>
+                    <p class="reading">
+                <span class="vague">3 min read </span>
+            </p>
+            <p>This happened: <br /><a href="http://arstechnica.com/business/2014/07/mozilla-confirms-interim-ceo-as-new-top-hire/"></a><a href="http://arstechnica.com/business/2014/07/mozilla-confirms-interim-ceo-as-new-top-hire/">http:/<wbr></wbr>/<wbr></wbr>arstechnica.com/<wbr></wbr>business/<wbr></wbr>2014/<wbr></wbr>07/<wbr></wbr>mozilla-confirms-interim-ceo-as-new-top-hire/<wbr></wbr></a> <br /></p><blockquote>
+<p>On Monday, the Mozilla Corporation announced that its last-minute April hire for interim CEO, Chris Beard, has been permanently appointed to the position. Mozilla Executive Chairwoman Mitchell Baker confirmed the news in a blog post, stating that "the board has reviewed many internal and external candidates—and no one we met was a better fit."</p>
+
+<p>Beard's Mozilla tenure began in 2004 and saw him eventually rise to chief innovation and chief marketing officer. He left the company in 2013 to become an "executive in residence" at Greylock Partners, an investment firm with a heavy focus on tech companies. His return to Mozilla in April came on the heels of Brendan Eich's controversial hire to the CEO position, which ended with Eich's resignation that month.</p>
+</blockquote><p>Its idiotic to make decisions about the management of a company based on the basis of political stuff that has little to do with the running of the company. Based pretty much on the opinion of people writing flamage on Tumblr, Mozilla replaced one of the founders of the company, a person with wide experience in the firm's core competency -- creating web browsers -- with a marketing type based solely on a donation to a political campaign in 2008. This is utter insanity. I believe that this decision will be a future business school case  study on why it is a good idea to keep personal politics out of the running of a company. The new CEO's current tenure has already shown that he is an inferior candidate. As interim CEO Beard has doubled down on multiple bad decisions by expanding the company's phone project and attempting to enter the computer market by creating a laptop. Beard is attempting to run the company like a regular software company. But the world of open source is different. The open source world already suffers from a high degree of market fragmentation and the actions of the new management of Mozilla will only make matters worse. Beard's decision to add Digital Rights Management systems to the Firefox browser has widely alienated the Linux community. The decision to manafucture a phone puts them in open warfare with many companies with deeper pockets -- particularly Microsoft and Google. It also takes Mozilla far from areas where it has a history of product development. Considering the fact that the Firefox Phone has no user or developer base it has no chance on the market. It is in the same price range as Microsoft's low end phones, and it is also in direct competition with the various Chinese landfill Androids that are on the market. They have simply no serious hope of winning this battle. Their decision to make a Chromebook competitor is similarly boneheaded.  They will be competing with dozens of established computer manufacturers when they have no experience in this area. </p><p><a href="tag/brendaneich.html" class="p-category" rel="tag">#brendaneich</a> <a href="tag/ceo.html" class="p-category" rel="tag">#ceo</a> <a href="tag/digitalrightsmanagement.html" class="p-category" rel="tag">#digitalrightsmanagement</a> <a href="tag/firefoxphone.html" class="p-category" rel="tag">#firefoxphone</a> <a href="tag/old.html" class="p-category" rel="tag">#old</a> <a href="tag/old.html" class="p-category" rel="tag">#old</a> <a href="tag/uncategorized.html" class="p-category" rel="tag">#uncategorized</a></p></div>                    </div>
+                    <div class="footer">
+                        
+        <div class="permalink">
+            <p>
+                <a href="profile/tjones2.html">Theo Jones</a>published this
+                <a class="u-url url" href="2014/mozilla-appoints-new-ceo.html" rel="permalink"><time class="dt-published"
+                          datetime="2014-07-29T13:17:52+0000">29 Jul 2014</time></a>
+                                                                            </p>
+        </div>
+        <div class="interactions">
+	        <span class="annotate-icon">
+                        <a class="stars" href="2014/mozilla-appoints-new-ceo.html#comments"><i class="fa fa-star-o"></i> 0 stars</a></span>
+                   <span class="annotate-icon"> <a class="comments" href="2014/mozilla-appoints-new-ceo.html#comments"><i class="fa fa-comments"></i> 0 comments</a></span>
+            <a class="shares" href="2014/mozilla-appoints-new-ceo.html#comments"></a>
+            <a class="shares" href="2014/mozilla-appoints-new-ceo.html#comments"></a>
+        </div>
+        <br clear="all"/>
+                            </div>
+                </div>
+
+            </div>
+
+        
+        <div class="pager">
+            <ul>
+                <li><a href="index-offset=150.html" title="Newer" rel="next">&laquo; Newer</a></li>                <li><a href="index-offset=170.html" title="Older" rel="prev">Older &raquo;</a></li>            </ul>
+        </div>
+
+        <div class="blank-footer">
+    <div>
+        <p class="footer"><a href="https://withknown.com/?utm_source=footer&amp;utm_medium=installation" class="u-platform"><img src="gfx/logos/logo_k.png" style="height: 1.5em"></a></p>
+    </div>
+</div>
+    </div>
+    <!-- /container -->
+
+        
+</div>
+<!-- Everything below this should be includes, not content -->
+
+<!-- Le javascript -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script
+    src="external/jquery-timeago/jquery.timeago.js"></script>
+<script
+    src="external/jquery-pjax/jquery.pjax.js"></script>
+<script src="external/underscore/underscore-min.js"
+        type="text/javascript"></script>
+<!--<script src="https://www.theojones.name/external/mention/bootstrap-typeahead.js"
+        type="text/javascript"></script>
+<script src="https://www.theojones.name/external/mention/mention.js"
+        type="text/javascript"></script> -->
+
+
+<!-- Flexible media player -->
+<script
+    src="external/mediaelement/build/mediaelement-and-player.min.js"></script>
+<link rel="stylesheet"
+      href="external/mediaelement/build/mediaelementplayer.css"/>
+<!-- Video shim -->
+<script src="external/fitvids/jquery.fitvids.min.js"></script>
+<!-- Mention styles -->
+<link rel="stylesheet" type="text/css"
+      href="external/mention/recommended-styles.css">
+
+
+<!-- HTML5 form element support for legacy browsers -->
+<script src="external/h5f/h5f.min.js"></script>
+
+<script>
+
+    function annotateContent() {
+        $(".h-entry").fitVids();
+        $("time.dt-published").timeago();
+    }
+
+    // Shim so that JS functions can get the current site URL
+    function wwwroot() {
+        return 'https://www.theojones.name/';
+    }
+
+    $(document).ready(function () {
+        $.timeago.settings.cutoff = 30 * 24 * 60 * 60 * 1000; // 1 month
+        annotateContent();
+    });
+
+    /**
+     * Handle Twitter tweet embedding
+     */
+    $(document).ready(function () {
+        $('div.twitter-embed').each(function (index) {
+            var url = $(this).attr('data-url');
+            var div = $(this);
+
+            $.ajax({
+                url: "https://api.twitter.com/1/statuses/oembed.json?url=" + url,
+                dataType: "jsonp",
+                success: function (data) {
+                    div.html(data['html']);
+                }
+            });
+        });
+
+        $('body').on('click', function (event, el) {
+            var clickTarget = event.target;
+
+            if (clickTarget.href && clickTarget.href.indexOf(window.location.origin) === -1) {
+                clickTarget.target = "_blank";
+            }
+        });
+    });
+
+    /**
+     * Handle Soundcloud oEmbed code
+     */
+    $(document).ready(function () {
+        $('div.soundcloud-embed').each(function (index) {
+            var url = $(this).attr('data-url');
+            var div = $(this);
+
+            $.getJSON('https://soundcloud.com/oembed?callback=?',
+                {
+                    format: 'js',
+                    url: url,
+                    iframe: true
+                },
+                function (data) {
+                    div.html(data['html']);
+                }
+            );
+        });
+    });
+
+    /**
+     * Better handle links in iOS web applications.
+     * This code (from the discussion here: https://gist.github.com/kylebarrow/1042026)
+     * will prevent internal links being opened up in safari when known is installed
+     * on an ios home screen.
+     */
+    (function (document, navigator, standalone) {
+        if ((standalone in navigator) && navigator[standalone]) {
+            var curnode, location = document.location, stop = /^(a|html)$/i;
+            document.addEventListener('click', function (e) {
+                curnode = e.target;
+                while (!(stop).test(curnode.nodeName)) {
+                    curnode = curnode.parentNode;
+                }
+                if ('href' in curnode && ( curnode.href.indexOf('http') || ~curnode.href.indexOf(location.host) ) && (!curnode.classList.contains('contentTypeButton'))) {
+                    e.preventDefault();
+                    location.href = curnode.href;
+                }
+            }, false);
+        }
+    })(document, window.navigator, 'standalone');
+
+</script>
+
+<script>
+    $('video').mediaelementplayer({
+        features: ['playpause','progress','current','tracks','volume','fullscreen'],
+        alwaysShowControls: false,
+        pauseOtherPlayers: true,
+        enableAutosize: false,
+        mediaWidth: -1,
+        mediaHeight: -1
+    });
+    $('audio').mediaelementplayer({
+        features: ['playpause','progress','current','tracks','volume','fullscreen'],
+        alwaysShowControls: false,
+        pauseOtherPlayers: true,
+        enableAutosize: false,
+        mediaWidth: -1,
+        mediaHeight: -1
+    });
+</script>
+<style>.known-media-element {
+        width: 100%;
+        height: 100%;
+    }
+</style><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+</body>
+
+
+</html>

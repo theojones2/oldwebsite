@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Linux Booting to Blank Screen</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/2013/linux-booting-to-blank-screen</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/2013/linux-booting-to-blank-screen?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>Linux Booting to Blank Screen</title>
+      <link>http://www.theojones.name/2013/linux-booting-to-blank-screen</link>
+      <guid>http://www.theojones.name/2013/linux-booting-to-blank-screen</guid>
+      <pubDate>Sun, 22 Dec 2013 21:28:50 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        <p>On my laptop I've encountered an issue where Linux would would boot to a blank screen. I found that my issue related to the display backlight control. I found that adding either of the following two kernel parameters would fix the issue. <br /><em>acpi_backlight=vendor <br />
+nomodeset</em></p><p>Try acpi_backlight=vendor first because nomodeset disables 3d acceleration.</p><p><a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#old</category>
+      <category>#old</category>
+      <category>#uncategorized</category>
+    </item>
+  </channel>
+</rss>

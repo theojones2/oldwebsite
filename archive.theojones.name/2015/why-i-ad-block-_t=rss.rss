@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Why I ad block</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/2015/why-i-ad-block</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/2015/why-i-ad-block?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>Why I ad block</title>
+      <link>http://www.theojones.name/2015/why-i-ad-block</link>
+      <guid>http://www.theojones.name/2015/why-i-ad-block</guid>
+      <pubDate>Sat, 10 Oct 2015 20:57:07 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        <p>There have been a few recent <a href="http://blog.practicalethics.ox.ac.uk/2015/10/whats-the-moral-difference-between-ad-blocking-and-piracy/">controversies</a> about internet adblocking. <a href="http://www.theguardian.com/technology/2015/sep/18/peace-app-ad-blocker-pulled-marco-arment-iphone-ios-9">The most prominent of these</a> has been Apple's decision to allow ad-blocking software on the App Store for Ipads. I will admit to running adblocking software on my computer and on the pfsense box I use as a router. I realsize that there are some issues with this. I get that there is an impact on the revinue of the websites I visit, as many websites use cost per impression ads that pay out based on the number of visitors to the website. I know that there have been cases where ad blockers have abused their control over the blocklists inorder to make profit. Adblock Plus, for instance, will de-list the ads on a website -- for a fee. However, there are some reasons why I use adblocking software on my computer</p><ol><li>Tracking and privacy. Advertisers use their networks to monitor what websites the viewers of the ads go to, and keep a databse of this tracking. They use this information about web browsing habits to create a profile of each user, and to guess at a wide range of other personal information. This information is used to "target" the ad to the users, and is quite often sold to other companies. This is a substintial violation of privacy and one of the main reasons I ad block. </li>
+<li>Computer performance issues. A lot of ads contain flash/javascript code that is quite ram and CPU hogging. </li>
+<li>Secutity issues. There have been cases where ads have contained malware. Which isn't surprising, considering that the core of internet targeted advertising is to load untrusted content onto the website you are viewing. Due to the need to keep advertising "targeted" this is pretty much unavoidable under the current internet marketing model. </li>
+<li>These problems are at the core of the internet advertising model. Unlike a dead-tree publication, you can't effectively target on geographic location, or the like. So, the much more intrusive methods of advertising become unavoidable. </li>
+</ol></div>]]></description>
+    </item>
+  </channel>
+</rss>

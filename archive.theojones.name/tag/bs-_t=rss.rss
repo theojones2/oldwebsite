@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Theo Jones</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/tag/bs</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/tag/bs?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>Conservative Groups Create Facebook Clone</title>
+      <link>http://www.theojones.name/2014/conservative-groups-create-facebook-clone</link>
+      <guid>http://www.theojones.name/2014/conservative-groups-create-facebook-clone</guid>
+      <pubDate>Tue, 29 Jul 2014 12:35:12 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>From <a href="http://talkingpointsmemo.com/livewire/reaganbook-facebook-for-patriots"></a><a href="http://talkingpointsmemo.com/livewire/reaganbook-facebook-for-patriots">http:/<wbr></wbr>/<wbr></wbr>talkingpointsmemo.com/<wbr></wbr>livewire/<wbr></wbr>reaganbook-facebook-for-patriots</a></p>
+<blockquote>
+<p>The president of conservative pro-family group Faith2Action last weekend announced the pre-launch of ReaganBook, a social networking site described as "the Facebook for patriots"</p>
+</blockquote>
+<p>I will say that Facebook is pretty loose with the banhammer and bans both conservative and liberal groups for BS reasons. Its moderation policies seem pretty inconsistent from what I've heard, and they rely on automated systems for a lot of it. For some pages, just getting a large number of people reporting a status of yours can get you banned by a computer. But, its a system-wide issue and doesn't seem to be just a thing that targets conservatives.</p>
+
+<p>My solution to this issue would be to <a href="http://web.archive.org/web/20140403093812/&lt;a%20href=" https:>https:/<wbr></wbr>/<wbr></wbr>theojones.name/<wbr></wbr>index.php/<wbr></wbr>2013/<wbr></wbr>12/<wbr></wbr>30/<wbr></wbr>ideal-distributed-social-networking-application-look-like/<wbr></wbr></a>" title="What Would the Ideal Distributed Social Networking Application Look Like?"&gt;create a decentralized social network. Facebook has complete control over their system and can abuse that control. But social networking systems are generally natural monopolies and therefore different competing networks can not remain in stable competition.</p>
+<p><a href="http://www.theojones.name/tag/bs" class="p-category" rel="tag">#bs</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#bs</category>
+      <category>#old</category>
+      <category>#old</category>
+      <category>#uncategorized</category>
+    </item>
+  </channel>
+</rss>

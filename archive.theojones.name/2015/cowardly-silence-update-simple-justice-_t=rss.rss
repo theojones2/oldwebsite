@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Cowardly Silence (Update) | Simple Justice</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/2015/cowardly-silence-update-simple-justice</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/2015/cowardly-silence-update-simple-justice?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>Cowardly Silence (Update) | Simple Justice</title>
+      <link>http://blog.simplejustice.us/2015/09/22/cowardly-silence/</link>
+      <guid>http://www.theojones.name/2015/cowardly-silence-update-simple-justice</guid>
+      <pubDate>Tue, 29 Sep 2015 23:30:16 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div class="known-bookmark">
+    <p>"This is the Teacup’s Veto, the twisted logic that speech that causes the most fragile to make the choice of remaining silent lest their feelings be hurt by unpleasant words must be silenced. "</p></div>
+]]></description>
+    </item>
+  </channel>
+</rss>

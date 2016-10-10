@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Theo Jones</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/content/all/?q=%23ghost</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/content/all/?q=%23ghost&amp;_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>On reducing blogging engine bloat.</title>
+      <link>http://www.theojones.name/2015/on-reducing-blogging-engine-bloat</link>
+      <guid>http://www.theojones.name/2015/on-reducing-blogging-engine-bloat</guid>
+      <pubDate>Sat, 30 May 2015 07:05:50 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>I've switched between blogging engines a few times for this site (there are still some broken links and images from the transition). WordPress, what I'm on now, has a good bit of bloat. Simpler blogging engines, like Ghost, go too far in the other direction, and lack critical features.  I haven't been able to find a blogging engine that hits a good in-between. Personally, I feel that the way to hit that in-between in modularity.  The old UNIX Philosophy of "do one thing and do it well". Plugins are how modularity should be reached. Create a simple core blogging engine (the functionality level of Ghost would be a good target) and add the rest as optional plugins. Now, you might note that WordPress plugins often add a lot of bugs, have a lot of security holes, and are often written by people who don't know what they are doing. And you would be right. However, there is no reason why such plugins can't be maintained in the same source tree as the core software with the help of actual developers. Just put any frequently used plugin in the tree as an officially supported feature set. A user can also easily swap out the official implementation of a feature with an alternative.   This would provide the perfect mix of flexibility and simplicity.  It would allow more officially supported features but users who don't want a feature don't have to put up with the BS that comes with it.  This is a rough analogue of the development method of the classical UNIXes and the BSDs.</p>
+<p><a href="http://www.theojones.name/tag/blogging" class="p-category" rel="tag">#blogging</a> <a href="http://www.theojones.name/tag/ghost" class="p-category" rel="tag">#ghost</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a> <a href="http://www.theojones.name/tag/unix" class="p-category" rel="tag">#unix</a> <a href="http://www.theojones.name/tag/unixphilosophy" class="p-category" rel="tag">#unixphilosophy</a> <a href="http://www.theojones.name/tag/wordpress" class="p-category" rel="tag">#wordpress</a></p></div>]]></description>
+      <category>#blogging</category>
+      <category>#ghost</category>
+      <category>#uncategorized</category>
+      <category>#unix</category>
+      <category>#unixphilosophy</category>
+      <category>#wordpress</category>
+    </item>
+  </channel>
+</rss>

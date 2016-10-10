@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Theo Jones</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/?q=%23apc</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/?q=%23apc&amp;_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>My Experience Optimizing WordPress</title>
+      <link>http://www.theojones.name/2013/my-experience-optimizing-wordpress</link>
+      <guid>http://www.theojones.name/2013/my-experience-optimizing-wordpress</guid>
+      <pubDate>Tue, 10 Sep 2013 08:58:05 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>I've been trying various methods to make this blog load faster and optimize WordPress. This post discusses some of what I found works and what I found didn't work.  <br />One of the first things I tried was W3 Total Cache which many bloggers . This plugin was able to reduce my page load times by about 1 sec, but I decided that it is more trouble than it is worth. It was incompatible with other plugins that I have been using, created issues with page loading and created other issues. If you do decide to use this plugin I recommend that you do not use the minify options as this functionality was in my experience the most likely to cause problems. Also, install the APC module for PHP (on Ubuntu apt-get install php-apc). APC makes the caching run more efficiently.The next thing I did was to reduce the "above the fold content" on my posts and put more of my post content below the read more button. This resulted in a home page that loaded faster. Previously I had the full content of my posts load on the front page, now I limit the part of my posts that show on the front page to the first paragraph.  <br /><!--more--></p>
+<p>I then tried other plugins to make my WordPress faster.The WP-SmushIt is one that I recommend. It reduces the file size of the images that get sent to the readers' browsers. I also recommend Combine JS and Combine CSS which merge the Javascript and CSS files on your website. <br />
+The next thing I did was minimize the external content that loads on this website.Each time you load a widget or image from an outside website you require the reader's browser to make a DNS request. I replaced the twitter widget with a link to my twitter. I also replaced embedded images that load from external websites with locally hosted images.</p><p><a href="http://www.theojones.name/tag/apc" class="p-category" rel="tag">#apc</a> <a href="http://www.theojones.name/tag/css" class="p-category" rel="tag">#css</a> <a href="http://www.theojones.name/tag/dns" class="p-category" rel="tag">#dns</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a> <a href="http://www.theojones.name/tag/w3totalcache" class="p-category" rel="tag">#w3totalcache</a></p></div>]]></description>
+      <category>#apc</category>
+      <category>#css</category>
+      <category>#dns</category>
+      <category>#old</category>
+      <category>#old</category>
+      <category>#uncategorized</category>
+      <category>#w3totalcache</category>
+    </item>
+  </channel>
+</rss>

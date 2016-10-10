@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Theo Jones</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/content/all/?q=%23unitedkingdom</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/content/all/?q=%23unitedkingdom&amp;_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>Climate Change Driven Heatwaves Have the Possibility to Substantially Increase Heat Stroke Deaths</title>
+      <link>http://www.theojones.name/2014/climate-change-driven-heatwaves-have-the-possibility-to-substantially-increase</link>
+      <guid>http://www.theojones.name/2014/climate-change-driven-heatwaves-have-the-possibility-to-substantially-increase</guid>
+      <pubDate>Thu, 05 Jun 2014 16:18:03 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        <p>A study published in February looked into the effect that climate change has on temperature-related deaths in the United Kingdom. It found a great possibility for future harm. This risk is focused on vulnerable populations, such as the elderly. The death rates by these causes could increase by thousands per year. The current number of heat-related deaths in the UK is around 2000 per year. By 2050 this could increase to about 7000, and by the turn of the century could reach about 12,000. The authors also project a substintial reduction in cold related deaths, from about 41,000 per year currently, to about 36,000 by the end of the century. However, this reduction will not be enough to offset the increase in heat related deaths, and a net increase of temperature caused deaths of about 5000 per year can be expected by 2100.</p><p>Their modeling was based on the historical relationship between temperature and heat-related deaths. The authors projected the future climate with the IPCC A1B scenario. The A1B is based around an intermediate projection of CO2 emissions. This projection assumes that the rapidly growing global economy will choose a mix of fossil fuels and clean energy sources, and that global population will stabilize at around 9 billion.</p><p>The direct, heatstroke related deaths caused by unchecked climate change could cost tens of thousands of lives. However, these costs are just the tip of the iceberg, and climate change has the potential to be much more destructive than just the risks discussed in this study.</p><p><a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/uk" class="p-category" rel="tag">#uk</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a> <a href="http://www.theojones.name/tag/unitedkingdom" class="p-category" rel="tag">#unitedkingdom</a></p></div>]]></description>
+      <category>#old</category>
+      <category>#old</category>
+      <category>#uk</category>
+      <category>#uncategorized</category>
+      <category>#unitedkingdom</category>
+    </item>
+  </channel>
+</rss>

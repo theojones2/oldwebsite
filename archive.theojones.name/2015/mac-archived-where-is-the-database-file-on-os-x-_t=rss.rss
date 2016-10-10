@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>[mac] (Archived) Where is the database file on OS X and can we change it? - Mac Help - Evernote User Forum</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/2015/mac-archived-where-is-the-database-file-on-os-x</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/2015/mac-archived-where-is-the-database-file-on-os-x?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>[mac] (Archived) Where is the database file on OS X and can we change it? - Mac Help - Evernote User Forum</title>
+      <link>https://discussion.evernote.com/topic/35545-archived-where-is-the-database-file-on-os-x-and-can-we-change-it/</link>
+      <guid>http://www.theojones.name/2015/mac-archived-where-is-the-database-file-on-os-x</guid>
+      <pubDate>Tue, 29 Sep 2015 03:18:34 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div class="known-bookmark">
+    <blockquote><p style="margin: 0px; padding: 0px; color: #282828; font-family: helvetica, arial, sans-serif; line-height: 22px;">If you downloaded directly it's in user/library/application support/evernote</p><div style="margin: 0px; padding: 0px; font-family: Arial; font-size: medium;"><span style="color: #282828; font-family: helvetica, arial, sans-serif; font-size: 14px;">If you downloaded from the app store it's here </span><span style="color: #282828; font-family: helvetica, arial, sans-serif; font-size: 14px;">~/Library/Containers/com.evernote.Evernote</span></div><p style="margin: 0px; padding: 0px; color: #282828; font-family: helvetica, arial, sans-serif; line-height: 22px;">And, if you have an iMac with a fusion drive, it might be here</p><div style="margin: 0px; padding: 0px; font-family: Arial; font-size: medium;"><span style="color: #282828; font-family: helvetica, arial, sans-serif; font-size: 14px;">/Library/Containers/com.evernote.Evernote/Data/Library/Application Support/Evernote/account/<your username>/ </your></span></div><div style="margin: 0px; padding: 0px; font-family: Arial; font-size: medium;"> </div><div style="margin: 0px; padding: 0px; font-family: Arial; font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">It's not supported if you change it, but you can try if you understand aliasing.</span></div></blockquote></div>
+]]></description>
+      <category>#282828</category>
+      <category>#282828</category>
+      <category>#282828</category>
+      <category>#282828</category>
+      <category>#282828</category>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Theo Jones</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/tag/tamaleaver</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/tag/tamaleaver?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>Gawker and Trolls</title>
+      <link>http://www.theojones.name/2014/gawker-and-trolls</link>
+      <guid>http://www.theojones.name/2014/gawker-and-trolls</guid>
+      <pubDate>Wed, 20 Aug 2014 08:48:00 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>You may have seen the hubhub about Gawker media and its troll problem. In short the trolls are flooding its sites with porn images. This is part of a campaign by 4chan. Writers of the sites are outraged and demanding a</p>
+
+<p>[caption id="attachment_1330" align="alignright" width="300"]<a href="http://www.theojones.name/wp-content/uploads/2014/08/6288497038_5d4e68c0b5_o.jpg"><img class="size-medium wp-image-1330" src="http://www.theojones.name/wp-content/uploads/2014/08/6288497038_5d4e68c0b5_o-300x201.jpg" alt="Image via Flickr (user Tama Leaver) &lt;a href=" https:>https:/<wbr></wbr>/<wbr></wbr>flic.kr/<wbr></wbr>p/<wbr></wbr>azGc5J</a>" width="300" height="201" /&gt; Image via Flickr (user Tama Leaver) <a href="https://flic.kr/p/azGc5J%5B/caption%5D">https:/<wbr></wbr>/<wbr></wbr>flic.kr/<wbr></wbr>p/<wbr></wbr>azGc5J[/<wbr></wbr>caption]</a></p>
+
+<p>soloution to the issue. In short they want to make sure that they do not have to moderate the trollage. This however may be an impractical goal. It is very difficult for a</p>
+
+<p>website to deal with a troll issue short of human moderation. A suggested alternative method is IP banning, but this cannot deal with a persistent and skilled troll (and 4chan counts). Also, IP banning rules out users that use systems like Tor. This means that such a system will hurt real users.</p>
+<p><a href="http://www.theojones.name/tag/ip" class="p-category" rel="tag">#ip</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/tamaleaver" class="p-category" rel="tag">#tamaleaver</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#ip</category>
+      <category>#old</category>
+      <category>#old</category>
+      <category>#tamaleaver</category>
+      <category>#uncategorized</category>
+    </item>
+  </channel>
+</rss>

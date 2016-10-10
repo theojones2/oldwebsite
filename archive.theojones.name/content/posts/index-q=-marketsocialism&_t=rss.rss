@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Theo Jones</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/content/posts/?q=%23marketsocialism</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/content/posts/?q=%23marketsocialism&amp;_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>I've hinted this before in previous postings of...</title>
+      <link>http://www.theojones.name/2015/ive-hinted-this-before-in-previous-postings-of</link>
+      <guid>http://www.theojones.name/2015/ive-hinted-this-before-in-previous-postings-of</guid>
+      <pubDate>Wed, 27 May 2015 21:07:10 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>I've hinted this before in previous postings of mine about health care, but the way to resolve a lot of the tension between fee for service health care pricing, and fixed rate pricing is to reimburse doctors like in fixed rate pricing to avoid toxic incentives on the provider end. But use (government) administered prices to manage demand on the consumer side and to prevent wasteful usage of health services. Straight up fee for service won't work because that would give providers intensive to over-treat due to imperfect information. But you still want to put some price signals on consumers. Its like the "market socialism" proposals to introduce pseudo-prices into planned economies to avoid shortage.</p>
+<p><a href="http://www.theojones.name/tag/healthcare" class="p-category" rel="tag">#healthcare</a> <a href="http://www.theojones.name/tag/marketsocialism" class="p-category" rel="tag">#marketsocialism</a> <a href="http://www.theojones.name/tag/status" class="p-category" rel="tag">#status</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#healthcare</category>
+      <category>#marketsocialism</category>
+      <category>#status</category>
+      <category>#uncategorized</category>
+    </item>
+  </channel>
+</rss>

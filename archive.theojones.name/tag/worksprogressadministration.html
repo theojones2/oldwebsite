@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Theo Jones</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="initial-scale=1.0" media="(device-height: 568px)"/>
+    <meta name="description" content="Thoughts and Ideas">
+    <meta name="generator" content="Known https://withknown.com">
+    <meta http-equiv="Content-Language" content="en">
+
+    <!--Le fav and touch icons-->
+<link rel="apple-touch-icon" sizes="57x57" href="../gfx/logos/apple-icon-57x57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="../gfx/logos/apple-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="../gfx/logos/apple-icon-114x114.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="../gfx/logos/apple-icon-144x144.png" />    <link rel="shortcut icon" type="image/png" href="../gfx/logos/logo_k.png">
+<!-- Make this an "app" when saved to an ios device's home screen -->
+<link rel="apple-touch-icon-precomposed" href="../gfx/logos/logo_k.png">
+<!-- Make this an "app" when saved to an ios device's home screen -->
+<link rel="apple-touch-icon" href="../gfx/logos/logo_k.png">
+<!-- <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black"> -->
+    <meta property="og:type" content="website" />
+<meta property="og:title" content="Theo Jones" />
+<meta property="og:site_name" content="Theo Jones" />
+<meta property="og:image" content="https://www.theojones.name/gfx/logos/logo_k.png" />
+
+
+    <!-- Dublin Core -->
+    <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+    <meta name="DC.title" content="Theo Jones">
+    <meta name="DC.description" content="Thoughts and Ideas">    <!-- AMP versions -->
+    <link rel="amphtml" href="worksprogressadministration-_t=amp.html">
+
+    <!-- We need jQuery at the top of the page -->
+    <script src="../external/jquery/jquery.min.js"></script>
+
+    <!-- Le styles -->
+    <link
+        href="../external/bootstrap/assets/css/bootstrap.min.css"
+        rel="stylesheet"/>
+    <link
+        href="../external/bootstrap/assets/css/bootstrap-theme.min.css"/>
+    <script
+        src="../external/bootstrap/assets/js/bootstrap.min.js"></script>
+
+    <!-- Accessibility -->
+    <link rel="stylesheet"
+          href="../external/paypal-bootstrap-accessibility-plugin/plugins/css/bootstrap-accessibility_1.0.3.css">
+    <script
+        src="../external/paypal-bootstrap-accessibility-plugin/plugins/js/bootstrap-accessibility_1.0.3.min.js"></script>
+
+    <!-- Fonts -->
+    <link rel="stylesheet"
+          href="../external/font-awesome/css/font-awesome.css">
+    <!--<link rel="stylesheet"
+          href="https://www.theojones.name/external/font-awesome/css/font-awesome.min.css">-->
+    <style>body {
+            padding-top: 100px; /* 60px to make the container go all the way to the bottom of the topbar */
+        }
+    </style>
+
+    <link href="../css/default-20150907.css" rel="stylesheet">
+<link href="../css/defaultb3-20150123.css" rel="stylesheet">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script
+        src="https://www.theojones.name/external/bootstrap/assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Default Known JavaScript -->
+    <script src="../js/default-20150406.js"></script>
+
+    <!-- To silo is human, to syndicate divine -->
+    <link rel="alternate" type="application/rss+xml" title="Theo Jones"
+          href="worksprogressadministration-_t=rss.rss"/>
+    <link rel="feed" type="application/rss+xml" title="Theo Jones"
+          href="worksprogressadministration-_t=rss.rss"/>
+    <link rel="alternate feed" type="application/rss+xml"
+          title="Theo Jones: all content"
+          href="../content/all-_t=rss.rss"/>
+    <link rel="feed" type="text/html" title="Theo Jones"
+          href="../content/all.html"/>
+
+    <!-- Webmention endpoint -->
+    <link href="../webmention/index.html" rel="http://webmention.org/"/>
+    <link href="../webmention/index.html" rel="webmention"/>
+
+                <!-- Pubsubhubbub -->
+        <link href="http://withknown.superfeedr.com/" rel="hub"/>
+    
+    
+    <script src="../external/fragmention/fragmention.js"></script>
+
+    <!-- Syndication -->
+    <link
+        href="../external/bootstrap-toggle/css/bootstrap-toggle.min.css"
+        rel="stylesheet"/>
+    <script
+        src="../external/bootstrap-toggle/js/bootstrap-toggle.js"></script>
+
+    <style>.withknown-plugin {
+        padding-top: 0.25em;
+        padding-bottom: 0.25em;
+        background-color: #fff;
+        margin-bottom: 0.5em;
+    }
+
+    .withknown-plugin p,
+    .withknown-plugin h4,
+    .withknown-plugin form
+    {
+        margin: 0; padding: 0;
+    }
+
+    .withknown-plugin .plugin-content h4
+    {
+        padding-top: 0.25em;
+    }
+
+    .withknown-plugin .plugin-content p
+    {
+        padding-top: 0.3em;
+    }
+
+    .withknown-plugin .plugin-content {
+        color: #777;
+    }
+
+    .withknown-plugin input[type=submit]
+    {
+        width: 100px;
+    }
+    
+    .withknown-plugin .btn-enabled {
+    background-color: #70997a;
+    background-image: none;
+    background-repeat: repeat-x;
+    border-color: #70997a;
+    color: #ffffff;
+    text-shadow: none;
+	}
+	
+	.withknown-plugin .btn-enabled:hover, 
+	.withknown-plugin .btn-enabled:focus, 
+	.withknown-plugin .btn-enabled:active, 
+	.withknown-plugin .btn-enabled.active, 
+	.withknown-plugin .btn-enabled.disabled, 
+	.withknown-plugin .btn-enabled[disabled] {
+    background-color: #678c70;
+    border-color: #678c70;
+    color: #ffffff;
+	}
+	
+	.withknown-plugin .btn-default {
+	color: #666666;
+	}
+	
+	.withknown-plugin .span2 {
+		margin-left: 0px;
+	}
+	
+    .withknown-plugin h4 {
+		color: #222;
+	}
+
+    .withknown-pro-block {
+        text-align: center;
+        border: 0;
+        border-top: 2px #ccc solid;
+        border-bottom: 2px #ccc solid;
+        margin-bottom: 2em;
+        margin-top: 20px;
+    }
+</style><link rel="stylesheet" href="../IdnoPlugins/Checkin/external/leaflet/leaflet.css"/>
+<!--[if lte IE 8]>
+<link rel="stylesheet" href="https://www.theojones.name/IdnoPlugins/Checkin/external/leaflet/leaflet.ie.css"/>
+<![endif]-->
+<script type="text/javascript" src="../IdnoPlugins/Checkin/external/leaflet/leaflet.js"></script>
+<script type="text/javascript" src="../IdnoPlugins/Checkin/external/stamen-maps/tile.stamen.js"></script>
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script><link rel="openid.delegate" href="../index.html" />
+<link rel="openid.server" href="https://indieauth.com/openid" />
+<link rel="authorization_endpoint" href="../session/login-fwd=https-%7C%7Cwww.theojones.name%7Cindieauth%7Cauth.html">
+<link rel="token_endpoint" href="../indieauth/token.html">
+<link rel="micropub" href="../session/login-fwd=%7Cmicropub%7Cendpoint.html"><link href="../Themes/Solo/css/default.css" rel="stylesheet">    
+</head>
+
+<body class="idno_pages_homepage page-tag page-tag-worksprogressadministration logged-out">
+<div id="pjax-container" class="page-container">
+    <a href="worksprogressadministration.html#maincontent" style="display:none">Skip to main content</a>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" tabindex="1" href="../index.html">Theo Jones</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+
+            <form class="navbar-form navbar-left" action="https://www.theojones.name/content/all" method="get" role="search">
+    <div class="form-group">
+        <input type="search" class="search-query form-control" name="q" placeholder="Search" tabindex="2" value="#worksprogressadministration">
+    </div>
+</form><ul class="nav navbar-nav">
+        
+            <li class="dropdown" tabindex="3">
+                <a href="worksprogressadministration.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                    All content                    <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="../index-q=-worksprogressadministration.html"><span class="dropdown-menu-icon">&nbsp;</span>
+                            Default content</a></li>
+                    <li><a href="../content/all/index-q=-worksprogressadministration.html"><span class="dropdown-menu-icon">&nbsp;</span>
+                            All content</a></li>
+                                                    <li><a
+                                    href="../content/statusupdates/index-q=-worksprogressadministration.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-comment-o"></i></span> Status updates                                </a></li>                                <li><a
+                                    href="../content/posts/index-q=-worksprogressadministration.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-align-left"></i>
+</span> Posts                                </a></li>                                <li><a
+                                    href="../content/photos/index-q=-worksprogressadministration.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-picture-o"></i>
+</span> Photos                                </a></li>                                <li><a
+                                    href="../content/locations/index-q=-worksprogressadministration.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-map-marker"></i>
+</span> Locations                                </a></li>                                <li><a
+                                    href="../content/bookmarkedpages/index-q=-worksprogressadministration.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-bookmark"></i>
+</span> Bookmarked pages                                </a></li>                                <li><a
+                                    href="../content/audio/index-q=-worksprogressadministration.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-microphone"></i>
+</span> Audio                                </a></li>                                <li><a
+                                    href="../content/events/index-q=-worksprogressadministration.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-calendar"></i>
+</span> Events                                </a></li>                                <li><a
+                                    href="../content/rsvp/index-q=-worksprogressadministration.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-calendar-o"></i>
+</span> RSVP                                </a></li>
+
+                </ul>
+            </li>
+
+    </ul>
+            <ul class="nav navbar-nav navbar-right">
+                
+
+    <li><a href="../session/login.html">Sign in</a></li>            </ul>
+
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+    <div class="container page-body">
+        <a name="pagecontent"></a>
+                                    <div class="row idno-entry idno-entry-entry">
+
+                <div
+                    class="col-md-8 col-md-offset-2 h-entry idno-posts idno-object idno-content">
+                    <div style="display: none"> <!-- This is useful for webmentions -->
+                        <p class="p-author author h-card vcard">
+                            <a href="../profile/tjones2.html" class="icon-container"><img
+                                    class="u-logo logo u-photo photo" src="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e"/></a>
+                            <a class="p-name fn u-url url" href="../profile/tjones2.html">Theo Jones</a>
+                            <a class="u-url" href="../profile/tjones2.html">
+                                <!-- This is here to force the hand of your MF2 parser --></a>
+                        </p>
+                    </div>
+                                        <div class="e-content entry-content">
+                        <div>
+                <h2 class="p-name"><a
+                    href="../2014/what-to-do-about-poverty.html">What to Do About Poverty</a>
+            </h2>
+                    <p class="reading">
+                <span class="vague">2 min read </span>
+            </p>
+            
+<p>50 years ago this month Lyndon Johnson gave his War on Poverty speech, which was the beginning of most of the U.S government's anti-poverty programs. While these programs have made a clear dent in poverty, they have not come close to eliminating poverty. We need to do more. In this post I will detail how America can solve the poverty issue.</p>
+<ol><li>The U.S government should commit to alleviating unemployment and maintaining full employment. This should include
+<ol><li>The creation of a Works Progress Administration style jobs program that would be able to offer every unemployed person who is willing and able to work a job at a living wage. This program would employ the workers on infrastructure programs, providing public services, and projects done in collaboration with private non-profit groups. This program should continue even after the effects of the recession are over.</li>
+    <li>The government should provide grants to unemployed workers and low income individuals who intend to start a business. This program would evaluate proposals based on their cost, the number of people employed by the businesses, and the benefit to the public that would be created by the proposals.</li>
+    <li>The U.S government should aggressively use monetary policy to encourage private investment. This should include a continuation of the zero interest rate policy -- possibly indefinitely.</li>
+    <li>The government should aggressively use fiscal policy to keep the economy at full employment. This should include increased deficits when the economy is sluggish and reduced deficits/ surpluses when there is a high risk of inflation.</li>
+</ol></li> <br /><li>The current set of anti-poverty programs<a title="The Best Way to Eliminate Poverty in the United States" href="http://web.archive.org/web/20140326141202/%3Ca%20href=" https:>https:/<wbr></wbr>/<wbr></wbr>theojones.name/<wbr></wbr>index.php/<wbr></wbr>2013/<wbr></wbr>09/<wbr></wbr>17/<wbr></wbr>best-way-eliminate-poverty-united-states/<wbr></wbr></a>"&gt; should be replaced with a basic income program that would provide a universal cash grant to all U.S adult citizens that is delivered unconditionally and without means testing  .</li>
+    <li><a title="What should be done with the U.S health care system?" href="http://web.archive.org/web/20140326141811/%3Ca%20href=" https:>https:/<wbr></wbr>/<wbr></wbr>theojones.name/<wbr></wbr>index.php/<wbr></wbr>2014/<wbr></wbr>01/<wbr></wbr>05/<wbr></wbr>done-u-s-health-care-system/<wbr></wbr></a>"&gt;A universal health care system should be adopted. </li>
+</ol><p><a href="lyndonjohnson.html" class="p-category" rel="tag">#lyndonjohnson</a> <a href="old.html" class="p-category" rel="tag">#old</a> <a href="old.html" class="p-category" rel="tag">#old</a> <a href="uncategorized.html" class="p-category" rel="tag">#uncategorized</a> <a href="worksprogressadministration.html" class="p-category" rel="tag">#worksprogressadministration</a></p></div>                    </div>
+                    <div class="footer">
+                        
+        <div class="permalink">
+            <p>
+                <a href="../profile/tjones2.html">Theo Jones</a>published this
+                <a class="u-url url" href="../2014/what-to-do-about-poverty.html" rel="permalink"><time class="dt-published"
+                          datetime="2014-01-11T21:31:49+0000">11 Jan 2014</time></a>
+                                                                            </p>
+        </div>
+        <div class="interactions">
+	        <span class="annotate-icon">
+                        <a class="stars" href="../2014/what-to-do-about-poverty.html#comments"><i class="fa fa-star-o"></i> 0 stars</a></span>
+                   <span class="annotate-icon"> <a class="comments" href="../2014/what-to-do-about-poverty.html#comments"><i class="fa fa-comments"></i> 0 comments</a></span>
+            <a class="shares" href="../2014/what-to-do-about-poverty.html#comments"></a>
+            <a class="shares" href="../2014/what-to-do-about-poverty.html#comments"></a>
+        </div>
+        <br clear="all"/>
+                            </div>
+                </div>
+
+            </div>
+
+                    <div class="row idno-entry idno-entry-entry">
+
+                <div
+                    class="col-md-8 col-md-offset-2 h-entry idno-posts idno-object idno-content">
+                    <div style="display: none"> <!-- This is useful for webmentions -->
+                        <p class="p-author author h-card vcard">
+                            <a href="../profile/tjones2.html" class="icon-container"><img
+                                    class="u-logo logo u-photo photo" src="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e"/></a>
+                            <a class="p-name fn u-url url" href="../profile/tjones2.html">Theo Jones</a>
+                            <a class="u-url" href="../profile/tjones2.html">
+                                <!-- This is here to force the hand of your MF2 parser --></a>
+                        </p>
+                    </div>
+                                        <div class="e-content entry-content">
+                        <div>
+                <h2 class="p-name"><a
+                    href="../2013/the-best-way-to-eliminate-poverty-in-the-united-states.html">The Best Way to Eliminate Poverty in the United States</a>
+            </h2>
+                    <p class="reading">
+                <span class="vague">2 min read </span>
+            </p>
+            
+<p><a href="https://theojones.name/index.php/poverty-a-economic-and-moral-crisis-in-america/" title="Poverty: A Economic and Moral Crisis in America">As I have previously discussed</a>, poverty is a great problem in America.</p>
+<p dir="ltr">To replace many of the current welfare programs that we have in the United States, I would recommend a basic income program along the lines of the negative income tax proposal created by the Nobel Prize winning economist Milton Friedman.</p><p dir="ltr">Every family would receive a sum of money from the federal government to make their income above the poverty line level. All income earned separately, apart from the federal government grant would be taxed at a flat rate to help pay for the program. This proposal would simplify the current welfare programs by replacing many of them with a single program. Because everyone would get to keep the income they earned by working, without effecting the lump sum paid to them, someone is always better off working. Also an income level just barely above the poverty line isn't enough to take away someone's motivation to work, since isn't very much money and wouldn't provide for many or any extras or luxuries.</p><p dir="ltr">This sum of money would be distributed through the federal income tax system as a refundable tax credit.  If you owed no taxes, instead of a tax credit, you would receive a grant check from the federal government.</p><!--more--><p dir="ltr">A negative income tax isn't just some idea that some economist came up with, during the 1960s and 70s this idea was seriously considered by the federal government. In 1969 Richard Nixon proposed a bill that would have created a basic income through a negative income tax system. The bill failed in the Senate.  The Johnson administration studied the possibility of a negative income tax and George McGovern proposed it during his failed 1972 presidential campaign.</p>
+<p>This system would give the working poor a living wage that would not take away their motivation to work. To help the unemployed, I would recommend that we create a jobs program to help them. This could provide work and help the United States by improving its infrastructure and creating alternative energy projects. This would work like the Works Progress Administration, which was created during the Great Depression to reduce unemployment.  It constructed roads streets, parks and other public buildings.</p>
+<p><a href="greatdepression.html" class="p-category" rel="tag">#greatdepression</a> <a href="old.html" class="p-category" rel="tag">#old</a> <a href="old.html" class="p-category" rel="tag">#old</a> <a href="richardnixon.html" class="p-category" rel="tag">#richardnixon</a> <a href="uncategorized.html" class="p-category" rel="tag">#uncategorized</a> <a href="unitedstates.html" class="p-category" rel="tag">#unitedstates</a> <a href="worksprogressadministration.html" class="p-category" rel="tag">#worksprogressadministration</a></p></div>                    </div>
+                    <div class="footer">
+                        
+        <div class="permalink">
+            <p>
+                <a href="../profile/tjones2.html">Theo Jones</a>published this
+                <a class="u-url url" href="../2013/the-best-way-to-eliminate-poverty-in-the-united-states.html" rel="permalink"><time class="dt-published"
+                          datetime="2013-09-16T21:45:53+0000">16 Sep 2013</time></a>
+                                                                            </p>
+        </div>
+        <div class="interactions">
+	        <span class="annotate-icon">
+                        <a class="stars" href="../2013/the-best-way-to-eliminate-poverty-in-the-united-states.html#comments"><i class="fa fa-star-o"></i> 0 stars</a></span>
+                   <span class="annotate-icon"> <a class="comments" href="../2013/the-best-way-to-eliminate-poverty-in-the-united-states.html#comments"><i class="fa fa-comments"></i> 0 comments</a></span>
+            <a class="shares" href="../2013/the-best-way-to-eliminate-poverty-in-the-united-states.html#comments"></a>
+            <a class="shares" href="../2013/the-best-way-to-eliminate-poverty-in-the-united-states.html#comments"></a>
+        </div>
+        <br clear="all"/>
+                            </div>
+                </div>
+
+            </div>
+
+                    <div class="row idno-entry idno-entry-entry">
+
+                <div
+                    class="col-md-8 col-md-offset-2 h-entry idno-posts idno-object idno-content">
+                    <div style="display: none"> <!-- This is useful for webmentions -->
+                        <p class="p-author author h-card vcard">
+                            <a href="../profile/tjones2.html" class="icon-container"><img
+                                    class="u-logo logo u-photo photo" src="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e"/></a>
+                            <a class="p-name fn u-url url" href="../profile/tjones2.html">Theo Jones</a>
+                            <a class="u-url" href="../profile/tjones2.html">
+                                <!-- This is here to force the hand of your MF2 parser --></a>
+                        </p>
+                    </div>
+                                        <div class="e-content entry-content">
+                        <div>
+                <h2 class="p-name"><a
+                    href="../2013/collapse-of-i-5-bridge-in-washington-shows-the-need-to.html">Collapse of I-5 Bridge in Washington Shows the Need to Improve Infrastructure</a>
+            </h2>
+                    <p class="reading">
+                <span class="vague">4 min read </span>
+            </p>
+            
+<p>The Interstate 5 bridge over the Skagit River in Washington state <a href="http://www.dailykos.com/story/2013/05/23/1211354/-I-5-bridge-over-Skagit-River-collapses-cars-with-people-in-water">collapsed last week</a> causing no deaths, but the collapse injured <a href="http://www.huffingtonpost.com/2013/05/24/washington-bridge-collapse_n_3331536.html">at least three people</a>. It is clear that the officials responsible for maintaining the bridge did not have the funding needed to keep the bridge system in good repair. This incident showcases the need for a massive, Works Progress Administration style push to repair our infrastructure.</p>
+
+<p>Before I go into what needs to be done with our infrastructure, let's first review what happened in Washington .As reported by KOMO.News, a local television station, a Washington Department of Transportation spokesperson <a href="http://www.komonews.com/news/local/Cars-bodies-in-Skagit-River-after-I-5-Bridge-collapse--208760201.html">was not aware when the bridge was last inspected</a>. Furthermore, the Federal Highway Administration classified the bridge as "functionally obsolete" because it had an outdated design that does not meet current standards for new bridge construction. From KOMO,</p>
+<blockquote>
+<p>Bart Treece with WDOT was unsure when the bridge was last inspected.  <br />"All of our bridges in the area are pretty old," he said.  <br />The bridge is not considered structurally deficient but is listed as being "functionally obsolete" - a category meaning that their design is outdated, such as having narrow shoulders are low clearance underneath, according to a database compiled by the Federal Highway Administration.</p>
+</blockquote>
+<p>There were other issues with the bridge and many others in the state.A 1992 federal report <a href="http://uglybridges.com/1589303">recommended that the I-5 bridge be replaced</a> at a cost of 8.3 million dollars. <a href="http://web.archive.org/web/20131029033245/%3Ca%20href=" http:>http:/<wbr></wbr>/<wbr></wbr>blogs.asce.org/<wbr></wbr>govrel/<wbr></wbr>2013/<wbr></wbr>05/<wbr></wbr>21/<wbr></wbr>washington-state-report-card-released-today/<wbr></wbr></a>"&gt;37 percent of the state's bridges have been in use for a time frame exceeding their designed lifespan. According to the Seattle Times,</p>
+<blockquote>
+<p>The bridge, built in 1955, has a sufficiency rating of 57.4 out of 100, according to federal records. That is well below the statewide average rating of 80, according to an Associated Press analysis of federal data, but 759 bridges in the state have a lower sufficiency score.</p>
+</blockquote>
+<p>The fact that the I-5 Bridge and many like it have not received needed maintenance shows the need for new investment in infrastructure. The government needs to commit o<a href="http://www.infrastructurereportcard.org/a/#p/bridges/investment-and-funding">ver 120 billion dollars</a> to fix our bridges. <a href="http://www.infrastructurereportcard.org/a/#p/bridges/overview">Budgets for future road repairs need</a> to be increased by 8 billion dollars per year. Despite the clear facts, politicians have done just the opposite.  As the graph I open my blog post with shows, spending on infrastructure has actually decreased during the ongoing recession.</p>
+
+<p>To supplement and complete infrastructure investment the federal government should enact a Works Progress Administration style jobs push. The government should pledge to hire anyone willing and able to work at minimum wage and put those hired to work on public projects, including infrastructure improvements.This program should continue even after unemployment is lowered to regular levels. A major push on infrastructure will create many jobs and many workers will be hired to complete the construction work. The current high level of unemployment shows that there is much surplus economic  capacity able to be put to work.</p>
+
+<p>In a depressed economy the United States government can increase spending without the need for increased taxation or other ill effects. The deficit is not a limiting factor for government investment. A country with its own, floating, non-convertable (a currency where the issuer does not pledge to convert currency for a commodity on demand) currency is not constrained in its government spending by absolute debt or deficit levels. The<a href="http://neweconomicperspectives.org/2012/01/mmp-blog-31-functional-finance-monetary.html"> only constraints on spending are the effects that the spending has on inflation, unemployment, demand</a> and other economic outcomes.</p>
+
+<p>Any complaints that the debt would be increased by infrastructure improvements are not grounds to let our roads and bridges rot. There are many needed infrastructure improvements. The government should start on them as soon as possible.</p>
+<p><a href="associatedpress.html" class="p-category" rel="tag">#associatedpress</a> <a href="federalhighwayadministration.html" class="p-category" rel="tag">#federalhighwayadministration</a> <a href="old.html" class="p-category" rel="tag">#old</a> <a href="old.html" class="p-category" rel="tag">#old</a> <a href="seattletimes.html" class="p-category" rel="tag">#seattletimes</a> <a href="uncategorized.html" class="p-category" rel="tag">#uncategorized</a> <a href="worksprogressadministration.html" class="p-category" rel="tag">#worksprogressadministration</a></p></div>                    </div>
+                    <div class="footer">
+                        
+        <div class="permalink">
+            <p>
+                <a href="../profile/tjones2.html">Theo Jones</a>published this
+                <a class="u-url url" href="../2013/collapse-of-i-5-bridge-in-washington-shows-the-need-to.html" rel="permalink"><time class="dt-published"
+                          datetime="2013-05-29T10:06:49+0000">29 May 2013</time></a>
+                                                                            </p>
+        </div>
+        <div class="interactions">
+	        <span class="annotate-icon">
+                        <a class="stars" href="../2013/collapse-of-i-5-bridge-in-washington-shows-the-need-to.html#comments"><i class="fa fa-star-o"></i> 0 stars</a></span>
+                   <span class="annotate-icon"> <a class="comments" href="../2013/collapse-of-i-5-bridge-in-washington-shows-the-need-to.html#comments"><i class="fa fa-comments"></i> 0 comments</a></span>
+            <a class="shares" href="../2013/collapse-of-i-5-bridge-in-washington-shows-the-need-to.html#comments"></a>
+            <a class="shares" href="../2013/collapse-of-i-5-bridge-in-washington-shows-the-need-to.html#comments"></a>
+        </div>
+        <br clear="all"/>
+                            </div>
+                </div>
+
+            </div>
+
+        
+        <div class="pager">
+            <ul>
+                                <li><a href="worksprogressadministration-offset=10.html" title="Older" rel="prev">Older &raquo;</a></li>            </ul>
+        </div>
+
+        <div class="blank-footer">
+    <div>
+        <p class="footer"><a href="https://withknown.com/?utm_source=footer&amp;utm_medium=installation" class="u-platform"><img src="../gfx/logos/logo_k.png" style="height: 1.5em"></a></p>
+    </div>
+</div>
+    </div>
+    <!-- /container -->
+
+        
+</div>
+<!-- Everything below this should be includes, not content -->
+
+<!-- Le javascript -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script
+    src="../external/jquery-timeago/jquery.timeago.js"></script>
+<script
+    src="../external/jquery-pjax/jquery.pjax.js"></script>
+<script src="../external/underscore/underscore-min.js"
+        type="text/javascript"></script>
+<!--<script src="https://www.theojones.name/external/mention/bootstrap-typeahead.js"
+        type="text/javascript"></script>
+<script src="https://www.theojones.name/external/mention/mention.js"
+        type="text/javascript"></script> -->
+
+
+<!-- Flexible media player -->
+<script
+    src="../external/mediaelement/build/mediaelement-and-player.min.js"></script>
+<link rel="stylesheet"
+      href="../external/mediaelement/build/mediaelementplayer.css"/>
+<!-- Video shim -->
+<script src="../external/fitvids/jquery.fitvids.min.js"></script>
+<!-- Mention styles -->
+<link rel="stylesheet" type="text/css"
+      href="../external/mention/recommended-styles.css">
+
+
+<!-- HTML5 form element support for legacy browsers -->
+<script src="../external/h5f/h5f.min.js"></script>
+
+<script>
+
+    function annotateContent() {
+        $(".h-entry").fitVids();
+        $("time.dt-published").timeago();
+    }
+
+    // Shim so that JS functions can get the current site URL
+    function wwwroot() {
+        return 'https://www.theojones.name/';
+    }
+
+    $(document).ready(function () {
+        $.timeago.settings.cutoff = 30 * 24 * 60 * 60 * 1000; // 1 month
+        annotateContent();
+    });
+
+    /**
+     * Handle Twitter tweet embedding
+     */
+    $(document).ready(function () {
+        $('div.twitter-embed').each(function (index) {
+            var url = $(this).attr('data-url');
+            var div = $(this);
+
+            $.ajax({
+                url: "https://api.twitter.com/1/statuses/oembed.json?url=" + url,
+                dataType: "jsonp",
+                success: function (data) {
+                    div.html(data['html']);
+                }
+            });
+        });
+
+        $('body').on('click', function (event, el) {
+            var clickTarget = event.target;
+
+            if (clickTarget.href && clickTarget.href.indexOf(window.location.origin) === -1) {
+                clickTarget.target = "_blank";
+            }
+        });
+    });
+
+    /**
+     * Handle Soundcloud oEmbed code
+     */
+    $(document).ready(function () {
+        $('div.soundcloud-embed').each(function (index) {
+            var url = $(this).attr('data-url');
+            var div = $(this);
+
+            $.getJSON('https://soundcloud.com/oembed?callback=?',
+                {
+                    format: 'js',
+                    url: url,
+                    iframe: true
+                },
+                function (data) {
+                    div.html(data['html']);
+                }
+            );
+        });
+    });
+
+    /**
+     * Better handle links in iOS web applications.
+     * This code (from the discussion here: https://gist.github.com/kylebarrow/1042026)
+     * will prevent internal links being opened up in safari when known is installed
+     * on an ios home screen.
+     */
+    (function (document, navigator, standalone) {
+        if ((standalone in navigator) && navigator[standalone]) {
+            var curnode, location = document.location, stop = /^(a|html)$/i;
+            document.addEventListener('click', function (e) {
+                curnode = e.target;
+                while (!(stop).test(curnode.nodeName)) {
+                    curnode = curnode.parentNode;
+                }
+                if ('href' in curnode && ( curnode.href.indexOf('http') || ~curnode.href.indexOf(location.host) ) && (!curnode.classList.contains('contentTypeButton'))) {
+                    e.preventDefault();
+                    location.href = curnode.href;
+                }
+            }, false);
+        }
+    })(document, window.navigator, 'standalone');
+
+</script>
+
+<script>
+    $('video').mediaelementplayer({
+        features: ['playpause','progress','current','tracks','volume','fullscreen'],
+        alwaysShowControls: false,
+        pauseOtherPlayers: true,
+        enableAutosize: false,
+        mediaWidth: -1,
+        mediaHeight: -1
+    });
+    $('audio').mediaelementplayer({
+        features: ['playpause','progress','current','tracks','volume','fullscreen'],
+        alwaysShowControls: false,
+        pauseOtherPlayers: true,
+        enableAutosize: false,
+        mediaWidth: -1,
+        mediaHeight: -1
+    });
+</script>
+<style>.known-media-element {
+        width: 100%;
+        height: 100%;
+    }
+</style><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+</body>
+
+
+</html>

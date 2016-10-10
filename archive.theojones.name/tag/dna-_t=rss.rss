@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Theo Jones</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/tag/dna</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/tag/dna?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>Mac Bashing</title>
+      <link>http://www.theojones.name/2014/mac-bashing</link>
+      <guid>http://www.theojones.name/2014/mac-bashing</guid>
+      <pubDate>Thu, 13 Feb 2014 20:52:47 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>It turns out that I have to use a piece of software that works best on a Mac. Time for a rant. Lets stroll over to Apple's <a href="http://www.apple.com/macbook-pro/performance-retina/">reasons to buy a Macbook</a> and start with the category that prompted today's flamage.<a href="http://www.theojones.name/wp-content/uploads/2015/07/appel-why-you-no-make-gaming-computer_o_1118168.jpg"><img class="alignright size-medium wp-image-2693" src="http://www.theojones.name/wp-content/uploads/2015/07/appel-why-you-no-make-gaming-computer_o_1118168-300x226.jpg" alt="appel-why-you-no-make-gaming-computer_o_1118168" width="300" height="226"></a></p>
+<blockquote><h3>Science and Engineering</h3></blockquote>
+<p>The reason why a simple GIS program completely flatted the crap hardware in a room full of Macbooks during one of my classes, while still somehow not leaving me on my Linux box guessing which fuzzy blur is supposed to be a medial morane, or the reason why my physics professor went on a rant about the b0rked output that Apple's word processor produces must be that Macs are so great at dealing with scientific data.</p>
+<blockquote>
+<p>From 3D molecular modeling and DNA imaging .... MacBook Pro lets you do things that once were possible only on a desktop computer</p>
+</blockquote>
+<p>Ah yes DNA imaging on a Mac, the garbage that inspired today’s rant. Watch that bioinformatics software crawl, watch it wither, watch it crash. Now lets go on to Apple's description of their</p>
+<!--more--><blockquote>
+<p>And now it’s even faster with the latest-generation Intel processors, high-performance graphics....</p>
+</blockquote>
+<p>That "high-performance graphics" is going to cost you.</p>
+<blockquote>
+<p>PCIe-based flash storage</p>
+</blockquote>
+<p>Apple is nice enough to use a hard drive type that is incompatible with every other laptop on the market. This helps them charge you the special Mac user price on your upgrades. Oh, and don't forget the soldered RAM that is not replaceable by the user. Some things haven't changed since the days of the old Macs that I remember using in elementary school.</p>
+
+<p>[caption id="attachment_1003" align="aligncenter" width="480"]<a href="http://cexx.org/snicker/macpix.htm"></a> Except for the monitor this is still as true now as it was in 1998. Via <a href="http://cexx.org"></a><a href="http://cexx.org">http:/<wbr></wbr>/<wbr></wbr>cexx.org</a>]</p>
+
+<p>Now lets visit the <a href="http://www.apple.com/osx/">Mac OS X page</a></p>
+<blockquote>
+<p>OS X is the operating system that powers every Mac. Built on a rock-solid UNIX foundation</p>
+</blockquote>
+<p>As far as I can tell the "UNIX foundation" in OS X consists of two things</p>
+<ol><li>Buying the rights to the UNIX trademark so Apple can call their crappy bloatware OS UNIX</li>
+    <li>Copying and pasting a bunch of code from operating systems that <em>actually</em> have a "rock-solid UNIX foundation" like Linux and BSD</li>
+</ol>
+<p>Apple doesn't obey the fundamental rules that guide the design of <em>real</em> UNIXes. These principles are famously summed up by Doug McIlroy as follows "This is the Unix philosophy: Write programs that do one thing and do it well. Write programs to work together. Write programs to handle text streams, because that is a universal interface."</p>
+
+<p>Instead of writing programs that do one thing and do it well, Apple prefers to write bloatware that does many things but none of it well. Instead of writing programs to work together and use text for input and output, Apple writes programs that output weird proprietary file formats, and that refuse to work with command line interfaces.</p>
+<blockquote>
+<p> it’s engineered to take full advantage of what the hardware is capable of.</p>
+</blockquote>
+<p>Hmm. Mac OS more seems built to burn through the RAM and run slow.</p>
+<blockquote>
+<p>And it’s designed to deliver the most intuitive and integrated computer experience in the world.</p>
+</blockquote>
+<p>I wonder if Apple should design their user interfaces in a way that actually allows people to get real work done instead of nerfing their OS into an "intuitive" environment for lusers who refuse to learn how their computer actually works.</p>
+<blockquote>
+<p>If you already use an iPhone or iPad, a Mac will feel instantly familiar.</p>
+</blockquote>
+<p>Sure. But I use my Ipad as an appliance for web browsing and other simple tasks. However, I expect to get real work done on my laptop.</p>
+<p><a href="http://www.theojones.name/tag/dna" class="p-category" rel="tag">#dna</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/os" class="p-category" rel="tag">#os</a> <a href="http://www.theojones.name/tag/ram" class="p-category" rel="tag">#ram</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a> <a href="http://www.theojones.name/tag/unix" class="p-category" rel="tag">#unix</a></p></div>]]></description>
+      <category>#dna</category>
+      <category>#old</category>
+      <category>#old</category>
+      <category>#os</category>
+      <category>#ram</category>
+      <category>#uncategorized</category>
+      <category>#unix</category>
+    </item>
+  </channel>
+</rss>

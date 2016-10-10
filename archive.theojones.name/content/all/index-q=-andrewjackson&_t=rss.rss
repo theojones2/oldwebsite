@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Theo Jones</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/content/all/?q=%23andrewjackson</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/content/all/?q=%23andrewjackson&amp;_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>http www thedailybeast com articles 2015 06 18...</title>
+      <link>http://www.theojones.name/2015/http-www-thedailybeast-com-articles-2015-06-18</link>
+      <guid>http://www.theojones.name/2015/http-www-thedailybeast-com-articles-2015-06-18</guid>
+      <pubDate>Sat, 20 Jun 2015 05:48:29 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p><a href="http://www.thedailybeast.com/articles/2015/06/18/ditch-jackson-keep-hamilton.html?via=FB_Page&source=HuffPoFacebook">http:/<wbr></wbr>/<wbr></wbr>www.thedailybeast.com/<wbr></wbr>articles/<wbr></wbr>2015/<wbr></wbr>06/<wbr></wbr>18/<wbr></wbr>ditch-jackson-keep-hamilton.html?via=FB_Page&source=HuffPoFacebook</a></p>
+<blockquote>
+<p>Soon after the Treasury’s plan to replace Alexander Hamilton with a woman on the $10 bill was leaked last night, Twitter erupted with queries as to why Hamilton was getting the boot instead of Andrew Jackson, who many have campaigned to replace on the $20 with a woman and/or member of a minority group.</p>
+
+<p>After all, Jackson owned slaves, slaughtered Native Americans, and detested banks, finance, and corporations. Hamilton, on the other hand, was a staunch abolitionist, helped found a school whose original mission was to assimilate Native Americans (today’s Hamilton College), and single-handedly placed the finances of the fledging nation on a solid footing.</p>
+</blockquote><p><a href="http://www.theojones.name/tag/alexanderhamilton" class="p-category" rel="tag">#alexanderhamilton</a> <a href="http://www.theojones.name/tag/andrewjackson" class="p-category" rel="tag">#andrewjackson</a> <a href="http://www.theojones.name/tag/nativeamericans" class="p-category" rel="tag">#nativeamericans</a> <a href="http://www.theojones.name/tag/link" class="p-category" rel="tag">#link</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#alexanderhamilton</category>
+      <category>#andrewjackson</category>
+      <category>#nativeamericans</category>
+      <category>#link</category>
+      <category>#uncategorized</category>
+    </item>
+  </channel>
+</rss>

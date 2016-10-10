@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Theo Jones</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/content/all/?q=%23rt</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/content/all/?q=%23rt&amp;_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>Why I am not trading in my iPad for a MS Surface</title>
+      <link>http://www.theojones.name/2013/why-i-am-not-trading-in-my-ipad-for-a</link>
+      <guid>http://www.theojones.name/2013/why-i-am-not-trading-in-my-ipad-for-a</guid>
+      <pubDate>Thu, 19 Sep 2013 22:29:58 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        <p>Microsoft has announced that they will give a <a href="http://www.geekwire.com/2013/microsoft-offering-350-gift-cards-nonmicrosoft-device/">350 dollar gift certificate</a> to anyone who trades in an Ipad. This effectively means a free Surface RT [1. See this refurb tablet on sale from Microsoft <a href="http://www.microsoftstore.com/store/msusa/en_US/pdp/Surface-RT-Refurbished/productID.275706600"></a><a href="http://www.microsoftstore.com/store/msusa/en_US/pdp/Surface-RT-Refurbished/productID.275706600">http:/<wbr></wbr>/<wbr></wbr>www.microsoftstore.com/<wbr></wbr>store/<wbr></wbr>msusa/<wbr></wbr>en_US/<wbr></wbr>pdp/<wbr></wbr>Surface-RT-Refurbished/<wbr></wbr>productID.275706600</a> ]. Needless to say, I will not be taking Microsoft up on this offer. The tablet that I currently use is an iPad. If I had to reccomend a new tablet it would probably be one running the Android OS. To convince me to switch, Microsoft does not just have to persuade me that they have a product that is as good as the competition. They must show me a reason why it is worth my effort to give up the apps I currently use and other investments in Apple's platform. They are nowhere near being able to do this.</p><!--more--><p>Microsoft has two distinct products under the surface banner. Their cheapest tablet, the Surface RT in in the same league as a iPad. The surface pro is pretty much a laptop. Neither products give much reason to recommend them. Microsoft's surface RT has failed to provide a reasonable alternative to their major competitors in the tablet market, namely Apple and Android. It it more expensive and has a weaker selection of software than Android tablets. Despite the RT's cost, Microsoft has not been able to create the community or support that make Apple products successful. The Surface Pro is underpowered and overpriced compared to other laptops in the market and Microsoft's Windows 8 operating system is a flop.</p><p>The surface RT <a href="http://www.microsoftstore.com/store/msusa/en_US/pdp/Surface-RT/productID.275275300">sells for </a>about 350 dollars (reduced from over $500), <a href="http://arstechnica.com/gadgets/2013/09/nvidia-unveils-the-tegra-note-brought-to-you-by-evga/">compared to 200</a> for a similar Android. It looks like an RT user gets almost nothing for this extra 150 dollars. The RT's hardware is lackluster and similar to lower priced Android tablets. <a href="http://www.microsoft.com/surface/en-us/storage">It has just 36 GB of storage</a>, over half of which is hogged by the operating system.Its battery life is also comprible to other tablets. The selection of applications available for the RT is much more limited than other tablets. <a href="http://reviews.cnet.com/tablets/microsoft-surface-rt/4505-3126_7-35332494.html">The Windows 8 app store is sparse </a>and because the RT is based on an ARM chipset normal Windows 8 software will not run on the RT. Microsoft seems to be trying to avoid discussion of this situation as the word "apps" appears exactly twice in the <a href="http://www.microsoft.com/surface/en-us">company's promotional website</a>.Apple's success in the tablet market to due to the company's ability to provide great customer support and present their products as the cool alternative. Microsoft can do nether.  </p><p>Microsoft's Surface Pro sells for $700. What does your money get you? 64 GB of hard drive space, 4 GB Ram and a 3rd generation Intel Core i5. There are much better laptops avaiable at that price range.</p><p><a href="http://www.theojones.name/tag/gb" class="p-category" rel="tag">#gb</a> <a href="http://www.theojones.name/tag/intelcore" class="p-category" rel="tag">#intelcore</a> <a href="http://www.theojones.name/tag/microsoftsurfacepro" class="p-category" rel="tag">#microsoftsurfacepro</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/rt" class="p-category" rel="tag">#rt</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#gb</category>
+      <category>#intelcore</category>
+      <category>#microsoftsurfacepro</category>
+      <category>#old</category>
+      <category>#old</category>
+      <category>#rt</category>
+      <category>#uncategorized</category>
+    </item>
+  </channel>
+</rss>

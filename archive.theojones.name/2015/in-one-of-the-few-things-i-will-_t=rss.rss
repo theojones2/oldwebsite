@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>In one of the few things I will...</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/2015/in-one-of-the-few-things-i-will</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/2015/in-one-of-the-few-things-i-will?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>In one of the few things I will...</title>
+      <link>http://www.theojones.name/2015/in-one-of-the-few-things-i-will</link>
+      <guid>http://www.theojones.name/2015/in-one-of-the-few-things-i-will</guid>
+      <pubDate>Sun, 21 Jun 2015 06:05:30 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>In one of the few things I will commend them for, Uber has a multi-people per car service in some cities "UberPool" <a href="https://get.uber.com/cl/uberpool/" rel="in-reply-to" class="u-in-reply-to">https:/<wbr></wbr>/<wbr></wbr>get.uber.com/<wbr></wbr>cl/<wbr></wbr>uberpool/<wbr></wbr></a><br />And its a good thing too because the share taxi/jitney is probably the most environmentally friendly form of transit around. If Uber can make such a thing common in the US I may forgive them for the other stuff.</p>
+<p><a href="http://www.theojones.name/tag/status" class="p-category" rel="tag">#status</a> <a href="http://www.theojones.name/tag/uber" class="p-category" rel="tag">#uber</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#status</category>
+      <category>#uber</category>
+      <category>#uncategorized</category>
+    </item>
+  </channel>
+</rss>

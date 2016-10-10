@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Here's a heads up. Sourceforge is now loading the opensource projects they host with malware</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/2015/heres-a-heads-up-sourceforge-is-now-loading-the-opensource</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/2015/heres-a-heads-up-sourceforge-is-now-loading-the-opensource?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>Here's a heads up. Sourceforge is now loading the opensource projects they host with malware</title>
+      <link>http://www.theojones.name/2015/heres-a-heads-up-sourceforge-is-now-loading-the-opensource</link>
+      <guid>http://www.theojones.name/2015/heres-a-heads-up-sourceforge-is-now-loading-the-opensource</guid>
+      <pubDate>Wed, 27 May 2015 22:32:41 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>Here's a heads up. Sourceforge is now loading the opensource projects they host with malware. DON'T download from there. They weren't hacked. They have been crapware pushing for a long time. Previously, they waited for developer permission, but now they are being more aggressive and hitting projects without permission. They claim that the projects affected, such as GIMP, were "abandoned" <a href="http://sourceforge.net/blog/gimp-win-project-wasnt-hijacked-just-abandoned/" rel="in-reply-to" class="u-in-reply-to">http:/<wbr></wbr>/<wbr></wbr>sourceforge.net/<wbr></wbr>blog/<wbr></wbr>gimp-win-project-wasnt-hijacked-just-abandoned/<wbr></wbr></a>  ; an excuse that is dubious at best.  Even if it were "abandoned" that's not an excuse to junk up  their binaries. And look at the junk they are bundling. Malware companies don't even try to come up with names that look legit. "Funnel Delivery", really? Sounds like something involved in Foie Gras production. A lot of older projects still use them, even though there are now better options around legacy projects started off using them as their main form of hosting. Its hard to switch something that big. (although Sourceforge has become scummy enough to make it worth it)<br /><a href="http://arstechnica.com/information-technology/2015/05/sourceforge-grabs-gimp-for-windows-account-wraps-installer-in-bundle-pushing-adware/" rel="in-reply-to" class="u-in-reply-to">http:/<wbr></wbr>/<wbr></wbr>arstechnica.com/<wbr></wbr>information-technology/<wbr></wbr>2015/<wbr></wbr>05/<wbr></wbr>sourceforge-grabs-gimp-for-windows-account-wraps-installer-in-bundle-pushing-adware/<wbr></wbr></a></p>
+<p><a href="http://www.theojones.name/tag/informationtechnology" class="p-category" rel="tag">#informationtechnology</a> <a href="http://www.theojones.name/tag/malware" class="p-category" rel="tag">#malware</a> <a href="http://www.theojones.name/tag/status" class="p-category" rel="tag">#status</a> <a href="http://www.theojones.name/tag/sourceforge" class="p-category" rel="tag">#sourceforge</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a> <a href="http://www.theojones.name/tag/windows" class="p-category" rel="tag">#windows</a></p></div>]]></description>
+      <category>#informationtechnology</category>
+      <category>#malware</category>
+      <category>#status</category>
+      <category>#sourceforge</category>
+      <category>#uncategorized</category>
+      <category>#windows</category>
+    </item>
+  </channel>
+</rss>

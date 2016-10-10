@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Theo Jones</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/content/all/?q=%23websitespeedtest</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/content/all/?q=%23websitespeedtest&amp;_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>Some Notes on System Administration Commands on Debian</title>
+      <link>http://www.theojones.name/2014/some-notes-on-system-administration-commands-on-debian</link>
+      <guid>http://www.theojones.name/2014/some-notes-on-system-administration-commands-on-debian</guid>
+      <pubDate>Tue, 12 Aug 2014 04:25:29 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        <p><strong>Restart Nginx</strong></p><p>/etc/init.d/nginx restart</p><p><strong>Website Speed Test</strong></p><p><a href="http://tools.pingdom.com/fpt/"></a><a href="http://tools.pingdom.com/fpt/">http:/<wbr></wbr>/<wbr></wbr>tools.pingdom.com/<wbr></wbr>fpt/<wbr></wbr></a></p><p><strong>GNU Screen Tutorial</strong> <br /><a href="https://www.linux.com/learn/tutorials/285795-taking-command-of-the-terminal-with-gnu-screen-"></a><a href="https://www.linux.com/learn/tutorials/285795-taking-command-of-the-terminal-with-gnu-screen-">https:/<wbr></wbr>/<wbr></wbr>www.linux.com/<wbr></wbr>learn/<wbr></wbr>tutorials/<wbr></wbr>285795-taking-command-of-the-terminal-with-gnu-screen-</a></p><blockquote>
+<p>For an easy reference, here's a list of the most common screen commands that you'll want to know. This isn't exhaustive, but it should be enough for most users to get started using screen happily for most use cases.</p>
+
+<p>Start Screen: screen  <br />Detatch Screen: Ctrl-a d  <br />Re-attach Screen: screen -x or screen -x PID  <br />Split Horizontally: Ctrl-a S  <br />Split Vertically: Ctrl-a |  <br />Move Between Windows: Ctrl-a Tab  <br />Name Session: Ctrl-a A  <br />Log Session: Ctrl-a H  <br />Note Session: Ctrl-a h</p>
+</blockquote><p><strong>MySql Config Wizard</strong> <br /><a href="https://tools.percona.com/wizard"></a><a href="https://tools.percona.com/wizard">https:/<wbr></wbr>/<wbr></wbr>tools.percona.com/<wbr></wbr>wizard</a></p><p><strong>MySQL Database Creation</strong> <br /><a href="http://www.debuntu.org/how-to-create-a-mysql-database-and-set-privileges-to-a-user/"></a><a href="http://www.debuntu.org/how-to-create-a-mysql-database-and-set-privileges-to-a-user/">http:/<wbr></wbr>/<wbr></wbr>www.debuntu.org/<wbr></wbr>how-to-create-a-mysql-database-and-set-privileges-to-a-user/<wbr></wbr></a></p><p>To login: <br />
+ mysql -u root -p
+To Create DB : <br />
+mysql&gt; create database exampledb; <br />
+Create User: <br />
+mysql&gt; grant usage on <em>.</em> to user@localhost identified by 'passwd'; <br />
+mysql&gt; grant all privileges on exampledb.* to user@localhost ;</p><p><a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/reattachscreen" class="p-category" rel="tag">#reattachscreen</a> <a href="http://www.theojones.name/tag/restartnginx" class="p-category" rel="tag">#restartnginx</a> <a href="http://www.theojones.name/tag/startscreen" class="p-category" rel="tag">#startscreen</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a> <a href="http://www.theojones.name/tag/websitespeedtest" class="p-category" rel="tag">#websitespeedtest</a></p></div>]]></description>
+      <category>#old</category>
+      <category>#old</category>
+      <category>#reattachscreen</category>
+      <category>#restartnginx</category>
+      <category>#startscreen</category>
+      <category>#uncategorized</category>
+      <category>#websitespeedtest</category>
+    </item>
+  </channel>
+</rss>

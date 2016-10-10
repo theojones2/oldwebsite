@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Theo Jones</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/content/all/?offset=50</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/content/all/?offset=50&amp;_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title/>
+      <link>http://osxdaily.com/2015/01/15/other-storage-space-mac-os-x/</link>
+      <guid>http://www.theojones.name/2015/what-the-other-storage-space-is-in-mac-os-x</guid>
+      <pubDate>Tue, 29 Sep 2015 03:22:03 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div class="known-bookmark">
+    <blockquote><p><span style="color: #303030; font-family: 'Helvetica Neue', Verdana, Helvetica, Tahoma, Arial, sans-serif; font-size: 15px; line-height: 26px;">Many Mac users check the About This Mac Storage tab to get a quick overview of their disk space usage, and many will see a rather large “Other” storage space taking up disk capacity on their drives. If this sounds familiar, it’s probably because iOS often has a rather large Other storage space, but that’s largely where the similarities end, and in OS X it’s much easier to track down exactly what “Other” is. This is basically because the Mac has a user accessible file system and system directories, where as those corresponding elements in iOS are largely hidden from the user.</span></p></blockquote></div>
+]]></description>
+      <category>#303030</category>
+    </item>
+    <item>
+      <title>Slim down your SSD with symbolic links | Macworld</title>
+      <link>http://www.macworld.com/article/2148490/slim-down-your-ssd-with-symbolic-links.html#tk.nl_mwdaily</link>
+      <guid>http://www.theojones.name/2015/slim-down-your-ssd-with-symbolic-links-macworld</guid>
+      <pubDate>Tue, 29 Sep 2015 03:20:32 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div class="known-bookmark">
+    <blockquote><p style="line-height: 1.7em; margin: 0px 0px .7em; color: #222222; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 16px;">Absolutely. There are a couple of ways you can go about this. If you find that a lot of the storage is being used by iPhoto and iTunes, you can simply shift their files over to the old hard drive and then point the apps to look there for their resources.</p><p style="line-height: 1.7em; margin: 0px 0px .7em; color: #222222; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px;">For iPhoto, copy the iPhoto Library archive from <em>youruserfolder</em>/Pictures to the old hard drive (where you copy it isn’t important). Then launch iPhoto while holding down the Option key. An iPhoto window will appear that lists any iPhoto Library archives you have as well as the path to the currently selected archive. Select the archive you moved and click <em>Choose</em>. (If you don’t see it in the list, click <em>Other Library</em>, navigate to it, and click <em>Open</em>.) You can now delete the original iPhoto Library archive. Whenever you work with iPhoto it will load and save images using this iPhoto Library archive.</p></blockquote></div>
+]]></description>
+      <category>#tk</category>
+      <category>#222222</category>
+      <category>#222222</category>
+    </item>
+    <item>
+      <title>[mac] (Archived) Where is the database file on OS X and can we change it? - Mac Help - Evernote User Forum</title>
+      <link>https://discussion.evernote.com/topic/35545-archived-where-is-the-database-file-on-os-x-and-can-we-change-it/</link>
+      <guid>http://www.theojones.name/2015/mac-archived-where-is-the-database-file-on-os-x</guid>
+      <pubDate>Tue, 29 Sep 2015 03:18:34 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div class="known-bookmark">
+    <blockquote><p style="margin: 0px; padding: 0px; color: #282828; font-family: helvetica, arial, sans-serif; line-height: 22px;">If you downloaded directly it's in user/library/application support/evernote</p><div style="margin: 0px; padding: 0px; font-family: Arial; font-size: medium;"><span style="color: #282828; font-family: helvetica, arial, sans-serif; font-size: 14px;">If you downloaded from the app store it's here </span><span style="color: #282828; font-family: helvetica, arial, sans-serif; font-size: 14px;">~/Library/Containers/com.evernote.Evernote</span></div><p style="margin: 0px; padding: 0px; color: #282828; font-family: helvetica, arial, sans-serif; line-height: 22px;">And, if you have an iMac with a fusion drive, it might be here</p><div style="margin: 0px; padding: 0px; font-family: Arial; font-size: medium;"><span style="color: #282828; font-family: helvetica, arial, sans-serif; font-size: 14px;">/Library/Containers/com.evernote.Evernote/Data/Library/Application Support/Evernote/account/<your username>/ </your></span></div><div style="margin: 0px; padding: 0px; font-family: Arial; font-size: medium;"> </div><div style="margin: 0px; padding: 0px; font-family: Arial; font-size: medium;"><span style="font-family: arial, helvetica, sans-serif;">It's not supported if you change it, but you can try if you understand aliasing.</span></div></blockquote></div>
+]]></description>
+      <category>#282828</category>
+      <category>#282828</category>
+      <category>#282828</category>
+      <category>#282828</category>
+      <category>#282828</category>
+    </item>
+    <item>
+      <title>Use WordPress as an Evernote replacement | Korbinus</title>
+      <link>http://korbinus.geotruc.net/blog/2013/02/use-wordpress-as-an-evernote-replacement/</link>
+      <guid>http://www.theojones.name/2015/use-wordpress-as-an-evernote-replacement-korbinus</guid>
+      <pubDate>Tue, 29 Sep 2015 03:09:30 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div class="known-bookmark">
+    
+<p>I am starting to use Known in a similar way.<br /><a href="http://korbinus.geotruc.net/blog/2013/02/use-wordpress-as-an-evernote-replacement/">http:/<wbr></wbr>/<wbr></wbr>korbinus.geotruc.net/<wbr></wbr>blog/<wbr></wbr>2013/<wbr></wbr>02/<wbr></wbr>use-wordpress-as-an-evernote-replacement/<wbr></wbr></a></p>
+<blockquote><p style="margin: 0px 0px 1.714285714rem; padding: 0px; border: 0px; vertical-align: baseline; line-height: 24px; color: #444444; font-family: 'Open Sans', Helvetica, Arial, sans-serif;">I discovered <a style="margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; outline: none; color: #9f9f9f;" title="go to Evernote" href="http://www.evernote.com/" target="_blank">Evernote</a> a few months ago. A lot of people are using it for saving all kinds of notes, pictures etc.  Obviously they are happy with it, and are writing and talking about it. I decided to give it a try and although I thought it was a nice service, I didn’t have much use of it, and I forgot about it.</p><p style="margin: 0px 0px 1.714285714rem; padding: 0px; border: 0px; vertical-align: baseline; line-height: 24px; color: #444444; font-family: 'Open Sans', Helvetica, Arial, sans-serif;">It’s only a few days ago that I that I thought it would be nice to have a central place where I can save all my notes, instead of having them in paper format or small files in different parts of my hard drive. A remote access would be nice to have too.</p><p style="margin: 0px 0px 1.714285714rem; padding: 0px; border: 0px; vertical-align: baseline; line-height: 24px; color: #444444; font-family: 'Open Sans', Helvetica, Arial, sans-serif;">So I thought again about Evernote a few days ago. I started to use it, and I liked the use of notebooks and tags for organizing the notes. But something bothered me: I didn’t own my data.</p></blockquote></div>
+]]></description>
+      <category>#444444</category>
+      <category>#9f9f9f</category>
+      <category>#444444</category>
+      <category>#444444</category>
+    </item>
+    <item>
+      <title>How to Hide Files and View Hidden Files on Mac OS X</title>
+      <link>http://www.howtogeek.com/211496/how-to-hide-files-and-view-hidden-files-on-mac-os-x/</link>
+      <guid>http://www.theojones.name/2015/how-to-hide-files-and-view-hidden-files-on-mac</guid>
+      <pubDate>Tue, 29 Sep 2015 01:59:57 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div class="known-bookmark">
+    <blockquote><p style="margin: 20px 0px; padding: 0px; color: #222222; line-height: 21px; font-family: '-apple-system', 'Open Sans', sans-serif; font-size: 15px;">Macs offer a way to hide files and folders, just like other operating systems. But Mac OS X hides these options and doesn’t make it <a style="color: #114491;" href="http://www.howtogeek.com/194671/how-to-hide-files-and-folders-on-every-operating-system/">as easy as it is on Windows and Linux</a>.</p><p style="margin: 20px 0px; padding: 0px; color: #222222; line-height: 21px; font-family: '-apple-system', 'Open Sans', sans-serif; font-size: 15px;">To hide a file or folder, you’ll need to set the “hidden” attribute for it. The Finder and other Mac apps will then ignore and not display this file or folder by default.</p></blockquote><p> </p></div>
+]]></description>
+      <category>#222222</category>
+      <category>#114491</category>
+      <category>#222222</category>
+    </item>
+    <item>
+      <title>"Facebook's parallel universe for journalists is just like Twitter"</title>
+      <link>http://thenextweb.com/facebook/2015/09/27/facebook-has-built-a-parallel-universe-for-journalists-and-its-just-like-twitter/</link>
+      <guid>http://www.theojones.name/2015/facebooks-parallel-universe-for-journalists-is-just-like-twitter</guid>
+      <pubDate>Mon, 28 Sep 2015 20:15:02 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div class="known-bookmark">
+    <blockquote><p><span style="color: #444444; font-family: 'ARS Maquette', 'Helvetica Neue', sans-serif; font-size: 15px; line-height: 24px;">Facebook has long been keen for more journalists to use their personal accounts like they do Twitter – to engage with followers, discuss their articles and hunt for information. The company hasn’t had much success on this front to date, but that may be starting to change. It’s built a ‘parallel universe’ for journalists to use with their personal accounts, and it’s just like Twitter.</span></p></blockquote><p><a href="http://thenextweb.com/facebook/2015/09/27/facebook-has-built-a-parallel-universe-for-journalists-and-its-just-like-twitter/">http:/<wbr></wbr>/<wbr></wbr>thenextweb.com/<wbr></wbr>facebook/<wbr></wbr>2015/<wbr></wbr>09/<wbr></wbr>27/<wbr></wbr>facebook-has-built-a-parallel-universe-for-journalists-and-its-just-like-twitter/<wbr></wbr></a></p></div>
+]]></description>
+      <category>#444444</category>
+    </item>
+    <item>
+      <title>Dealing With The Growing Toxicity Of American Politics Does Not Mean Centrism</title>
+      <link>http://www.theojones.name/2015/dealing-with-the-growing-toxicity-of-american-politics-does-not</link>
+      <guid>http://www.theojones.name/2015/dealing-with-the-growing-toxicity-of-american-politics-does-not</guid>
+      <pubDate>Mon, 28 Sep 2015 07:01:04 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        <div style="font-family: 'Helvetica Neue';">There are two ideas about what is wrong in American politics that, are often confused with each other</div><div style="font-family: 'Helvetica Neue';"><strong> </strong></div><div style="font-family: 'Helvetica Neue';"><strong>The toxicity problem</strong>— The idea that politics has become very divisive, partisan, and that this toxicity is beginning to undermine shared goals and values. This issues is roughly symmetrical on both sides of American politics. Furthermore, this is worse than in the recent past. There are a few sub-issues with in this that I identify</div><ul style="font-family: 'Helvetica Neue';"><li>Partisanship </li>
+<li>Irreason (science denials, the inability for people to challenge wrong/disingenuous arguments from their own side) </li>
+<li>The inability to admit uncertainty in one’s beliefs </li>
+<li>The growth of political media outlets — (Fox News, social media, talk radio etc.) </li>
+<li>Attacks on important shared values like civil liberties, due process, and freedom of speech.</li>
+<li>The end of bipartisan cooperation to meet shared goals</li>
+<li>The increasing inability to separate personal, non-political life from politics </li>
+<li>Overconfidence — over estimating the probability that one’s ideas are correct</li>
+</ul><div style="font-family: 'Helvetica Neue';"><strong>The centrism solution </strong>— The idea that the ideas promoted by both sides of American politics are extreme, and the optimal set of policies is roughly in-between the two extremes. </div><div style="font-family: 'Helvetica Neue';"> </div><div style="font-family: 'Helvetica Neue';">I believe that the increasing toxicity of American politics is a major problem for the country. However, centrism is not the solution to it. The ultimate issue with the current American political situation is the <em>way</em> that political issues are being resolved. It is the political culture where the other side is viewed as the enemy. A threat to be countered before it destroys the real americans. It is the political culture that considers a “safe place” as one in which the other side is not present. It is the red tribe versus blue tribe politics. However, this is not nessarily an issue with the particular policies being promoted. It does not mean that the correct policy is halfway in-between those favored by the typical democrat and those favored by the typical republican. In many cases one side is wrong, and one side is right. Either action needs to be taken on climate change or it does not. The half-way centrist solution may very well be the worse of all options — one that neither side desires, and one that does just enough to incur a lot of costs but not enough to actually fix the climate change issue (think of the introduction of biofuels as a real world example of this). Either gay marriage should be legal or it shouldn’t, and any attempts at half way policies (such as civil unions) are unsatisfactory at best. Either the minimum wage produces dangerous disemployment effects or it doesn’t. And so on. </div><div style="font-family: 'Helvetica Neue';"> </div><p> </p><div style="font-family: 'Helvetica Neue';">Now, the centrism-as-the-solution idea seems intuitive for a simple reason — in an highly toxic political climate , people will reject the good with the bad from the other side. The mere fact that an idea comes from the other side of the political spectrum (or even attains an association with it) becomes sufficient reason to reject it. The behavior and ideas of one side are given favoritism compared to the ideas from the other side. This may give one the idea that the middle is where the solution can be found. But even though some good conservative ideas may be rejected by liberals and some good liberal ideas may be rejected by conservatives , this does not mean that the correct choice for each issue is the middle. It means that liberals and conservatives should pay attention to each others’ ideas. </div><div style="font-family: 'Helvetica Neue';"> </div><div style="font-family: 'Helvetica Neue';"><a href="http://www.theojones.name/tag/politics" class="p-category" rel="tag">#politics</a><a href="http://www.theojones.name/tag/centrism" class="p-category" rel="tag">#centrism</a><strong> </strong></div></div>]]></description>
+      <category>#politics</category>
+      <category>#centrism</category>
+    </item>
+    <item>
+      <title>A link on the John Boehner story. It looks like we will hear some of his real opinions about the rest of  the GOP.</title>
+      <link>http://www.theojones.name/2015/a-link-on-the-john-boehner-story-it-looks-like</link>
+      <guid>http://www.theojones.name/2015/a-link-on-the-john-boehner-story-it-looks-like</guid>
+      <pubDate>Sun, 27 Sep 2015 22:59:18 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div class="">
+    <p class="p-name">A link on the John Boehner story. It looks like we will hear some of his real opinions about the rest of  the GOP. <br />
+<a href="http://www.rawstory.com/2015/09/john-boehner-rips-false-prophet-ted-cruz-for-spreading-noise-every-time-he-doesnt-get-his-way/" >http:/<wbr />/<wbr />www.rawstory.com/<wbr />2015/<wbr />09/<wbr />john-boehner-rips-false-prophet-ted-cruz-for-spreading-noise-every-time-he-doesnt-get-his-way/<wbr /></a><br />
+"John Boehner rips ‘false prophet’ Ted Cruz for ‘spreading noise’ every time he doesn’t get his way"<br />
+<br />
+</p>
+</div>
+]]></description>
+    </item>
+    <item>
+      <title>http://www.washingtonpost.com/business/economy/fiorinas-record-at-hp-defines-her-candidacy--which-could-be-a-problem/2015/09/26/5a5b5e16-6174-11e5-8e9e-dce8a2a2a679_story.html&#xD;
+"Now a rising star in the race for the Republican presidential nomination, Fiorina, 61, has pointed to her leadership of the printer and computer giant</title>
+      <link>http://www.theojones.name/2015/businesseconomyfiorinas-record-at-hp-defines-her-candidacy--which-could-be-a-problem201509265a5b5e16-6174-11e5-8e9e-dce8a2a2a679_storyhtmlnow-a-rising-star-in-the-race-for-the-republican</link>
+      <guid>http://www.theojones.name/2015/businesseconomyfiorinas-record-at-hp-defines-her-candidacy--which-could-be-a-problem201509265a5b5e16-6174-11e5-8e9e-dce8a2a2a679_storyhtmlnow-a-rising-star-in-the-race-for-the-republican</guid>
+      <pubDate>Sun, 27 Sep 2015 22:37:37 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div class="">
+    <p class="p-name"><a href="http://www.washingtonpost.com/business/economy/fiorinas-record-at-hp-defines-her-candidacy--which-could-be-a-problem/2015/09/26/5a5b5e16-6174-11e5-8e9e-dce8a2a2a679_story.html" >http:/<wbr />/<wbr />www.washingtonpost.com/<wbr />business/<wbr />economy/<wbr />fiorinas-record-at-hp-defines-her-candidacy--which-could-be-a-problem/<wbr />2015/<wbr />09/<wbr />26/<wbr />5a5b5e16-6174-11e5-8e9e-dce8a2a2a679_story.html</a><br />
+"Now a rising star in the race for the Republican presidential nomination, Fiorina, 61, has pointed to her leadership of the printer and computer giant to showcase her corporate savvy and courage under fire. She has blamed the dot-com bust, sexism and an ineffective board of directors for helping sink what was then a global juggernaut.<br />
+<br />
+But in interviews with more than two dozen former HP senior directors and employees, many remember Fiorina’s legacy as troubling and divisive: A high-energy marketer, she nevertheless failed to deliver on lofty promises, alienated her workforce and presided over a disastrous reign at what was once a Silicon Valley pioneer."</p>
+</div>
+]]></description>
+    </item>
+    <item>
+      <title>The Unusually Toxic Nature of Social Issues </title>
+      <link>http://www.theojones.name/2015/the-unusually-toxic-nature-of-social-issues</link>
+      <guid>http://www.theojones.name/2015/the-unusually-toxic-nature-of-social-issues</guid>
+      <pubDate>Sun, 27 Sep 2015 22:06:39 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        <p>Speaker of the House John Boehner resigned earlier this week, <a href="http://www.forbes.com/sites/dandiamond/2015/09/25/planned-parenthood-fight-costs-john-boehner-his-job/">in part due to the fight over funding for Planned Parenthood</a>.  Incidents like this show something that is fairly obvious to most people, that social issues are among the most persistently toxic issues. But why should abortion, gay marriage, and such be so at the core of U.S politics. Why should they be major litmus tests for both parties? By any reasonable measure these issues are pretty low impact for the level of attention they receive. By impact, they certanily aren’t as important as immigration, climate change, poverty, or other issues that have a very large effect on over all social well being. But there is a dearth of individuals writing flameage about urban planning on social media, nor are there government shutdowns about that topic, despite the fact that urban planning policy probably has a <a href="http://faculty.chicagobooth.edu/chang-tai.hsieh/research/growth.pdf">much larger impact on the over-all wellbeing of the typical person </a></p><p>So, why do social issues produce the toxicity that they do? I have a few ideas</p><ul><li>The zero sum nature of them. A loss for one side is a gain for the other. Allowing gay marriage is a victory for those who want gay marriage but a loss those who don’t want it. Defunding Planned Parenthood means a rather direct loss for people who want to keep abortion services available, but it is a rather direct win for those opposed to abortion (ignoring indirect effects of contraceptive avaiability on the number of abortions).</li>
+<li>The incommensurability of moral systems. The ethical assumptions that underlie one side <em>make no sense</em> from the other side. From the perspective of a supporter of abortion availability, the arguments of the other side seem like at best mindless superstition, and at worst outright sexism. From the perspective on an abortion opponent the other side seems like a villan from a James Bond movie. Likewise with gay marriage, the “family values” that conservatives are interested in promoting have close to no value to liberals.  This probably by its self produces a lot of the inability for the different sides to deal with each other -- they begin to perceive each other as downright evil. </li>
+<li>The role of religion. The U.S is one of the few countries where religion is important enough to have a major political role, but not so powerful to totally dominate politics. This creates the clashes over social issues, as the U.S is really in a transitional point between religion and secularism. The importance of this is obvious from the conservative side, but I think there is a more subtle role here in the politics of the left. A lot of the social justice activism that plays out on social media, and on college campuses, seems to me like a secular substitute for religion — a replacement for its role in society. This would also explain a lot of the uniquely American aspects of these issues.  </li>
+<li>The clearly disengenious nature of many of the arguements fronted on these issues. </li>
+</ul><p><a href="http://www.theojones.name/tag/SocialIssues" class="p-category" rel="tag">#SocialIssues</a> <a href="http://www.theojones.name/tag/PlannedParenthood" class="p-category" rel="tag">#PlannedParenthood</a> <a href="http://www.theojones.name/tag/Abortion" class="p-category" rel="tag">#Abortion</a> <a href="http://www.theojones.name/tag/GayMarrage" class="p-category" rel="tag">#GayMarrage</a> <a href="http://www.theojones.name/tag/JohnBoehner" class="p-category" rel="tag">#JohnBoehner</a> <a href="http://www.theojones.name/tag/Politics" class="p-category" rel="tag">#Politics</a></p></div>]]></description>
+      <category>#SocialIssues</category>
+      <category>#PlannedParenthood</category>
+      <category>#Abortion</category>
+      <category>#GayMarrage</category>
+      <category>#JohnBoehner</category>
+      <category>#Politics</category>
+    </item>
+  </channel>
+</rss>

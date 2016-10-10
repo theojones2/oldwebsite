@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Crypto Currencies</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/2014/crypto-currencies</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/2014/crypto-currencies?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>Crypto Currencies</title>
+      <link>http://www.theojones.name/2014/crypto-currencies</link>
+      <guid>http://www.theojones.name/2014/crypto-currencies</guid>
+      <pubDate>Wed, 19 Feb 2014 11:05:26 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        <ol><li>Produce a distributed hash table (CAN?)</li>
+    <li>Each member of the table should be one unit of the currency. The key of this unit can be anything that is not taken by another node.</li>
+    <li>The value should consist of two items. The first should be a partial hash collision of the key. The second should be the public key of the owner of the digital coin.</li>
+    <li>The coins can be transferred by sending the nodes a message signed by the private key stored in the node, and containing the new public key.</li>
+</ol><p><a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#old</category>
+      <category>#old</category>
+      <category>#uncategorized</category>
+    </item>
+  </channel>
+</rss>

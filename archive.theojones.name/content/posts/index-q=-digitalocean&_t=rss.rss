@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Theo Jones</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/content/posts/?q=%23digitalocean</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/content/posts/?q=%23digitalocean&amp;_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>New Server Installation/ New Blogging Engine / Web and Mail on Ubuntu</title>
+      <link>http://www.theojones.name/2014/new-server-installation-new-blogging-engine-web-and-mail-on</link>
+      <guid>http://www.theojones.name/2014/new-server-installation-new-blogging-engine-web-and-mail-on</guid>
+      <pubDate>Thu, 14 Aug 2014 11:33:53 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>As you have have noticed from some of the recent posts, and the bit of downtime I have done some reconfiguration of this website. I switched the blog engine from wordpress to ghost. I have also switched from Debian to Ubuntu (and made a few other changes). Some details about the new config are as follows. The new setup is based on the ghost image from Digital Ocean (the host of the VPS that this website runs on). I will discuss why I made this change later.</p>
+
+<p>[caption id="attachment_1318" align="alignright" width="226"]<a href="http://www.theojones.name/wp-content/uploads/2014/12/31436961_33399f4066_o.jpg"><img class="size-medium wp-image-1318" src="http://www.theojones.name/wp-content/uploads/2014/12/31436961_33399f4066_o-226x300.jpg" alt="Image Via Flickr (user sylvar) &lt;a href=" https:>https:/<wbr></wbr>/<wbr></wbr>flic.kr/<wbr></wbr>p/<wbr></wbr>3M87z</a>" width="226" height="300" /&gt; Image Via Flickr (user sylvar) <a href="https://flic.kr/p/3M87z%5B/caption%5D">https:/<wbr></wbr>/<wbr></wbr>flic.kr/<wbr></wbr>p/<wbr></wbr>3M87z[/<wbr></wbr>caption]</a></p>
+
+<p>I use the mosh remote connection system rather than Openssh to remotely manage the server. The instructions <a href="http://mosh.mit.edu/">available on the Mosh website</a> work well for this installation.</p>
+
+<p>Mosh<br />$ sudo apt-get install python-software-properties</p>
+
+<p>$ sudo add-apt-repository ppa:keithw/mosh</p>
+
+<p>$ sudo apt-get update</p>
+
+<p>$ sudo apt-get install mosh</p>
+
+<p><a href="http://www.linuxscrew.com/2012/04/11/why-mosh-is-better-than-ssh/">Mosh has multiple clear benefits.</a> 1) it handles special sequences like control-c better than ssh (i.e it dosn't wait for the current task to finish), 2) it can handle network disconnects and IP address changes, 3)its executable runs as a normal user, minimizing security issues, and 4) it handles lagged terminals better. It is worth noting that Mosh is not a complete replacement for SSH, it still uses SSH for authentication.</p>
+
+<p>Using mosh from the client side is simple.</p>
+
+<p>$mosh root@server</p>
+
+<p>It may be a good idea to swap OpenSSH for the lighter weight dropbear if you don't use Mosh.Install Dropbear</p>
+
+<p>$ apt-get install dropbear</p>
+
+<p>Edit<br />/etc/default/dropbear</p>
+
+<p>Set <em>NO_START=0 </em><br />This option makes dropbear run on boot.</p>
+
+<p>Also set <em>DROPBEAR<em>EXTRA</em>ARGS="-a"</em>.</p>
+
+<p>If you installed dropbear remove the openssh server if it is present.</p>
+
+<p>$ apt-get remove openssh-server</p>
+
+<p>Reboot.</p>
+
+<p>You may want to create a non-root user at this point. This has some security advantages (mostly in the case of multi user systems). You can see some articles on this as follows<br /><a href="http://security.stackexchange.com/questions/34915/what-is-the-actual-value-of-disabling-remote-root-login-using-ssh"></a><a href="http://security.stackexchange.com/questions/34915/what-is-the-actual-value-of-disabling-remote-root-login-using-ssh">http:/<wbr></wbr>/<wbr></wbr>security.stackexchange.com/<wbr></wbr>questions/<wbr></wbr>34915/<wbr></wbr>what-is-the-actual-value-of-disabling-remote-root-login-using-ssh</a><br /><a href="https://linuxacademy.com/blog/linux/when-you-should-and-should-not-disable-root-login/"></a><a href="https://linuxacademy.com/blog/linux/when-you-should-and-should-not-disable-root-login/">https:/<wbr></wbr>/<wbr></wbr>linuxacademy.com/<wbr></wbr>blog/<wbr></wbr>linux/<wbr></wbr>when-you-should-and-should-not-disable-root-login/<wbr></wbr></a></p>
+
+<p>It can be done as the following:<br />useradd theo</p>
+
+<p>I use the UFW firewall. Two good articles on this are as follows.</p>
+
+<p><a href="https://www.digitalocean.com/community/tutorials/how-to-setup-a-firewall-with-ufw-on-an-ubuntu-and-debian-cloud-server"></a><a href="https://www.digitalocean.com/community/tutorials/how-to-setup-a-firewall-with-ufw-on-an-ubuntu-and-debian-cloud-server">https:/<wbr></wbr>/<wbr></wbr>www.digitalocean.com/<wbr></wbr>community/<wbr></wbr>tutorials/<wbr></wbr>how-to-setup-a-firewall-with-ufw-on-an-ubuntu-and-debian-cloud-server</a><br /><a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-use-mosh-on-a-vps"></a><a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-use-mosh-on-a-vps">https:/<wbr></wbr>/<wbr></wbr>www.digitalocean.com/<wbr></wbr>community/<wbr></wbr>tutorials/<wbr></wbr>how-to-install-and-use-mosh-on-a-vps</a></p>
+
+<p>Here is a summary of what I did.<br />$apt-get install ufw</p>
+
+<p>The above command installs UFW. This is often installed by defauly</p>
+
+<p>$ ufw allow 22</p>
+
+<p>The above command allows ssh to pass through the firewall.</p>
+
+<p>$ufw allow 60000:61000/udp</p>
+
+<p>The above command allows mosh to pass through.</p>
+
+<p>Edit /etc/default/ufw and adjust ipv6 settings</p>
+
+<p>The following two commands sets all defaults to deny, for both outgoing and incoming traffic<br />$sudo ufw default deny incoming</p>
+
+<p>$sudo ufw default deny outgoing</p>
+
+<p>Start UFW</p>
+
+<p>sudo ufw disable --- just in case its on<br />sudo ufw enable</p>
+
+<p>ufw allow out 53</p>
+
+<p>The above allows outgoing DNS traffic</p>
+
+<p>ufw allow http --- web<br />ufw allow out http<br />ufw allow https --- web over ssl<br />ufw allow out https</p>
+
+<p>ufw allow smtp -- to send/receive email<br />ufw allow out smtp</p>
+
+<p>ufw allow imap -- pick up email</p>
+
+<p>I poked around with an alternate setup for a LEMP Stack. Here are some notes<br /><a href="https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-on-ubuntu-14-04"></a><a href="https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-on-ubuntu-14-04">https:/<wbr></wbr>/<wbr></wbr>www.digitalocean.com/<wbr></wbr>community/<wbr></wbr>tutorials/<wbr></wbr>how-to-install-linux-nginx-mysql-php-lemp-stack-on-ubuntu-14-04</a></p>
+
+<p>apt-get update && apt-get upgrade</p>
+
+<p>apt-get install nginx</p>
+
+<p>apt-get install mysql-server<br />mysql_install_db<br />mysql_secure_installation --- run through the wizard</p>
+
+<p>apt-get install php5-fpm php5-mysql</p>
+
+<p>Configure PHP<br />nano /etc/php5/fpm/php.ini</p>
+
+<p>set<br />cgi.fix_pathinfo=0</p>
+
+<p>edit /etc/nginx/nginx.conf</p>
+
+<p>under http add<br />fastcgi_buffers 8 16k;<br />fastcgi_buffer_size 32k;</p>
+
+<p>Set NGINx config<br />See notes</p>
+
+<p>Automatic updates<br /><a href="http://www.richud.com/wiki/Ubuntu">http:/<wbr></wbr>/<wbr></wbr>www.richud.com/<wbr></wbr>wiki/<wbr></wbr>Ubuntu</a><em>Enable</em>Automatic_Updates<br /><a href="https://help.ubuntu.com/14.04/serverguide/automatic-updates.html"></a><a href="https://help.ubuntu.com/14.04/serverguide/automatic-updates.html">https:/<wbr></wbr>/<wbr></wbr>help.ubuntu.com/<wbr></wbr>14.04/<wbr></wbr>serverguide/<wbr></wbr>automatic-updates.html</a><br />apt-get install unattended-upgrades<br />edit /etc/apt/apt.conf.d/50unattended-upgrades</p>
+
+<p>At the very least enable security updates (should be enabled by default)<br />uncomment the "${distro<em>id}:${distro</em>codename}-updates"; line to enable other updates.</p>
+
+<p>edit /etc/apt/apt.conf.d/10periodic<br />set<br />APT::Periodic::Update-Package-Lists "1";<br />APT::Periodic::Download-Upgradeable-Packages "1";<br />APT::Periodic::AutocleanInterval "7";<br />APT::Periodic::Unattended-Upgrade "1";</p>
+
+<p>Email<br /><a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-a-postfix-e-mail-server-with-dovecot"></a><a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-a-postfix-e-mail-server-with-dovecot">https:/<wbr></wbr>/<wbr></wbr>www.digitalocean.com/<wbr></wbr>community/<wbr></wbr>tutorials/<wbr></wbr>how-to-set-up-a-postfix-e-mail-server-with-dovecot</a><br />sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/mail.key -out /etc/ssl/certs/mailcert.pem<br />sudo openssl req -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/mail.key -out mailcert.csr</p>
+
+<p>aptitude remove exim4 && aptitude install postfix && postfix stop<br />Install as internet site and follow wizard (although config will be cleared)<br />Edit<br />/etc/postfix/master.cf</p>
+
+<p>set<br />submission inet n - - - - smtpd<br />-o syslog<em>name=postfix/submission<br />-o smtpd</em>tls<em>wrappermode=no<br />-o smtpd</em>tls<em>security</em>level=encrypt<br />-o smtpd<em>sasl</em>auth<em>enable=yes<br />-o smtpd</em>recipient<em>restrictions=permit</em>mynetworks,permit<em>sasl</em>authenticated,reject<br />-o milter<em>macro</em>daemon<em>name=ORIGINATING<br />-o smtpd</em>sasl<em>type=dovecot<br />-o smtpd</em>sasl_path=private/auth</p>
+
+<p>wipe main.cf (copy it to a new folder if nesarry)<br />cp /etc/postfix/main.cf /etc/postfix/main.cf.orig<br />rm /etc/postfix/main.cf</p>
+
+<p>Set<br />myhostname = mail.domain.com<br />myorigin = /etc/mailname<br />mydestination = mail.domain.com, domain.com, localhost, localhost.localdomain<br />relayhost =<br />mynetworks = 127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128<br />mailbox_size_limit = 0<br />recipient<em>delimiter = +<br />inet</em>interfaces = all<br />alias<em>maps = hash:/etc/aliases<br />alias</em>database = hash:/etc/aliases<br />smtpd_tls_cert_file=/etc/ssl/certs/mailcert.pem<br />smtpd_tls_key_file=/etc/ssl/private/mail.key<br />smtpd_use_tls=yes<br />smtpd_tls_session_cache_database = btree:${data<em>directory}/smtpd</em>scache<br />smtp_tls_session_cache_database = btree:${data<em>directory}/smtp</em>scache<br />smtpd_tls_security_level=may<br />smtpd_tls_protocols = !SSLv2, !SSLv3<br />local_recipient_maps = proxy:unix:passwd.byname $alias_maps</p>
+
+<p>edit /etc/aliases and set the file's content as the following<br />mailer-daemon: postmaster<br />postmaster: root<br />nobody: root<br />hostmaster: root<br />usenet: root<br />news: root<br />webmaster: root<br />www: root<br />ftp: root<br />abuse: root<br />root: theo</p>
+
+<p>newaliases</p>
+
+<p>aptitude install dovecot-core dovecot-imapd</p>
+
+<p>clear /etc/dovecot/dovecot.conf<br />rm /etc/dovecot/dovecot.conf</p>
+
+<p>create /etc/dovecot/dovecot.conf<br />disable_plaintext_auth = no<br />mail_privileged_group = mail<br />mail<em>location = mbox:~/mail:INBOX=/var/mail/%u<br />userdb {<br />driver = passwd<br />}<br />passdb {<br />args = %s<br />driver = pam<br />}<br />protocols = " imap"<br />protocol imap {<br />mail</em>plugins = " autocreate"<br />}<br />plugin {<br />autocreate = Trash<br />autocreate2 = Sent<br />autosubscribe = Trash<br />autosubscribe2 = Sent<br />}<br />service auth {<br />unix<em>listener /var/spool/postfix/private/auth {<br />group = postfix<br />mode = 0660<br />user = postfix<br />}<br />}<br />ssl=required<br />ssl</em>cert =<a href="http://www.theojones.name/tag/digitalocean" class="p-category" rel="tag">#digitalocean</a> <a href="http://www.theojones.name/tag/installdropbear" class="p-category" rel="tag">#installdropbear</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/ssh" class="p-category" rel="tag">#ssh</a> <a href="http://www.theojones.name/tag/ufw" class="p-category" rel="tag">#ufw</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p>
+</div>]]></description>
+      <category>#digitalocean</category>
+      <category>#installdropbear</category>
+      <category>#old</category>
+      <category>#old</category>
+      <category>#ssh</category>
+      <category>#ufw</category>
+      <category>#uncategorized</category>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Theo Jones</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/content/all/?q=%23cbs</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/content/all/?q=%23cbs&amp;_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>Data Brokers and Epsilon</title>
+      <link>http://www.theojones.name/2014/data-brokers-and-epsilon</link>
+      <guid>http://www.theojones.name/2014/data-brokers-and-epsilon</guid>
+      <pubDate>Mon, 25 Aug 2014 00:37:50 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>Today the CBS 60 Minutes program aired a segment on "data brokers" like Epsilon. The CEO of that company was interviewed on that show and highlighted the firm's openness and noted that consumers can request a "summary" of the data that they have on consumers. What was not noted in that segment is that this request can only be made by snail-mail (odd for a tech company, the form can be found here <a href="http://www.epsilon.com/consumer-info/marketing-data-summary-request"></a><a href="http://www.epsilon.com/consumer-info/marketing-data-summary-request">http:/<wbr></wbr>/<wbr></wbr>www.epsilon.com/<wbr></wbr>consumer-info/<wbr></wbr>marketing-data-summary-request</a>). Also, they need a voided check.It seems they are trying to</p>
+
+<p>[caption id="attachment_1325" align="alignright" width="300"]<a href="http://www.theojones.name/wp-content/uploads/2014/08/9663345203_959c0b91c6_o-1.jpg"><img class="size-medium wp-image-1325" src="http://www.theojones.name/wp-content/uploads/2014/08/9663345203_959c0b91c6_o-1-300x225.jpg" alt="Image via flickr (user Intel Free Press) &lt;a href=" https:>https:/<wbr></wbr>/<wbr></wbr>flic.kr/<wbr></wbr>p/<wbr></wbr>fHVaS4</a>" width="300" height="225" /&gt; Image via flickr (user Intel Free Press) <a href="https://flic.kr/p/fHVaS4%5B/caption%5D">https:/<wbr></wbr>/<wbr></wbr>flic.kr/<wbr></wbr>p/<wbr></wbr>fHVaS4[/<wbr></wbr>caption]</a></p>
+
+<p>make this process as difficult as possible. I am going to mail this request tomorrow to see what I get back.</p>
+
+<p>Here is their excuse for it</p>
+<blockquote>
+<p>The mail process is designed to ensure security and to verify identity. Since we are matching your name and address to our database, we can be confident that we are mailing your information to you.</p>
+</blockquote>
+<p>A justification for an obtuse process based on privacy rings a bit hollow for this company. I mean, they are selling my information.</p>
+<blockquote>
+<p>In addition, by conducting this process through the mail, we believe that more consumers will have an opportunity to make a/this Marketing Data Summary request. Some consumers may not feel comfortable using other methods to verify their identity on the internet. We believe that conducting this process through the mail allows the greatest number of consumers access to their reports.</p>
+</blockquote>
+<p>This does not explain why snail-mail is the <em>only</em> method.</p>
+<p><a href="http://www.theojones.name/tag/cbs" class="p-category" rel="tag">#cbs</a> <a href="http://www.theojones.name/tag/intelfreepress" class="p-category" rel="tag">#intelfreepress</a> <a href="http://www.theojones.name/tag/marketingdatasummary" class="p-category" rel="tag">#marketingdatasummary</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#cbs</category>
+      <category>#intelfreepress</category>
+      <category>#marketingdatasummary</category>
+      <category>#old</category>
+      <category>#old</category>
+      <category>#uncategorized</category>
+    </item>
+  </channel>
+</rss>

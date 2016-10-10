@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Large font sizes are better for your blog...</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/2015/large-font-sizes-are-better-for-your-blog</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/2015/large-font-sizes-are-better-for-your-blog?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>Large font sizes are better for your blog...</title>
+      <link>http://www.theojones.name/2015/large-font-sizes-are-better-for-your-blog</link>
+      <guid>http://www.theojones.name/2015/large-font-sizes-are-better-for-your-blog</guid>
+      <pubDate>Sun, 21 Jun 2015 02:34:44 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>Large font sizes are better for your blog. I've revised the formatting in this website along the lines suggested here</p>
+
+<p><a href="http://chrislema.com/what-is-the-right-font-size-for-your-blog/" rel="in-reply-to" class="u-in-reply-to">http:/<wbr></wbr>/<wbr></wbr>chrislema.com/<wbr></wbr>what-is-the-right-font-size-for-your-blog/<wbr></wbr></a></p>
+<p><a href="http://www.theojones.name/tag/blogging" class="p-category" rel="tag">#blogging</a> <a href="http://www.theojones.name/tag/link" class="p-category" rel="tag">#link</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#blogging</category>
+      <category>#link</category>
+      <category>#uncategorized</category>
+    </item>
+  </channel>
+</rss>

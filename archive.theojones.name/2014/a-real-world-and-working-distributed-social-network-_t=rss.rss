@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>A Real World and Working Distributed Social Network</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/2014/a-real-world-and-working-distributed-social-network</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/2014/a-real-world-and-working-distributed-social-network?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>A Real World and Working Distributed Social Network</title>
+      <link>http://www.theojones.name/2014/a-real-world-and-working-distributed-social-network</link>
+      <guid>http://www.theojones.name/2014/a-real-world-and-working-distributed-social-network</guid>
+      <pubDate>Sun, 16 Feb 2014 22:55:01 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>About a month ago I discussed <a title="What Would the Ideal Distributed Social Networking Application Look Like?" href="http://web.archive.org/web/20140403093812/&lt;a%20href=" https: rel="in-reply-to" class="u-in-reply-to">https:/<wbr></wbr>/<wbr></wbr>theojones.name/<wbr></wbr>index.php/<wbr></wbr>2013/<wbr></wbr>12/<wbr></wbr>30/<wbr></wbr>ideal-distributed-social-networking-application-look-like/<wbr></wbr></a>"&gt;the need for a distributed social networking application. At the time I wrote that article there were no social networking systems around that were reasonably easy to install, secure, and with a usable feature set. I just found out about<a href="http://twister.net.co/"> a new application, Twister, that </a>comes close to meeting these goals. Its open source, and it seems to be easy to write software that interfaces with it. It is fully decentralized and its server can run on a regular computer without the need for an always on server.  Its main flaw seems to be that there is no way to to run a web based interface for it from a remote computer. This means that it is currently impossible to have a website that you can just go to and register an account at without installing anything on your computer. However, I have done a bit on coding over the weekend and I think this issue is pretty tractable. I have written an application in Python that can allow users to view Twister profiles over the web and I have , eventually I will post this code, and time permitting I may turn this into a full hosted web based interface for Twister that accounts can be registered at. In the rest of this post I will discuss some of the flaws and possibilities with this network. I will then discuss how to install it on Linux Mint (still not as easy a process as it could be).<br /><!--more--><br />The other clear limitation of Twister is that it has adopted the 140 character  limit from Twi<strong><em>tt</em></strong>er. This limits the depth and nature of the posts that can be made with this system. There are reasons to limit the size of messages, but 140 is too low. A social networking system should allow enough text to put a link with a solid paragraph of text. I reckon this would be about a limit of 1000 characters.</p>
+
+<p>There is also no support for anything like Facebook's groups.This issue seems easy to code around because it would possible to just create a program that manages a page that posts out the content of any private messages sent to it. This program would also need to have the appropriate measures needed to drop the banhammer on the occasional idiot. This program would work in a similar way to GNU Mailman or other email mailing list managers.</p>
+
+<p>The private messaging features in twister are weak. It does not allow anyone who you are not already following to message you, but in any messaging system there are reasons to want the ability to message people that you have not already been in contact with. It is harder to code around this issue, but the use of relays that people can follow may be one way to code around this limitation.It may even be true that private and public messaging is so totally different that it would be better to write separate application to handle each task.</p>
+
+<p>Profiles have very few options.</p>
+
+<p>The loss of a private key means the loss of your profile. There therefore needs to be a way to back up this key. A program that uses Shamir's Secret Sharing or a similar algorithm to split a backup of the key into pieces and then distributes these pieces among the user's friends  may be one easy way to resolve these issues.</p>
+
+<p>I have found that the best way to interface with the Twister RPC is not through the Twister author's suggested python-bitcoin (which is really just a JSON RPC client) ,but instead is through the pyjsonrpc library. Here is some Python code to grab the contents of user profiles and format it into HTML that I wrote with this library: (wordpress doesn't seem to handle the formatting of python code very well, eventually I'll create a GitHub repository for this).</p>
+
+<p>http_client = pyjsonrpc.HttpClient( <br />url = "http://localhost:28332", <br />username = "user", <br />password = "pwd" <br />)</p>
+
+<p>def GetRawProfileJSON(UserNameToLookUp): <br />return http_client.call("dhtget", UserNameToLookUp, "profile", "s") <br />def GetParsedProfileJSON(UserNameToLookUp): <br />return GetRawProfileJSON(UserNameToLookUp)[0]['p']['v']</p>
+
+<p>def GetFullNameHtml(ParsedProfileJSON): <br />global PageTitle <br />FullName = ParsedProfileJSON['fullname'] <br />PageTitle = FullName + "  Profile" <br />return "</p>
+<h1>Name</h1><h2>" + FullName + "</h2>
+<p><br />" <br />def GetUrlHtml(ParsedProfileJSON): <br />url = ParsedProfileJSON['url'] <br />return "</p>
+<h1>Website</h1><h2>" + url + "</h2>
+<p><br />" <br />def GetLocationHtml(ParsedProfileJSON): <br />loc = ParsedProfileJSON['location'] <br />return "</p>
+<h1>Location</h1><h2>" + loc + "</h2>
+<p><br />" <br />def GetBioHtml(ParsedProfileJSON): <br />bio = ParsedProfileJSON['bio'] <br />return "</p>
+<h1>About Me</h1><h2>" + bio + "</h2>
+<p><br />"</p>
+
+<p>def GetProfileHTML(UserNameToLookUp): <br />parsed = GetParsedProfileJSON(UserNameToLookUp) <br />return GetFullNameHtml(parsed) + GetUrlHtml(parsed) + GetLocationHtml(parsed) + GetBioHtml(parsed)</p>
+
+<p> </p>
+
+<p>Installing this program is easier than most other distributed social networking apps but still a pain. Here is how I did it on Linux Mint.</p>
+
+<p>sudo apt-get install git</p>
+
+<p>sudo apt-get install autoconf</p>
+
+<p>sudo apt-get install automake</p>
+
+<p>sudo apt-get install libtool</p>
+
+<p>sudo apt-get install g++</p>
+
+<p>sudo apt-get install libboost-all-dev</p>
+
+<p>sudo apt-get install libssl-dev</p>
+
+<p>sudo apt-get install libdb5.3++ libdb5.3++-dev</p>
+
+<p>sudo apt-get install miniupnpc</p>
+
+<p>sudo apt-get install libminiupnpc-dev</p>
+
+<p>sudo apt-get install libglibmm-2.4-dev</p>
+
+<p>git clone <a href="https://github.com/miguelfreitas/twister-core.git"></a><a href="https://github.com/miguelfreitas/twister-core.git" rel="in-reply-to" class="u-in-reply-to">https:/<wbr></wbr>/<wbr></wbr>github.com/<wbr></wbr>miguelfreitas/<wbr></wbr>twister-core.git</a></p>
+
+<p>cd twister-core</p>
+
+<p>./bootstrap.sh</p>
+
+<p>./configure --enable-logging --enable-debug</p>
+
+<p>make</p>
+
+<p>make will take a while</p>
+
+<p>mkdir ~/.twister</p>
+
+<p>cd ~/.twister</p>
+
+<p>git clone <a href="https://github.com/miguelfreitas/twister-html.git"></a><a href="https://github.com/miguelfreitas/twister-html.git" rel="in-reply-to" class="u-in-reply-to">https:/<wbr></wbr>/<wbr></wbr>github.com/<wbr></wbr>miguelfreitas/<wbr></wbr>twister-html.git</a> html</p>
+
+<p> </p>
+
+<p> </p>
+<p><a href="http://www.theojones.name/tag/html" class="p-category" rel="tag">#html</a> <a href="http://www.theojones.name/tag/linuxmint" class="p-category" rel="tag">#linuxmint</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/old" class="p-category" rel="tag">#old</a> <a href="http://www.theojones.name/tag/shamirsecretsharing" class="p-category" rel="tag">#shamirsecretsharing</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#html</category>
+      <category>#linuxmint</category>
+      <category>#old</category>
+      <category>#old</category>
+      <category>#shamirsecretsharing</category>
+      <category>#uncategorized</category>
+    </item>
+  </channel>
+</rss>

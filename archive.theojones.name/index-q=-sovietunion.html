@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Theo Jones</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="initial-scale=1.0" media="(device-height: 568px)"/>
+    <meta name="description" content="Thoughts and Ideas">
+    <meta name="generator" content="Known https://withknown.com">
+    <meta http-equiv="Content-Language" content="en">
+
+    <!--Le fav and touch icons-->
+<link rel="apple-touch-icon" sizes="57x57" href="gfx/logos/apple-icon-57x57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="gfx/logos/apple-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="gfx/logos/apple-icon-114x114.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="gfx/logos/apple-icon-144x144.png" />    <link rel="shortcut icon" type="image/png" href="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e">
+<!-- Make this an "app" when saved to an ios device's home screen -->
+<link rel="apple-touch-icon-precomposed" href="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e">
+<!-- Make this an "app" when saved to an ios device's home screen -->
+<link rel="apple-touch-icon" href="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e">
+<!-- <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black"> -->
+    <meta property="og:type" content="website" />
+<meta property="og:title" content="Theo Jones" />
+<meta property="og:site_name" content="Theo Jones" />
+<meta property="og:image" content="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e" />
+
+
+    <!-- Dublin Core -->
+    <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+    <meta name="DC.title" content="Theo Jones">
+    <meta name="DC.description" content="Thoughts and Ideas">    <!-- AMP versions -->
+    <link rel="amphtml" href="index-q=-sovietunion&amp;_t=amp.html">
+
+    <!-- We need jQuery at the top of the page -->
+    <script src="external/jquery/jquery.min.js"></script>
+
+    <!-- Le styles -->
+    <link
+        href="external/bootstrap/assets/css/bootstrap.min.css"
+        rel="stylesheet"/>
+    <link
+        href="external/bootstrap/assets/css/bootstrap-theme.min.css"/>
+    <script
+        src="external/bootstrap/assets/js/bootstrap.min.js"></script>
+
+    <!-- Accessibility -->
+    <link rel="stylesheet"
+          href="external/paypal-bootstrap-accessibility-plugin/plugins/css/bootstrap-accessibility_1.0.3.css">
+    <script
+        src="external/paypal-bootstrap-accessibility-plugin/plugins/js/bootstrap-accessibility_1.0.3.min.js"></script>
+
+    <!-- Fonts -->
+    <link rel="stylesheet"
+          href="external/font-awesome/css/font-awesome.css">
+    <!--<link rel="stylesheet"
+          href="https://www.theojones.name/external/font-awesome/css/font-awesome.min.css">-->
+    <style>body {
+            padding-top: 100px; /* 60px to make the container go all the way to the bottom of the topbar */
+        }
+    </style>
+
+    <link href="css/default-20150907.css" rel="stylesheet">
+<link href="css/defaultb3-20150123.css" rel="stylesheet">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script
+        src="https://www.theojones.name/external/bootstrap/assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Default Known JavaScript -->
+    <script src="js/default-20150406.js"></script>
+
+    <!-- To silo is human, to syndicate divine -->
+    <link rel="alternate" type="application/rss+xml" title="Theo Jones"
+          href="index-q=-sovietunion&amp;_t=rss.rss"/>
+    <link rel="feed" type="application/rss+xml" title="Theo Jones"
+          href="index-q=-sovietunion&amp;_t=rss.rss"/>
+    <link rel="alternate feed" type="application/rss+xml"
+          title="Theo Jones: all content"
+          href="content/all-_t=rss.rss"/>
+    <link rel="feed" type="text/html" title="Theo Jones"
+          href="content/all.html"/>
+
+    <!-- Webmention endpoint -->
+    <link href="webmention/index.html" rel="http://webmention.org/"/>
+    <link href="webmention/index.html" rel="webmention"/>
+
+                <!-- Pubsubhubbub -->
+        <link href="http://withknown.superfeedr.com/" rel="hub"/>
+    
+    
+    <script src="external/fragmention/fragmention.js"></script>
+
+    <!-- Syndication -->
+    <link
+        href="external/bootstrap-toggle/css/bootstrap-toggle.min.css"
+        rel="stylesheet"/>
+    <script
+        src="external/bootstrap-toggle/js/bootstrap-toggle.js"></script>
+
+    <style>.withknown-plugin {
+        padding-top: 0.25em;
+        padding-bottom: 0.25em;
+        background-color: #fff;
+        margin-bottom: 0.5em;
+    }
+
+    .withknown-plugin p,
+    .withknown-plugin h4,
+    .withknown-plugin form
+    {
+        margin: 0; padding: 0;
+    }
+
+    .withknown-plugin .plugin-content h4
+    {
+        padding-top: 0.25em;
+    }
+
+    .withknown-plugin .plugin-content p
+    {
+        padding-top: 0.3em;
+    }
+
+    .withknown-plugin .plugin-content {
+        color: #777;
+    }
+
+    .withknown-plugin input[type=submit]
+    {
+        width: 100px;
+    }
+    
+    .withknown-plugin .btn-enabled {
+    background-color: #70997a;
+    background-image: none;
+    background-repeat: repeat-x;
+    border-color: #70997a;
+    color: #ffffff;
+    text-shadow: none;
+	}
+	
+	.withknown-plugin .btn-enabled:hover, 
+	.withknown-plugin .btn-enabled:focus, 
+	.withknown-plugin .btn-enabled:active, 
+	.withknown-plugin .btn-enabled.active, 
+	.withknown-plugin .btn-enabled.disabled, 
+	.withknown-plugin .btn-enabled[disabled] {
+    background-color: #678c70;
+    border-color: #678c70;
+    color: #ffffff;
+	}
+	
+	.withknown-plugin .btn-default {
+	color: #666666;
+	}
+	
+	.withknown-plugin .span2 {
+		margin-left: 0px;
+	}
+	
+    .withknown-plugin h4 {
+		color: #222;
+	}
+
+    .withknown-pro-block {
+        text-align: center;
+        border: 0;
+        border-top: 2px #ccc solid;
+        border-bottom: 2px #ccc solid;
+        margin-bottom: 2em;
+        margin-top: 20px;
+    }
+</style><link rel="stylesheet" href="IdnoPlugins/Checkin/external/leaflet/leaflet.css"/>
+<!--[if lte IE 8]>
+<link rel="stylesheet" href="https://www.theojones.name/IdnoPlugins/Checkin/external/leaflet/leaflet.ie.css"/>
+<![endif]-->
+<script type="text/javascript" src="IdnoPlugins/Checkin/external/leaflet/leaflet.js"></script>
+<script type="text/javascript" src="IdnoPlugins/Checkin/external/stamen-maps/tile.stamen.js"></script>
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script><link rel="openid.delegate" href="index.html" />
+<link rel="openid.server" href="https://indieauth.com/openid" />
+<link rel="authorization_endpoint" href="session/login-fwd=https-%7C%7Cwww.theojones.name%7Cindieauth%7Cauth.html">
+<link rel="token_endpoint" href="indieauth/token.html">
+<link rel="micropub" href="session/login-fwd=%7Cmicropub%7Cendpoint.html"><link href="Themes/Solo/css/default.css" rel="stylesheet">    
+</head>
+
+<body class="idno_pages_homepage logged-out">
+<div id="pjax-container" class="page-container">
+    <a href="index-q=-sovietunion.html#maincontent" style="display:none">Skip to main content</a>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" tabindex="1" href="index.html">Theo Jones</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+
+            <form class="navbar-form navbar-left" action="https://www.theojones.name/content/all/" method="get" role="search">
+    <div class="form-group">
+        <input type="search" class="search-query form-control" name="q" placeholder="Search" tabindex="2" value="#sovietunion">
+    </div>
+</form><ul class="nav navbar-nav">
+        
+            <li class="dropdown" tabindex="3">
+                <a href="index-q=-sovietunion.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                    Filter content                    <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="index-q=-sovietunion.html"><span class="dropdown-menu-icon">&nbsp;</span>
+                            Default content</a></li>
+                    <li><a href="content/all/index-q=-sovietunion.html"><span class="dropdown-menu-icon">&nbsp;</span>
+                            All content</a></li>
+                                                    <li><a
+                                    href="content/statusupdates/index-q=-sovietunion.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-comment-o"></i></span> Status updates                                </a></li>                                <li><a
+                                    href="content/posts/index-q=-sovietunion.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-align-left"></i>
+</span> Posts                                </a></li>                                <li><a
+                                    href="content/photos/index-q=-sovietunion.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-picture-o"></i>
+</span> Photos                                </a></li>                                <li><a
+                                    href="content/locations/index-q=-sovietunion.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-map-marker"></i>
+</span> Locations                                </a></li>                                <li><a
+                                    href="content/bookmarkedpages/index-q=-sovietunion.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-bookmark"></i>
+</span> Bookmarked pages                                </a></li>                                <li><a
+                                    href="content/audio/index-q=-sovietunion.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-microphone"></i>
+</span> Audio                                </a></li>                                <li><a
+                                    href="content/events/index-q=-sovietunion.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-calendar"></i>
+</span> Events                                </a></li>                                <li><a
+                                    href="content/rsvp/index-q=-sovietunion.html"><span
+                                        class="dropdown-menu-icon"><i class="fa fa-calendar-o"></i>
+</span> RSVP                                </a></li>
+
+                </ul>
+            </li>
+
+    </ul>
+            <ul class="nav navbar-nav navbar-right">
+                
+
+    <li><a href="session/login.html">Sign in</a></li>            </ul>
+
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+    <div class="container page-body">
+        <a name="pagecontent"></a>
+                        <div class="row profile h-card">
+    <div class="col-md-8 col-md-offset-2">
+        <!--<div class="row visible-sm">
+            <div class="col-md-2">
+                <div style="margin-bottom: 2em; margin-top: -2em; text-align: center">
+                    <p>
+                                            </p>
+
+                    <p style="margin-bottom: 2em" clear="all"></p>
+                </div>
+            </div>
+        </div>-->
+        <div class="row">
+            <div class="col-md-4 namebadge">
+                <p>
+                    <a href="profile/tjones2.html" class="u-url icon-container"><img class="u-photo"
+                                                                                               src="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e"/></a>
+                </p>
+
+                                            </div>
+            
+            <div class="col-md-8 namebadge-profile">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="p-profile">
+                            <a href="profile/tjones2.html"
+                               class="u-url p-name fn">Theo Jones</a>
+                        </h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="e-note"></div>
+
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>            <div class="row idno-entry idno-entry-entry">
+
+                <div
+                    class="col-md-8 col-md-offset-2 h-entry idno-posts idno-object idno-content">
+                    <div style="display: none"> <!-- This is useful for webmentions -->
+                        <p class="p-author author h-card vcard">
+                            <a href="profile/tjones2.html" class="icon-container"><img
+                                    class="u-logo logo u-photo photo" src="https://www.theojones.name/file/de911cc1bf544396092c15df5d71aa2e"/></a>
+                            <a class="p-name fn u-url url" href="profile/tjones2.html">Theo Jones</a>
+                            <a class="u-url" href="profile/tjones2.html">
+                                <!-- This is here to force the hand of your MF2 parser --></a>
+                        </p>
+                    </div>
+                                        <div class="e-content entry-content">
+                        <div>
+                <h2 class="p-name"><a
+                    href="2014/are-only-some-political-ideologies-compatible-with-science.html">Are only some political ideologies compatible with science?</a>
+            </h2>
+                    <p class="reading">
+                <span class="vague">7 min read </span>
+            </p>
+            
+<p><em>This post is part of a series <a title="Blog Post Series on the History of Sustainable Energy and Climate Change Politics" href="https://theojones.name/index.php/blog-post-series-on-the-history-of-sustainable-energy-and-climate-change-politics/">on the history of the politics of sustainable energy</a> <br /></em>In this post I will discuss the question of the political neutrality of science --- not in the climate change sceptic meaning of "scientists with grant money worshipping Al Gore -- but in meaning of asking if all political ideologies are compatible with  science. I will conclude that there are in fact some political ideologies that are so incompatible and these ideologies are therefore inherently prone to denialism. These are ideologies that theorize that an at least roughly ideal way of structuring society is possible and known, and that the goal of politics is to bring this society into existence. I will further argue that such ideologies are common. I will also argue that ideologies that argue for the continuous contesting of government policies and social structures are the most compatible with science and that one example of such an ideology that fits that bill is liberalism (defined in a philosophical sense that i will discuss later, not in the commonly used political sense). I argue that there are broadly three common political philosophies in the  United States: conservativism (made up of three ideologies that I will call social conservativism, reactionary conservativism and axiomatic libertarianism), liberalism (with subdivisions that I will call individualist liberalism, right-liberalism/consequentialist libertarianism, civic republicanism, and populist liberalism), and leftism (with various varients that I will discuss later). As I will discuss later   I will now futher discuss what I mean by these ideologies:</p>
+
+<p>I would define conservativism as the political theory that contends that the either current or past institutions, or a part of this structure, is the ideal way to run society. Conservatism contends that these institutions need to be fought for and preserved. I think that conservativism has three broad types. The first is social conservatism , which contends that the social institutions, ie religion and the like, are at the core of an ideal society. This ideology tends to emphasize a strong degree of social conventionalism and adherence to and preservation of conventions and social norms, including norms of social status.This ideology demands a strong degree of social conformity, and rejection of behaviors termed deviant. It endorses traditional authority and obedience to this authority. Reactionary conservatism is similar but advocates returning to an old version of these institutions and rolling back reforms of them. Axiomatic libertarianism are the variants of libertarianism that advocate that the free market and the business system are the ideal institution that should run society. These libertarians argue that this can be known apriori, without the need for factual questioning. This line of reasoning can be seen most directly in the libertarianism of Ayn Rand, and of the more hardline variants of Austrian School libertarianism (eg. Von Mises and other followers of praxology).</p>
+
+<p>Next I will discuss the nature of liberalism. Now, I do not define liberalism in the sense commonly used in American politics as a different word for left wing politics, or do I use the commonly proposed alternate definition that defines it as synonymous with libertarianism. Instead I will define it as the ideologies that argue for the ability for systematic challenging and questioning of social institutions and political power. It contends that their is no known approximately ideal institution or set of laws (and there will never be), and that the best we can do is allow for a wide range of  individual freedom, and ability to change institutions as our knowledge improves. If this happens we will have the best ability to eliminate social ills through improvements in our knowledge of the world. In my opinion liberalism has four variants. The first is individualist liberalism which works through maximizing the range of human rights that can be exercised without interference and by maximizing the effective capacity to use these rights. Right-liberalism/consquentilist libertarianism, is similar to individualist liberalism, but denies that the effective capacity to use the rights is necessary, as long as there is no direct interference, or constraints on use of rights. Civic republicanism opposes arbitrary power, and opposes all forms of interference that does not follow the interests and values of those that are subjected to it. Under this view all power and institutional policies must be subjected to effective means of contestment and public debate. Structural inequality must be opposed and conditions where one person is subject to the arbitrary will of another must be minimized, freedom from this type of domination is at the core of liberty in this view. Populist liberalism contends that all institutions must be subject to democracy and should follow the will of the people as determined by a fair democratic process that allows all voices to be heard equally.</p>
+
+<p>The third political category, what I call leftism, is less a single ideology but instead a grouping of somewhat related left-wing ideologies. The commonality of these is that they are the set of non-liberal, but left wing ideologies. These ideologies tend to believe that there is a form of perfect justice that can be implemented. The first ideology I put in this category is what I would call leftist-populism. To define this I will go with the following <a href="http://en.wikipedia.org/wiki/Populism">definition of populism as an ideology that</a> "pits a virtuous and homogeneous people against a set of elites and dangerous ‘others’ who were together depicted as depriving (or attempting to deprive) the sovereign people of their rights, values, prosperity, identity, and voice". Leftist-populism extends this by assuming a struggle between the oppressed populace and the oppressor group. The next type of leftist ideology that I will discuss is identity politics leftism. This ideology focus on the struggle between an oppressed social group and the oppressing society. There are also radical forms of environmentalism that fall into the leftist category.</p>
+
+<p>What does this have to do with acceptance of science? Well, science is fundamentally about questioning knowledge. This often means questioning knowledge that also bares on the functioning of institutions in society.A political ideology that is compatible with science must also allow for questioning of the institutions in society, and for questioning of the actions of the political system. It is not possible to neatly divide questions into the scientific and into the political. Open debate of knowledge in one area must mean open debate in the other. An ideology that believes that there is a perfect way to organize a society and that any one who questions it must be evil or otherwise flawed, is one that is also fundamentally incompatible with the knowledge produced by science.</p>
+
+<p>As I will discuss in a later post, there is a strong historical relation between a liberal political system, and the development of science. The relative liberalism of the Renaissance in Italy gave birth to science as we know it today. The development of science fostered the development of political liberalism during the Enlightenment. The Enlightenment created a culture of questioning that enveloped both science and politics and that greatly expanded the scope of human knowledge and prosperity. It is impossible to have the benefits of science without an open and liberal political culture. The history of the Soviet Union shows this. Its economy lagged in large part due to the USSR's inability to take the knowledge produced by science into running its economy. This eventually was a major contributor to the downfall of the Soviet Union.</p>
+
+<p>With regards to social conservativism some of this questioning will involve knowledge that challenges traditional values and institutions. With regards to the axiomatic libertarian perspective on conservativism this means that scientific discoveries will sometimes challenge the legitimacy of the market. And as I will discuss in a later post in this series, conservative ideologies have a general inability to take into account what has been termed <a href="http://www.huffingtonpost.com/george-lakoff/sandy-climate-change_b_2042871.html">systemic causation</a>. Due to these factors it is not difficult to see where conservative denialism of climate change originates from.</p>
+
+<p>However, it is possible to see how a left wing form of denialism can emerge based on leftism. Those ideologies tend to identify politics in terms of a simple oppressor-oppressed system. When scientific knowledge challenges the assumptions then denialsim can emerge.</p>
+<p><a href="tag/austrianschool.html" class="p-category" rel="tag">#austrianschool</a> <a href="tag/aynrand.html" class="p-category" rel="tag">#aynrand</a> <a href="tag/old.html" class="p-category" rel="tag">#old</a> <a href="tag/old.html" class="p-category" rel="tag">#old</a> <a href="tag/sovietunion.html" class="p-category" rel="tag">#sovietunion</a> <a href="tag/uncategorized.html" class="p-category" rel="tag">#uncategorized</a> <a href="tag/vonmises.html" class="p-category" rel="tag">#vonmises</a></p></div>                    </div>
+                    <div class="footer">
+                        
+        <div class="permalink">
+            <p>
+                <a href="profile/tjones2.html">Theo Jones</a>published this
+                <a class="u-url url" href="2014/are-only-some-political-ideologies-compatible-with-science.html" rel="permalink"><time class="dt-published"
+                          datetime="2014-07-23T19:19:08+0000">23 Jul 2014</time></a>
+                                                                            </p>
+        </div>
+        <div class="interactions">
+	        <span class="annotate-icon">
+                        <a class="stars" href="2014/are-only-some-political-ideologies-compatible-with-science.html#comments"><i class="fa fa-star-o"></i> 0 stars</a></span>
+                   <span class="annotate-icon"> <a class="comments" href="2014/are-only-some-political-ideologies-compatible-with-science.html#comments"><i class="fa fa-comments"></i> 0 comments</a></span>
+            <a class="shares" href="2014/are-only-some-political-ideologies-compatible-with-science.html#comments"></a>
+            <a class="shares" href="2014/are-only-some-political-ideologies-compatible-with-science.html#comments"></a>
+        </div>
+        <br clear="all"/>
+                            </div>
+                </div>
+
+            </div>
+
+        
+        <div class="pager">
+            <ul>
+                                <li><a href="index-q=-sovietunion&amp;offset=10.html" title="Older" rel="prev">Older &raquo;</a></li>            </ul>
+        </div>
+
+        <div class="blank-footer">
+    <div>
+        <p class="footer"><a href="https://withknown.com/?utm_source=footer&amp;utm_medium=installation" class="u-platform"><img src="gfx/logos/logo_k.png" style="height: 1.5em"></a></p>
+    </div>
+</div>
+    </div>
+    <!-- /container -->
+
+        
+</div>
+<!-- Everything below this should be includes, not content -->
+
+<!-- Le javascript -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script
+    src="external/jquery-timeago/jquery.timeago.js"></script>
+<script
+    src="external/jquery-pjax/jquery.pjax.js"></script>
+<script src="external/underscore/underscore-min.js"
+        type="text/javascript"></script>
+<!--<script src="https://www.theojones.name/external/mention/bootstrap-typeahead.js"
+        type="text/javascript"></script>
+<script src="https://www.theojones.name/external/mention/mention.js"
+        type="text/javascript"></script> -->
+
+
+<!-- Flexible media player -->
+<script
+    src="external/mediaelement/build/mediaelement-and-player.min.js"></script>
+<link rel="stylesheet"
+      href="external/mediaelement/build/mediaelementplayer.css"/>
+<!-- Video shim -->
+<script src="external/fitvids/jquery.fitvids.min.js"></script>
+<!-- Mention styles -->
+<link rel="stylesheet" type="text/css"
+      href="external/mention/recommended-styles.css">
+
+
+<!-- HTML5 form element support for legacy browsers -->
+<script src="external/h5f/h5f.min.js"></script>
+
+<script>
+
+    function annotateContent() {
+        $(".h-entry").fitVids();
+        $("time.dt-published").timeago();
+    }
+
+    // Shim so that JS functions can get the current site URL
+    function wwwroot() {
+        return 'https://www.theojones.name/';
+    }
+
+    $(document).ready(function () {
+        $.timeago.settings.cutoff = 30 * 24 * 60 * 60 * 1000; // 1 month
+        annotateContent();
+    });
+
+    /**
+     * Handle Twitter tweet embedding
+     */
+    $(document).ready(function () {
+        $('div.twitter-embed').each(function (index) {
+            var url = $(this).attr('data-url');
+            var div = $(this);
+
+            $.ajax({
+                url: "https://api.twitter.com/1/statuses/oembed.json?url=" + url,
+                dataType: "jsonp",
+                success: function (data) {
+                    div.html(data['html']);
+                }
+            });
+        });
+
+        $('body').on('click', function (event, el) {
+            var clickTarget = event.target;
+
+            if (clickTarget.href && clickTarget.href.indexOf(window.location.origin) === -1) {
+                clickTarget.target = "_blank";
+            }
+        });
+    });
+
+    /**
+     * Handle Soundcloud oEmbed code
+     */
+    $(document).ready(function () {
+        $('div.soundcloud-embed').each(function (index) {
+            var url = $(this).attr('data-url');
+            var div = $(this);
+
+            $.getJSON('https://soundcloud.com/oembed?callback=?',
+                {
+                    format: 'js',
+                    url: url,
+                    iframe: true
+                },
+                function (data) {
+                    div.html(data['html']);
+                }
+            );
+        });
+    });
+
+    /**
+     * Better handle links in iOS web applications.
+     * This code (from the discussion here: https://gist.github.com/kylebarrow/1042026)
+     * will prevent internal links being opened up in safari when known is installed
+     * on an ios home screen.
+     */
+    (function (document, navigator, standalone) {
+        if ((standalone in navigator) && navigator[standalone]) {
+            var curnode, location = document.location, stop = /^(a|html)$/i;
+            document.addEventListener('click', function (e) {
+                curnode = e.target;
+                while (!(stop).test(curnode.nodeName)) {
+                    curnode = curnode.parentNode;
+                }
+                if ('href' in curnode && ( curnode.href.indexOf('http') || ~curnode.href.indexOf(location.host) ) && (!curnode.classList.contains('contentTypeButton'))) {
+                    e.preventDefault();
+                    location.href = curnode.href;
+                }
+            }, false);
+        }
+    })(document, window.navigator, 'standalone');
+
+</script>
+
+<script>
+    $('video').mediaelementplayer({
+        features: ['playpause','progress','current','tracks','volume','fullscreen'],
+        alwaysShowControls: false,
+        pauseOtherPlayers: true,
+        enableAutosize: false,
+        mediaWidth: -1,
+        mediaHeight: -1
+    });
+    $('audio').mediaelementplayer({
+        features: ['playpause','progress','current','tracks','volume','fullscreen'],
+        alwaysShowControls: false,
+        pauseOtherPlayers: true,
+        enableAutosize: false,
+        mediaWidth: -1,
+        mediaHeight: -1
+    });
+</script>
+<style>.known-media-element {
+        width: 100%;
+        height: 100%;
+    }
+</style><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+</body>
+
+
+</html>

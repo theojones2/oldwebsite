@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+		<link rel="pingback" href="https://microblog.theojones.name/xmlrpc.php">
+		<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<title>Some notes from the server reconfig &#8211; Theo Jones</title>
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Theo Jones &raquo; Feed" href="https://microblog.theojones.name/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Theo Jones &raquo; Comments Feed" href="https://microblog.theojones.name/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Theo Jones &raquo; Some notes from the server reconfig Comments Feed" href="https://microblog.theojones.name/2016/05/27/816/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/microblog.theojones.name\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.6.1"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='twentysixteen-fonts-css'  href='https://fonts.googleapis.com/css?family=Merriweather%3A400%2C700%2C900%2C400italic%2C700italic%2C900italic%7CMontserrat%3A400%2C700%7CInconsolata%3A400&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='genericons-css'  href='https://microblog.theojones.name/wp-content/themes/twentysixteen/genericons/genericons.css?ver=3.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='twentysixteen-style-css'  href='https://microblog.theojones.name/wp-content/themes/twentysixteen/style.css?ver=4.6.1' type='text/css' media='all' />
+<!--[if lt IE 10]>
+<link rel='stylesheet' id='twentysixteen-ie-css'  href='https://microblog.theojones.name/wp-content/themes/twentysixteen/css/ie.css?ver=20160816' type='text/css' media='all' />
+<![endif]-->
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentysixteen-ie8-css'  href='https://microblog.theojones.name/wp-content/themes/twentysixteen/css/ie8.css?ver=20160816' type='text/css' media='all' />
+<![endif]-->
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='twentysixteen-ie7-css'  href='https://microblog.theojones.name/wp-content/themes/twentysixteen/css/ie7.css?ver=20160816' type='text/css' media='all' />
+<![endif]-->
+<!--[if lt IE 9]>
+<script type='text/javascript' src='https://microblog.theojones.name/wp-content/themes/twentysixteen/js/html5.js?ver=3.7.3'></script>
+<![endif]-->
+<script type='text/javascript' src='https://microblog.theojones.name/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://microblog.theojones.name/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='https://microblog.theojones.name/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://microblog.theojones.name/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://microblog.theojones.name/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Robert H Frank&#8217;s new book http press princeton&#8230;' href='https://microblog.theojones.name/2016/05/26/robert-h-franks-new-book-http-press-princeton/' />
+<link rel='next' title='Shaking things up' href='https://microblog.theojones.name/2016/05/28/835/' />
+<meta name="generator" content="WordPress 4.6.1" />
+<link rel="canonical" href="https://microblog.theojones.name/2016/05/27/816/" />
+<link rel='shortlink' href='https://microblog.theojones.name/?p=816' />
+<link rel="alternate" type="application/json+oembed" href="https://microblog.theojones.name/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmicroblog.theojones.name%2F2016%2F05%2F27%2F816%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://microblog.theojones.name/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmicroblog.theojones.name%2F2016%2F05%2F27%2F816%2F&#038;format=xml" />
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		</head>
+
+<body class="single single-post postid-816 single-format-status">
+<div id="page" class="site">
+	<div class="site-inner">
+		<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+		<header id="masthead" class="site-header" role="banner">
+			<div class="site-header-main">
+				<div class="site-branding">
+					
+											<p class="site-title"><a href="https://microblog.theojones.name/" rel="home">Theo Jones</a></p>
+											<p class="site-description">Micro Blog</p>
+									</div><!-- .site-branding -->
+
+							</div><!-- .site-header-main -->
+
+					</header><!-- .site-header -->
+
+		<div id="content" class="site-content">
+
+<div id="primary" class="content-area">
+	<main id="main" class="site-main" role="main">
+		
+<article id="post-816" class="post-816 post type-post status-publish format-status hentry category-tech post_format-post-format-status">
+	<header class="entry-header">
+		<h1 class="entry-title">Some notes from the server reconfig</h1>	</header><!-- .entry-header -->
+
+	
+	
+	<div class="entry-content">
+		<p>Some notes from the server reconfig. Part for my reference, may be useful for others. I may turn this into an actual tutorial eventually.<br />
+<span id="more-816"></span></p>
+<p>Install Varnish<br />
+https://www.varnish-cache.org/releases/install_freebsd.html</p>
+<p>cd /usr/ports/www/varnish4<br />
+make config-recursive<br />
+make install clean</p>
+<p>Copy default config<br />
+cp /usr/local/share/doc/varnish/example.vcl /usr/local/etc/varnish.vcl</p>
+<p>or set this config</p>
+<p>https://gist.githubusercontent.com/rachelandrew/6a2693d3cd6fb9268756/raw/65b14e80b324d4e1810dc6162a84b1ffc923311f/default.vcl</p>
+<p>The varnish config is at /usr/local/etc/varnish4/default.vcl<br />
+to /etc/rc.conf add<br />
+varnishd_enable=&#8221;YES&#8221;<br />
+varnishd_config=&#8221;/usr/local/etc/varnish.vcl&#8221;</p>
+<p>See, https://forums.freebsd.org/threads/50632/</p>
+<p>Edit /usr/local/etc/varnish.vcl and change this block to</p>
+<p>backend default {<br />
+.host = &#8220;127.0.0.1&#8221;;<br />
+.port = “5299”;<br />
+}</p>
+<p>go to the sub vcl_backend_response block and add</p>
+<p>set beresp.ttl = 10s;<br />
+set beresp.grace = 1h;</p>
+<p>Install Apache</p>
+<p>cd /usr/ports/apache24<br />
+make config-recursive<br />
+make install clean</p>
+<p>In apache config</p>
+<p>set<br />
+ServerName ns527592.ip-198-27-64.net:4530<br />
+Listen 4530</p>
+<p>service apache start</p>
+<p>Start varnish</p>
+<p>/usr/local/etc/rc.d/varnishd start</p>
+<p>Nginx for ssl</p>
+<p>cd /usr/ports/www/nginx<br />
+make config-recursive<br />
+make install clean</p>
+<p>openssl dhparam -out /usr/local/www/nginx/dhparam.pem 4096</p>
+<blockquote data-secret="N2iGd9Eidi" class="wp-embedded-content"><p><a href="https://www.smashingmagazine.com/2015/09/https-everywhere-with-nginx-varnish-apache/">HTTPS Everywhere With Nginx, Varnish And Apache</a></p></blockquote>
+<p><iframe class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; clip: rect(1px, 1px, 1px, 1px);" src="https://www.smashingmagazine.com/2015/09/https-everywhere-with-nginx-varnish-apache/embed/#?secret=N2iGd9Eidi" data-secret="N2iGd9Eidi" width="600" height="338" title="&#8220;HTTPS Everywhere With Nginx, Varnish And Apache&#8221; &#8212; Smashing Magazine" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></p>
+<p>https://gist.github.com/gokejnr/a4f9cc2a164a7f928048</p>
+<p>https://sethvargo.com/getting-an-a-plus-on-qualys-ssl-labs-tester/</p>
+<p>https://community.letsencrypt.org/t/howto-a-with-all-100-s-on-ssl-labs-test-using-apache2-4-read-warnings/2436</p>
+<p>letsencrypt certonly &#8211;rsa-key-size 4096</p>
+<p>&nbsp;</p>
+<p class="p1">mkdir /var/log/theojones.name</p>
+<p class="p1">chown -R www:www /var/log/theojones.name</p>
+<p class="p1">Place the following in apache conf</p>
+<p class="p1">&lt;VirtualHost *:80&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>ServerAdmin theo@theojones.name</p>
+<p class="p1"><span class="Apple-converted-space">    </span>ServerName theojones.name</p>
+<p class="p1"><span class="Apple-converted-space">    </span>ServerAlias www.theojones.name,ns527592.ip-198-27-64.net</p>
+<p class="p1"><span class="Apple-converted-space">    </span>DocumentRoot /usr/local/www/apache24/data/theojones.name</p>
+<p class="p1"><span class="Apple-converted-space">    </span>ErrorLog /var/log/theojones.name/error.log</p>
+<p class="p1"><span class="Apple-converted-space">    </span>CustomLog /var/log/theojones.name/access.log combined</p>
+<p class="p1">&lt;/VirtualHost&gt;</p>
+<p class="p1">Php</p>
+<p class="p3"><a href="https://www.digitalocean.com/community/tutorials/how-to-install-an-apache-mysql-and-php-famp-stack-on-freebsd-10-1">https://www.digitalocean.com/community/tutorials/how-to-install-an-apache-mysql-and-php-famp-stack-on-freebsd-10-1</a></p>
+<p class="p1">cd /usr/ports/lang/php56</p>
+<p class="p1">make config-recursive</p>
+<p class="p1">make install clean</p>
+<p class="p1">cd /usr/ports/lang/php56-extensions</p>
+<p class="p1">make config-recursive</p>
+<p class="p1">make install clean</p>
+<p class="p1">make config-recursive</p>
+<p class="p1"><span class="Apple-converted-space">     </span>* repeat for extensions</p>
+<p class="p1">cd /usr/ports/www/mod_php56</p>
+<p class="p1">make config-recursive</p>
+<p class="p1">make install clean</p>
+<p class="p1">edit /usr/local/etc/apache24/Includes/php.conf</p>
+<p class="p1">&lt;IfModule dir_module&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>DirectoryIndex index.php index.html</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;FilesMatch &#8220;.php$&#8221;&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>SetHandler application/x-httpd-php</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/FilesMatch&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;FilesMatch &#8220;.phps$&#8221;&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>SetHandler application/x-httpd-php-source</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/FilesMatch&gt;</p>
+<p class="p1">&lt;/IfModule&gt;</p>
+<p class="p1">cd /usr/ports/www/nginx</p>
+<p class="p1">make config-recursive</p>
+<p class="p1">make install clean</p>
+<p class="p3"><a href="https://www.smashingmagazine.com/2015/09/https-everywhere-with-nginx-varnish-apache/#comments">https://www.smashingmagazine.com/2015/09/https-everywhere-with-nginx-varnish-apache/#comments</a></p>
+<p class="p3"><a href="https://gist.github.com/gokejnr/a4f9cc2a164a7f928048">https://gist.github.com/gokejnr/a4f9cc2a164a7f928048</a></p>
+<p class="p3"><a href="https://sethvargo.com/getting-an-a-plus-on-qualys-ssl-labs-tester/">https://sethvargo.com/getting-an-a-plus-on-qualys-ssl-labs-tester/</a></p>
+<p class="p3"><a href="https://community.letsencrypt.org/t/howto-a-with-all-100-s-on-ssl-labs-test-using-apache2-4-read-warnings/2436">https://community.letsencrypt.org/t/howto-a-with-all-100-s-on-ssl-labs-test-using-apache2-4-read-warnings/2436</a></p>
+<p class="p1">rm /usr/local/etc/nginx/nginx.conf</p>
+<p class="p1">edit /usr/local/etc/nginx/nginx.conf</p>
+<p class="p1">add</p>
+<p class="p1"><i>user<span class="Apple-converted-space">  </span>www www;</i></p>
+<p class="p1"><i>worker_processes<span class="Apple-converted-space">  </span>4;</i></p>
+<p class="p1"><i># main server error log</i></p>
+<p class="p1"><i>error_log /var/log/nginx/error.log ;</i></p>
+<p class="p1"><i>pid /var/run/nginx.pid;</i></p>
+<p class="p1"><i>events {</i></p>
+<p class="p1"><i> worker_connections<span class="Apple-converted-space">  </span>1024;</i></p>
+<p class="p1"><i>}</i></p>
+<p class="p1"><i>http {</i></p>
+<p class="p1"><b><i>default_type</i></b><i><span class="Apple-converted-space">  </span>application/octet-stream;</i></p>
+<p class="p1"><i> </i><b><i>keepalive_timeout</i></b><i><span class="Apple-converted-space">  </span>65;</i></p>
+<p class="p1"><i>server {</i></p>
+<p class="p1"><i><span class="Apple-converted-space">  </span>listen *:443 ssl ;</i></p>
+<p class="p1"><i>add_header Strict-Transport-Security max-age=31536000;</i></p>
+<p class="p1"><i>ssl_protocols TLSv1.2;</i></p>
+<p class="p1"><i>ssl_ciphers AES256+EECDH:AES256+EDH:!aNULL;</i></p>
+<p class="p1"><i>ssl_buffer_size 1400;</i></p>
+<p class="p1"><i>ssl_session_tickets off;</i></p>
+<p class="p1"><i>ssl_prefer_server_ciphers on;</i></p>
+<p class="p1"><i>ssl_session_cache shared:SSL:30m;</i></p>
+<p class="p1"><i>ssl_session_timeout 30m;</i></p>
+<p class="p1"><i>ssl_dhparam /usr/local/www/nginx/dhparam.pem;</i></p>
+<p class="p1"><i>ssl_stapling on;</i></p>
+<p class="p1"><i>resolver 8.8.4.4 8.8.8.8 valid=300s;</i></p>
+<p class="p1"><i>ssl_stapling_verify on;</i></p>
+<p class="p1"><i>resolver_timeout 10s;</i></p>
+<p class="p1"><i>add_header X-Frame-Options DENY;</i></p>
+<p class="p1"><i>add_header X-Content-Type-Options nosniff;</i></p>
+<p class="p1"><i><span class="Apple-converted-space">  </span>server_name theojones.name www.theojones.name archive.theojones.name mail.theojones.name;</i></p>
+<p class="p1"><i><span class="Apple-converted-space">  </span>ssl on;</i></p>
+<p class="p1"><i><span class="Apple-converted-space">  </span>ssl_certificate /usr/local/etc/letsencrypt/live/theojones.name/fullchain.pem;</i></p>
+<p class="p1"><i><span class="Apple-converted-space">  </span>ssl_certificate_key /usr/local/etc/letsencrypt/live/theojones.name/privkey.pem;</i></p>
+<p class="p1">location ~ .css {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>add_header<span class="Apple-converted-space">  </span>Content-Type<span class="Apple-converted-space">    </span>text/css;</p>
+<p class="p1">}</p>
+<p class="p1">location ~ .js {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>add_header<span class="Apple-converted-space">  </span>Content-Type<span class="Apple-converted-space">    </span>application/x-javascript;</p>
+<p class="p1">}</p>
+<p class="p1"><i><span class="Apple-converted-space">  </span>location / {</i></p>
+<p class="p1"><i><span class="Apple-converted-space">    </span>proxy_pass<span class="Apple-converted-space">            </span>http://127.0.0.1:80;</i></p>
+<p class="p1"><i><span class="Apple-converted-space">    </span>proxy_read_timeout<span class="Apple-converted-space">    </span>90;</i></p>
+<p class="p1"><i><span class="Apple-converted-space">    </span>proxy_connect_timeout 90;</i></p>
+<p class="p1"><i><span class="Apple-converted-space">    </span>proxy_redirect<span class="Apple-converted-space">        </span>off;</i></p>
+<p class="p1">### Set headers ####</p>
+<p class="p1"><span class="Apple-converted-space">                </span>proxy_set_header<span class="Apple-converted-space">        </span>Accept-Encoding <span class="Apple-converted-space">  </span>&#8220;&#8221;<i>;</i></p>
+<p class="p1"><span class="Apple-converted-space">        </span>proxy_set_header<span class="Apple-converted-space">        </span>Host<span class="Apple-converted-space">            </span>$host<i>;</i></p>
+<p class="p1"><span class="Apple-converted-space">        </span>proxy_set_header<span class="Apple-converted-space">        </span>X-Real-IP <span class="Apple-converted-space">      </span>$remote_addr<i>;</i></p>
+<p class="p1"><span class="Apple-converted-space">        </span>proxy_set_header<span class="Apple-converted-space">        </span>X-Forwarded-For $proxy_add_x_forwarded_for<i>;</i></p>
+<p class="p1">### Most PHP, Python, Rails, Java App can use this header ###</p>
+<p class="p1">#proxy_set_header X-Forwarded-Proto https<i>;##</i></p>
+<p class="p1">#This is better##</p>
+<p class="p1"><span class="Apple-converted-space">        </span>proxy_set_header<span class="Apple-converted-space">        </span>X-Forwarded-Proto $scheme<i>;</i></p>
+<p class="p1">add_header<span class="Apple-converted-space">              </span>Front-End-Https <span class="Apple-converted-space">  </span>on<i>;</i></p>
+<p class="p1"><i><span class="Apple-converted-space">  </span>}</i></p>
+<p class="p1"><i>}</i></p>
+<p class="p1"><i>}</i></p>
+<p class="p1">mkdir &#8220;/var/log/nginx/&#8221;</p>
+<p class="p1">touch <b>&#8220;/var/log/nginx/error.log&#8221;</b></p>
+<p class="p1">openssl dhparam -out /usr/local/www/nginx/dhparam.pem 2048</p>
+<p class="p1">edit /etc/rc.conf</p>
+<p class="p1">add</p>
+<p class="p1">nginx_enable=&#8221;YES&#8221;</p>
+<p class="p1">cd /usr/ports/databases/mariadb101-server</p>
+<p class="p1">make config-recursive</p>
+<p class="p1">make install clean</p>
+<p class="p1">sysrc mysql_enable=yes</p>
+<p class="p3"><a href="https://www.garron.me/en/linux/apache-event-php-fpm-mariadb-freebsd.html">https://www.garron.me/en/linux/apache-event-php-fpm-mariadb-freebsd.html</a></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;VirtualHost *:80&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ServerAdmin theo@theojones.name</p>
+<p class="p1"><span class="Apple-converted-space">    </span>ServerName theojones.name</p>
+<p class="p1"><span class="Apple-converted-space">    </span>ServerAlias www.theojones.name,ns527592.ip-198-27-64.net</p>
+<p class="p1"><span class="Apple-converted-space">    </span>DocumentRoot /usr/local/www/apache24/data/theojones.name</p>
+<p class="p1"><span class="Apple-converted-space">    </span>ErrorLog /var/log/theojones.name/error.log</p>
+<p class="p1"><span class="Apple-converted-space">    </span>CustomLog /var/log/theojones.name/access.log combined <span class="Apple-converted-space">     </span></p>
+<p class="p1"><span class="Apple-converted-space">  </span>ProxyPassMatch ^/(.*.php)$ fcgi://127.0.0.1:9000/usr/local/www/apache24/data/theojones.name$1</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ScriptAlias /cgi-bin/ &#8220;usr/local/www/apache24/data/theojones.name/cgi-bin/&#8221;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;Directory &#8220;/usr/local/www/apache24/data/theojones.name&#8221;&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>Options +Indexes +FollowSymLinks +ExecCGI</p>
+<p class="p1"><span class="Apple-converted-space">        </span>AllowOverride AuthConfig FileInfo</p>
+<p class="p1"><span class="Apple-converted-space">        </span>Require all granted</p>
+<p class="p1"><span class="Apple-converted-space">        </span>Allow from all</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/Directory&gt;</p>
+<p class="p1">&lt;/VirtualHost&gt;</p>
+<p class="p3"><a href="http://codex.wordpress.org/Administration_Over_SSL">http://codex.wordpress.org/Administration_Over_SSL</a></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;VirtualHost *:80&gt;</p>
+<p class="p1"><span class="Apple-converted-space">       </span>ServerName theojones.name</p>
+<p class="p1"><span class="Apple-converted-space">       </span>DocumentRoot /usr/local/www/apache24/data/theojones.name</p>
+<p class="p1"><span class="Apple-converted-space">       </span>&lt;IfModule mod_rewrite.c&gt;</p>
+<p class="p1"><span class="Apple-converted-space">             </span>RewriteEngine On</p>
+<p class="p1"><span class="Apple-converted-space">            </span>RewriteCond %{HTTPS} off</p>
+<p class="p1"><span class="Apple-converted-space">            </span>RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}</p>
+<p class="p1"><span class="Apple-converted-space">       </span>&lt;/IfModule&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/VirtualHost&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;IfModule mod_ssl.c&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;VirtualHost *:443&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>ServerName theojones.name</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>DocumentRoot /usr/local/www/apache24/data/theojones.name</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>SSLEngine on</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>SSLCertificateFile &#8220;/usr/local/etc/letsencrypt/live/theojones.name/fullchain.pem&#8221;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>SSLCertificateKeyFile &#8220;/usr/local/etc/letsencrypt/live/theojones.name/privkey.pem&#8221;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;Directory /usr/local/www/apache24/data/theojones.name&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>Options All</p>
+<p class="p1"><span class="Apple-converted-space">                </span>AllowOverride All</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/Directory&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/VirtualHost&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/IfModule&gt;</p>
+<p>&nbsp;</p>
+	</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		<span class="byline"><span class="author vcard"><img alt='' src='https://secure.gravatar.com/avatar/b0e95157a5bc905966d0fbe6349000a3?s=49&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/b0e95157a5bc905966d0fbe6349000a3?s=98&amp;d=mm&amp;r=g 2x' class='avatar avatar-49 photo' height='49' width='49' /><span class="screen-reader-text">Author </span> <a class="url fn n" href="https://microblog.theojones.name/author/theojones/">theojones</a></span></span><span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="https://microblog.theojones.name/2016/05/27/816/" rel="bookmark"><time class="entry-date published updated" datetime="2016-05-27T01:58:57+00:00">May 27, 2016</time></a></span><span class="entry-format"><span class="screen-reader-text">Format </span><a href="https://microblog.theojones.name/type/status/">Status</a></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="https://microblog.theojones.name/category/tech/" rel="category tag">tech</a></span>			</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+
+<div id="comments" class="comments-area">
+
+	
+	
+					<div id="respond" class="comment-respond">
+			<h2 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="https://microblog.theojones.name/2016/05/27/816/#respond" style="display:none;">Cancel reply</a></small></h2>				<form action="https://microblog.theojones.name/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
+					<p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p><p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" aria-required="true" required="required"></textarea></p><p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" aria-required='true' required='required' /></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" aria-required='true' required='required' /></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="url" value="" size="30" maxlength="200" /></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='816' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p>				</form>
+					</div><!-- #respond -->
+		
+</div><!-- .comments-area -->
+
+	<nav class="navigation post-navigation" role="navigation">
+		<h2 class="screen-reader-text">Post navigation</h2>
+		<div class="nav-links"><div class="nav-previous"><a href="https://microblog.theojones.name/2016/05/26/robert-h-franks-new-book-http-press-princeton/" rel="prev"><span class="meta-nav" aria-hidden="true">Previous</span> <span class="screen-reader-text">Previous post:</span> <span class="post-title">Robert H Frank&#8217;s new book http press princeton&#8230;</span></a></div><div class="nav-next"><a href="https://microblog.theojones.name/2016/05/28/835/" rel="next"><span class="meta-nav" aria-hidden="true">Next</span> <span class="screen-reader-text">Next post:</span> <span class="post-title">Shaking things up</span></a></div></div>
+	</nav>
+	</main><!-- .site-main -->
+
+	
+</div><!-- .content-area -->
+
+
+	<aside id="secondary" class="sidebar widget-area" role="complementary">
+		<section id="search-2" class="widget widget_search">
+<form role="search" method="get" class="search-form" action="https://microblog.theojones.name/">
+	<label>
+		<span class="screen-reader-text">Search for:</span>
+		<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+	</label>
+	<button type="submit" class="search-submit"><span class="screen-reader-text">Search</span></button>
+</form>
+</section>		<section id="recent-posts-2" class="widget widget_recent_entries">		<h2 class="widget-title">Recent Posts</h2>		<ul>
+					<li>
+				<a href="https://microblog.theojones.name/2016/07/23/a-permit-required-to-buy-them-and-a/">A permit required to buy them and a&#8230;</a>
+						</li>
+					<li>
+				<a href="https://microblog.theojones.name/2016/07/23/https-theopjones-tumblr-com-post-147770325592-alternatives-to/">https theopjones tumblr com post 147770325592 alternatives to&#8230;</a>
+						</li>
+					<li>
+				<a href="https://microblog.theojones.name/2016/07/23/got-a-funky-ad-on-tumblr-it-automatically/">Got a funky ad on Tumblr It automatically&#8230;</a>
+						</li>
+					<li>
+				<a href="https://microblog.theojones.name/2016/07/23/saviour/">saviour</a>
+						</li>
+					<li>
+				<a href="https://microblog.theojones.name/2016/07/23/yah-those-tweets-are-vile-and-particularly-in/">Yah Those tweets are vile and particularly in&#8230;</a>
+						</li>
+				</ul>
+		</section>		<section id="recent-comments-2" class="widget widget_recent_comments"><h2 class="widget-title">Recent Comments</h2><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link">Theodore Jones</span> on <a href="https://microblog.theojones.name/2016/03/03/some-notes-on-the-presidential-election-the-gop/#comment-2">Some notes on the presidential election The GOP&#8230;</a></li><li class="recentcomments"><span class="comment-author-link">Theodore Jones</span> on <a href="https://microblog.theojones.name/2016/03/15/problems-with-social-media/#comment-3">Problems with Social Media</a></li></ul></section><section id="archives-2" class="widget widget_archive"><h2 class="widget-title">Archives</h2>		<ul>
+			<li><a href='https://microblog.theojones.name/2016/07/'>July 2016</a></li>
+	<li><a href='https://microblog.theojones.name/2016/06/'>June 2016</a></li>
+	<li><a href='https://microblog.theojones.name/2016/05/'>May 2016</a></li>
+	<li><a href='https://microblog.theojones.name/2016/03/'>March 2016</a></li>
+	<li><a href='https://microblog.theojones.name/2016/02/'>February 2016</a></li>
+	<li><a href='https://microblog.theojones.name/2015/12/'>December 2015</a></li>
+		</ul>
+		</section><section id="categories-2" class="widget widget_categories"><h2 class="widget-title">Categories</h2>		<ul>
+	<li class="cat-item cat-item-2"><a href="https://microblog.theojones.name/category/economics-and-political-science/" >economics and political science</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="https://microblog.theojones.name/category/energy-and-climate/" >energy and climate</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="https://microblog.theojones.name/category/hide/" >hide</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="https://microblog.theojones.name/category/importfromtumblr/" >importfromtumblr</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="https://microblog.theojones.name/category/law/" >law</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="https://microblog.theojones.name/category/long/" >long</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="https://microblog.theojones.name/category/meta/" >meta</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="https://microblog.theojones.name/category/partial/" >partial</a>
+</li>
+	<li class="cat-item cat-item-10"><a href="https://microblog.theojones.name/category/personal/" >personal</a>
+</li>
+	<li class="cat-item cat-item-11"><a href="https://microblog.theojones.name/category/photogalleries/" >photogalleries</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="https://microblog.theojones.name/category/politicaltheory/" >politicaltheory</a>
+</li>
+	<li class="cat-item cat-item-13"><a href="https://microblog.theojones.name/category/politics/" >politics</a>
+</li>
+	<li class="cat-item cat-item-14"><a href="https://microblog.theojones.name/category/science/" >science</a>
+</li>
+	<li class="cat-item cat-item-15"><a href="https://microblog.theojones.name/category/tech/" >tech</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="https://microblog.theojones.name/category/uncategorized/" >Uncategorized</a>
+</li>
+		</ul>
+</section><section id="meta-2" class="widget widget_meta"><h2 class="widget-title">Meta</h2>			<ul>
+						<li><a href="https://microblog.theojones.name/wp-login.php">Log in</a></li>
+			<li><a href="https://microblog.theojones.name/feed/">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="https://microblog.theojones.name/comments/feed/">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="https://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.org</a></li>			</ul>
+			</section>	</aside><!-- .sidebar .widget-area -->
+
+		</div><!-- .site-content -->
+
+		<footer id="colophon" class="site-footer" role="contentinfo">
+			
+			
+			<div class="site-info">
+								<span class="site-title"><a href="https://microblog.theojones.name/" rel="home">Theo Jones</a></span>
+				<a href="https://wordpress.org/">Proudly powered by WordPress</a>
+			</div><!-- .site-info -->
+		</footer><!-- .site-footer -->
+	</div><!-- .site-inner -->
+</div><!-- .site -->
+
+<script type='text/javascript' src='https://microblog.theojones.name/wp-content/themes/twentysixteen/js/skip-link-focus-fix.js?ver=20160816'></script>
+<script type='text/javascript' src='https://microblog.theojones.name/wp-includes/js/comment-reply.min.js?ver=4.6.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var screenReaderText = {"expand":"expand child menu","collapse":"collapse child menu"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://microblog.theojones.name/wp-content/themes/twentysixteen/js/functions.js?ver=20160816'></script>
+<script type='text/javascript' src='https://microblog.theojones.name/wp-includes/js/wp-embed.min.js?ver=4.6.1'></script>
+</body>
+</html>

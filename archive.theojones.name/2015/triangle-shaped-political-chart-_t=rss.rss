@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Triangle-shaped political chart</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/2015/triangle-shaped-political-chart</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/2015/triangle-shaped-political-chart?_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>Triangle-shaped political chart</title>
+      <link>http://www.theojones.name/2015/triangle-shaped-political-chart</link>
+      <guid>http://www.theojones.name/2015/triangle-shaped-political-chart</guid>
+      <pubDate>Mon, 22 Jun 2015 03:03:54 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>A common alternative to a simple left-right anatomy of politics is a 2d chart, like the <a href="https://www.politicalcompass.org/analysis2">political compass.</a> Such a taxonomy divides political beliefs into two categories, one on an authoritarian/anti-authoritarian scale, and one on a left-right scale.</p>
+
+<p><img src="https://www.politicalcompass.org/images/bothaxes.gif" alt="cartesian plane with horizontal left-right axis and vertical authoritarian-libertarian axis" width="400" height="400"></p>
+
+<p>A benefit of this is that it can differentiate between ideologies that radically vary in their opinion of how society should be structured, but that are equally left/right wing. An anarchist-communist is, of course, quite different from a Soviet Union style communist. But it is hard to call one more left wing than the other. In terms of economic beliefs there is a great deal of symmetry between the two. But authoritarianism is an obvious differentiation between the two beliefs.</p>
+
+<p>However, there is an issue with this. Authoritarianism and economic beliefs are connected.  In particular, I would suggest that a lot of the difference between left and right wing ideologies dissipates towards authoritarianism. You can see this in the likes of North Korea, which is strongly left wing, but yet, the authoritarian elements of this cause policies that seem very right-wing on first glance (for instance the strong cultural role of the military).  Or you can envision an Orwellian <em>1984</em> type totalitarianism that isn't clearly left or right wing.  Some of the conservatives that have tried to argue that fascism is left wing aren't totally off to see some symmetry between fascism and leftism. But this symmetry comes from the fact that extreme authoritarianism dilutes the difference between left and right. Likewise, I would say that about the strongest level of difference between two ideologies, would be that between leftist-anarchists, and right wing anarchists.</p>
+
+<p>Instead of a square political spectrum, I would suggest a better shape would be a triangle. Complete <em>1984</em> style totalitarianism would be at the top, left-anarchism would be in the bottom left corner, and right-anarchism would be in the bottom right corner.</p>
+
+<p><a href="http://www.theojones.name/wp-content/uploads/2015/06/politicaltriangle.png"><img class="aligncenter size-full wp-image-2475" src="http://www.theojones.name/wp-content/uploads/2015/06/politicaltriangle.png" alt="politicaltriangle" width="500" height="500"></a></p>
+
+<p> </p>
+<p><a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#uncategorized</category>
+    </item>
+  </channel>
+</rss>

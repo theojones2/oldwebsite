@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Theo Jones</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link>http://www.theojones.name/content/bookmarkedpages/?q=%23co</link>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/content/bookmarkedpages/?q=%23co&amp;_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>&#x2018;Some of the best feminists are men&#x2019;</title>
+      <link>http://www.news.com.au/entertainment/celebrity-life/actress-emma-watson-criticised-for-comments-about-men-and-feminism/story-fnk822dn-1227550109978?pg=1#comments</link>
+      <guid>http://www.theojones.name/2015/some-of-the-best-feminists-are-men</guid>
+      <pubDate>Sat, 03 Oct 2015 04:21:10 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div class="known-bookmark">
+    <p>Q: How do feminists form a firing squad?<br />A: In a circle.</p><p> </p><p><a href="http://www.news.com.au/entertainment/celebrity-life/actress-emma-watson-criticised-for-comments-about-men-and-feminism/story-fnk822dn-1227550109978?pg=1#comments">http:/<wbr></wbr>/<wbr></wbr>www.news.com.au/<wbr></wbr>entertainment/<wbr></wbr>celebrity-life/<wbr></wbr>actress-emma-watson-criticised-for-comments-about-men-and-feminism/<wbr></wbr>story-fnk822dn-1227550109978?pg=1#comments</a></p><blockquote><p><br />"ACTRESS Emma Watson has come under fire on social media for saying some of the best feminists are men.<br />In an interview with The Guardian about sexism in the film industry, Watson said women are 'just as guilty of discriminating against women' as men."</p></blockquote></div>
+]]></description>
+      <category>#comments</category>
+      <category>#comments</category>
+    </item>
+  </channel>
+</rss>

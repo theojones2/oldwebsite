@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Theo Jones</title>
+    <description><![CDATA[Thoughts and Ideas]]></description>
+    <itunes:summary><![CDATA[Thoughts and Ideas]]></itunes:summary>
+    <link/>
+    <atom:link href="http://withknown.superfeedr.com/" rel="hub"/>
+    <atom:link href="http://www.theojones.name/content/all/?q=%23status&amp;offset=20&amp;_t=rss" rel="self" type="application/rss+xml"/>
+    <generator>Known https://withknown.com</generator>
+    <item>
+      <title>Law enforcement needs to take internet harassment as...</title>
+      <link>http://www.theojones.name/2015/law-enforcement-needs-to-take-internet-harassment-as</link>
+      <guid>http://www.theojones.name/2015/law-enforcement-needs-to-take-internet-harassment-as</guid>
+      <pubDate>Fri, 29 May 2015 14:44:22 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>Law enforcement needs to take internet harassment as a serious crime, instead of a minor annoyance. They should actually put resources into busting the people who send death threats, and who phone in SWATings. I would rather see 10 of them get one year than one of them get 10. Because I have a feeling that the threat of getting busted will have little impact until it happens to them. And I would also bet that its an impressively small number of people responsible for most net harassment. When you read a story about a SWATer getting arrested, he did it a lot of times.</p>
+<p><a href="http://www.theojones.name/tag/internetharassment" class="p-category" rel="tag">#internetharassment</a> <a href="http://www.theojones.name/tag/status" class="p-category" rel="tag">#status</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#internetharassment</category>
+      <category>#status</category>
+      <category>#uncategorized</category>
+    </item>
+    <item>
+      <title>A beef of mine in the world of...</title>
+      <link>http://www.theojones.name/2015/a-beef-of-mine-in-the-world-of</link>
+      <guid>http://www.theojones.name/2015/a-beef-of-mine-in-the-world-of</guid>
+      <pubDate>Thu, 28 May 2015 01:09:17 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>A beef of mine in the world of politics is the rise of ideologies that are just apriori hairballs. They try to get high level claims from logical deduction with little input from outside facts or data. Examples would be the "praxology" or Austrian school libertarians (and other related ideologies like that of Ayn Rand), many religions, and the type of third wave feminism seen on Tumblr.  But this type of deductive analysis never works for something as complex as human society. You get conflicts with the factual world quite a bit, and many conflicts with science (see libertarian climate change deniers, or "postmodernism/poststructuralism" in the feminist world). Ideally, a political philosophy should instead bridge the is-ought gap with the fewest assumptions possible and from then on rely to the fullest extent possible on scientifically knowable results about the economy and society.</p>
+<p><a href="http://www.theojones.name/tag/femminism" class="p-category" rel="tag">#femminism</a> <a href="http://www.theojones.name/tag/libertarians" class="p-category" rel="tag">#libertarians</a> <a href="http://www.theojones.name/tag/politicalphilosophy" class="p-category" rel="tag">#politicalphilosophy</a> <a href="http://www.theojones.name/tag/politics" class="p-category" rel="tag">#politics</a> <a href="http://www.theojones.name/tag/status" class="p-category" rel="tag">#status</a> <a href="http://www.theojones.name/tag/religion" class="p-category" rel="tag">#religion</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#femminism</category>
+      <category>#libertarians</category>
+      <category>#politicalphilosophy</category>
+      <category>#politics</category>
+      <category>#status</category>
+      <category>#religion</category>
+      <category>#uncategorized</category>
+    </item>
+    <item>
+      <title>Here's a heads up. Sourceforge is now loading the opensource projects they host with malware</title>
+      <link>http://www.theojones.name/2015/heres-a-heads-up-sourceforge-is-now-loading-the-opensource</link>
+      <guid>http://www.theojones.name/2015/heres-a-heads-up-sourceforge-is-now-loading-the-opensource</guid>
+      <pubDate>Wed, 27 May 2015 22:32:41 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>Here's a heads up. Sourceforge is now loading the opensource projects they host with malware. DON'T download from there. They weren't hacked. They have been crapware pushing for a long time. Previously, they waited for developer permission, but now they are being more aggressive and hitting projects without permission. They claim that the projects affected, such as GIMP, were "abandoned" <a href="http://sourceforge.net/blog/gimp-win-project-wasnt-hijacked-just-abandoned/">http:/<wbr></wbr>/<wbr></wbr>sourceforge.net/<wbr></wbr>blog/<wbr></wbr>gimp-win-project-wasnt-hijacked-just-abandoned/<wbr></wbr></a>  ; an excuse that is dubious at best.  Even if it were "abandoned" that's not an excuse to junk up  their binaries. And look at the junk they are bundling. Malware companies don't even try to come up with names that look legit. "Funnel Delivery", really? Sounds like something involved in Foie Gras production. A lot of older projects still use them, even though there are now better options around legacy projects started off using them as their main form of hosting. Its hard to switch something that big. (although Sourceforge has become scummy enough to make it worth it)<br /><a href="http://arstechnica.com/information-technology/2015/05/sourceforge-grabs-gimp-for-windows-account-wraps-installer-in-bundle-pushing-adware/">http:/<wbr></wbr>/<wbr></wbr>arstechnica.com/<wbr></wbr>information-technology/<wbr></wbr>2015/<wbr></wbr>05/<wbr></wbr>sourceforge-grabs-gimp-for-windows-account-wraps-installer-in-bundle-pushing-adware/<wbr></wbr></a></p>
+<p><a href="http://www.theojones.name/tag/informationtechnology" class="p-category" rel="tag">#informationtechnology</a> <a href="http://www.theojones.name/tag/malware" class="p-category" rel="tag">#malware</a> <a href="http://www.theojones.name/tag/status" class="p-category" rel="tag">#status</a> <a href="http://www.theojones.name/tag/sourceforge" class="p-category" rel="tag">#sourceforge</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a> <a href="http://www.theojones.name/tag/windows" class="p-category" rel="tag">#windows</a></p></div>]]></description>
+      <category>#informationtechnology</category>
+      <category>#malware</category>
+      <category>#status</category>
+      <category>#sourceforge</category>
+      <category>#uncategorized</category>
+      <category>#windows</category>
+    </item>
+    <item>
+      <title>I've hinted this before in previous postings of...</title>
+      <link>http://www.theojones.name/2015/ive-hinted-this-before-in-previous-postings-of</link>
+      <guid>http://www.theojones.name/2015/ive-hinted-this-before-in-previous-postings-of</guid>
+      <pubDate>Wed, 27 May 2015 21:07:10 +0000</pubDate>
+      <author>Theo Jones</author>
+      <description><![CDATA[<div>
+        
+<p>I've hinted this before in previous postings of mine about health care, but the way to resolve a lot of the tension between fee for service health care pricing, and fixed rate pricing is to reimburse doctors like in fixed rate pricing to avoid toxic incentives on the provider end. But use (government) administered prices to manage demand on the consumer side and to prevent wasteful usage of health services. Straight up fee for service won't work because that would give providers intensive to over-treat due to imperfect information. But you still want to put some price signals on consumers. Its like the "market socialism" proposals to introduce pseudo-prices into planned economies to avoid shortage.</p>
+<p><a href="http://www.theojones.name/tag/healthcare" class="p-category" rel="tag">#healthcare</a> <a href="http://www.theojones.name/tag/marketsocialism" class="p-category" rel="tag">#marketsocialism</a> <a href="http://www.theojones.name/tag/status" class="p-category" rel="tag">#status</a> <a href="http://www.theojones.name/tag/uncategorized" class="p-category" rel="tag">#uncategorized</a></p></div>]]></description>
+      <category>#healthcare</category>
+      <category>#marketsocialism</category>
+      <category>#status</category>
+      <category>#uncategorized</category>
+    </item>
+  </channel>
+</rss>
